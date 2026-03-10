@@ -1,0 +1,9 @@
+{
+  "format_instructions": "Kwa matatizo yote ya jiometri:\n1. Toa koordinati katika umbo (x, y)\n2. Pindua majibu ya desimali hadi sehemu 3 za desimali\n3. Tumia ishara ya digrii ° kwa pembe\n4. Rudisha pembe, koordinati, au nusu kipenyo tu kama jibu lako.",
+  "orthocenter_variant1": "Kwa pembetatu ABC yenye koordinati A={A}, B={B}, na C={C}, pata koordinati za kitovu chake cha mielekezi. {format_instructions}",
+  "orthocenter_variant2": "Kwa pembetatu yenye viunga A={A}, B={B}, na C={C}, tambua kitovu cha mielekezi (makutano ya urefu). {format_instructions}",
+  "incircle_radius_variant1": "Zingatia pembetatu ABC yenye koordinati A={A}, B={B}, na C={C}. Hesabu nusu kipenyo wa mduara wake wa ndani. {format_instructions}",
+  "incircle_radius_variant2": "Pata nusu kipenyo wa mduara wa ndani wa pembetatu ABC ambayo viunga vyake ni A={A}, B={B}, na C={C}. {format_instructions}",
+  "angle_measure_variant1": "Katika pembetatu ABC yenye koordinati A={A}, B={B}, na C={C}, pata kipimo (kwa digrii) cha pembe ABC. {format_instructions}",
+  "angle_measure_variant2": "Kwa pembetatu lenye viunga A={A}, B={B}, na C={C}, tambua pembe iliyo B kwa digrii. {format_instructions}"
+}

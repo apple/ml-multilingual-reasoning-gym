@@ -1,0 +1,5 @@
+{
+  "question_template": "Considérant deux chaînes de caractères représentant un message de rançon et un magazine, détermine si tu peux construire le message de rançon en utilisant les lettres du magazine. Réponds {true_answer} si c'est possible, et {false_answer} si ce n'est pas le cas.\n\nChaque lettre du magazine ne peut être utilisée qu'une seule fois dans ton message de rançon.\n\nMessage de rançon : {ransom_note}\nMagazine : {magazine}",
+  "true_answer": "Vrai",
+  "false_answer": "Faux"
+}

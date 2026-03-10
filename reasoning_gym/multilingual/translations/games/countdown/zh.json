@@ -1,0 +1,7 @@
+{
+  "question_template_0": "使用全部数字 {numbers}，构造一个等于 {target} 的表达式。\n每个数字只能使用一次。",
+  "question_template_1": "想办法用这些数字 {numbers} 得到 {target}。\n每个数字只能使用一次。",
+  "question_template_2": "用这些数字 {numbers} 计算出 {target}。\n每个数字最多只能使用一次。",
+  "format_template": "{question}\n\n最终答案格式要求：\n1. 以算术表达式形式给出解答（不含等号）。\n2. 表达式中不得包含目标数字。\n3. 乘法使用「*」。\n4. 除法使用「/」。\n5. 不要添加任何其他文字或格式。",
+  "list_separator": "、"
+}

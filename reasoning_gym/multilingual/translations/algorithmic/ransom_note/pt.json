@@ -1,0 +1,5 @@
+{
+  "question_template": "Dadas duas strings representando um bilhete de resgate e uma revista, retorne {true_answer} se você conseguir construir o bilhete de resgate usando as letras da revista, e {false_answer} caso contrário.\n\nCada letra na string da revista só pode ser usada uma vez no seu bilhete de resgate.\n\nBilhete de resgate: {ransom_note}\nRevista: {magazine}",
+  "true_answer": "Verdadeiro",
+  "false_answer": "Falso"
+}

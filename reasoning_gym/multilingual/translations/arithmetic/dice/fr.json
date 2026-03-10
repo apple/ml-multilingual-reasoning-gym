@@ -1,0 +1,4 @@
+{
+  "puzzle_question": "J'ai ces dés : {dice_str}. Quelles sont les chances d'obtenir {target} ou plus ? (Suppose que tous les dés sont lancés en même temps, et que « 1d6 » représente un lancer d'un dé à 6 faces.) Réponds avec une fraction réduite représentant la probabilité [ex. : 1/60].",
+  "dice_separator": ", "
+}

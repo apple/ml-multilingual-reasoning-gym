@@ -1,0 +1,4 @@
+{
+  "question_template": "Il tuo compito è formare un palindromo valido a partire da una lista di lettere.\n\nUn palindromo è una sequenza che si legge ugualmente in entrambe le direzioni.\n\nSe ci sono più risposte possibili, forniscine una sola. Devi utilizzare tutte le lettere fornite.\n\nLa tua risposta deve essere una singola stringa, senza spazi o punteggiatura.\n\nOra, forma un palindromo valido utilizzando le seguenti lettere: {letters}",
+  "letters_separator": ", "
+}

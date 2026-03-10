@@ -1,0 +1,3 @@
+{
+  "question_template": "Tu as une matrice carrée que tu dois faire pivoter dans le sens horaire.\n\nTa réponse doit être une matrice dans le même format que l'entrée.\n\nFais pivoter la matrice ci-dessous de {degrees} degrés dans le sens horaire :\n{matrix}"
+}

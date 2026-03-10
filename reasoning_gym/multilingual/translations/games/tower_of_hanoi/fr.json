@@ -1,0 +1,6 @@
+{
+  "question_template": "Résous le problème de la Tour de Hanoï avec {num_disks} disques et {num_pegs} tiges.\nDéplace tous les disques de {start_peg} vers {target_peg} en respectant les règles :\n- Un seul disque peut être déplacé à la fois.\n- Un disque plus grand ne peut pas être placé sur un disque plus petit.\n- Tous les disques doivent toujours être sur une tige.\n\nFournis la séquence de mouvements.\n\nConsignes de mise en forme :\n- Chaque instruction doit être placée sur une seule ligne.\n- Chaque ligne doit être formatée comme suit : « Déplace le disque X de la Tige Y vers la Tige Z »\n- N'inclus aucun autre texte ou formatage.",
+  "move_template": "Déplace le disque {disk} de la Tige {from_peg} vers la Tige {to_peg}",
+  "move_pattern": "Déplace le disque (\\d+) de la Tige (\\d+) vers la Tige (\\d+)",
+  "peg_label": "Tige {peg_number}"
+}

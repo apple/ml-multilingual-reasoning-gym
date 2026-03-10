@@ -1,0 +1,3 @@
+{
+  "question_template": "Je, bodi hii ya Game of Life itakuwa na muonekano gani baada ya hatua {simulation_steps} za simulation? Dhani kuwa kuna Moore neighborhood na wrapping topology. Jibu kama array ya arrays zinazowakilisha safu mlalo katika grid kutoka juu hadi chini kwa muundo wa JSON. (Grid tupu ya 3x3 ingekuwa kama hii: [[0,0,0],[0,0,0],[0,0,0]])\n\n{board}."
+}

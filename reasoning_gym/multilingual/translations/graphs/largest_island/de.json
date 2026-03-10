@@ -1,0 +1,3 @@
+{
+  "question_template": "Du bekommst die folgende {rows} x {cols} Binärmatrix gegeben:\n{grid}\n\nEine Insel ist eine Gruppe von Einsen (die Land darstellen), die in 4 Richtungen verbunden sind (horizontal oder vertikal).\nDu kannst annehmen, dass alle vier Ränder der Matrix von Wasser umgeben sind.\n\nDie Fläche einer Insel ist die Anzahl der Zellen mit dem Wert 1 in der Insel.\n\nGib die maximale Fläche einer Insel in der Matrix an. Falls es keine Insel gibt, gib 0 an."
+}

@@ -1,0 +1,3 @@
+{
+  "question_template": "在文本「{text}」中，字母「{target_letter}」出现了多少次？"
+}

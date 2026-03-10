@@ -1,0 +1,3 @@
+{
+  "instruction_template": "Resuelve este problema hasta un máximo de {precision} dígitos significativos, redondeando hacia arriba desde la mitad. Solo responde con el valor final."
+}

@@ -1,0 +1,4 @@
+{
+  "prompt_template": "根据下面的例子，找出从输入网格到输出网格的对应规律。\n\n{examples}下面是一个测试输入网格。请应用你找到的规律，预测对应的输出网格。\n你的最终答案应该只包含输出网格文本。\n\n输入：\n{input_grid}",
+  "example_format": "例子 {index}：\n\n输入：\n{input_board}\n输出：\n{output_board}\n\n"
+}

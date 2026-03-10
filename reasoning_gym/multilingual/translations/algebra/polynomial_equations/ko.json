@@ -1,0 +1,7 @@
+{
+  "prompt_template_1": "방정식 {polynomial_expanded} = 0에서 {variable}의 실근을 구하라",
+  "prompt_template_2": "실수 {variable}에 대해 풀어라: {polynomial_expanded} = 0",
+  "prompt_template_3": "{polynomial_expanded} = 0을 만족하는 {variable}의 실근을 결정하라",
+  "prompt_template_4": "실수 {variable}에 대한 다항식 방정식을 풀어라:\n{polynomial_expanded} = 0",
+  "instruction_text": "\n방정식을 풀 때 다음 지시사항을 따라라:\n1. 모든 답을 쉼표로 구분된 소수값으로 제공하라. 예: 「-0.3773, 0.4005」\n2. 정확한 형태로 표현할 수 있는 해(예: 「u = 2 + sqrt(4560)/172」와 「u = 2 - sqrt(4560)/172」)의 경우, 최종 답에서 소수 형태로 변환하라.\n3. 방정식을 만족하는 실근이 없는 경우, 답을 빈 문자열로 보고하라: 「」\n4. 해의 개수에 따라 답의 형식을 맞춰라:\n   • 해가 1개인 경우: 하나의 소수\n   • 해가 2개인 경우: 쉼표로 구분된 두 소수\n   • 해가 3개 이상인 경우: 쉼표로 구분된 모든 값들\n5. 모든 소수값을 소수점 이하 4자리까지 반올림하라(5번째 자리수가 5 이상일 때는 올림).\n"
+}

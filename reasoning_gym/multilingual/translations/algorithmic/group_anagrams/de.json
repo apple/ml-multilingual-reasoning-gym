@@ -1,0 +1,3 @@
+{
+  "question_template": "Ein Anagramm ist ein Wort, das durch Umstellung der Buchstaben eines anderen Wortes gebildet wird, wobei alle ursprünglichen Buchstaben genau einmal verwendet werden.\n\nDeine Aufgabe ist es, die Anagramme zu gruppieren. Du kannst die Antwort in beliebiger Reihenfolge zurückgeben.\n\nDie Ausgabe ist eine Liste von Listen aus Strings, wobei jede äußere Liste eine Gruppe von Anagrammen enthält, z.B. [[\"eat\", \"tea\"], [\"tan\", \"nat\"]].\n\nGruppiere die folgende Wortliste in Anagramme:\n{words}"
+}

@@ -1,0 +1,3 @@
+{
+  "instruction_text": "Du löst ein 'Sokoban'-Puzzle.\n\n* - Der Spieler\n% - Der Spieler auf einem Ziel\n@ - Eine Kiste\nX - Ein Ziel\n$ - Eine Kiste auf einem Ziel\n+ - Eine Wand\n- - Eine leere Position\n\nDeine Lösung muss eine Folge von Pfeilen sein, z. B.: ←↓↑→→↑↓←.\n\nHier ist dein Puzzle:\n"
+}

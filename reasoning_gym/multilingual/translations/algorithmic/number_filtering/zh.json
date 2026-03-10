@@ -1,0 +1,7 @@
+{
+  "question_template": "从以下列表中{action}所有{comparison}{filter_value}的数字：{numbers_list}\n返回新列表，格式保持一致。",
+  "action_keep": "保留",
+  "action_remove": "删除",
+  "comparison_larger": "大于",
+  "comparison_smaller": "小于"
+}

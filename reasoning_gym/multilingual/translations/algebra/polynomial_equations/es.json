@@ -1,0 +1,7 @@
+{
+  "prompt_template_1": "Encuentra los valores reales de {variable} en la ecuación: {polynomial_expanded} = 0",
+  "prompt_template_2": "Resuelve para la variable real {variable}: {polynomial_expanded} = 0",
+  "prompt_template_3": "Determina los valores reales de {variable} que satisfacen: {polynomial_expanded} = 0",
+  "prompt_template_4": "Resuelve la ecuación polinómica para la variable real {variable}:\n{polynomial_expanded} = 0",
+  "instruction_text": "\nAl resolver ecuaciones, sigue estas instrucciones:\n1. Proporciona todas las respuestas como valores decimales separados por comas. Por ejemplo: «-0.3773, 0.4005»\n2. Para soluciones que se puedan expresar en forma exacta (como «u = 2 + sqrt(4560)/172» y «u = 2 - sqrt(4560)/172»), conviértelas a forma decimal en tu respuesta final.\n3. Si no hay valores reales que satisfagan la ecuación, usa como respuesta una cadena vacía: «»\n4. Ajusta el formato de tu respuesta según el número de soluciones:\n   - Para 1 solución: un solo número decimal\n   - Para 2 soluciones: dos números decimales separados por comas\n   - Para 3 o más soluciones: todos los valores como números decimales separados por comas\n5. Redondea todos los valores decimales a 4 lugares decimales (redondeando hacia arriba cuando el quinto lugar decimal sea 5 o mayor).\n"
+}

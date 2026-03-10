@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "Rahisisha mlinganyo huu: {polynomial_expr}",
+  "prompt_template_2": "Kokotoa yafuatayo: {polynomial_expr}",
+  "instruction": "\nUnapoifanya hesabu, fuata maelekezo haya:\n1. Tumia ** badala ya ^ kuonyesha kielelezo. Kwa mfano, andika 7*X**2 badala ya 7*X^2.\n2. Daima jumuisha alama ya * kwa operesheni zote za kuzidisha katika hatua zako za kufikiria. Kwa mfano, andika `-3*X**3*sin(X) - 9*X**2*cos(X) + 18*X*sin(X) + 18*cos(X) + C` badala ya `-3x3sin(x) - 9x2cos(x) + 18xsin(x) + 18cos(x) + C`.\n"
+}

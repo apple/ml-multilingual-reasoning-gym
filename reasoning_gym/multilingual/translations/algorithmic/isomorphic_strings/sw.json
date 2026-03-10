@@ -1,0 +1,5 @@
+{
+  "prompt_template": "Mistari miwili ya herufi ni zenye muundo sawa ikiwa vibambo katika mstari mmoja vinaweza kubadilishwa ili kupata mstari wa pili.\n\nMatukio yote ya kibambo lazima yabadilishwe na kibambo kingine huku yakihifadhi mpangilio wa vibambo.\n\nHakuna vibambo viwili vinavyoweza kuoanishwa na kibambo kimoja, lakini kibambo kinaweza kuoanishwa na chenyewe.\n\nRudisha {true_answer} ikiwa mistari hii miwili ya herufi ifuatayo ni zenye muundo sawa, au {false_answer} vinginevyo:\n{strings}",
+  "true_answer": "Kweli",
+  "false_answer": "Uwongo"
+}

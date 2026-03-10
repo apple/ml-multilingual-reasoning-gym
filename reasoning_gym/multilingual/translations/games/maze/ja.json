@@ -1,0 +1,3 @@
+{
+  "prompt_template": "「{start_char}」（スタート）から「{goal_char}」（ゴール）へ進め：\n\n```\n{maze_str}\n```\n凡例：「{wall_char}」 = 壁、「{path_char}」 = 通路\n\nゴールに到達するための最小ステップ数を求めよ。\n最終回答としてステップ数のみを答えよ。他のテキストや書式設定は不要。"
+}

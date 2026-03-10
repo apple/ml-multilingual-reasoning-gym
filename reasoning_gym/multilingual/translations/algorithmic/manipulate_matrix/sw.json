@@ -1,0 +1,13 @@
+{
+  "question_template": "Kwa matriki ifuatayo:\n{matrix}\n\nFanya operesheni hizi kwa mpangilio:\n• Mabadiliko ya utambulisho, yaani hakuna mabadiliko\n{operations}",
+  "rotate_instruction": "• Zungusha matriki digrii {degrees}",
+  "hmirror_instruction": "• Akisi matriki kwa mlalo",
+  "vmirror_instruction": "• Akisi matriki kwa wima",
+  "dmirror_instruction": "• Akisi matriki kupitia mstari wa pembe",
+  "cmirror_instruction": "• Akisi matriki kupitia mstari wa pembe kinyume",
+  "map_instruction": "• Badilisha kila mahali pa {a} kuwa {b}",
+  "zero_divisible_instruction": "• Weka vipengele vyote vinavyogawanyika na {k} kuwa sifuri",
+  "crop_instruction": "• Kata matriki hadi safu {row_start}-{row_end} na safu wima {col_start}-{col_end} (kuanzia 1)",
+  "remove_nth_row_instruction": "• Ondoa kila safu ya {n} (kuanzia 1)",
+  "remove_nth_col_instruction": "• Ondoa kila safu wima ya {n} (kuanzia 1)"
+}

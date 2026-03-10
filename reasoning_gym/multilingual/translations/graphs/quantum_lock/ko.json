@@ -1,0 +1,13 @@
+{
+  "prompt_template": "당신 앞에 몇 개의 버튼, 하나의 불빛, 그리고 숫자가 있다. 버튼을 누를 때마다 불빛이 빨간색과 초록색 사이에서 전환된다. 각 버튼은 숫자에 대해 수학 연산을 수행하지만, 연산은 불빛의 상태에 따라 달라질 수 있다.\n\n목표값에 도달하기 위해 가장 짧은 올바른 버튼 순서를 눌러야 한다. 답은 「{separator}」로 구분된 버튼 순서여야 한다. 예: A{separator}B{separator}C\n\n시작: {initial_value} ({initial_state})\n목표: {target_value}\n버튼:\n{buttons_text}",
+  "operation_add_template": "{value} 더하기",
+  "operation_subtract_template": "{value} 빼기",
+  "operation_multiply_template": "{value}로 곱하기",
+  "when_state": "{state}일 때",
+  "state_red": "빨간색",
+  "state_green": "초록색",
+  "state_any": "임의",
+  "button_format": "{name}: {operation} {condition}",
+  "separator": " → ",
+  "condition_format": "({when_text})"
+}

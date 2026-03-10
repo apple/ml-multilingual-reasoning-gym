@@ -1,0 +1,5 @@
+{
+  "question_template": "Dies ist ein 'Game of Life'-Gitter. Wir betrachten ein Spiel als beendet, wenn keine Zellen mehr am Leben sind.\nWird dieses Spiel innerhalb von {max_simulation_steps} Schritten beendet sein? Nimm eine Moore-Nachbarschaft und periodische Randbedingungen an. Falls es beendet wird, antworte '{true_answer}'. Falls es nicht beendet wird, antworte '{false_answer}'.\n\nAnfangszustand:\n{board_str}",
+  "true_answer": "Wahr",
+  "false_answer": "Falsch"
+}

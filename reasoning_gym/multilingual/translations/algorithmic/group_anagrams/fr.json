@@ -1,0 +1,3 @@
+{
+  "question_template": "Un anagramme est un mot formé en réorganisant les lettres d'un autre mot, en utilisant toutes les lettres originales exactement une fois.\n\nTa tâche est de regrouper les anagrammes ensemble. Tu peux donner la réponse dans n'importe quel ordre.\n\nLe résultat est une liste de listes de mots, où chaque liste externe contient un groupe d'anagrammes, par exemple [[\"eat\", \"tea\"], [\"tan\", \"nat\"]].\n\nRegroupe la liste de mots suivante en anagrammes :\n{words}"
+}

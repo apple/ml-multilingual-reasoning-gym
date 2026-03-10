@@ -1,0 +1,9 @@
+{
+  "format_instructions": "모든 기하 문제에 대해:\n1. 좌표는 (x, y) 형태로 표시하라\n2. 소수점 답은 3자리까지 반올림하라\n3. 각도에는 도 기호 °를 사용하라\n4. 각도, 좌표, 또는 반지름만을 답으로 제시하라.",
+  "orthocenter_variant1": "좌표가 A={A}, B={B}, C={C}인 삼각형 ABC의 수심의 좌표를 구하라. {format_instructions}",
+  "orthocenter_variant2": "꼭짓점이 A={A}, B={B}, C={C}인 삼각형의 수심(수선들의 교점)을 구하라. {format_instructions}",
+  "incircle_radius_variant1": "좌표가 A={A}, B={B}, C={C}인 삼각형 ABC의 내접원의 반지름을 계산하라. {format_instructions}",
+  "incircle_radius_variant2": "꼭짓점이 A={A}, B={B}, C={C}인 삼각형 ABC의 내접원의 반지름을 구하라. {format_instructions}",
+  "angle_measure_variant1": "좌표가 A={A}, B={B}, C={C}인 삼각형 ABC에서 각 ABC의 크기(도)를 구하라. {format_instructions}",
+  "angle_measure_variant2": "꼭짓점이 A={A}, B={B}, C={C}인 삼각형에서 B에서의 각의 크기를 도 단위로 구하라. {format_instructions}"
+}

@@ -1,0 +1,3 @@
+{
+    "prompt_template": "In 4x4 Mini Sudoku:\n- Each row must contain each number from 1-4 exactly once\n- Each column must contain each number 1-4 exactly once\n- Each 2x2 subgrid must contain each number 1-4 exactly once\n\nSolve this 4x4 Mini Sudoku puzzle:\n{puzzle}\n\nFormat your response as the puzzle above, with spaces separating each number within a row, and newlines separating rows."
+}

@@ -1,0 +1,3 @@
+{
+  "question_template": "Wie sieht dieses Game of Life-Gitter nach {simulation_steps} Schritten der Simulation aus? Nimm eine Moore-Nachbarschaft und periodische Randbedingungen an. Gib die Antwort als Array von Arrays, die die Zeilen des Gitters von oben nach unten im JSON-Format darstellen. (Ein leeres 3x3-Gitter würde so aussehen: [[0,0,0],[0,0,0],[0,0,0]])\n\n{board}."
+}

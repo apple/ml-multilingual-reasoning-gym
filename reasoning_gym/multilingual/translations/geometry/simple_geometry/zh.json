@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "已知一个有{n_sides}条边的凸多边形，前{n_minus_1}个内角分别为：{angle_list}。求剩余内角的度数是多少？直接给我数值答案，不要包含单位。",
+  "prompt_template_2": "一个凸多边形有{n_sides}条边。前{n_minus_1}个内角的度数分别为：{angle_list}。求最后一个内角的度数。直接给我数值答案，不要包含单位。",
+  "prompt_template_3": "考虑一个{n_sides}边形，其前{n_minus_1}个内角分别为：{angle_list}。求剩余角的度数。直接给我数值答案，不要包含单位。",
+  "angle_separator": "，"
+}

@@ -1,0 +1,3 @@
+{
+  "question_template": "{start}以上{end}以下の範囲にある素数の個数を求めよ？"
+}

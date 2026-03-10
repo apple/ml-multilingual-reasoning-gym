@@ -1,0 +1,3 @@
+{
+  "question_template": "Umepewa gridi ya binary matrix ifuatayo ya {rows} x {cols}:\n{grid}\n\nKisiwa ni kundi la nambari 1 (zinazowakilisha ardhi) zilizounganishwa kwa mielekeo 4 (mlalo au wima).\nUnaweza kudhani kuwa kingo zote nne za gridi zimezungukwa na maji.\n\nEneo la kisiwa ni idadi ya seli zenye thamani 1 katika kisiwa hilo.\n\nRudisha eneo kubwa zaidi la kisiwa katika gridi. Ikiwa hakuna kisiwa, rudisha 0."
+}

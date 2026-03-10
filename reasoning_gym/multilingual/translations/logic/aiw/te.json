@@ -1,0 +1,6 @@
+{
+  "siblings_template_1": "{female_name}కి {num_brothers} మంది సోదరులు మరియు {num_sisters} మంది సోదరీమణులు ఉన్నారు. {female_name} సోదరునికి ఎంతమంది సోదరీమణులు ఉంటారు?",
+  "siblings_template_2": "{female_name}కి {num_sisters} మంది సోదరీమణులు మరియు {num_brothers} మంది సోదరులు ఉన్నారు. {male_name} సోదరునికి ఎంతమంది సోదరీమణులు ఉంటారు?",
+  "friends_template": "{female_name}కి {num_male} మంది మగ స్నేహితులు మరియు {num_female} మంది ఆడ స్నేహితురాలు ఉన్నారు. వారందరూ ఒకరికొకరు స్నేహితులు మరియు వేరే స్నేహితులు ఎవరూ లేరు. {female_name} స్నేహితుడైన {male_name}కి ఎంతమంది ఆడ స్నేహితురాలు ఉంటారు?",
+  "colleagues_template": "{female_name}కి {num_male_colleagues_alice_circle} మంది మగ సహోద్యోగులు మరియు {num_female_colleagues_alice_circle} మంది ఆడ సహోద్యోగులు ఉన్నారు. వీరందరూ {female_name}కి ఉన్న సహోద్యోగులే. {female_name} చుట్టూ ఉన్న ఈ వ్యక్తులందరూ ఒకరికొకరు సహోద్యోగులు. {male_name}కి మొత్తం {num_male_colleagues_bob_circle} మంది మగ సహోద్యోగులు మరియు {num_female_colleagues_bob_circle} మంది ఆడ సహోద్యోగులు ఉన్నారు. {male_name} చుట్టూ ఉన్న ఈ వ్యక్తులందరూ ఒకరికొకరు సహోద్యోగులు. {male_name} చుట్టూ ఉన్న వ్యక్తులకు వేరే సహోద్యోగులు ఎవరూ లేరు - మాతిల్డా మాత్రం మినహాయింపు. ఆమె {male_name}కి సహోద్యోగురాలు మరియు {female_name}కి కూడా సహోద్యోగురాలు, {female_name} వృత్తంలో భాగం. మాతిల్డాకి ఎంతమంది ఆడ సహోద్యోగులు ఉంటారు?"
+}

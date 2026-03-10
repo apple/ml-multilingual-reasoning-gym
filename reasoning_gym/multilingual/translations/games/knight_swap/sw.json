@@ -1,0 +1,4 @@
+{
+  "prompt_template": "Changamoto ya Kubadilishana Kwa Knights:\n\n```\n{board_str}\n```\n\nUfafanuzi:\n• 'w' = Knight Mweupe\n• 'B' = Knight Mweusi\n• Masanduku tupu yamewekwa alama ya '.'\n\nLengo:\nBadilishana nafasi za knights wote weupe na knights wote weusi kwa kutumia harakati halali.\n\nSheria:\n1. Knights wanahama kwa umbo la L (masanduku 2 + sanduku 1 kwa perpendicular)\n2. Knights wanaweza kuhama tu kwenye masanduku tupu\n3. {start_turn} wanahama kwanza, kisha wachezaji wanabadilishana\n4. Knights wote lazima wafikie nafasi zao za lengo (weupe ↔ weusi)\n\nSwali:\nJe inawezekana kubadilishana nafasi za knights wote? Ikiwa ndiyo, orodhesha harakati.\n\nMuundo wa Jibu:\n• Kwa fumbo lisilowezekana: \"{impossible_answer}\"\n• Kwa fumbo linawezekana: Orodhesha harakati kama [\"rangi,kutoka,kwenda\", ...]\n  Mfano: [\"w,A1,B3\"] inamaanisha knight mweupe anahama A1→B3",
+  "impossible_answer": "Hapana"
+}

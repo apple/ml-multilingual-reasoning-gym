@@ -1,0 +1,6 @@
+{
+  "ascending_direction": "croissant",
+  "descending_direction": "décroissant",
+  "sort_question": "Classe ces nombres dans l'ordre {direction} : {numbers}",
+  "answer_format_instruction": "\nSuis les instructions ci-dessous :\n## 1. Donne toutes tes réponses sous forme de liste de nombres. Au lieu de donner ta réponse comme -69, -13, 1, 7, 11, 43, 59, 61, utilise ['-69', '-13', '1', '7', '11', '43', '59', '61']\n## 2. Convertis tous les nombres entre crochets en chaînes de caractères. Par exemple, ['-69', '-13', '1', '7', '11', '43', '59', '61']\n"
+}

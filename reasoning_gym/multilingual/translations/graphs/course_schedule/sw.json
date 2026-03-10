@@ -1,0 +1,5 @@
+{
+    "question_template": "Kuna jumla ya kozi {num_courses} ambazo unahitaji kuchukua, zilizowekewa alama kutoka 0 hadi {last_index}.\n\nUmepewa orodha ifuatayo ya mahitaji ya awali, ambapo mahitaji[i] = (a_i, b_i) inaonyesha kwamba lazima kwanza uchukue kozi b_i ukitaka kuchukua kozi a_i:\n{prerequisites}\n\nRudisha {true_answer} kama unaweza kumaliza kozi zote ukizingatia mahitaji ya awali, au {false_answer} vinginevyo.",
+    "true_answer": "Kweli",
+    "false_answer": "Uwongo"
+}

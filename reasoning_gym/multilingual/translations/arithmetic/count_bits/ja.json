@@ -1,0 +1,3 @@
+{
+  "question_template": "2進数における数値{number}の1ビットの個数を求めよ。"
+}

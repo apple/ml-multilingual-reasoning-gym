@@ -1,0 +1,9 @@
+{
+  "format_instructions": "回答は以下の条件を満たしていること：\n1. 座標は (x, y) の形で答えよ。\n2. 小数の答えは小数第3位で四捨五入せよ。\n3. 角度には度記号 ° を用いよ。\n4. 角度、座標、または半径のみを答えとして返せ。",
+  "orthocenter_variant1": "座標A={A}、B={B}、C={C}の三角形ABCについて、その垂心の座標を求めよ。{format_instructions}",
+  "orthocenter_variant2": "頂点A={A}、B={B}、C={C}を持つ三角形について、垂心（高線の交点）を求めよ。{format_instructions}",
+  "incircle_radius_variant1": "座標A={A}、B={B}、C={C}の三角形ABCについて、その内接円の半径を計算せよ。{format_instructions}",
+  "incircle_radius_variant2": "頂点A={A}、B={B}、C={C}を持つ三角形ABCの内接円の半径を求めよ。{format_instructions}",
+  "angle_measure_variant1": "座標A={A}、B={B}、C={C}の三角形ABCにおいて、角ABCの大きさ（度）を求めよ。{format_instructions}",
+  "angle_measure_variant2": "頂点A={A}、B={B}、C={C}を持つ三角形について、Bでの角の大きさを度で求めよ。{format_instructions}"
+}

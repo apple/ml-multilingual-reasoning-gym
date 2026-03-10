@@ -1,0 +1,3 @@
+{
+  "question_template": "Quantos números primos há entre {start} e {end} (inclusive)?"
+}

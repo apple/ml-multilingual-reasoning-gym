@@ -1,0 +1,3 @@
+{
+  "question_template": "Conta quanti numeri primi ci sono tra {start} e {end} (estremi inclusi)."
+}

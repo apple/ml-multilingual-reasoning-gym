@@ -1,0 +1,13 @@
+{
+  "prompt_template": "Перед тобой находятся кнопки, лампочка и число. Лампочка переключается между красным и зелёным состоянием каждый раз, когда ты нажимаешь кнопку. Каждая кнопка выполняет математическую операцию с числом, но операция может зависеть от состояния лампочки.\n\nТы должен нажать кратчайшую правильную последовательность кнопок, чтобы достичь целевого значения. Твой ответ должен быть последовательностью кнопок, разделённых символом «{separator}», например: A{separator}B{separator}C\n\nНачало: {initial_value} (при {initial_state})\nЦель: {target_value}\nКнопки:\n{buttons_text}",
+  "operation_add_template": "Прибавить {value}",
+  "operation_subtract_template": "Вычесть {value}",
+  "operation_multiply_template": "Умножить на {value}",
+  "when_state": "при {state}",
+  "state_red": "красном свете",
+  "state_green": "зелёном свете",
+  "state_any": "любом состоянии",
+  "button_format": "{name}: {operation} {condition}",
+  "separator": " → ",
+  "condition_format": "({when_text})"
+}

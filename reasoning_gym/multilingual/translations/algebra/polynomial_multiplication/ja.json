@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "この式を計算せよ：{polynomial_expr}",
+  "prompt_template_2": "次を計算せよ：{polynomial_expr}",
+  "instruction": "\n計算の際は、以下のガイドラインに従え：\n1. 指数には ^ ではなく ** を使え。例えば、7*X^2 ではなく 7*X**2 と書け。\n2. 計算過程では、すべての乗算演算に * 記号を必ず含めよ。例えば、`-3x3sin(x) - 9x2cos(x) + 18xsin(x) + 18cos(x) + C` ではなく `-3*X**3*sin(X) - 9*X**2*cos(X) + 18*X*sin(X) + 18*cos(X) + C` と書け。\n"
+}

@@ -1,0 +1,10 @@
+{
+  "puzzle_intro": "Unter der Annahme, dass diese Aussagen richtig sind, gib die Anzahl der möglichen Lösungen an:",
+  "statement_1": " - Aussage 1: 'Mindestens {number} dieser 7 Aussagen sind wahr.'",
+  "statement_2": " - Aussage 2: 'Höchstens {number} dieser 7 Aussagen sind falsch.'",
+  "statement_3": " - Aussage 3: 'Genau {number} dieser 7 Aussagen sind wahr.'",
+  "statement_4": " - Aussage 4: 'Genau {number} dieser 7 Aussagen sind falsch.'",
+  "statement_5": " - Aussage 5: 'Entweder Aussage 3 oder Aussage 4 ist wahr, aber nicht beide.'",
+  "statement_6": " - Aussage 6: 'Die Anzahl der wahren Aussagen ist eine Primzahl.'",
+  "statement_7": " - Aussage 7: 'Die Anzahl der falschen Aussagen ist eine zusammengesetzte Zahl.'"
+}

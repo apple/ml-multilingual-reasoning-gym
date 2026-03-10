@@ -1,0 +1,7 @@
+{
+    "question_template": "{action} all numbers {comparison} than {filter_value} in this list: {numbers_list}\nReturn the new list in the same format.",
+    "action_keep": "KEEP",
+    "action_remove": "REMOVE", 
+    "comparison_larger": "larger",
+    "comparison_smaller": "smaller"
+}

@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Résous le puzzle Futoshiki {board_size}x{board_size} suivant :\n\n{puzzle_str}\n\nAssure-toi que ta réponse suit le même format que le puzzle ci-dessus, remplace simplement les blancs (_) par la valeur correcte pour chaque case.\nUtilise < et > pour les contraintes horizontales. Utilise ∧ et ∨ pour les contraintes verticales.\nRappelle-toi, dans Futoshiki chaque ligne et chaque colonne doit contenir chaque nombre de 1 à {board_size} exactement une fois."
+}

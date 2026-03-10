@@ -1,0 +1,3 @@
+{
+  "question_template": "Entschlüssele diesen **englischen** Caesar-Chiffre-Text: {cipher_text}. Gib nur den entschlüsselten Text als Antwort an."
+}

@@ -1,0 +1,5 @@
+{
+  "prompt_template": "Due stringhe sono isomorfe se i caratteri di una stringa possono essere sostituiti per ottenere la seconda stringa.\n\nTutte le occorrenze di un carattere devono essere sostituite con un altro carattere mantenendo l'ordine dei caratteri.\n\nDue caratteri diversi non possono essere mappati sullo stesso carattere, ma un carattere può essere mappato su se stesso.\n\nRestituisci {true_answer} se le seguenti due stringhe sono isomorfe, altrimenti {false_answer}:\n{strings}",
+  "true_answer": "Vero",
+  "false_answer": "Falso"
+}

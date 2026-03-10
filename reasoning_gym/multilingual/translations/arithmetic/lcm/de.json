@@ -1,0 +1,4 @@
+{
+  "question_template": "Bestimme das kleinste gemeinsame Vielfache (kgV) dieser Zahlen: {numbers}",
+  "numbers_separator": ", "
+}

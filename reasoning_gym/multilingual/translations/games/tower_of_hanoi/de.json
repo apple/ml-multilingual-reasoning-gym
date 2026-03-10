@@ -1,0 +1,6 @@
+{
+  "question_template": "Löse das Turm-von-Hanoi-Problem mit {num_disks} Scheiben und {num_pegs} Stäben.\nBewege alle Scheiben von {start_peg} zu {target_peg} unter Beachtung folgender Regeln:\n- Es kann immer nur eine Scheibe gleichzeitig bewegt werden.\n- Eine größere Scheibe darf nicht auf eine kleinere Scheibe gelegt werden.\n- Alle Scheiben müssen sich jederzeit auf einem Stab befinden.\n\nGib die Zugfolge an.\n\nFormatierungsrichtlinien:\n- Jede Anweisung soll in einer eigenen Zeile stehen.\n- Jede Zeile soll folgendermaßen formatiert sein: 'Bewege Scheibe X von Stab Y zu Stab Z'\n- Füge keinen anderen Text oder Formatierungen hinzu.",
+  "move_template": "Bewege Scheibe {disk} von Stab {from_peg} zu Stab {to_peg}",
+  "move_pattern": "Bewege Scheibe (\\d+) von Stab (\\d+) zu Stab (\\d+)",
+  "peg_label": "Stab {peg_number}"
+}

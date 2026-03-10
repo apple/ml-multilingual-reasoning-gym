@@ -1,0 +1,3 @@
+{
+  "question_template": "Paka rangi kwenye graph hii ili hakuna vertex mbili zilizounganishwa ziwe na rangi moja. Graph ina sifa hizi:\n\nVertices: {vertices}\nEdges: {edges}\nRangi zinazowezekana: {color_options}\n\nToa jibu lako kama ramani ya JSON ya vertices na rangi zao. (Kwa mfano: {{\"0\": 1, \"1\": 2, \"2\": 3}}.)"
+}

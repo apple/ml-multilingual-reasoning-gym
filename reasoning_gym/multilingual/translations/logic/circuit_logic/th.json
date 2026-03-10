@@ -1,0 +1,9 @@
+{
+  "circuit_intro": "ด้านล่างเป็นวงจรตรรกะที่สร้างขึ้นแบบสุ่ม\n",
+  "legend_title": "คำอธิบายสัญลักษณ์ของเกต:",
+  "negate_symbol": "{symbol}: การปฏิเสธ",
+  "input_assignments": "กำหนดค่าดังต่อไปนี้:",
+  "assignment_format": "  {input} = {value}",
+  "output_question": "ผลลัพธ์สุดท้ายคืออะไร?",
+  "colon": ": "
+}

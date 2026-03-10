@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "方程式 {equation} における {variable} の値を求めよ",
+  "prompt_template_2": "{variable} について解け：{equation}",
+  "prompt_template_3": "{equation} を満たす {variable} の値を求めよ"
+}

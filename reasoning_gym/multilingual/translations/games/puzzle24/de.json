@@ -1,0 +1,4 @@
+{
+  "question_template": "Bilde 24 mit {numbers}. Du kannst jede Zahl nur einmal verwenden. Du kannst die Operatoren {operators} verwenden.\nAnweisungen zum Antwortformat:\n1. Gib deine Antwort als arithmetischen Ausdruck an (ohne '='-Zeichen).\n2. Schließe die Zielzahl nicht in den Ausdruck ein.\n3. Verwende '*' für Multiplikation.\n4. Verwende '/' für Division.",
+  "separator": ", "
+}

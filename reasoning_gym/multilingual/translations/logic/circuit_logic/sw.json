@@ -1,0 +1,9 @@
+{
+  "circuit_intro": "Hapa chini kuna circuit ya mantiki iliyotengenezwa bila mpango.\n",
+  "legend_title": "Ufafanuzi wa malango:",
+  "negate_symbol": "{symbol}: Pindua",
+  "input_assignments": "Ukiwa umepewa mipangilio ifuatayo ya kuingiza:",
+  "assignment_format": "  {input} = {value}",
+  "output_question": "Matokeo ya mwisho ni nini?",
+  "colon": ": "
+}

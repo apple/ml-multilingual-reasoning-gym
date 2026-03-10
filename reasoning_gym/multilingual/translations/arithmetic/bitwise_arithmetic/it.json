@@ -1,0 +1,3 @@
+{
+  "question_template": "Risolvi questo problema. Supponi che ci sia una profondità di bit arbitraria e che ci siano numeri interi con segno. Se la risposta è negativa, rispondi con un valore negativo (es., -0x3), non nella forma complemento a due. Rispondi solo con il valore esadecimale finale.\n{problem}"
+}

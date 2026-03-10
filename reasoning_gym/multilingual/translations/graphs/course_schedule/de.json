@@ -1,0 +1,5 @@
+{
+  "question_template": "Es gibt insgesamt {num_courses} Kurse, die du belegen musst, nummeriert von 0 bis {last_index}.\n\nDu erhältst folgende Liste von Voraussetzungen, wobei das i-te Element in der Liste (a_i, b_i) bedeutet, dass du zuerst Kurs b_i belegen musst, bevor du Kurs a_i belegen kannst:\n{prerequisites}\n\nAntworte mit {true_answer}, wenn du alle Kurse unter Berücksichtigung der Voraussetzungen abschließen kannst, andernfalls mit {false_answer}.",
+  "true_answer": "Wahr",
+  "false_answer": "Falsch"
+}

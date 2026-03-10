@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Sposta l'auto rossa (AA) verso l'uscita a destra.\nSpecifica le mosse nel formato: 'F+1 K+1 M-1 C+3 H+2 ...'\ndove la lettera indica il veicolo e il numero +/- indica gli spazi da spostare a destra/sinistra o giù/su.\nI muri sono contrassegnati con una 'x'. Le auto non possono attraversare i muri e i muri non possono essere spostati.\nUn'auto orientata verticalmente può muoversi solo su e giù, un'auto orientata orizzontalmente può muoversi solo a sinistra e a destra.\n\nGriglia:\n{board_display}"
+}

@@ -1,0 +1,13 @@
+{
+  "prompt_template": "你面前有一些按钮、一个指示灯和一个数字。每次按下按钮时，指示灯会在红色和绿色之间切换。每个按钮都会对数字执行数学运算，但运算可能取决于指示灯的状态。\n\n你必须按下最短的正确按钮序列来达到目标值。你的答案应该是用「{separator}」分隔的按钮序列，例如：A{separator}B{separator}C\n\n开始：{initial_value}({initial_state})\n目标：{target_value}\n按钮：\n{buttons_text}",
+  "operation_add_template": "加{value}",
+  "operation_subtract_template": "减{value}",
+  "operation_multiply_template": "乘以{value}",
+  "when_state": "当{state}时",
+  "state_red": "红色",
+  "state_green": "绿色",
+  "state_any": "任意",
+  "button_format": "{name}：{operation}{condition}",
+  "separator": "→",
+  "condition_format": "({when_text})"
+}

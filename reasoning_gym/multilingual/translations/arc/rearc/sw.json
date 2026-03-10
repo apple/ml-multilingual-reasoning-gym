@@ -1,0 +1,4 @@
+{
+  "prompt_template": "Gundua sheria ya kawaida inayounganisha gridi ya pembejeo na gridi ya matokeo, kwa kuzingatia mifano iliyotolewa hapa chini.\n\n{examples}Hapa chini kuna gridi ya pembejeo ya mtihani. Tabiri gridi ya matokeo inayolingana kwa kutumia sheria uliyoigundua.\nJibu lako la mwisho liwe ni gridi ya matokeo tu.\n\nPembejeo:\n{input_grid}",
+  "example_format": "Mfano {index}:\n\nPembejeo:\n{input_board}\nMatokeo:\n{output_board}\n\n"
+}

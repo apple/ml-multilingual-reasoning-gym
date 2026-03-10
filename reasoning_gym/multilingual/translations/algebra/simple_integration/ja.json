@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "不定積分を求めよ： ∫ {integrand} dx",
+  "prompt_template_2": "原始関数を求めよ： ∫ {integrand} dx",
+  "prompt_template_3": "不定積分を計算せよ： ∫ {integrand} dx",
+  "calculation_instructions": "\n計算を行う際は、以下のガイドラインに従うこと：\n1. 指数を表すには^ではなく**を使用せよ。例えば、7*X^2ではなく7*X**2と書け。\n2. 計算過程では、すべての乗算演算に*記号を含めよ。例えば、`-3x3sin(x) - 9x2cos(x) + 18xsin(x) + 18cos(x) + C`ではなく`-3*X**3*sin(X) - 9*X**2*cos(X) + 18*X*sin(X) + 18*cos(X) + C`と書け。\n"
+}

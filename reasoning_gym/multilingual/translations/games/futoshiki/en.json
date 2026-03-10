@@ -1,0 +1,3 @@
+{
+    "prompt_template": "Solve the following {board_size}x{board_size} Futoshiki puzzle:\n\n{puzzle_str}\n\nEnsure your answer follows the same format as the puzzle above, just replace blanks (_) with the correct value for the cell.\nUse < and > for horizontal constraints. Use ∧ and ∨ for vertical constraints.\nRemember, in Futoshiki each row and column must contain each number from 1 to {board_size} exactly once."
+}

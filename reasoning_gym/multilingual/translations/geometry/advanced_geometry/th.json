@@ -1,0 +1,9 @@
+{
+  "format_instructions": "สำหรับปัญหาเรขาคณิตทั้งหมด:\n1. ให้พิกัดในรูปแบบ (x, y)\n2. ปัดทศนิยมให้เหลือ 3 ตำแหน่ง\n3. ใช้สัญลักษณ์องศา ° สำหรับมุม\n4. ตอบเฉพาะมุม พิกัด หรือรัศมีเท่านั้น",
+  "orthocenter_variant1": "จงหาพิกัดของจุดตั้งฉากของสามเหลี่ยม ABC ที่มีพิกัด A={A}, B={B}, และ C={C} {format_instructions}",
+  "orthocenter_variant2": "สำหรับสามเหลี่ยมที่มีจุดยอด A={A}, B={B}, และ C={C} จงหาจุดตั้งฉาก (จุดตัดของเส้นสูง) {format_instructions}",
+  "incircle_radius_variant1": "พิจารณาสามเหลี่ยม ABC ที่มีพิกัด A={A}, B={B}, และ C={C} จงคำนวณรัศมีของวงกลมใน {format_instructions}",
+  "incircle_radius_variant2": "จงหารัศมีวงกลมในของสามเหลี่ยม ABC ที่มีจุดยอด A={A}, B={B}, และ C={C} {format_instructions}",
+  "angle_measure_variant1": "ในสามเหลี่ยม ABC ที่มีพิกัด A={A}, B={B}, และ C={C} จงหาขนาดของมุม ABC เป็นองศา {format_instructions}",
+  "angle_measure_variant2": "กำหนดสามเหลี่ยมที่มีจุดยอด A={A}, B={B}, และ C={C} จงหามุม ณ จุด B เป็นองศา {format_instructions}"
+}

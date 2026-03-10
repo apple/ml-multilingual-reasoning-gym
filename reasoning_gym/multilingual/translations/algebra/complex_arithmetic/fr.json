@@ -1,0 +1,6 @@
+{
+  "operation_+": "Additionne ces nombres complexes : ({a}) + ({b})",
+  "operation_-": "Soustrais ces nombres complexes : ({a}) - ({b})",
+  "operation_*": "Multiplie ces nombres complexes : ({a}) × ({b})",
+  "operation_/": "Divise ces nombres complexes : ({a}) ÷ ({b})"
+}

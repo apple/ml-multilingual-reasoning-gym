@@ -1,0 +1,3 @@
+{
+  "instruction_template": "Résous ce problème avec un maximum de {precision} chiffres significatifs, avec arrondi au supérieur en cas d'égalité. Réponds uniquement avec la valeur finale."
+}

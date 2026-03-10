@@ -1,0 +1,4 @@
+{
+  "question_template": "หาตัวหารร่วมมาก (GCD) ของตัวเลขเหล่านี้: {numbers_str} ให้คำตอบเป็นค่า GCD เท่านั้น",
+  "numbers_separator": ", "
+}

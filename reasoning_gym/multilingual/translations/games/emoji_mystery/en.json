@@ -1,0 +1,3 @@
+{
+    "question_template": "The following emoji is encoded with a sentence.\n\nDecode the following **English** sentence from the emoji: {sentence}\n\nHere is a hint:\n{hint_function}\n\nReturn the secret **English** sentence as your final answer."
+}

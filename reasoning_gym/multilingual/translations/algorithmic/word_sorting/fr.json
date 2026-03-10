@@ -1,0 +1,5 @@
+{
+  "question_template": "Ta tâche consiste à trier des mots **anglais** par ordre {direction} en utilisant l'ordre ASCII/Unicode.\n\nDonne ta réponse sous forme de liste séparée par des virgules, par exemple mot_1, mot_2, mot_3\n\nMaintenant, trie ces mots **anglais** par ordre {direction} (en utilisant l'ordre ASCII/Unicode) et donne-les sous forme de liste séparée par des virgules : {words}",
+  "ascending": "croissant",
+  "descending": "décroissant"
+}

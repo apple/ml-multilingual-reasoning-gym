@@ -1,0 +1,3 @@
+{
+  "instruction_template": "次の計算を{precision}桁の有効数字まで四捨五入して求めよ。答えのみを記入すること。"
+}

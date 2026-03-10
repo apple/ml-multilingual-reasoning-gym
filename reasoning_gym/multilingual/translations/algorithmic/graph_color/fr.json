@@ -1,0 +1,3 @@
+{
+  "question_template": "Fournis un coloriage pour ce graphe tel que deux sommets adjacents n'aient pas la même couleur. Le graphe a ces propriétés :\n\nSommets : {vertices}\nArêtes : {edges}\nCouleurs possibles : {color_options}\n\nRetourne ta solution sous forme de carte JSON associant les sommets aux couleurs. (Par exemple : {{\"0\": 1, \"1\": 2, \"2\": 3}}.)"
+}

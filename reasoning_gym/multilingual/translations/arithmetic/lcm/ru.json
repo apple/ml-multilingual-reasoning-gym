@@ -1,0 +1,4 @@
+{
+  "question_template": "Найди наименьшее общее кратное (НОК) этих чисел: {numbers}",
+  "numbers_separator": ", "
+}

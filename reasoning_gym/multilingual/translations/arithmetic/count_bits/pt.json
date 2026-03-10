@@ -1,0 +1,3 @@
+{
+  "question_template": "Quantos bits 1 existem na representação binária do número {number}?"
+}

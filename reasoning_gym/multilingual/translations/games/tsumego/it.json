@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "È tempo di tsumego. Il Nero gioca e deve catturare alcune pietre.\nTrova la mossa chiave.\n\n```\n{board_str}\n```\n\nX - Nero\nO - Bianco\n\nSpecifica la tua mossa nelle coordinate (es. «C4» per colonna C, riga 4)",
+  "prompt_template_2": "Ti propongo un problema di Go: tocca al Nero muovere. Riesci a catturare alcune pietre bianche?\n\n```\n{board_str}\n```\n\nX - Nero\nO - Bianco\n\nSpecifica la tua mossa nelle coordinate (es. «C4» per colonna C, riga 4)",
+  "prompt_template_3": "Ecco una sfida di Go. Giocando con il Nero, come puoi catturare quante più pietre bianche possibili?\n\n```\n{board_str}\n```\n\nX - Nero\nO - Bianco\n\nSpecifica la tua mossa nelle coordinate (es. «C4» per colonna C, riga 4)",
+  "board_legend": "X - Nero\nO - Bianco\n\nSpecifica la tua mossa nelle coordinate (es. «C4» per colonna C, riga 4)"
+}

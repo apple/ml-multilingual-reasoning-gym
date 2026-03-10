@@ -1,0 +1,9 @@
+{
+  "format_instructions": "所有几何题目要求：\n1. 坐标以(x, y)的形式给出\n2. 小数答案保留3位小数\n3. 角度使用度数符号°\n4. 答案只需给出角度、坐标或半径",
+  "orthocenter_variant1": "已知三角形ABC的坐标为A={A}，B={B}，C={C}，求其垂心的坐标。{format_instructions}",
+  "orthocenter_variant2": "设三角形的顶点为A={A}，B={B}，C={C}，求垂心（高线的交点）。{format_instructions}",
+  "incircle_radius_variant1": "设三角形ABC的坐标为A={A}，B={B}，C={C}，计算其内切圆的半径。{format_instructions}",
+  "incircle_radius_variant2": "求三角形ABC的内切圆半径，其中顶点为A={A}，B={B}，C={C}。{format_instructions}",
+  "angle_measure_variant1": "在三角形ABC中，坐标为A={A}，B={B}，C={C}，求角ABC的度数（单位为度）。{format_instructions}",
+  "angle_measure_variant2": "已知三角形的顶点为A={A}，B={B}，C={C}，求顶点B处的角度（以度为单位）。{format_instructions}"
+}

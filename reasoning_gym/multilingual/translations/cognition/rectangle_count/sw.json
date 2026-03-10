@@ -1,0 +1,3 @@
+{
+  "question_template": "Kazi yako ni kuhesabu mstatili mangapi yaliyopo katika jedwali la ASCII.\n\nMstatili wa moja yamechorwa kwa alama ya '#', mstatili yanayoegemana (hadi 2) yanaonyeshwa kwa '█'.\n\nJibu lako linapaswa kuwa nambari moja, inayowakilisha jumla ya mstatili.\n\nSasa ni zamu yako. Je, unaona mstatili mangapi katika jedwali hili hapo chini?\n{puzzle}"
+}

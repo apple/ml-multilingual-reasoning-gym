@@ -1,0 +1,5 @@
+{
+    "question_template": "There are a total of {num_courses} courses you have to take, labeled from 0 to {last_index}.\n\nYou are given the following list of prerequisites, where the i-th element in the list (a_i, b_i) indicates that you must first take course b_i if you want to take course a_i:\n{prerequisites}\n\nReturn {true_answer} if you can finish all courses considering the prerequisites, or {false_answer} otherwise.",
+    "true_answer": "True",
+    "false_answer": "False"
+}

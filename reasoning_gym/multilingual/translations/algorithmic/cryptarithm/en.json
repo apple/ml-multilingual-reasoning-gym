@@ -1,0 +1,7 @@
+{
+    "intro": "Solve this cryptarithm:",
+    "unique_digit_rule": "Each letter stands for a unique digit (0-9). ",
+    "leading_zero_allowed": "Leading letters may be zero.\n",
+    "leading_zero_not_allowed": "No leading letter can be zero.\n",
+    "output_format": "Provide a comma separated mapping from letters to digits that satisfies the equation in your final answer. Output format: \"A=1,B=2,C=3\" (without quotes)\n"
+}

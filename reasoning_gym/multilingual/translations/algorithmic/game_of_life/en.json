@@ -1,0 +1,3 @@
+{
+    "question_template": "What will this Game of Life board look like after {simulation_steps} steps of simulation? Assume a Moore neighborhood and wrapping topology. Reply as array of arrays representing rows in the grid from top to bottom in JSON format. (An empty 3x3 grid would look like this: [[0,0,0],[0,0,0],[0,0,0]])\n\n{board}."
+}

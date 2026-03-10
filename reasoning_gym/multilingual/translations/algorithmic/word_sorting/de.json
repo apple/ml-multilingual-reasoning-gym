@@ -1,0 +1,5 @@
+{
+  "question_template": "Deine Aufgabe ist es, **englische** Wörter in {direction}er Reihenfolge unter Verwendung der ASCII/Unicode-Sortierung zu sortieren.\n\nDeine Ausgabe sollte eine kommagetrennte Liste von Wörtern sein, z.B. Wort_1, Wort_2, Wort_3\n\nSortiere nun diese **englischen** Wörter in {direction}er Reihenfolge (unter Verwendung der ASCII/Unicode-Sortierung) und gib sie als kommagetrennte Liste zurück: {words}",
+  "ascending": "aufsteigend",
+  "descending": "absteigend"
+}

@@ -1,0 +1,5 @@
+{
+  "question_template": "Ikiwa umepewa mistari miwili inayowakilisha ujumbe wa malipo na jarida, bainisha {true_answer} ikiwa unaweza kuunda ujumbe wa malipo kwa kutumia herufi zilizo katika jarida, na {false_answer} kama sivyo.\n\nKila herufi katika mstari wa jarida inaweza kutumika mara moja tu katika ujumbe wako wa malipo.\n\nUjumbe wa malipo: {ransom_note}\nJarida: {magazine}",
+  "true_answer": "Kweli",
+  "false_answer": "Uwongo"
+}

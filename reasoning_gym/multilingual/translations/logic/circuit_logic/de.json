@@ -1,0 +1,9 @@
+{
+  "circuit_intro": "Unten ist eine zufällig generierte Logikschaltung.\n",
+  "legend_title": "Legende für Gatter:",
+  "negate_symbol": "{symbol}: Negation",
+  "input_assignments": "Mit den folgenden Eingangswerten:",
+  "assignment_format": "  {input} = {value}",
+  "output_question": "Was ist der Ausgangswert?",
+  "colon": ": "
+}

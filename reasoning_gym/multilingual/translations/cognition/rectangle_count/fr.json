@@ -1,0 +1,3 @@
+{
+  "question_template": "Ta tâche est de compter combien de rectangles sont présents dans une grille ASCII.\n\nLes rectangles simples sont délimités par un « # », les rectangles qui se chevauchent (max 2) sont représentés par « █ ».\n\nTa réponse doit être un seul nombre, représentant le nombre total de rectangles.\n\nMaintenant, c'est à ton tour. Combien de rectangles vois-tu dans la grille ci-dessous ?\n{puzzle}"
+}

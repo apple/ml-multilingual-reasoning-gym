@@ -1,0 +1,3 @@
+{
+  "question_template": "Sua tarefa é contar quantos retângulos estão presentes em uma grade ASCII.\n\nRetângulos individuais são contornados com «#», retângulos sobrepostos (máx. 2) são mostrados com «█».\n\nSua resposta deve ser um único número, representando o total de retângulos.\n\nAgora é sua vez. Quantos retângulos você vê na grade abaixo?\n{puzzle}"
+}

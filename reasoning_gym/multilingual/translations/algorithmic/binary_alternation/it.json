@@ -1,0 +1,3 @@
+{
+  "question_template": "Data una stringa binaria, trova il numero minimo di scambi di caratteri necessari per renderla alternante, oppure rispondi con -1 se è impossibile.\n\nUna stringa è detta alternante se non ci sono due caratteri adiacenti uguali. Ad esempio, le stringhe «010» e «1010» sono alternanti, mentre la stringa «0100» non lo è.\n\nÈ possibile scambiare qualsiasi coppia di caratteri, anche se non sono adiacenti.\n\nOra, determina il numero minimo di scambi per rendere alternante la seguente stringa binaria: {string}"
+}

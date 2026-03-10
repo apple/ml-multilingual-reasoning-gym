@@ -1,0 +1,4 @@
+{
+  "prompt_template": "Trova la regola comune che trasforma una griglia di input in una griglia di output, dati gli esempi seguenti.\n\n{examples}Ecco una griglia di input di prova. Prevedi la griglia di output corrispondente applicando la regola che hai trovato.\nLa tua risposta finale deve essere solo il testo della griglia di output.\n\nInput:\n{input_grid}",
+  "example_format": "Esempio {index}:\n\nInput:\n{input_board}\nOutput:\n{output_board}\n\n"
+}

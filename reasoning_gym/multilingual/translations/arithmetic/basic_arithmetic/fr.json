@@ -1,0 +1,7 @@
+{
+  "simple_question": "Calcule {expression}.",
+  "question_what": "Combien fait {expression} ?",
+  "question_solve": "Résous {expression}.",
+  "question_compute": "Calcule {expression}.",
+  "question_evaluate": "Évalue : {expression}."
+}

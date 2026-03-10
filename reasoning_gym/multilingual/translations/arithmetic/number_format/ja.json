@@ -1,0 +1,5 @@
+{
+  "question_template": "以下の候補から{size}数を選べ。\n\n答えは該当する数値のみを示せ。\n\n候補：{numbers}",
+  "size_largest": "最大の",
+  "size_smallest": "最小の"
+}

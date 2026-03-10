@@ -1,0 +1,13 @@
+{
+  "prompt_template": "Davanti a te ci sono alcuni pulsanti, una luce e un numero. La luce si alternerà tra rosso e verde ogni volta che premi un pulsante. Ogni pulsante esegue un'operazione matematica sul numero, ma l'operazione può dipendere dallo stato della luce.\n\nDevi premere la sequenza corretta più breve di pulsanti per raggiungere il valore obiettivo. La tua risposta deve essere una sequenza di pulsanti separati da '{separator}', ad esempio: «A{separator}B{separator}C»\n\nInizio: {initial_value} ({initial_state})\nObiettivo: {target_value}\nPulsanti:\n{buttons_text}",
+  "operation_add_template": "Aggiungi {value}",
+  "operation_subtract_template": "Sottrai {value}",
+  "operation_multiply_template": "Moltiplica per {value}",
+  "when_state": "quando {state}",
+  "state_red": "rosso",
+  "state_green": "verde",
+  "state_any": "qualsiasi colore",
+  "button_format": "{name}: {operation} {condition}",
+  "separator": " → ",
+  "condition_format": "({when_text})"
+}

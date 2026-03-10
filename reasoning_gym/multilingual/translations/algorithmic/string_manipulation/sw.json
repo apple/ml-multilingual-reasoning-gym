@@ -1,0 +1,23 @@
+{
+  "question_template": "Kazi yako ni kubadilisha mfuatano wa herufi kwa mujibu wa sheria fulani hadi hakuna mabadiliko zaidi yanayoweza kufanywa, au hali imejirudi.\n\nTathmini sheria hizi kwa utaratibu, na tumia sheria ya kwanza inayofaa kwa mfuatano wa herufi:\n{rules}\n\nMara tu umeshatumia sheria, rudia mchakato huo na mfuatano mpya wa herufi hadi hakuna mabadiliko zaidi yanayoweza kufanywa (yaani mfuatano wa herufi haubadiliki), au hali imejirudi.\nIkiwa hali imejirudi, mchakato unakoma, na hali iliyojirudi inaondolewa (yaani haihesabiwi kama jibu la mwisho) na hali kabla ya hali iliyojirudi ndio inayochukuliwa kama jibu la mwisho.\n\nMatokeo yako yanapaswa kuwa mfuatano wa herufi wa mwisho baada ya kutumia sheria zote.\n\nBadilisha mfuatano huu wa herufi kulingana na orodha ya sheria hapo juu:\n{string}",
+  "rule_1": "Ikiwa mfuatano wa herufi unaanza na 'ab', ubadilishe na 'ca'.",
+  "rule_2": "Ikiwa mfuatano wa herufi unaishia na 'ac', ubadilishe na 'cb'.",
+  "rule_3": "Ikiwa mfuatano wa herufi unaanza na 'bc', futa herufi mbili za kwanza na ongeza 'aa' mwishoni.",
+  "rule_4": "Ikiwa mfuatano wa herufi unaishia na 'bb', futa herufi mbili za mwisho.",
+  "rule_5": "Ikiwa mfuatano wa herufi unaanza na 'cb', ubadilishe na 'aa' na ufute herufi ya mwisho.",
+  "rule_6": "Ikiwa mfuatano wa herufi unaanza na 'ca', ubadilishe na 'bb' na ongeza 'c' mwishoni.",
+  "rule_7": "Ikiwa mfuatano wa herufi unaishia na 'cc', ubadilishe na 'b' na ongeza 'a' mwanzoni.",
+  "rule_8": "Ikiwa mfuatano wa herufi unaanza na 'aa', ondoa herufi ya kwanza.",
+  "rule_9": "Ikiwa mfuatano wa herufi una 'abc', badilisha mtokezeo wa kwanza na 'cab'.",
+  "rule_10": "Ikiwa mfuatano wa herufi una 'bca', futa mtokezeo wa kwanza kabisa.",
+  "rule_11": "Ikiwa mfuatano wa herufi unaishia na 'ba', ubadilishe na 'ab'.",
+  "rule_12": "Ikiwa mfuatano wa herufi unaanza na 'cc', ondoa herufi mbili za kwanza.",
+  "rule_13": "Ikiwa mfuatano wa herufi una 'acb', badilisha mtokezeo wa kwanza na kinyume chake ('bca').",
+  "rule_14": "Ikiwa mfuatano wa herufi unaishia na 'ca', ondoa herufi ya mwisho.",
+  "rule_15": "Ikiwa mfuatano wa herufi unaanza na 'bb', ondoa herufi ya pili.",
+  "rule_16": "Ikiwa mfuatano wa herufi unaishia na 'aa', ubadilishe na 'cc'.",
+  "rule_17": "Ikiwa mfuatano wa herufi una 'ca' (si mwanzoni), ondoa mtokezeo wa kwanza unaoonekana baada ya herufi ya kwanza.",
+  "rule_18": "Ikiwa mfuatano wa herufi una idadi shufwa ya 'b' (na angalau 'b' moja), ongeza 'ab' mwishoni.",
+  "rule_19": "Ikiwa urefu wa mfuatano wa herufi ni zaidi ya 15, ondoa herufi ya katikati.",
+  "rule_20": "Ikiwa mfuatano wa herufi unaanza na 'ac', badilisha herufi mbili za kwanza na 'zz'."
+}

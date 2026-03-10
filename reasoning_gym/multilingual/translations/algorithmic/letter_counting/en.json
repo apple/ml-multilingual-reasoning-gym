@@ -1,0 +1,3 @@
+{
+    "question_template": "How many times does the letter \"{target_letter}\" appear in the text: \"{text}\"?"
+}

@@ -1,0 +1,5 @@
+{
+  "question_template": "给定两个字符串分别代表勒索信和杂志，如果可以使用杂志中的字母构造勒索信则返回{true_answer}，否则返回{false_answer}。\n\n杂志中的每个字母只能使用一次。\n\n勒索信：{ransom_note}\n杂志：{magazine}",
+  "true_answer": "真",
+  "false_answer": "假"
+}

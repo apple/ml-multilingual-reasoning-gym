@@ -1,0 +1,124 @@
+"""
+Copyright (C) 2026 Apple Inc. All Rights Reserved.
+"""
+
+"""Rotate a square matrix clockwise.
+
+A popular Leetcode problem:
+https://leetcode.com/problems/rotate-image/description/
+"""
+
+from copy import deepcopy
+from dataclasses import dataclass
+from random import Random
+from typing import Any, Optional
+
+from ..coaching import BaseCurriculum, RangeAttributeDefinition
+from ..factory import register_dataset
+from ..multilingual.base_classes import MultilingualProceduralDataset
+from ..config import DatasetConfig
+
+
+DATASET_NAME = "rotate_matrix"
+
+@dataclass
+class RotateMatrixConfig(DatasetConfig):
+    """Configuration for Rotate Matrix dataset generation"""
+
+    min_n: int = 2  # Minimum size of the matrix
+    max_n: int = 10  # Maximum size of the matrix
+    min_rotations: int = 0  # Minimum number of rotations
+    max_rotations: int = 10  # Maximum number of rotations (90 degrees each)
+    languages: list[str] | str = "en"
+    language_weights: Optional[list[float]] = None
+
+    def validate(self):
+        """Validate configuration parameters"""
+        assert 2 <= self.min_n <= self.max_n, "min_n and max_n must be between 2 and 10"
+        assert 0 <= self.min_rotations <= self.max_rotations, "min_rotations must be between 0 and max_rotations"
+
+class RotateMatrixDataset(MultilingualProceduralDataset):
+    """Generates Rotate Matrix exercises with configurable difficulty"""
+
+    def __init__(self, config: RotateMatrixConfig):
+        super().__init__(config=config, seed=config.seed, size=config.size)
+
+    def _get_matrix(self, rng: Random, n: int) -> list[list[int]]:
+        """Generate a random matrix"""
+        numbers = list(rng.randint(0, 9) for _ in range(n**2))
+        matrix = [numbers[i * n : (i + 1) * n] for i in range(n)]
+        return matrix
+
+    def _rot90(self, matrix: list[list[int]]) -> list[list[int]]:
+        """quarter clockwise rotation"""
+        return [list(row) for row in zip(*matrix[::-1])]
+
+    def _get_rotated(self, matrix: list[list[int]], num_rotations: int) -> list[list[int]]:
+        """Rotate the matrix K times by 90 degrees clockwise"""
+        num_rotations %= 4
+        output = deepcopy(matrix)
+        for _ in range(num_rotations):
+            output = self._rot90(output)
+        return output
+
+    def _matrix_to_str(self, matrix: list[list[int]]) -> str:
+        """Get a string representation of the matrix"""
+        return "\n".join(" ".join(str(x) for x in row) for row in matrix)
+
+    def _generate_item(self, idx: int, language: str) -> dict[str, Any]:
+        """Generate a single Rotate Matrix question in the specified language"""
+        rng = Random(self.seed + idx)
+
+        n = rng.randint(self.config.min_n, self.config.max_n)
+        matrix = self._get_matrix(rng, n)
+        num_rotations = rng.randint(self.config.min_rotations, self.config.max_rotations)
+        matrix_str = self._matrix_to_str(matrix)
+
+        answer = self._get_rotated(matrix, num_rotations)
+        answer_str = self._matrix_to_str(answer)
+
+        question = self._get_translation("question_template", language, 
+                                       matrix=matrix_str, degrees=num_rotations * 90)
+
+        return {
+            "question": question,
+            "answer": answer_str,
+            "metadata": {
+                "source_dataset": DATASET_NAME,
+                "source_index": idx,
+                "matrix": matrix,
+                "num_rotations": num_rotations,
+                "solution": answer,
+                "n": n,
+                "language": language,
+                "difficulty": {
+                    "n": (self.config.min_n, self.config.max_n),
+                    "num_rotations": (self.config.min_rotations, self.config.max_rotations),
+                },
+            },
+        }
+
+class RotateMatrixCurriculum(BaseCurriculum):
+    def __init__(self):
+        super().__init__(RotateMatrixCurriculum.__name__, RotateMatrixConfig)
+
+        # Define attributes
+        self._define_attributes(
+            RangeAttributeDefinition(
+                name="n",
+                levels=[10, 15, 20, 25, 30, 35],
+                description="Size of the square matrix",
+                lower_field_name="min_n",
+                upper_field_name="max_n",
+            ),
+            RangeAttributeDefinition(
+                name="num_rotations",
+                levels=[1, 5, 10, 15, 20],
+                description="Number of 90-degree rotations",
+                lower_field_name="min_rotations",
+                upper_field_name="max_rotations",
+                ensure_interval=True,
+            ),
+        )
+
+register_dataset(DATASET_NAME, RotateMatrixDataset, RotateMatrixConfig, RotateMatrixCurriculum)

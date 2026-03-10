@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "Wakati wa Tsumego. Nyeusi acheze na kuinasa mawe.\nTafuta mwendo muhimu.\n\n```\n{board_str}\n```\n\nX - Nyeusi\nO - Nyeupe\n\nEleza mwendo wako kwa kuratibu (mfano 'C4' kwa safu ya C, mstari wa 4)",
+  "prompt_template_2": "Nina tatizo la Go kwako. Nyeusi anacheza kifuatacho - unaweza kuinasa baadhi ya mawe meupe?\n\n```\n{board_str}\n```\n\nX - Nyeusi\nO - Nyeupe\n\nEleza mwendo wako kwa kuratibu (mfano 'C4' kwa safu ya C, mstari wa 4)",
+  "prompt_template_3": "Hapa kuna changamoto ya Go. Ukicheza kama Nyeusi, unawezaje kuinasa mawe meupe mengi kadri inavyowezekana?\n\n```\n{board_str}\n```\n\nX - Nyeusi\nO - Nyeupe\n\nEleza mwendo wako kwa kuratibu (mfano 'C4' kwa safu ya C, mstari wa 4)",
+  "board_legend": "X - Nyeusi\nO - Nyeupe\n\nEleza mwendo wako kwa kuratibu (mfano 'C4' kwa safu ya C, mstari wa 4)"
+}

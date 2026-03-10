@@ -1,0 +1,5 @@
+{
+  "question_template": "你的任务是从多个选项中选出{size}的数字。\n\n只需要输出选中的数字。\n\n请从以下候选项中选出{size}的数字：{numbers}",
+  "size_largest": "最大",
+  "size_smallest": "最小"
+}

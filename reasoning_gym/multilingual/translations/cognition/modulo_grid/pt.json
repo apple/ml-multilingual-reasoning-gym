@@ -1,0 +1,3 @@
+{
+  "question_template": "Identifique o padrão matemático que define esta grade, então use esse padrão para preencher os pontos de interrogação. Retorne toda a grade completa como sua resposta.\n\n{grid}"
+}

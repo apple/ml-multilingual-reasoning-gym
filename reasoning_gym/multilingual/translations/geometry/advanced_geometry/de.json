@@ -1,0 +1,9 @@
+{
+  "format_instructions": "Für alle Geometrieaufgaben:\n1. Gib Koordinaten in der Form (x, y) an\n2. Runde Dezimalantworten auf 3 Nachkommastellen\n3. Verwende das Gradsymbol ° für Winkel\n4. Gib nur den Winkel, die Koordinaten oder den Radius als Antwort zurück.",
+  "orthocenter_variant1": "Gegeben ist das Dreieck ABC mit den Koordinaten A={A}, B={B} und C={C}. Bestimme die Koordinaten seines Höhenschnittpunkts. {format_instructions}",
+  "orthocenter_variant2": "Für ein Dreieck mit den Eckpunkten A={A}, B={B} und C={C}, bestimme den Höhenschnittpunkt (Schnittpunkt der Höhen). {format_instructions}",
+  "incircle_radius_variant1": "Betrachte das Dreieck ABC mit den Koordinaten A={A}, B={B} und C={C}. Berechne den Radius seines Inkreises. {format_instructions}",
+  "incircle_radius_variant2": "Bestimme den Inkreisradius des Dreiecks ABC mit den Eckpunkten A={A}, B={B} und C={C}. {format_instructions}",
+  "angle_measure_variant1": "Im Dreieck ABC mit den Koordinaten A={A}, B={B} und C={C}, bestimme das Maß (in Grad) des Winkels ABC. {format_instructions}",
+  "angle_measure_variant2": "Gegeben ist ein Dreieck mit den Eckpunkten A={A}, B={B} und C={C}. Bestimme den Winkel bei B in Grad. {format_instructions}"
+}

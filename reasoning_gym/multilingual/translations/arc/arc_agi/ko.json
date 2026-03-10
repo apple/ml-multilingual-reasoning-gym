@@ -1,0 +1,4 @@
+{
+  "prompt_template": "아래 예제들이 주어져 있을 때, 입력 격자를 출력 격자로 변환하는 공통 규칙을 찾아라.\n\n{examples}아래는 테스트 입력 격자다. 찾은 규칙을 적용하여 해당하는 출력 격자를 예측하라.\n최종 답은 텍스트 출력 격자 자체여야 한다.\n\n입력:\n{input_grid}",
+  "example_format": "예제 {index}:\n\n입력:\n{input_board}\n출력:\n{output_board}\n\n"
+}

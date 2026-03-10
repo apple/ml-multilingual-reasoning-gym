@@ -1,0 +1,8 @@
+{
+  "puzzle_description": "あなたは警察官である。不審者が公共の噴水の隣に爆弾を仕掛けた。\n\n爆弾を解除するには、パズルを解かねばならない。利用可能な水差しのいずれかに目標の水量を入れるとパズルを解くことができる。\n\n3つの行動タイプがある：「{fill_action}」、「{empty_action}」、「{pour_action}」。\n\n水差しAを満たすには、「{fill_action} A」とする。\n水差しBを空にするには、「{empty_action} B」とする。\n水差しAの中身を水差しBに注ぐには、「{pour_action} A->B」とする。\n全ての水差しは最初は空である。\n\n空の水差しが保持できる水の量（リットル）：{cap_str}\n目標：{target}リットル。\n\n爆弾をどう解除するか？\n\nいずれかの水差しが目標の水量で満たされるような手順を、JSON解析可能なリストとして答えよ。",
+  "fill_action": "満たす",
+  "empty_action": "空にする",
+  "pour_action": "注ぐ",
+  "jug_separator": "、",
+  "capacity_separator": "："
+}

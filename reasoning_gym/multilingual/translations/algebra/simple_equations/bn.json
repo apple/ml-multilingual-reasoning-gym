@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "সমীকরণে {variable} এর মান বের করো: {equation}",
+  "prompt_template_2": "{variable} এর জন্য সমাধান করো: {equation}",
+  "prompt_template_3": "যে {variable} এর মান সমীকরণটি সন্তুষ্ট করে তা নির্ণয় করো: {equation}"
+}

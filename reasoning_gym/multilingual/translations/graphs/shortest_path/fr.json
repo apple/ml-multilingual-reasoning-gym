@@ -1,0 +1,4 @@
+{
+  "question_template": "Ta tâche consiste à trouver le chemin le plus court du point de départ à la destination dans une grille.\n\nLa grille est représentée comme une matrice avec les types de cellules suivants :\n- * : ton point de départ\n- # : ta destination\n- O : une cellule libre\n- X : une cellule bloquée\n\nPar conséquent, tu dois trouver le chemin le plus court de * à #, en ne te déplaçant que par les cellules libres.\n\nTu ne peux te déplacer que dans quatre directions : haut, bas, gauche et droite.\n\nS'il n'y a pas de chemin de * à #, écris simplement « {infeasible} » (sans guillemets).\n\nTa sortie doit être une séquence de directions fléchées qui mène de * à #, par exemple → → ↓ ↓ ↑ ←\n\nMaintenant, trouve le chemin le plus court de * à # dans la grille suivante :\n{grid}",
+  "infeasible": "infaisable"
+}

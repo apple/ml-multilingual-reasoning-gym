@@ -1,0 +1,7 @@
+{
+  "intro": "다음 암호산수를 풀어라:",
+  "unique_digit_rule": "각 문자는 서로 다른 숫자(0-9)를 나타낸다. ",
+  "leading_zero_allowed": "맨 앞 문자는 0이어도 된다.\n",
+  "leading_zero_not_allowed": "맨 앞 문자는 0이 될 수 없다.\n",
+  "output_format": "방정식을 만족하는 문자와 숫자의 대응관계를 쉼표로 구분하여 최종 답에서 제시하라. 출력 형식: 「A=1,B=2,C=3」 (인용부호 제외)\n"
+}

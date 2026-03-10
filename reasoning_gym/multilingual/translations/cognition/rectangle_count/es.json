@@ -1,0 +1,3 @@
+{
+  "question_template": "Tu tarea es contar cuántos rectángulos hay en una cuadrícula ASCII.\n\nLos rectángulos individuales están delimitados con «#», los rectángulos superpuestos (máximo 2) se muestran con «█».\n\nTu respuesta debe ser un solo número que represente el total de rectángulos.\n\nAhora es tu turno. ¿Cuántos rectángulos ves en la cuadrícula de abajo?\n{puzzle}"
+}

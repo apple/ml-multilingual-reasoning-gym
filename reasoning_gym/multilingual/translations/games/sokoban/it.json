@@ -1,0 +1,3 @@
+{
+  "instruction_text": "Risolverai un puzzle «sokoban».\n\n* - Il giocatore\n% - Il giocatore su un obiettivo\n@ - Una scatola\nX - Un obiettivo\n$ - Una scatola su un obiettivo\n+ - Un muro\n- - Una posizione vuota\n\nLa tua soluzione deve essere una stringa di frecce, es: ←↓↑→→↑↓←.\n\nEcco il tuo puzzle:\n"
+}

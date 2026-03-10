@@ -1,0 +1,3 @@
+{
+  "question_template": "Encontre a fatoração prima de {number}. Escreva os fatores separados por × (Exemplo: para 12 a resposta seria: 2 × 2 × 3)"
+}

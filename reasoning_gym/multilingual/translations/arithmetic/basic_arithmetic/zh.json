@@ -1,0 +1,7 @@
+{
+  "simple_question": "计算 {expression}。",
+  "question_what": "{expression} 等于多少？",
+  "question_solve": "求解 {expression}。",
+  "question_compute": "计算 {expression} 的值。",
+  "question_evaluate": "求：{expression}。"
+}

@@ -1,0 +1,3 @@
+{
+    "question_template": "Please provide a coloring for this graph such that every vertex is not connected to a vertex of the same color. The graph has these properties:\n\nVertices: {vertices}\nEdges: {edges}\nPossible colors: {color_options}\n\nReturn your solution as a JSON map of vertices to colors. (For example: {{\"0\": 1, \"1\": 2, \"2\": 3}}.)"
+}

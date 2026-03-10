@@ -1,0 +1,3 @@
+{
+  "question_template": "Um anagrama é uma palavra formada reorganizando as letras de uma palavra diferente, usando todas as letras originais exatamente uma vez.\n\nSua tarefa é agrupar os anagramas. Você pode retornar a resposta em qualquer ordem.\n\nA resposta é uma lista de listas de strings, onde cada lista externa contém um grupo de anagramas, por exemplo: [[\"eat\", \"tea\"], [\"tan\", \"nat\"]].\n\nAgrupe a seguinte lista de palavras em anagramas:\n{words}"
+}

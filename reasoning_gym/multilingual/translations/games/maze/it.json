@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Naviga da '{start_char}' (inizio) a '{goal_char}' (meta):\n\n```\n{maze_str}\n```\nLegenda: '{wall_char}' = Muro, '{path_char}' = Passaggio\n\nQual è il numero minimo di passi per raggiungere la meta?\nFornisci come risposta finale solo il numero minimo di passi, senza altro testo o formattazione."
+}

@@ -1,0 +1,3 @@
+{
+  "question_template": "Data una matrice quadrata, devi trovare la distanza di Manhattan dello 0 più vicino per ogni cella.\n\nL'output deve essere una matrice della stessa dimensione della matrice di input, dove ogni cella contiene la distanza allo 0 più vicino.\n\nTrova la distanza allo 0 più vicino per ogni cella nella matrice seguente:\n{matrix}"
+}

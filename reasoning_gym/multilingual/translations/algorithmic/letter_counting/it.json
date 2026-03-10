@@ -1,0 +1,3 @@
+{
+  "question_template": "Quante volte appare la lettera «{target_letter}» nel testo: «{text}»?"
+}

@@ -1,0 +1,3 @@
+{
+  "question_template": "Data una matrice quadrata, il tuo compito è ruotarla in senso orario.\n\nLa tua risposta deve essere una matrice nello stesso formato dell'input.\n\nRuota la matrice sottostante di {degrees} gradi in senso orario:\n{matrix}"
+}

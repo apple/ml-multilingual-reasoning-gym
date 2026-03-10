@@ -1,0 +1,3 @@
+{
+  "question_template": "Wie oft kommt der Buchstabe \"{target_letter}\" in folgendem Text vor: \"{text}\"?"
+}

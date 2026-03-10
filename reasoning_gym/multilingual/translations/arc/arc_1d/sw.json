@@ -1,0 +1,6 @@
+{
+  "example_header": "Mfano {number}:",
+  "input_label": "Ingizo: ",
+  "output_label": "Matokeo: ",
+  "question_template": "Pata kanuni ya pamoja inayoongoza jinsi gridi ya ingizo inavyobadilishwa kuwa gridi ya matokeo, ukitumia mifano iliyo hapa chini.\n\n{examples}\n\nHapa chini kuna gridi ya ingizo ya mtihani. Tabiri gridi ya matokeo kwa kutumia kanuni uliyoipata. Eleza jinsi ulivyopata kanuni hiyo na mchakato wako wa kufikiri kwa undani kabla ya kutoa jibu lako. Jibu lako la mwisho liwe gridi ya matokeo tu.\n\nIngizo:\n{test_input}"
+}

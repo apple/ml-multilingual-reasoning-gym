@@ -1,0 +1,3 @@
+{
+  "question_template": "Você recebe uma matriz n x n onde cada célula pode ter um de três valores:\n- 0 representando uma célula vazia\n- 1 representando uma laranja fresca\n- 2 representando uma laranja podre\n\nA cada minuto, qualquer laranja fresca que seja adjacente a uma laranja podre em uma das 4 direções se torna podre.\n\nSua tarefa é determinar o número mínimo de minutos que devem se passar até que nenhuma célula tenha uma laranja fresca.\nSe isso for impossível, retorne -1.\n\nAgora, determine o número mínimo de minutos que devem se passar até que nenhuma célula na matriz abaixo tenha uma laranja fresca:\n{matrix}"
+}

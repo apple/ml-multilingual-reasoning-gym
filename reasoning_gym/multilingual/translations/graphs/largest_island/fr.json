@@ -1,0 +1,3 @@
+{
+  "question_template": "On te donne la grille binaire {rows} x {cols} suivante :\n{grid}\n\nUne île est un groupe de 1 (représentant la terre) connecté selon les 4 directions (horizontale ou verticale).\nTu peux supposer que les quatre bords de la grille sont entourés d'eau.\n\nLa superficie d'une île est le nombre de cellules ayant la valeur 1 dans l'île.\n\nRenvoie la superficie maximale d'une île dans la grille. S'il n'y a pas d'île, renvoie 0."
+}

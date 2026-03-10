@@ -1,0 +1,7 @@
+{
+  "question_template_0": "{numbers}のすべての数を使って{target}になる式を作れ。\n各数は一度だけ使用できる。",
+  "question_template_1": "{numbers}のすべての数を使って{target}を作る方法を見つけよ。\n各数は一回のみ使用可能。",
+  "question_template_2": "{numbers}のすべての数を使って{target}になるように計算せよ。\n各数は最大一回まで使用可能。",
+  "format_template": "{question}\n\n最終解答の形式に関する指示：\n1. 算術式として解答を示せ（「=」記号は不要）。\n2. 式に目標とする数は含めない。\n3. 乗算には「*」を使え。\n4. 除算には「/」を使え。\n5. その他の文字や書式を含めるな。",
+  "list_separator": "、"
+}

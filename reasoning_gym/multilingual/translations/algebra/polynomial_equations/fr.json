@@ -1,0 +1,7 @@
+{
+  "prompt_template_1": "Trouve les valeurs réelles de {variable} dans l'équation : {polynomial_expanded} = 0",
+  "prompt_template_2": "Résous pour {variable} ∈ ℝ : {polynomial_expanded} = 0",
+  "prompt_template_3": "Détermine les valeurs réelles de {variable} telles que : {polynomial_expanded} = 0",
+  "prompt_template_4": "Résous l'équation polynomiale en {variable} ∈ ℝ :\n{polynomial_expanded} = 0",
+  "instruction_text": "\nEn résolvant les équations, suis ces instructions :\n1. Donne toutes les réponses sous forme de valeurs décimales séparées par des virgules. Par exemple : « -0.3773, 0.4005 »\n2. Pour les solutions qui peuvent être exprimées sous forme exacte (comme « u = 2 + sqrt(4560)/172 » et « u = 2 - sqrt(4560)/172 »), convertis-les sous forme décimale dans ta réponse finale.\n3. S'il n'y a aucune valeur réelle qui satisfait l'équation, laisse ta réponse vide : « »\n4. Présente ta réponse selon le nombre de solutions :\n   - Pour 1 solution : un seul nombre décimal\n   - Pour 2 solutions : deux nombres décimaux séparés par une virgule\n   - Pour 3 solutions ou plus : toutes les valeurs sous forme de nombres décimaux séparés par des virgules\n5. Arrondis toutes les valeurs décimales à 4 décimales (en arrondissant vers le haut quand la 5e décimale est 5 ou plus).\n"
+}

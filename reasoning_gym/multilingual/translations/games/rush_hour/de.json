@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Bewege das rote Auto (AA) zum Ausgang rechts.\nGib die Züge im Format an: 'F+1 K+1 M-1 C+3 H+2 ...'\nwobei der Buchstabe das Fahrzeug ist und die +/- Zahl die Anzahl der Felder zum Bewegen nach rechts/links oder runter/hoch.\nWände sind mit einem 'x' markiert. Autos können nicht durch Wände fahren und Wände können nicht bewegt werden.\nEin vertikal ausgerichtetes Auto kann nur hoch und runter fahren, ein horizontal ausgerichtetes Auto kann nur links und rechts fahren.\n\nSpielfeld:\n{board_display}"
+}

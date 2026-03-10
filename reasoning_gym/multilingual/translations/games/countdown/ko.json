@@ -1,0 +1,7 @@
+{
+  "question_template_0": "모든 수 {numbers}를 사용하여 {target}가 되는 식을 만들어라.\n각 수는 한 번씩만 사용할 수 있다.",
+  "question_template_1": "이 모든 수를 사용하여 {target}를 만들어라: {numbers}.\n각 수는 한 번씩만 사용할 수 있다.",
+  "question_template_2": "이 모든 수를 사용하여 {target}를 만들어라: {numbers}.\n각 수는 최대 한 번씩만 사용할 수 있다.",
+  "format_template": "{question}\n\n최종 답안 형식 지침:\n1. 산술 식으로 답을 제시하라 ('=' 기호 제외).\n2. 식에 목표 수를 포함하지 마라.\n3. 곱하기는 '*'를 사용하라.\n4. 나누기는 '/'를 사용하라.\n5. 다른 문자나 형식을 포함하지 마라.",
+  "list_separator": ", "
+}

@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "Найди значение {variable} в уравнении: {equation}",
+  "prompt_template_2": "Найди {variable}: {equation}",
+  "prompt_template_3": "Определи значение {variable}, которое удовлетворяет: {equation}"
+}

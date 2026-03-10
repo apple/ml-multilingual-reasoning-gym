@@ -1,0 +1,4 @@
+{
+  "prompt_template": "Pata sheria inayofanana inayobadilisha gridi ya pembejeo kuwa gridi ya matokeo, ukitumia mifano iliyotolewa hapa chini.\n\n{examples}Hii hapa chini ni gridi ya pembejeo ya jaribio. Tabiri gridi ya matokeo inayolingana kwa kutumia sheria uliyoipata.\nJibu lako la mwisho liwe tu gridi ya matokeo kama maandishi.\n\nPembejeo:\n{input_grid}",
+  "example_format": "Mfano {index}:\n\nPembejeo:\n{input_board}\nMatokeo:\n{output_board}\n\n"
+}

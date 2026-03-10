@@ -1,0 +1,6 @@
+{
+  "siblings_template_1": "{female_name} มีพี่น้องผู้ชาย {num_brothers} คน และมีพี่น้องผู้หญิง {num_sisters} คน พี่น้องผู้ชายของ {female_name} มีพี่น้องผู้หญิงกี่คน?",
+  "siblings_template_2": "{female_name} มีพี่น้องผู้หญิง {num_sisters} คน และมีพี่น้องผู้ชาย {num_brothers} คน พี่น้องผู้ชายของ {male_name} มีพี่น้องผู้หญิงกี่คน?",
+  "friends_template": "{female_name} มีเพื่อนผู้ชาย {num_male} คน และมีเพื่อนผู้หญิง {num_female} คน ทั้งหมดเป็นเพื่อนกันเองและไม่มีเพื่อนอื่นนอกกลุ่มนี้เลย {male_name} ที่เป็นหนึ่งในเพื่อนผู้ชายของ {female_name} มีเพื่อนผู้หญิงกี่คน?",
+  "colleagues_template": "{female_name} มีเพื่อนร่วมงานผู้ชาย {num_male_colleagues_alice_circle} คน และเพื่อนร่วมงานผู้หญิง {num_female_colleagues_alice_circle} คน ซึ่งเป็นเพื่อนร่วมงานทั้งหมดของ {female_name} คนเหล่านี้ทุกคนเป็นเพื่อนร่วมงานกัน ส่วน {male_name} มีเพื่อนร่วมงานผู้ชาย {num_male_colleagues_bob_circle} คน และเพื่อนร่วมงานผู้หญิง {num_female_colleagues_bob_circle} คน รวมทั้งหมด คนในกลุ่มของ {male_name} ทุกคนก็เป็นเพื่อนร่วมงานกัน คนในกลุ่มของ {male_name} ไม่มีเพื่อนร่วมงานอื่นนอกกลุ่มนี้เลย ยกเว้น Matilda ที่เป็นเพื่อนร่วมงานของ {male_name} และยังเป็นเพื่อนร่วมงานของ {female_name} ด้วย โดยอยู่ในกลุ่มของ {female_name} Matilda มีเพื่อนร่วมงานผู้หญิงกี่คน?"
+}

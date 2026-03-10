@@ -1,0 +1,7 @@
+{
+  "question_template": "এই তালিকা থেকে {filter_value} এর চেয়ে {comparison} সব সংখ্যা {action}: {numbers_list}\nনতুন তালিকাটি একই ফরম্যাটে ফেরত করো।",
+  "action_keep": "রাখো",
+  "action_remove": "সরাও",
+  "comparison_larger": "বড়",
+  "comparison_smaller": "ছোট"
+}

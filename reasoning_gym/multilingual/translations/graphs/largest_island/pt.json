@@ -1,0 +1,3 @@
+{
+  "question_template": "Você recebe a seguinte matriz binária {rows} x {cols}:\n{grid}\n\nUma ilha é um grupo de 1's (representando terra) conectados nas 4 direções (horizontal ou vertical).\nVocê pode assumir que todas as quatro bordas da matriz estão rodeadas por água.\n\nA área de uma ilha é o número de células com valor 1 na ilha.\n\nRetorne a área máxima de uma ilha na matriz. Se não houver ilha, retorne 0."
+}

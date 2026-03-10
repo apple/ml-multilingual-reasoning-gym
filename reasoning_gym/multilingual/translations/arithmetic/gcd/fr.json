@@ -1,0 +1,4 @@
+{
+  "question_template": "Trouve le Plus Grand Commun Diviseur (PGCD) de ces nombres : {numbers_str}. Donne seulement le PGCD comme réponse finale.",
+  "numbers_separator": ", "
+}

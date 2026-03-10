@@ -1,0 +1,9 @@
+{
+  "circuit_intro": "Ниже представлена случайно сгенерированная логическая схема.\n",
+  "legend_title": "Обозначения логических элементов:",
+  "negate_symbol": "{symbol}: Инверсия",
+  "input_assignments": "Даны следующие входные значения:",
+  "assignment_format": "  {input} = {value}",
+  "output_question": "Каков выходной сигнал?",
+  "colon": ": "
+}

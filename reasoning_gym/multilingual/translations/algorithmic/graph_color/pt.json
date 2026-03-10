@@ -1,0 +1,3 @@
+{
+  "question_template": "Forneça uma coloração para este grafo de modo que nenhum vértice esteja conectado a um vértice da mesma cor. O grafo tem as seguintes propriedades:\n\nVértices: {vertices}\nArestas: {edges}\nCores possíveis: {color_options}\n\nRetorne sua solução como um mapa JSON de vértices para cores. (Por exemplo: {{\"0\": 1, \"1\": 2, \"2\": 3}}.)"
+}

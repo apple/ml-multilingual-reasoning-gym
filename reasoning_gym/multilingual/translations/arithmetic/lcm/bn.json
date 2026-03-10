@@ -1,0 +1,4 @@
+{
+  "question_template": "এই সংখ্যাগুলোর লসাগু (LCM) বের করো: {numbers}",
+  "numbers_separator": ", "
+}

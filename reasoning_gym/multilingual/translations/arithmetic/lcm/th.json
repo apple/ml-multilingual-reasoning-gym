@@ -1,0 +1,4 @@
+{
+  "question_template": "หาตัวคูณร่วมน้อย (LCM) ของจำนวนเหล่านี้: {numbers}",
+  "numbers_separator": ", "
+}

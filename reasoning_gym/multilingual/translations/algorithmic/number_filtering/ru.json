@@ -1,0 +1,7 @@
+{
+  "question_template": "{action} все числа {comparison} {filter_value} в этом списке: {numbers_list}\nВыведи новый список в том же формате.",
+  "action_keep": "ОСТАВЬ",
+  "action_remove": "УДАЛИ",
+  "comparison_larger": "больше",
+  "comparison_smaller": "меньше"
+}

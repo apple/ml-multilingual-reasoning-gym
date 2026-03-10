@@ -1,0 +1,3 @@
+{
+    "question_template": "Your task is to compute an exponentiation of a number.\n\nCompute {base}^{exponent}. Return your final answer correct to 3 significant figures.\nProvide your answer in scientific notation using 'e' notation (e.g., 1.23e+4)."
+}

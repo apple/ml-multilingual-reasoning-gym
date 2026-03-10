@@ -1,0 +1,9 @@
+{
+    "format_instructions": "For all geometry problems:\n1. Give coordinates in the form (x, y)\n2. Round decimal answers to 3 decimal places\n3. Use the degree symbol ° for angles\n4. Return only the angle, coordinates, or radius as your answer.",
+    "orthocenter_variant1": "Given triangle ABC with coordinates A={A}, B={B}, and C={C}, find the coordinates of its orthocenter. {format_instructions}",
+    "orthocenter_variant2": "For triangle with vertices A={A}, B={B}, and C={C}, determine the orthocenter (intersection of altitudes). {format_instructions}",
+    "incircle_radius_variant1": "Consider triangle ABC with coordinates A={A}, B={B}, and C={C}. Compute the radius of its incircle. {format_instructions}",
+    "incircle_radius_variant2": "Find the incircle radius of triangle ABC whose vertices are A={A}, B={B}, and C={C}. {format_instructions}",
+    "angle_measure_variant1": "In triangle ABC with coordinates A={A}, B={B}, and C={C}, find the measure (in degrees) of angle ABC. {format_instructions}",
+    "angle_measure_variant2": "Given a triangle with vertices A={A}, B={B}, and C={C}, determine the angle at B in degrees. {format_instructions}"
+}

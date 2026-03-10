@@ -1,0 +1,6 @@
+{
+  "prompt_template_0": "Pata integral ya: ∫ {integrand} dx",
+  "prompt_template_1": "Hesabu integral ya: ∫ {integrand} dx",
+  "prompt_template_2": "Tathmini integral ya: ∫ {integrand} dx",
+  "added_instruction": "\nUnapofanya mahesabu, fuata maagizo haya:\nTumia alama za vigeuzi kama zilivyotolewa katika swali\n1. Tumia ** badala ya ^ kuwakilisha exponents. Kwa mfano, andika 7*X**2 badala ya 7*X^2.\n2. Daima jumuisha alama ya * kwa operesheni zote za kuzidisha katika hatua zako za mahesabu. Kwa mfano, andika `-3*X**3*sin(X) - 9*X**2*cos(X) + 18*X*sin(X) + 18*cos(X) + C` badala ya `-3x3sin(x) - 9x2cos(x) + 18xsin(x) + 18cos(x) + C`.\n3. Tumia `exp(x)` au `E**(x)` kwa exponential function (yaani tumia herufi kubwa E kwa nambari ya Euler).\n"
+}

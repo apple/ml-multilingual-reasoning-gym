@@ -1,0 +1,5 @@
+{
+  "prompt_template": "Duas strings são isomórficas se os caracteres de uma string podem ser substituídos para obter a segunda string.\n\nTodas as ocorrências de um caractere devem ser substituídas por outro caractere, preservando a ordem dos caracteres.\n\nDois caracteres distintos não podem ser mapeados para o mesmo caractere, mas um caractere pode ser mapeado para si mesmo.\n\nRetorne {true_answer} se as duas strings a seguir forem isomórficas, ou {false_answer} caso contrário:\n{strings}",
+  "true_answer": "Verdadeiro",
+  "false_answer": "Falso"
+}

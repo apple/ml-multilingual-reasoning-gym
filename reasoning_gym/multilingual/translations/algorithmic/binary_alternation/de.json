@@ -1,0 +1,3 @@
+{
+  "question_template": "Gegeben sei ein Binärstring. Bestimme die minimale Anzahl von Vertauschungen, um ihn alternierend zu machen, oder -1, falls es unmöglich ist.\n\nEin String heißt alternierend, wenn keine zwei benachbarten Zeichen gleich sind. Zum Beispiel sind die Strings \"010\" und \"1010\" alternierend, während der String \"0100\" nicht alternierend ist.\n\nBeliebige zwei Zeichen können vertauscht werden, auch wenn sie nicht benachbart sind.\n\nBestimme nun die minimale Anzahl von Vertauschungen, um den folgenden Binärstring alternierend zu machen: {string}"
+}

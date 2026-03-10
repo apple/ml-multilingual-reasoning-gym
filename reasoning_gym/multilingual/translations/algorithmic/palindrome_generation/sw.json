@@ -1,0 +1,4 @@
+{
+  "question_template": "Kazi yako ni, ukiwa umepewa orodha ya herufi, kuunda palindromu halali.\n\nPalindromu ni neno ambalo linasomwa vivyo hivyo kutoka mwanzo hadi mwisho na kutoka mwisho hadi mwanzo.\n\nKama kuna majibu kadhaa yanayowezekana, toa jibu moja tu. Lazima utumie herufi zote ulizopewa.\n\nJibu lako liwe ni mfuatano wa herufi, bila nafasi au alama za uandishi.\n\nSasa, unda palindromu halali kwa kutumia herufi zifuatazo: {letters}",
+  "letters_separator": ", "
+}

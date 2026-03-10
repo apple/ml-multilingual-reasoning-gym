@@ -1,0 +1,3 @@
+{
+    "question_template": "Given a square matrix, your job is to find the taxicab (Manhattan) distance of the nearest 0 for each cell.\n\nThe output should be a matrix of the same size as the input matrix, where each cell contains the distance to the nearest 0.\n\nFind the distance to the nearest 0 for each cell in the matrix below:\n{matrix}"
+}

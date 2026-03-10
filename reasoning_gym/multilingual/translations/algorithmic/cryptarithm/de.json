@@ -1,0 +1,7 @@
+{
+  "intro": "Löse diese Kryptarithmetik:",
+  "unique_digit_rule": "Jeder Buchstabe steht für eine eindeutige Ziffer (0-9). ",
+  "leading_zero_allowed": "Führende Buchstaben dürfen null sein.\n",
+  "leading_zero_not_allowed": "Kein führender Buchstabe darf null sein.\n",
+  "output_format": "Gib eine kommagetrennte Zuordnung von Buchstaben zu Ziffern an, die die Gleichung erfüllt. Ausgabeformat: \"A=1,B=2,C=3\" (ohne Anführungszeichen)\n"
+}

@@ -1,0 +1,3 @@
+{
+  "question_template": "Das folgende Emoji ist mit einem Satz codiert.\n\nDecodiere den folgenden **englischen** Satz aus dem Emoji: {sentence}\n\nHier ist ein Hinweis:\n{hint_function}\n\nGib den geheimen **englischen** Satz als deine finale Antwort zurück."
+}

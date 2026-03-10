@@ -1,0 +1,5 @@
+{
+  "question_template": "Kazi yako ni kupanga maneno ya **Kiingereza** kwa mpangilio wa {direction} ukitumia mpangilio wa ASCII/Unicode.\n\nJibu lako liwe orodha ya maneno yaliyotenganishwa kwa koma, kwa mfano: neno_1, neno_2, neno_3\n\nSasa, panga maneno haya ya **Kiingereza** kwa mpangilio wa {direction} (ukitumia mpangilio wa ASCII/Unicode) na uyaandike kama orodha iliyotenganishwa kwa koma: {words}",
+  "ascending": "kupanda",
+  "descending": "kushuka"
+}

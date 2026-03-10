@@ -1,0 +1,23 @@
+{
+  "question_template": "Tu tarea es transformar repetidamente una cadena según un conjunto de reglas hasta que no se puedan realizar más transformaciones, o se repita un estado.\n\nEvalúa las siguientes reglas en orden, y aplica la primera regla aplicable a la cadena:\n{rules}\n\nUna vez que hayas aplicado una regla, repite el proceso con la nueva cadena hasta que no se puedan realizar más transformaciones «es decir, la cadena no cambia», o se repita un estado.\nSi se repite un estado, el proceso termina, y el estado repetido se descarta «es decir, no se considera como la respuesta final» y el estado anterior al estado repetido se considera como la respuesta final.\n\nTu salida debe ser la cadena final transformada después de aplicar todas las reglas.\n\nTransforma la siguiente cadena según la lista de reglas anterior:\n{string}",
+  "rule_1": "Si el prefijo de la cadena es 'ab', reemplázalo con 'ca'.",
+  "rule_2": "Si el sufijo de la cadena es 'ac', reemplázalo con 'cb'.",
+  "rule_3": "Si el prefijo de la cadena es 'bc', elimina los primeros dos caracteres y agrega 'aa' al final.",
+  "rule_4": "Si el sufijo de la cadena es 'bb', elimina los últimos dos caracteres.",
+  "rule_5": "Si el prefijo de la cadena es 'cb', reemplázalo con 'aa' y elimina el último carácter.",
+  "rule_6": "Si el prefijo de la cadena es 'ca', reemplázalo con 'bb' y agrega 'c' al final.",
+  "rule_7": "Si el sufijo de la cadena es 'cc', reemplázalo con 'b' y agrega 'a' al inicio.",
+  "rule_8": "Si el prefijo de la cadena es 'aa', quita el primer carácter.",
+  "rule_9": "Si la cadena contiene 'abc', reemplaza la primera aparición con 'cab'.",
+  "rule_10": "Si la cadena contiene 'bca', elimina completamente la primera aparición.",
+  "rule_11": "Si la cadena termina con 'ba', reemplázalo con 'ab'.",
+  "rule_12": "Si la cadena comienza con 'cc', quita los primeros dos caracteres.",
+  "rule_13": "Si la cadena contiene 'acb', reemplaza la primera aparición con su reverso ('bca').",
+  "rule_14": "Si la cadena termina con 'ca', quita el último carácter.",
+  "rule_15": "Si la cadena comienza con 'bb', quita el segundo carácter.",
+  "rule_16": "Si la cadena termina con 'aa', reemplázalo con 'cc'.",
+  "rule_17": "Si la cadena contiene 'ca' (no al inicio), quita la primera aparición encontrada después del primer carácter.",
+  "rule_18": "Si la cadena contiene un número par de 'b's (y al menos una 'b'), agrega 'ab' al final.",
+  "rule_19": "Si la longitud de la cadena es mayor que 15, quita el carácter del medio.",
+  "rule_20": "Si la cadena comienza con 'ac', reemplaza los primeros dos caracteres con 'zz'."
+}

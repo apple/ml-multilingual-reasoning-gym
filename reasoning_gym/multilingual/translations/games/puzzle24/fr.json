@@ -1,0 +1,4 @@
+{
+  "question_template": "Obtiens 24 en utilisant {numbers}. Tu ne peux utiliser chaque nombre qu'une seule fois. Tu peux utiliser les opérateurs {operators}.\nInstructions de format pour la réponse finale :\n1. Donne ta réponse finale sous forme d'expression arithmétique (sans le signe « = »).\n2. N'inclus pas le nombre cible dans l'expression.\n3. Utilise « * » pour la multiplication.\n4. Utilise « / » pour la division.",
+  "separator": ", "
+}

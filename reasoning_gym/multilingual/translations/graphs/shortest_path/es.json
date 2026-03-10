@@ -1,0 +1,4 @@
+{
+  "question_template": "Tu tarea es encontrar el camino más corto desde el punto de inicio hasta el punto de destino en una cuadrícula.\n\nLa cuadrícula se representa como una matriz con los siguientes tipos de celdas:\n- *: tu punto de inicio\n- #: tu punto de destino\n- O: una celda abierta\n- X: una celda bloqueada\n\nPor lo tanto, necesitas encontrar el camino más corto desde * hasta #, moviéndote solo a través de celdas abiertas.\n\nSolo puedes moverte en cuatro direcciones: arriba, abajo, izquierda y derecha.\n\nSi no hay camino desde * hasta #, simplemente escribe «{infeasible}» (sin comillas).\n\nTu respuesta debe ser una secuencia de direcciones con flechas que lleve desde * hasta #, por ejemplo → → ↓ ↓ ↑ ←\n\nAhora, encuentra el camino más corto desde * hasta # en la siguiente cuadrícula:\n{grid}",
+  "infeasible": "imposible"
+}

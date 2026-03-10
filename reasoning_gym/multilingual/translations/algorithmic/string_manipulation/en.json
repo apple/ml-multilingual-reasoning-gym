@@ -1,0 +1,23 @@
+{
+    "question_template": "Your job is to repeatedly transform a string according to a set of rules until no further transformations can be performed, or a state is repeated.\n\nEvaluate the following rules in order, and apply the first applicable rule to the string:\n{rules}\n\nOnce you have applied a rule, repeat the process with the new string until no further transformations can be performed (i.e. the string doesn't change), or a state is repeated.\nIf a state is repeated, the process is terminated, and the repeated state is discarded (i.e. is not considered as the final answer) and the state before the repeated state is considered as the final answer.\n\nYour output should be the final transformed string after applying all the rules.\n\nTransform the following string according to the above list of rules:\n{string}",
+    "rule_1": "If the string prefix is 'ab', replace it with 'ca'.",
+    "rule_2": "If the string suffix is 'ac', replace it with 'cb'.",
+    "rule_3": "If the string prefix is 'bc', delete the first two characters and append 'aa' to the end.",
+    "rule_4": "If the string suffix is 'bb', delete the last two characters.",
+    "rule_5": "If the string prefix is 'cb', replace it with 'aa' and delete the last character.",
+    "rule_6": "If the string prefix is 'ca', replace it with 'bb' and append 'c' to the end.",
+    "rule_7": "If the string suffix is 'cc', replace it with 'b' and prepend 'a' to the start.",
+    "rule_8": "If the string prefix is 'aa', remove the first character.",
+    "rule_9": "If the string contains 'abc', replace the first occurrence with 'cab'.",
+    "rule_10": "If the string contains 'bca', delete the first occurrence entirely.",
+    "rule_11": "If the string ends with 'ba', replace it with 'ab'.",
+    "rule_12": "If the string starts with 'cc', remove the first two characters.",
+    "rule_13": "If the string contains 'acb', replace the first occurrence with its reverse ('bca').",
+    "rule_14": "If the string ends with 'ca', remove the last character.",
+    "rule_15": "If the string starts with 'bb', remove the second character.",
+    "rule_16": "If the string ends with 'aa', replace it with 'cc'.",
+    "rule_17": "If the string contains 'ca' (not at the start), remove the first occurrence found after the first character.",
+    "rule_18": "If the string contains an even number of 'b's (and at least one 'b'), append 'ab' at the end.",
+    "rule_19": "If the string length is greater than 15, remove the middle character.",
+    "rule_20": "If the string starts with 'ac', replace the first two characters with 'zz'."
+}

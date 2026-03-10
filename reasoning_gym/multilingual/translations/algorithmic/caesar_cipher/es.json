@@ -1,0 +1,3 @@
+{
+  "question_template": "Descifra este texto de cifrado César en **inglés**: {cipher_text}. Proporciona solo el texto descifrado como tu respuesta final."
+}

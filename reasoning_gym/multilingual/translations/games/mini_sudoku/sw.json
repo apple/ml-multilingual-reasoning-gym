@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Katika Mini Sudoku ya 4x4:\n• Kila mstari lazima uwe na kila nambari kutoka 1-4 mara moja tu\n• Kila safu wima lazima iwe na kila nambari 1-4 mara moja tu\n• Kila gridi ndogo ya 2x2 lazima iwe na kila nambari 1-4 mara moja tu\n\nTatua fumbo hili la Mini Sudoku la 4x4:\n{puzzle}\n\nPanga jibu lako kama fumbo hapo juu, ukitumia nafasi kutenga kila nambari ndani ya mstari, na mistari mipya kutenga mistari."
+}

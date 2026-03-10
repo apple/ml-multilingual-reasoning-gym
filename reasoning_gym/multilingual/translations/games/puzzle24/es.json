@@ -1,0 +1,4 @@
+{
+  "question_template": "Forma 24 utilizando {numbers}. Solo puedes usar cada número una vez. Puedes usar los operadores {operators}.\nInstrucciones para el formato de la respuesta final:\n1. Proporciona tu respuesta final como una expresión aritmética (sin el signo «=»).\n2. No incluyas el número objetivo en la expresión.\n3. Usa «*» para la multiplicación.\n4. Usa «/» para la división.",
+  "separator": ", "
+}

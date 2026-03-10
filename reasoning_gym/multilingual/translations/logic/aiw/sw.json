@@ -1,0 +1,6 @@
+{
+  "siblings_template_1": "{female_name} ana kaka {num_brothers} na pia ana dada {num_sisters}. Je, kaka wa {female_name} ana dada wangapi?",
+  "siblings_template_2": "{female_name} ana dada {num_sisters} na pia ana kaka {num_brothers}. Je, kaka wa {male_name} ana dada wangapi?",
+  "friends_template": "{female_name} ana marafiki wa kiume {num_male} na pia ana marafiki wa kike {num_female}. Wote ni marafiki wa kila mmoja wao na hawana marafiki wengine zaidi ya hao. Je, {male_name}, rafiki wa kiume wa {female_name}, ana marafiki wa kike wangapi?",
+  "colleagues_template": "{female_name} ana wenzake wa kiume kazini {num_male_colleagues_alice_circle} na pia ana wenzake wa kike kazini {num_female_colleagues_alice_circle}. Hawa ndio wenzake wote wa {female_name} kazini. Watu wote hawa waliozungumzwa kuhusu {female_name} ni wenza wa kila mmoja wao kazini. {male_name} ana wenzake wa kiume kazini {num_male_colleagues_bob_circle} na wenzake wa kike kazini {num_female_colleagues_bob_circle} jumla. Watu wote hawa waliozungumzwa kuhusu {male_name} ni wenza wa kila mmoja wao kazini. Watu katika mzunguko wa {male_name} hawana wenza wengine kazini - isipokuwa Matilda tu. Yeye ni mwenza wa {male_name} kazini na pia ni mwenza wa {female_name} kazini, akiwa sehemu ya mzunguko wa {female_name}. Je, Matilda ana wenzake wa kike kazini wangapi?"
+}

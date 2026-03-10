@@ -1,0 +1,3 @@
+{
+  "question_template": "Proporciona una coloración para este grafo de tal manera que ningún vértice adyacente comparta color. El grafo tiene estas propiedades:\n\nVértices: {vertices}\nAristas: {edges}\nColores posibles: {color_options}\n\nProporciona tu solución como un mapa JSON de vértices a colores. (Por ejemplo: {{\"0\": 1, \"1\": 2, \"2\": 3}}.)"
+}

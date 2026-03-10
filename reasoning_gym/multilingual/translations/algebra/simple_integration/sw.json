@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "Pata integrali isiyo na mipaka: ∫ {integrand} dx",
+  "prompt_template_2": "Hesabu integrali: ∫ {integrand} dx",
+  "prompt_template_3": "Tathmini integrali isiyo na mipaka: ∫ {integrand} dx",
+  "calculation_instructions": "\nWakati wa kufanya mahesabu, fuata miongozo hii:\n1. Tumia ** badala ya ^ kuonyesha kielelezo (exponents). Kwa mfano, andika 7*X**2 badala ya 7*X^2.\n2. Daima jumuisha alama ya * kwa shughuli zote za kuzidisha katika hatua zako za mahesabu. Kwa mfano, andika `-3*X**3*sin(X) - 9*X**2*cos(X) + 18*X*sin(X) + 18*cos(X) + C` badala ya `-3x3sin(x) - 9x2cos(x) + 18xsin(x) + 18cos(x) + C`.\n"
+}

@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Löse das folgende {board_size}x{board_size} Futoshiki-Puzzle:\n\n{puzzle_str}\n\nAchte darauf, dass deine Antwort das gleiche Format wie das obige Puzzle hat und ersetze nur die Unterstriche (_) durch die korrekten Werte.\nVerwende < und > für horizontale Bedingungen. Verwende ∧ und ∨ für vertikale Bedingungen.\nDenke daran, dass bei Futoshiki jede Zeile und jede Spalte jede Zahl von 1 bis {board_size} genau einmal enthalten muss."
+}

@@ -1,0 +1,5 @@
+{
+  "question_template": "Il tuo compito è eseguire il pooling massimo/medio sulla matrice fornita.\nIl passo è uguale alla dimensione del kernel, il che significa che non c'è sovrapposizione tra le regioni di pooling.\n\nIl tuo output deve essere una matrice nello stesso formato della matrice di input.\nLa matrice di output è più piccola della matrice di input quando la dimensione del kernel è maggiore di 1, e i suoi elementi possono essere numeri in virgola mobile.\nRiporta gli elementi della matrice di output con 2 cifre decimali.\n\nEsegui il pooling {pool_type} sulla seguente matrice con dimensione del kernel {pool_size}:\n{matrix}",
+  "pool_type_max": "massimo",
+  "pool_type_average": "medio"
+}

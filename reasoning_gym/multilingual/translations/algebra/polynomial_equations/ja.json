@@ -1,0 +1,7 @@
+{
+  "prompt_template_1": "方程式 {polynomial_expanded} = 0 における {variable} の実数値を求めよ",
+  "prompt_template_2": "実数 {variable} について解け：{polynomial_expanded} = 0",
+  "prompt_template_3": "{polynomial_expanded} = 0 を満たす {variable} の実数値を求めよ",
+  "prompt_template_4": "実数 {variable} について多項式方程式を解け：\n{polynomial_expanded} = 0",
+  "instruction_text": "\n方程式を解く際は、以下の指示に従え：\n1. すべての解答をカンマ区切りの小数値として示せ。例：\"-0.3773, 0.4005\"\n2. 厳密形で表現できる解（例：「u = 2 + sqrt(4560)/172」と「u = 2 - sqrt(4560)/172」）については、最終解答で小数形式に直せ。\n3. 方程式を満たす実数値が存在しない場合は、解答を空の文字列として報告せよ：\"\"\n4. 以下のような形式で解答せよ：\n   ・ 解が1つの場合：単一の小数\n   ・ 解が2つの場合：2つの小数をカンマで区切る\n   ・ 解が3つ以上の場合：すべての値をカンマで区切る\n5. すべての小数値を小数点以下4桁に丸めよ（小数点第5位が5以上の場合は切り上げ）。\n"
+}

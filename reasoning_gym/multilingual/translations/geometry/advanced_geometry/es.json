@@ -1,0 +1,9 @@
+{
+  "format_instructions": "Para todos los problemas de geometría:\n1. Da las coordenadas en la forma (x, y)\n2. Redondea las respuestas decimales a 3 lugares decimales\n3. Usa el símbolo de grado ° para los ángulos\n4. Proporciona únicamente el ángulo, las coordenadas, o el radio como tu respuesta.",
+  "orthocenter_variant1": "Dado el triángulo ABC con coordenadas A={A}, B={B}, y C={C}, encuentra las coordenadas de su ortocentro. {format_instructions}",
+  "orthocenter_variant2": "Para el triángulo con vértices A={A}, B={B}, y C={C}, determina el ortocentro (intersección de las alturas). {format_instructions}",
+  "incircle_radius_variant1": "Considera el triángulo ABC con coordenadas A={A}, B={B}, y C={C}. Calcula el radio de su incírculo. {format_instructions}",
+  "incircle_radius_variant2": "Encuentra el radio del incírculo del triángulo ABC cuyos vértices son A={A}, B={B}, y C={C}. {format_instructions}",
+  "angle_measure_variant1": "En el triángulo ABC con coordenadas A={A}, B={B}, y C={C}, encuentra la medida (en grados) del ángulo ABC. {format_instructions}",
+  "angle_measure_variant2": "Dado un triángulo con vértices A={A}, B={B}, y C={C}, determina el ángulo en B en grados. {format_instructions}"
+}

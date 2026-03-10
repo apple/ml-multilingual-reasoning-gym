@@ -1,0 +1,5 @@
+{
+  "question_template": "Kazi yako ni kuchagua nambari {size} kutoka kwa chaguo la nambari kadhaa.\n\nJibu lako liwe ni nambari hiyo tu.\n\nSasa, chagua nambari {size} kutoka kwa wagombeaji hawa: {numbers}",
+  "size_largest": "kubwa zaidi",
+  "size_smallest": "ndogo zaidi"
+}

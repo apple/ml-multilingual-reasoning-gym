@@ -1,0 +1,13 @@
+{
+  "question_template": "เมทริกซ์ที่ให้มา:\n{matrix}\n\nทำตามขั้นตอนดังต่อไปนี้:\n• การแปลงเอกลักษณ์ คือไม่เปลี่ยนแปลงใดๆ\n{operations}",
+  "rotate_instruction": "• หมุนเมทริกซ์ {degrees} องศา",
+  "hmirror_instruction": "• พลิกเมทริกซ์ในแนวนอน",
+  "vmirror_instruction": "• พลิกเมทริกซ์ในแนวตั้ง",
+  "dmirror_instruction": "• พลิกเมทริกซ์ตามแนวทแยงหลัก",
+  "cmirror_instruction": "• พลิกเมทริกซ์ตามแนวทแยงรอง",
+  "map_instruction": "• แปลงค่า {a} ทั้งหมดเป็น {b}",
+  "zero_divisible_instruction": "• กำหนดให้องค์ประกอบทั้งหมดที่หารด้วย {k} ลงตัวเป็นศูนย์",
+  "crop_instruction": "• ครอบตัดเมทริกซ์ให้เหลือแถวที่ {row_start}-{row_end} และคอลัมน์ที่ {col_start}-{col_end} (เริ่มนับจาก 1)",
+  "remove_nth_row_instruction": "• ลบทุกแถวลำดับที่ {n} (เริ่มนับจาก 1)",
+  "remove_nth_col_instruction": "• ลบทุกคอลัมน์ลำดับที่ {n} (เริ่มนับจาก 1)"
+}

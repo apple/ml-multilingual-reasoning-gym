@@ -1,0 +1,7 @@
+{
+  "question_template": "이 목록에서 {filter_value}{comparison} 모든 수를 {action}: {numbers_list}\n같은 형식으로 새 목록을 반환하라.",
+  "action_keep": "남겨라",
+  "action_remove": "제거하라",
+  "comparison_larger": "보다 큰",
+  "comparison_smaller": "보다 작은"
+}

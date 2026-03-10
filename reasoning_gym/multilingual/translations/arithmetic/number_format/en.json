@@ -1,0 +1,5 @@
+{
+    "question_template": "Your task is to pick the {size} number out of several options.\n\nYour output should be only the number of interest.\n\nNow, pick the {size} number of the following candidates: {numbers}",
+    "size_largest": "largest",
+    "size_smallest": "smallest"
+}

@@ -1,0 +1,5 @@
+{
+  "prompt_template": "Dos cadenas son isomórficas si los caracteres de una cadena pueden reemplazarse para obtener la segunda cadena.\n\nTodas las ocurrencias de un carácter deben reemplazarse con otro carácter manteniendo el orden de los caracteres.\n\nDos caracteres diferentes no pueden mapearse al mismo carácter, pero un carácter puede mapearse a sí mismo.\n\nResponde {true_answer} si las siguientes dos cadenas son isomórficas, o {false_answer} en caso contrario:\n{strings}",
+  "true_answer": "Verdadero",
+  "false_answer": "Falso"
+}

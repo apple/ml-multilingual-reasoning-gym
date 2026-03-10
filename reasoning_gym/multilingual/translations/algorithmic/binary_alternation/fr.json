@@ -1,0 +1,3 @@
+{
+  "question_template": "Détermine le nombre minimum d'échanges de caractères nécessaires pour rendre alternée une chaîne binaire, ou -1 si c'est impossible.\n\nUne chaîne est dite alternée si aucun caractère adjacent n'est identique. Par exemple, les chaînes « 010 » et « 1010 » sont alternées, tandis que la chaîne « 0100 » ne l'est pas.\n\nDeux caractères quelconques peuvent être échangés, même s'ils ne sont pas adjacents.\n\nDétermine maintenant le nombre minimum d'échanges nécessaires pour rendre alternée la chaîne binaire suivante : {string}"
+}

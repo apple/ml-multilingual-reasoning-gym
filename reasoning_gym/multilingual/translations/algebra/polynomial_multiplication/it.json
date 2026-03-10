@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "Semplifica questa espressione: {polynomial_expr}",
+  "prompt_template_2": "Calcola la seguente espressione: {polynomial_expr}",
+  "instruction": "\nQuando esegui i calcoli, segui queste indicazioni:\n1. Usa ** invece di ^ per rappresentare gli esponenti. Ad esempio, scrivi 7*X**2 invece di 7*X^2.\n2. Includi sempre il simbolo * per tutte le operazioni di moltiplicazione nei tuoi passaggi. Ad esempio, scrivi `-3*X**3*sin(X) - 9*X**2*cos(X) + 18*X*sin(X) + 18*cos(X) + C` invece di `-3x3sin(x) - 9x2cos(x) + 18xsin(x) + 18cos(x) + C`.\n"
+}

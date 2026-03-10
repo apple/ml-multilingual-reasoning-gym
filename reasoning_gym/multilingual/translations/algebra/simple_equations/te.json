@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "సమీకరణంలో {variable} యొక్క విలువను కనుగొనండి: {equation}",
+  "prompt_template_2": "{variable} కోసం పరిష్కరించండి: {equation}",
+  "prompt_template_3": "{equation} ను సంతృప్తిపరిచే {variable} యొక్క విలువను నిర్ణయించండి"
+}

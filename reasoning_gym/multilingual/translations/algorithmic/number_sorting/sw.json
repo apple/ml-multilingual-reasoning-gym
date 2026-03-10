@@ -1,0 +1,6 @@
+{
+  "ascending_direction": "kwa mfuatano wa kupanda",
+  "descending_direction": "kwa mfuatano wa kushuka",
+  "sort_question": "Panga nambari hizi {direction}: {numbers}",
+  "answer_format_instruction": "\nTafadhali fuata maagizo yafuatayo:\n## 1. Acha majibu yako yote yawe orodha ya nambari. Badala ya kutoa jibu lako kama -69, -13, 1, 7, 11, 43, 59, 61, tumia ['-69', '-13', '1', '7', '11', '43', '59', '61'] badala yake\n## 2. Badilisha nambari zote zilizo ndani ya mabano makubwa kuwa strings. Kwa mfano, ['-69', '-13', '1', '7', '11', '43', '59', '61']\n"
+}

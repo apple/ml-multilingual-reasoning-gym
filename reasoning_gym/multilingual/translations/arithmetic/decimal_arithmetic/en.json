@@ -1,0 +1,3 @@
+{
+    "instruction_template": "Please solve this problem to a maximum of {precision} significant digits, rounding up from the half. Only reply with the final value."
+}

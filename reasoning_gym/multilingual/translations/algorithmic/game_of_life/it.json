@@ -1,0 +1,3 @@
+{
+  "question_template": "Come apparirà questa griglia del Gioco della Vita dopo {simulation_steps} passi di simulazione? Considera un vicinato di Moore e una topologia ad anello. Rispondi con un array di array che rappresentano le righe della griglia dall'alto verso il basso in formato JSON. (Una griglia vuota 3x3 apparirebbe così: [[0,0,0],[0,0,0],[0,0,0]])\n\n{board}."
+}

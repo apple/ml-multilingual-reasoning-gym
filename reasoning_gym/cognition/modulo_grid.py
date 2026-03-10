@@ -1,0 +1,195 @@
+"""
+Copyright (C) 2026 Apple Inc. All Rights Reserved.
+"""
+
+from copy import deepcopy
+from dataclasses import dataclass
+from random import Random
+from typing import Any, Optional
+
+from ..coaching import BaseCurriculum, RangeAttributeDefinition, ScalarAttributeDefinition
+from ..factory import register_dataset
+from ..multilingual.base_classes import MultilingualProceduralDataset
+from ..config import DatasetConfig
+
+DATASET_NAME = "modulo_grid"
+
+@dataclass
+class ModuloGridConfig(DatasetConfig):
+    """Configuration for ModuloGrid task generation"""
+
+    size_x: int = 20
+    size_y: int = 20
+    max_divisor: int = 20
+    max_target: int = 20
+    max_holes: int = 1
+    languages: list[str] | str = "en"
+    language_weights: Optional[list[float]] = None
+
+    def validate(self) -> None:
+        """Validate configuration parameters"""
+        assert self.size_x > 5, "size_x must be greater than 5"
+        assert self.size_y > 5, "size_y must be greater than 5"
+        assert self.max_divisor > 0, "max_divisor must be greater than 0"
+        assert self.max_target > 0, "max_target must be greater than 0"
+        assert self.max_holes > 0, "max_holes must be greater than 0"
+
+def generate_grid(size_x, size_y, operation, mod_target):
+    """
+    Generates a grid of symbols based on the evaluation of an operation on grid coordinates.
+
+    Parameters:
+      size_x (int): Number of columns.
+      size_y (int): Number of rows.
+      operation (str or callable): The operation to apply to each coordinate.
+          If a string, accepted values are:
+            - "sum": computes x + y.
+            - "diff": computes |x - y|.
+            - "prod": computes x * y.
+          Otherwise, a function taking two integers (x, y) must be provided.
+      mod_target (tuple): A tuple (divisor, target) such that a cell (x, y) is marked as valid
+                          if (operation(x, y)) % divisor equals target.
+
+    Returns:
+      list of list: A 2D grid filled with "✅" for valid cells and "❌" for invalid cells.
+    """
+    # Determine the operation function
+    if callable(operation):
+        op_func = operation
+    elif operation == "sum":
+        op_func = lambda x, y: x + y
+    elif operation == "diff":
+        op_func = lambda x, y: abs(x - y)
+    elif operation == "prod":
+        op_func = lambda x, y: x * y
+    elif operation == "pow":
+        op_func = lambda x, y: x**y
+    else:
+        raise ValueError("Unsupported operation. Use 'sum', 'diff', 'prod', or provide a callable.")
+
+    divisor, target = mod_target
+
+    # Create the grid; using 0-indexed coordinates (x, y)
+    grid = []
+    for y in range(size_y):
+        row = []
+        for x in range(size_x):
+            result = op_func(x, y)
+            # Check the modulo condition
+            if result % divisor == target:
+                row.append("✅")
+            else:
+                row.append("❌")
+        grid.append(row)
+    return grid
+
+def flatten_grid(grid: list[list[str]]) -> str:
+    return "\n".join("".join(row) for row in grid)
+
+class ModuloGridDataset(MultilingualProceduralDataset):
+    """Generates ModuloGrid tasks
+
+    This is an ARC-ish task for mathematical explanatory reasoning. It generates a binary grid based on a hidden
+    mathematical function based around modulo division of a function based on the coordinates, then asks to fill
+    in any gaps in the grid.
+
+    The function used to determine the pattern can be based on sums, multiples, powers, and differences, then a
+    constructed modulo matching a target function. Some patterns are obvious without knowing the underlying rule,
+    some are very difficult. Pretty much all the parameters are configurable, so we are able to generate a
+    good curriculum.
+    """
+
+    def __init__(self, config: ModuloGridConfig):
+        super().__init__(config=config, seed=config.seed, size=config.size)
+
+    def _generate_item(self, idx: int, language: str) -> dict[str, Any]:
+        """Generate a single ModuloGrid task
+
+        Returns:
+            dict with keys:
+                - question: str, the task description with grid pattern
+                - answer: str, the complete grid solution
+                - metadata: dict with generation parameters and language
+        """
+        rng = Random(self.seed + idx)
+
+        valid = False
+        while not valid:
+
+            divisor = rng.randint(1, self.config.max_divisor)
+            target = rng.randint(1, self.config.max_target)
+            operation = rng.choice(["sum", "diff", "prod", "pow"])
+            mod_target = (divisor, target)
+
+            grid = generate_grid(self.config.size_x, self.config.size_y, operation, mod_target)
+            sgrid = "".join(s for row in grid for s in row)
+            if "✅" in sgrid:
+                valid = True
+
+        holes_grid = deepcopy(grid)
+
+        for i in range(self.config.max_holes):
+            holes_grid[rng.randint(0, len(holes_grid) - 1)][rng.randint(0, len(holes_grid[0]) - 1)] = "❔"
+
+        question = self._get_translation("question_template", language, grid=flatten_grid(holes_grid))
+
+        return {
+            "question": question,
+            "answer": flatten_grid(grid),
+            "metadata": {
+                "source_dataset": DATASET_NAME,
+                "source_index": idx,
+                "divisor": divisor,
+                "target": target,
+                "operation": operation,
+                "language": language,
+                "difficulty": {
+                    "size_x": self.config.size_x,
+                    "size_y": self.config.size_y,
+                    "holes": self.config.max_holes,
+                    "divisor": self.config.max_divisor,
+                    "target": self.config.max_target,
+                },
+            },
+        }
+
+class ModuloGridCurriculum(BaseCurriculum):
+    def __init__(self):
+        super().__init__(ModuloGridCurriculum.__name__, ModuloGridConfig)
+
+        # Define attributes
+        self._define_attributes(
+            ScalarAttributeDefinition(
+                name="size_x",
+                field_name="size_x",
+                levels=[20, 40, 60, 80],
+                description="Size x",
+            ),
+            ScalarAttributeDefinition(
+                name="size_y",
+                field_name="size_y",
+                levels=[20, 40, 60, 80],
+                description="Size y",
+            ),
+            ScalarAttributeDefinition(
+                name="max_holes",
+                field_name="max_holes",
+                levels=[1, 5, 10, 15],
+                description="Max holes",
+            ),
+            ScalarAttributeDefinition(
+                name="max_divisor",
+                field_name="max_divisor",
+                levels=[3, 5, 7, 15, 17, 49],
+                description="Max divisor",
+            ),
+            ScalarAttributeDefinition(
+                name="max_target",
+                field_name="max_target",
+                levels=[1, 0, 3, 7, 9, 21],
+                description="Max target",
+            ),
+        )
+
+# Register the dataset
+register_dataset(DATASET_NAME, ModuloGridDataset, ModuloGridConfig, ModuloGridCurriculum)

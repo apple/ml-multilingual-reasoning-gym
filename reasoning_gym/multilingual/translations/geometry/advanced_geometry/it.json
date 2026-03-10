@@ -1,0 +1,9 @@
+{
+  "format_instructions": "Per tutti i problemi di geometria:\n1. Fornisci le coordinate nella forma (x, y)\n2. Arrotonda le risposte decimali a 3 cifre decimali\n3. Usa il simbolo dei gradi ° per gli angoli\n4. Restituisci solo l'angolo, le coordinate o il raggio come risposta.",
+  "orthocenter_variant1": "Dato il triangolo ABC con coordinate A={A}, B={B} e C={C}, trova le coordinate del suo ortocentro. {format_instructions}",
+  "orthocenter_variant2": "Per il triangolo con vertici A={A}, B={B} e C={C}, determina l'ortocentro (intersezione delle altezze). {format_instructions}",
+  "incircle_radius_variant1": "Considera il triangolo ABC con coordinate A={A}, B={B} e C={C}. Calcola il raggio del suo cerchio inscritto. {format_instructions}",
+  "incircle_radius_variant2": "Trova il raggio del cerchio inscritto del triangolo ABC i cui vertici sono A={A}, B={B} e C={C}. {format_instructions}",
+  "angle_measure_variant1": "Nel triangolo ABC con coordinate A={A}, B={B} e C={C}, trova la misura (in gradi) dell'angolo ABC. {format_instructions}",
+  "angle_measure_variant2": "Dato un triangolo con vertici A={A}, B={B} e C={C}, determina l'angolo in B in gradi. {format_instructions}"
+}

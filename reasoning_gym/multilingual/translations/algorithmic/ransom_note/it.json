@@ -1,0 +1,5 @@
+{
+  "question_template": "Date due stringhe che rappresentano un messaggio di riscatto e una rivista, restituisci {true_answer} se puoi costruire il messaggio di riscatto usando le lettere della rivista, e {false_answer} altrimenti.\n\nOgni lettera nella stringa della rivista può essere usata solo una volta nel tuo messaggio di riscatto.\n\nMessaggio di riscatto: {ransom_note}\nRivista: {magazine}",
+  "true_answer": "Vero",
+  "false_answer": "Falso"
+}

@@ -1,0 +1,3 @@
+{
+  "question_template": "Zähle die Rechtecke in diesem ASCII-Gitter.\n\nEinzelne Rechtecke sind mit '#' umrandet, überlappende Rechtecke (max. 2) werden mit '█' dargestellt.\n\nGib eine einzelne Zahl als Antwort an.\n\nWie viele Rechtecke siehst du in dem Gitter unten?\n{puzzle}"
+}

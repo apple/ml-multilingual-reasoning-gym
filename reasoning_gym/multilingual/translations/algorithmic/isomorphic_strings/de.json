@@ -1,0 +1,5 @@
+{
+  "prompt_template": "Zwei Strings sind isomorph, wenn die Zeichen in einem String ersetzt werden können, um den zweiten String zu erhalten.\n\nJedes Auftreten eines Zeichens muss durch ein anderes Zeichen ersetzt werden, wobei die Reihenfolge der Zeichen erhalten bleibt.\n\nZwei verschiedene Zeichen dürfen nicht auf dasselbe Zeichen abgebildet werden, aber ein Zeichen darf auf sich selbst abgebildet werden.\n\nGib {true_answer} an, wenn die folgenden zwei Strings isomorph sind, ansonsten {false_answer}:\n{strings}",
+  "true_answer": "Wahr",
+  "false_answer": "Falsch"
+}

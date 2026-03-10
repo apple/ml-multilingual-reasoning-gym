@@ -1,0 +1,3 @@
+{
+  "question_template": "Umepewa gridi ya n × n ambapo kila seli inaweza kuwa na moja ya maadili matatu:\n• 0 inawakilisha seli tupu\n• 1 inawakilisha chungwa mbichi\n• 2 inawakilisha chungwa bovu\n\nKila dakika, chungwa mbichi lolote linalounganishwa na chungwa bovu kwa mielekeo minne (juu, chini, kushoto, kulia) linabovu.\n\nKazi yako ni kupata idadi ndogo ya dakika ambazo zinapaswa kupita hadi hakuna seli yenye chungwa mbichi.\nIkiwa hii haiwezekani, rudisha -1.\n\nSasa, bainisha idadi ndogo ya dakika ambazo zinapaswa kupita hadi hakuna seli katika gridi hii chini yenye chungwa mbichi:\n{matrix}"
+}

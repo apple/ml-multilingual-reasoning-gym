@@ -1,0 +1,3 @@
+{
+  "question_template": "Identifica el patrón matemático que define esta cuadrícula, luego usa ese patrón para completar los signos de interrogación. Devuelve toda la cuadrícula completada como tu respuesta.\n\n{grid}"
+}

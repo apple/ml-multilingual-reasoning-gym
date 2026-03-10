@@ -1,0 +1,13 @@
+{
+    "prompt_template": "In front of you are some buttons, a light, and a number. The light will toggle between red and green whenever you press a button. Each button performs a mathematical operation to the number, but the operation may depend on the state of the light.\n\nYou must press the shortest correct sequence of buttons to reach the target value. Your answer should be a sequence of buttons separated by '{separator}', for example: A{separator}B{separator}C\n\nStart: {initial_value} ({initial_state})\nTarget: {target_value}\nButtons:\n{buttons_text}",
+    "operation_add_template": "Add {value}",
+    "operation_subtract_template": "Subtract {value}", 
+    "operation_multiply_template": "Multiply {value}",
+    "when_state": "when {state}",
+    "state_red": "red",
+    "state_green": "green",
+    "state_any": "any",
+    "button_format": "{name}: {operation} {condition}",
+    "separator": " → ",
+    "condition_format": "({when_text})"
+}

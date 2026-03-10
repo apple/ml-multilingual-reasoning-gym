@@ -1,0 +1,5 @@
+{
+  "question_template": "Effectuez un pooling max/moyenne sur la matrice donnée.\nLe pas est égal à la taille du noyau, ce qui signifie qu'il n'y a pas de chevauchement entre les zones.\n\nLe résultat doit être une matrice dans le même format que la matrice d'entrée.\nLa matrice de sortie est plus petite que la matrice d'entrée lorsque la taille du noyau est supérieure à 1, et ses éléments peuvent être des nombres à virgule flottante.\nArrondissez les éléments de la matrice de sortie à 2 décimales.\n\nEffectuez un {pool_type} pooling sur la matrice suivante avec un noyau de taille {pool_size} :\n{matrix}",
+  "pool_type_max": "maximum",
+  "pool_type_average": "moyenne"
+}

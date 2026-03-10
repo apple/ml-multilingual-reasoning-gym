@@ -1,0 +1,3 @@
+{
+    "question_template": "Decrypt this **English** Caesar cipher text: {cipher_text}. Provide only the decrypted text as your final answer."
+}

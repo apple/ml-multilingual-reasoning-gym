@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Resolva o seguinte quebra-cabeça Futoshiki {board_size}x{board_size}:\n\n{puzzle_str}\n\nCertifique-se de que sua resposta segue o mesmo formato do quebra-cabeça acima, apenas substitua os espaços em branco (_) pelo valor correto para a célula.\nUse < e > para restrições horizontais. Use ∧ e ∨ para restrições verticais.\nLembre-se, no Futoshiki cada linha e coluna deve conter cada número de 1 a {board_size} exatamente uma vez."
+}

@@ -1,0 +1,23 @@
+{
+  "question_template": "Tu dois transformer à plusieurs reprises une chaîne selon un ensemble de règles jusqu'à ce qu'aucune transformation supplémentaire ne puisse être effectuée, ou qu'un état soit répété.\n\nÉvalue les règles suivantes dans l'ordre, et applique la première règle applicable à la chaîne :\n{rules}\n\nUne fois que tu as appliqué une règle, répète le processus avec la nouvelle chaîne jusqu'à ce qu'aucune transformation supplémentaire ne puisse être effectuée (c'est-à-dire que la chaîne ne change pas), ou qu'un état soit répété.\nSi un état est répété, le processus est terminé, et l'état répété est écarté (c'est-à-dire qu'il n'est pas considéré comme la réponse finale) et l'état avant l'état répété est considéré comme la réponse finale.\n\nTa sortie doit être la chaîne finale transformée après avoir appliqué toutes les règles.\n\nTransforme la chaîne suivante selon la liste de règles ci-dessus :\n{string}",
+  "rule_1": "Si le préfixe de la chaîne est « ab », remplace-le par « ca ».",
+  "rule_2": "Si le suffixe de la chaîne est « ac », remplace-le par « cb ».",
+  "rule_3": "Si le préfixe de la chaîne est « bc », supprime les deux premiers caractères et ajoute « aa » à la fin.",
+  "rule_4": "Si le suffixe de la chaîne est « bb », supprime les deux derniers caractères.",
+  "rule_5": "Si le préfixe de la chaîne est « cb », remplace-le par « aa » et supprime le dernier caractère.",
+  "rule_6": "Si le préfixe de la chaîne est « ca », remplace-le par « bb » et ajoute « c » à la fin.",
+  "rule_7": "Si le suffixe de la chaîne est « cc », remplace-le par « b » et ajoute « a » au début.",
+  "rule_8": "Si le préfixe de la chaîne est « aa », supprime le premier caractère.",
+  "rule_9": "Si la chaîne contient « abc », remplace la première occurrence par « cab ».",
+  "rule_10": "Si la chaîne contient « bca », supprime entièrement la première occurrence.",
+  "rule_11": "Si la chaîne se termine par « ba », remplace-le par « ab ».",
+  "rule_12": "Si la chaîne commence par « cc », supprime les deux premiers caractères.",
+  "rule_13": "Si la chaîne contient « acb », remplace la première occurrence par son inverse (« bca »).",
+  "rule_14": "Si la chaîne se termine par « ca », supprime le dernier caractère.",
+  "rule_15": "Si la chaîne commence par « bb », supprime le deuxième caractère.",
+  "rule_16": "Si la chaîne se termine par « aa », remplace-le par « cc ».",
+  "rule_17": "Si la chaîne contient « ca » (pas au début), supprime la première occurrence trouvée après le premier caractère.",
+  "rule_18": "Si la chaîne contient un nombre pair de « b » (et au moins un « b »), ajoute « ab » à la fin.",
+  "rule_19": "Si la longueur de la chaîne est supérieure à 15, supprime le caractère du milieu.",
+  "rule_20": "Si la chaîne commence par « ac », remplace les deux premiers caractères par « zz »."
+}

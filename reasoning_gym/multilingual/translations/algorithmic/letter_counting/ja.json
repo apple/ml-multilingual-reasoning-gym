@@ -1,0 +1,3 @@
+{
+  "question_template": "テキスト「{text}」の中に文字「{target_letter}」は何回現れるか？"
+}

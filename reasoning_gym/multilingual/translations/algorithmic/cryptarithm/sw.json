@@ -1,0 +1,7 @@
+{
+  "intro": "Tatua cryptarithm hii:",
+  "unique_digit_rule": "Kila herufi inawakilisha tarakimu ya kipekee (0-9). ",
+  "leading_zero_allowed": "Herufi za kwanza zinaweza kuwa sifuri.\n",
+  "leading_zero_not_allowed": "Hakuna herufi ya kwanza inayoweza kuwa sifuri.\n",
+  "output_format": "Toa ramani iliyotengwa na mikato kutoka herufi hadi tarakimu ambayo inakidhi mlinganyo katika jibu lako la mwisho. Muundo wa matokeo: \"A=1,B=2,C=3\" (bila nukuu)\n"
+}

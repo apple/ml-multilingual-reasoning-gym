@@ -1,0 +1,6 @@
+{
+  "prompt_template": "Sei un esperto di induzione. Genera il risultato corrispondente all'input fornito, applicando la stessa regola che collega input e output negli esempi. La tua risposta deve essere una lista di elementi\nEsempi:\n{examples}\nEntrata: {input}\nUscita:\n",
+  "input_label": "Entrata {number}",
+  "output_label": "Uscita {number}",
+  "colon": ": "
+}

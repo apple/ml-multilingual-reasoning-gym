@@ -1,0 +1,4 @@
+{
+  "prompt_template_1": "Questo è un programma BF (Brainf*ck). Qual è l'output?\n\n{bf_program}\n\nRispondi solo con l'output esatto del programma.",
+  "prompt_template_2": "Considera il seguente codice BF (Brainf*ck). Quale output produrrebbe?\n\n{bf_program}\n\nFornisci solo l'output esatto del codice."
+}

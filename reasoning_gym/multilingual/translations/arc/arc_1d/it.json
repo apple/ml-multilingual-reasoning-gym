@@ -1,0 +1,6 @@
+{
+  "example_header": "Esempio {number}:",
+  "input_label": "Input: ",
+  "output_label": "Output: ",
+  "question_template": "Trova la regola comune che trasforma una griglia di input in una griglia di output, basandoti sugli esempi qui sotto.\n\n{examples}\n\nEcco una griglia di input di test. Prevedi la corrispondente griglia di output applicando la regola che hai trovato. Descrivi in dettaglio come hai derivato la regola e il tuo processo di ragionamento prima di fornire la risposta. La tua risposta finale deve essere solo la griglia di output del test.\n\nInput:\n{test_input}"
+}

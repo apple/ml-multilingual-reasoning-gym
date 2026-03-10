@@ -1,0 +1,3 @@
+{
+  "question_template": "Kazi yako ni kukamilisha ubao wa chess wa ukubwa {n} x {n} ukiwa na jumla ya malkia {n}, ili hakuna malkia mbili zinazoshambulia kila mmoja.\n\nHakuna malkia mbili zinazoshambulia kila mmoja ikiwa haziko kwenye safu moja ya mlalo, safu moja ya wima, au mstari mmoja wa pindo.\n\nUnaweza kuweka malkia kwa kubadilisha alama ya mstari chini (_) na Q.\n\nJibu lako liwe pia ubao katika muundo ule ule wa ingizo, ukiwa na malkia zilizowekwa kwenye ubao kwa kubadilisha alama za mstari chini na herufi Q.\n\nUkizingatia ubao huu wa ukubwa {n} x {n} ulionyeshwa hapa chini, kazi yako ni kuweka malkia {num_removed} kwenye ubao ili hakuna malkia mbili zinazoshambulia kila mmoja.\n{puzzle}"
+}

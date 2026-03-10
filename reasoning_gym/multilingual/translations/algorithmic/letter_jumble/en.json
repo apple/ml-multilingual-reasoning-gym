@@ -1,0 +1,3 @@
+{
+    "question_template": "Your task is to unscramble **English** words in a sentence.\n\nFor each word in a sentence, the letter may have been randomly shuffled. Your task is to unscramble the words.\n\nThe order of the words in the sentence is preserved. Moreover, the style of the sentence is preserved (i.e. punctuation, capitalization, new lines, etc.).\n\nYour output should be a sentence with the words unscrambled.\n\nNow, unscramble these **English** words: {words}"
+}

@@ -1,0 +1,3 @@
+{
+  "question_template": "Dada uma string binária, retorne o número mínimo de trocas de caracteres para torná-la alternada, ou -1 se for impossível.\n\nA string é chamada de alternada se nenhum par de caracteres adjacentes é igual. Por exemplo, as strings «010» e «1010» são alternadas, enquanto a string «0100» não é.\n\nQuaisquer dois caracteres podem ser trocados, mesmo que não sejam adjacentes.\n\nAgora, determine o número mínimo de trocas para tornar a seguinte string binária alternada: {string}"
+}

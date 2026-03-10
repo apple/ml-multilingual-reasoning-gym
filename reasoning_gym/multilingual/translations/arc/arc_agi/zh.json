@@ -1,0 +1,4 @@
+{
+  "prompt_template": "找出将输入网格映射到输出网格的通用规律，参考以下示例。\n\n{examples}下面是一个测试输入网格。根据你找到的规律来推测对应的输出网格。\n你的最终答案应该仅为文本形式的输出网格。\n\n输入：\n{input_grid}",
+  "example_format": "示例 {index}：\n\n输入：\n{input_board}\n输出：\n{output_board}\n\n"
+}

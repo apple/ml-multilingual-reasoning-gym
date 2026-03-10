@@ -1,0 +1,6 @@
+{
+  "ascending_direction": "aufsteigender",
+  "descending_direction": "absteigender",
+  "sort_question": "Sortiere diese Zahlen in {direction} Reihenfolge: {numbers}",
+  "answer_format_instruction": "\nBefolge die Anweisung unten:\n## 1. Gib alle deine Antworten als Zahlenliste an. Anstatt deine Antwort als -69, -13, 1, 7, 11, 43, 59, 61 anzugeben, verwende stattdessen ['-69', '-13', '1', '7', '11', '43', '59', '61']\n## 2. Wandle alle Zahlen in den eckigen Klammern in Zeichenketten um. Zum Beispiel: ['-69', '-13', '1', '7', '11', '43', '59', '61']\n"
+}

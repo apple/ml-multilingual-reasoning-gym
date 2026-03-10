@@ -1,0 +1,4 @@
+{
+  "question_template": "Deine Aufgabe ist es, den kürzesten Weg vom Start zum Zielpunkt in einem Gitter zu finden.\n\nDas Gitter wird als Matrix mit den folgenden Zelltypen dargestellt:\n- *: dein Startpunkt\n- #: dein Zielpunkt\n- O: eine freie Zelle\n- X: eine blockierte Zelle\n\nDu musst also den kürzesten Weg von * zu # finden und kannst dich dabei nur durch freie Zellen bewegen.\n\nDu kannst dich nur in vier Richtungen bewegen: oben, unten, links und rechts.\n\nFalls es keinen Weg von * zu # gibt, schreibe einfach \"{infeasible}\" (ohne Anführungszeichen).\n\nDeine Ausgabe sollte eine Abfolge von Pfeilrichtungen sein, die von * zu # führt, z.B. → → ↓ ↓ ↑ ←\n\nFinde nun den kürzesten Weg von * zu # in folgendem Gitter:\n{grid}",
+  "infeasible": "unmöglich"
+}

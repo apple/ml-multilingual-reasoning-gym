@@ -1,0 +1,5 @@
+{
+  "prompt_template": "Deux chaînes sont isomorphes si les caractères de l'une peuvent être remplacés pour obtenir la seconde chaîne.\n\nToutes les occurrences d'un caractère doivent être remplacées par un autre caractère en préservant l'ordre des caractères.\n\nDeux caractères différents ne peuvent pas correspondre au même caractère, mais un caractère peut correspondre à lui-même.\n\nRenvoie {true_answer} si les deux chaînes suivantes sont isomorphes, ou {false_answer} sinon :\n{strings}",
+  "true_answer": "Vrai",
+  "false_answer": "Faux"
+}

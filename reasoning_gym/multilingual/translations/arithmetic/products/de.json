@@ -1,0 +1,3 @@
+{
+  "question_template": "Berechne die folgende Multiplikation: {expression}. Gib nur das Ergebnis an."
+}

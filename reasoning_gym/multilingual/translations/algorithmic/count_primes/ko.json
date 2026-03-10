@@ -1,0 +1,3 @@
+{
+  "question_template": "{start} 이상 {end} 이하의 소수가 몇 개인지 구하라."
+}

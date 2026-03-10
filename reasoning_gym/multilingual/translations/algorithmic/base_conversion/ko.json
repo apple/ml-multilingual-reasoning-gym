@@ -1,0 +1,6 @@
+{
+  "question_template": "서로 다른 진법 간의 수 변환을 수행하라.\n\n목표 진법이 10보다 클 경우, 9보다 큰 자릿수에는 소문자 a-z를 사용하라.\n\n이제 {source_name}으로 표현된 수 {source_repr}을 {target_name}으로 변환하라\n",
+  "binary": "2진법",
+  "hexadecimal": "16진법",
+  "base_template": "{base}진법"
+}

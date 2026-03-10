@@ -1,0 +1,6 @@
+{
+  "question_template": "Risolvi il problema della Torre di Hanoi con {num_disks} dischi e {num_pegs} pioli.\nSposta tutti i dischi da {start_peg} a {target_peg} seguendo le regole:\n- Si può muovere solo un disco alla volta.\n- Un disco più grande non può essere posizionato sopra un disco più piccolo.\n- Tutti i dischi devono sempre trovarsi su un piolo.\n\nFornisci la sequenza di mosse.\n\nLinee guida per la formattazione:\n- Ogni istruzione deve essere posta su una singola riga.\n- Ogni riga deve essere formattata come «Sposta disco X da Piolo Y a Piolo Z»\n- Non includere altro testo o formattazione.",
+  "move_template": "Sposta disco {disk} da Piolo {from_peg} a Piolo {to_peg}",
+  "move_pattern": "Sposta disco (\\d+) da Piolo (\\d+) a Piolo (\\d+)",
+  "peg_label": "Piolo {peg_number}"
+}

@@ -1,0 +1,4 @@
+{
+    "question_template": "Find the Greatest Common Divisor (GCD) of these numbers: {numbers_str}. Give only the GCD as your final answer.",
+    "numbers_separator": ", "
+}

@@ -1,0 +1,4 @@
+{
+  "question_template": "Trova il Minimo Comune Multiplo (mcm) di questi numeri: {numbers}",
+  "numbers_separator": ", "
+}

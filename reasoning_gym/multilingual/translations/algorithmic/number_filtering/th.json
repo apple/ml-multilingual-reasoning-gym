@@ -1,0 +1,7 @@
+{
+  "question_template": "{action} ตัวเลขทั้งหมดที่{comparison} {filter_value} ในรายการนี้: {numbers_list}\nแสดงรายการใหม่ในรูปแบบเดียวกัน",
+  "action_keep": "จงเก็บ",
+  "action_remove": "จงลบ",
+  "comparison_larger": "มากกว่า",
+  "comparison_smaller": "น้อยกว่า"
+}

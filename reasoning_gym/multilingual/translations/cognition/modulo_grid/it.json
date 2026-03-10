@@ -1,0 +1,3 @@
+{
+  "question_template": "Identifica lo schema matematico che definisce questa griglia, poi usa quello schema per completare gli elementi mancanti. Fornisci l'intera griglia completata come tua risposta.\n\n{grid}"
+}

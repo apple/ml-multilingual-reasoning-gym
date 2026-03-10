@@ -1,0 +1,6 @@
+{
+  "question_template": "Resolva o problema da Torre de Hanói com {num_disks} discos e {num_pegs} pinos.\nMova todos os discos do {start_peg} para o {target_peg} seguindo as regras:\n- Apenas um disco pode ser movido por vez.\n- Um disco maior não pode ser colocado em cima de um disco menor.\n- Todos os discos devem estar em um pino o tempo todo.\n\nForneça a sequência de movimentos.\n\nDirectrizes de formatação:\n- Cada instrução deve ser colocada em uma única linha.\n- Cada linha deve ser formatada como «Mova o disco X do Pino Y para o Pino Z»\n- Não inclua nenhum outro texto ou formatação.",
+  "move_template": "Mova o disco {disk} do Pino {from_peg} para o Pino {to_peg}",
+  "move_pattern": "Mova o disco (\\d+) do Pino (\\d+) para o Pino (\\d+)",
+  "peg_label": "Pino {peg_number}"
+}

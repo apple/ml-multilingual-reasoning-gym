@@ -1,0 +1,3 @@
+{
+    "question_template": "Solve the following problem.\n\nProvide you answer as a comma-separated list of words with a space after the comma.\n\nReverse this list of words: {words}\n"
+}

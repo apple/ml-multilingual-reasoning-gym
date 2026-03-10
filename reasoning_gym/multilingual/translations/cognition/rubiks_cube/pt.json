@@ -1,0 +1,4 @@
+{
+  "prompt_template_1": "Você recebe um Cubo Mágico {cube_size}x{cube_size}x{cube_size}. Ele está assim:\n\n{cube_render} \n\nPor favor, forneça uma solução para resolver este cubo usando notação Singmaster. Não combine nenhum passo, por exemplo, não escreva «U2», e sim escreva «U U».",
+  "prompt_template_2": "Você vê um Cubo Mágico de tamanho {cube_size} organizado da seguinte forma:\n\n{cube_render} \n\nPor favor, forneça uma solução para resolver este cubo usando notação Singmaster. Não combine nenhum passo, por exemplo, não escreva «U2», e sim escreva «U U»."
+}

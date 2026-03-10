@@ -1,0 +1,7 @@
+{
+  "intro": "解这个字母算式：",
+  "unique_digit_rule": "每个字母代表一个不同的数字 (0-9)。",
+  "leading_zero_allowed": "开头字母可以是零。\n",
+  "leading_zero_not_allowed": "开头字母不能是零。\n",
+  "output_format": "请给出满足等式的字母与数字对应关系，用逗号分隔。格式：「A=1,B=2,C=3」（不带引号）\n"
+}

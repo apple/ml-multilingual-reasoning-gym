@@ -1,0 +1,6 @@
+{
+  "prompt_template_0": "求不定积分：∫ {integrand} dx",
+  "prompt_template_1": "计算原函数：∫ {integrand} dx",
+  "prompt_template_2": "计算不定积分：∫ {integrand} dx",
+  "added_instruction": "\n在进行计算时，请遵循以下准则：\n使用与题目中给定的相同变量符号\n1. 使用 ** 而非 ^ 来表示指数。例如，写成 7*X**2 而非 7*X^2。\n2. 在推理步骤中始终包含 * 符号进行所有乘法运算。例如，写成 「-3*X**3*sin(X) - 9*X**2*cos(X) + 18*X*sin(X) + 18*cos(X) + C」 而非 「-3x3sin(x) - 9x2cos(x) + 18xsin(x) + 18cos(x) + C」。\n3. 使用 「exp(x)」 或 「E**(x)」 表示指数函数（即对欧拉数使用大写 E）。\n"
+}

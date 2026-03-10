@@ -1,0 +1,5 @@
+{
+  "question_template": "Você deve aplicar pooling {pool_type} na matriz fornecida.\nO stride é igual ao tamanho do kernel, ou seja, não há sobreposição entre as regiões de pooling.\n\nSua resposta deve ser uma matriz no mesmo formato da matriz de entrada.\nA matriz de saída é menor que a matriz de entrada quando o tamanho do kernel é maior que 1, e seus elementos podem ser números decimais.\nApresente os elementos da matriz de saída com precisão de 2 casas decimais.\n\nAplique pooling {pool_type} à matriz a seguir com um kernel de tamanho {pool_size}:\n{matrix}",
+  "pool_type_max": "máximo",
+  "pool_type_average": "médio"
+}

@@ -1,0 +1,3 @@
+{
+  "question_template": "数字 {number} 的二进制表示中有多少个1？"
+}

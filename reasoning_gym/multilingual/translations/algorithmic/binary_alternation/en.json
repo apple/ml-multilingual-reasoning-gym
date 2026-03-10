@@ -1,0 +1,3 @@
+{
+    "question_template": "Given a binary string, return the minimum number of character swaps to make it alternating, or -1 if it is impossible.\n\nThe string is called alternating if no two adjacent characters are equal. For example, the strings \"010\" and \"1010\" are alternating, while the string \"0100\" is not.\n\nAny two characters may be swapped, even if they are not adjacent.\n\nNow, determine the minimum number of swaps to make the following binary string alternating: {string}"
+}

@@ -1,0 +1,5 @@
+{
+  "question_template": "นี่คือตาราง Game of Life เกมจะหยุดลงเมื่อไม่มีเซลล์ใดมีชีวิตอยู่\nเกมนี้จะหยุดลงภายใน {max_simulation_steps} รอบหรือไม่? สมมติว่าใช้ Moore neighborhood และ wrapping topology หากจะหยุด ตอบ {true_answer} หากไม่หยุด ตอบ {false_answer}\n\nตารางเริ่มต้น:\n{board_str}",
+  "true_answer": "จริง",
+  "false_answer": "เท็จ"
+}

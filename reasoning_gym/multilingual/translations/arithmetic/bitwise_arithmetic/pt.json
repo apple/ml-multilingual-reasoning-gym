@@ -1,0 +1,3 @@
+{
+  "question_template": "Por favor, resolva este problema. Assuma que há profundidade de bits arbitrária e que há números inteiros com sinal. Se a resposta for negativa, responda como um valor negativo (ex., -0x3), não na forma de complemento de dois. Responda apenas com o valor hexadecimal final.\n{problem}"
+}

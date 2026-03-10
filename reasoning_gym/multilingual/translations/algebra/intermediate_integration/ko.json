@@ -1,0 +1,6 @@
+{
+  "prompt_template_0": "다음 부정적분을 구하라: ∫ {integrand} dx",
+  "prompt_template_1": "다음 부정적분을 계산하라: ∫ {integrand} dx",
+  "prompt_template_2": "부정적분을 구하라: ∫ {integrand} dx",
+  "added_instruction": "\n계산을 수행할 때 다음 지침을 따르라:\n문제에 주어진 변수 기호를 그대로 사용하라\n1. 지수를 나타낼 때 ^대신 **를 사용하라. 예를 들어, 7*X^2 대신 7*X**2로 작성하라.\n2. 추론 단계에서 모든 곱셈 연산에 항상 * 기호를 포함하라. 예를 들어, 「-3x3sin(x) - 9x2cos(x) + 18xsin(x) + 18cos(x) + C」 대신 「-3*X**3*sin(X) - 9*X**2*cos(X) + 18*X*sin(X) + 18*cos(X) + C」로 작성하라.\n3. 지수함수에는 `exp(x)` 또는 `E**(x)`를 사용하라 (즉, 오일러 수는 대문자 E를 사용하라).\n"
+}

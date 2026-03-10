@@ -1,0 +1,3 @@
+{
+  "question_template": "Fornisci una colorazione per questo grafo tale che ogni vertice non sia collegato a un vertice dello stesso colore. Il grafo ha queste proprietà:\n\nVertici: {vertices}\nArchi: {edges}\nColori possibili: {color_options}\n\nRestituisci la tua soluzione come mappa JSON da vertici a colori. (Ad esempio: {{\"0\": 1, \"1\": 2, \"2\": 3}}.)"
+}

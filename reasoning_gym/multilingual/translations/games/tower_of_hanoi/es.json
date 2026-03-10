@@ -1,0 +1,6 @@
+{
+  "question_template": "Resuelve el problema de las Torres de Hanoi con {num_disks} discos y {num_pegs} varillas.\nMueve todos los discos de la {start_peg} a la {target_peg} siguiendo las reglas:\n- Solo se puede mover un disco a la vez.\n- Un disco más grande no se puede colocar encima de un disco más pequeño.\n- Todos los discos deben estar en una varilla en todo momento.\n\nProporciona la secuencia de movimientos.\n\nPautas de formato:\n- Cada instrucción debe colocarse en una sola línea.\n- Cada línea debe tener el formato «Mueve el disco X de la Varilla Y a la Varilla Z»\n- No incluyas ningún otro texto o formato.",
+  "move_template": "Mueve el disco {disk} de la Varilla {from_peg} a la Varilla {to_peg}",
+  "move_pattern": "Mueve el disco (\\d+) de la Varilla (\\d+) a la Varilla (\\d+)",
+  "peg_label": "Varilla {peg_number}"
+}

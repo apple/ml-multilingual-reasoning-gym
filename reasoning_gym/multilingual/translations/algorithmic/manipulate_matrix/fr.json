@@ -1,0 +1,13 @@
+{
+  "question_template": "Pour la matrice suivante :\n{matrix}\n\nEffectue la série d'opérations suivante dans l'ordre :\n- Transformation identité, c'est-à-dire aucun changement\n{operations}",
+  "rotate_instruction": "- Effectue une rotation de la matrice de {degrees} degrés",
+  "hmirror_instruction": "- Effectue une symétrie horizontale de la matrice",
+  "vmirror_instruction": "- Effectue une symétrie verticale de la matrice",
+  "dmirror_instruction": "- Effectue une symétrie de la matrice le long de la diagonale",
+  "cmirror_instruction": "- Effectue une symétrie de la matrice le long de la contre-diagonale",
+  "map_instruction": "- Remplace chaque occurrence de {a} par {b}",
+  "zero_divisible_instruction": "- Mets à zéro tous les éléments divisibles par {k}",
+  "crop_instruction": "- Réduis la matrice aux lignes {row_start}-{row_end} et colonnes {col_start}-{col_end} (indexées à partir de 1)",
+  "remove_nth_row_instruction": "- Supprime chaque {n}{formatting} ligne (indexées à partir de 1)",
+  "remove_nth_col_instruction": "- Supprime chaque {n}{formatting} colonne (indexées à partir de 1)"
+}

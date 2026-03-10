@@ -1,0 +1,6 @@
+{
+  "ascending_direction": "ascendente",
+  "descending_direction": "descendente",
+  "sort_question": "Ordena estos números en orden {direction}: {numbers}",
+  "answer_format_instruction": "\nSigue las siguientes instrucciones:\n## 1. Que todas tus respuestas sean una lista de números. En lugar de dar tu respuesta como -69, -13, 1, 7, 11, 43, 59, 61, usa ['-69', '-13', '1', '7', '11', '43', '59', '61']\n## 2. Convierte todos los números en los corchetes a cadenas. Por ejemplo, ['-69', '-13', '1', '7', '11', '43', '59', '61']\n"
+}

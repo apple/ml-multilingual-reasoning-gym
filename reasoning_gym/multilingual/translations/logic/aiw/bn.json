@@ -1,0 +1,6 @@
+{
+  "siblings_template_1": "{female_name}-এর {num_brothers}জন ভাই আছে এবং {num_sisters}জন বোনও আছে। {female_name}-এর ভাইয়ের কতজন বোন আছে?",
+  "siblings_template_2": "{female_name}-এর {num_sisters}জন বোন আছে এবং {num_brothers}জন ভাইও আছে। {male_name}-এর ভাইয়ের কতজন বোন আছে?",
+  "friends_template": "{female_name}-এর {num_male}জন পুরুষ বন্ধু আছে এবং {num_female}জন নারী বন্ধুও আছে। তারা সবাই একে অপরের বন্ধু এবং এর বাইরে তাদের আর কোনো বন্ধু নেই। {female_name}-এর একজন পুরুষ বন্ধু {male_name}-এর কতজন নারী বন্ধু আছে?",
+  "colleagues_template": "{female_name}-এর {num_male_colleagues_alice_circle}জন পুরুষ সহকর্মী আছে এবং {num_female_colleagues_alice_circle}জন নারী সহকর্মীও আছে। এরাই {female_name}-এর সব সহকর্মী। {female_name}-এর চারপাশের এই সব ব্যক্তিরা একে অপরের সহকর্মী। {male_name}-এর মোট {num_male_colleagues_bob_circle}জন পুরুষ সহকর্মী এবং {num_female_colleagues_bob_circle}জন নারী সহকর্মী আছে। {male_name}-এর চারপাশের এই সব ব্যক্তিরা একে অপরের সহকর্মী। {male_name}-এর দলের লোকেদের আর কোনো সহকর্মী নেই - শুধুমাত্র ম্যাটিল্ডা ছাড়া। সে {male_name}-এর সহকর্মী এবং {female_name}-এরও সহকর্মী, {female_name}-এর দলের অংশ। ম্যাটিল্ডার কতজন নারী সহকর্মী আছে?"
+}

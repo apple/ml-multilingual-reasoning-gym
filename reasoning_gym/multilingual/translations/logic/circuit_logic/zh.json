@@ -1,0 +1,9 @@
+{
+  "circuit_intro": "下面是一个随机生成的逻辑电路。\n",
+  "legend_title": "门符号说明：",
+  "negate_symbol": "{symbol}：取反",
+  "input_assignments": "输入赋值如下：",
+  "assignment_format": "  {input} = {value}",
+  "output_question": "最终输出是什么？",
+  "colon": "："
+}

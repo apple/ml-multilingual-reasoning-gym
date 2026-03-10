@@ -1,0 +1,10 @@
+{
+    "puzzle_intro": "Given the truthfulness of these statements, please tell me the number of possible solutions:",
+    "statement_1": " - Statement 1: 'At least {number} of these 7 statements are true.'",
+    "statement_2": " - Statement 2: 'At most {number} of these 7 statements are false.'",
+    "statement_3": " - Statement 3: 'Exactly {number} of these 7 statements are true.'",
+    "statement_4": " - Statement 4: 'Exactly {number} of these 7 statements are false.'",
+    "statement_5": " - Statement 5: 'Either Statement 3 or Statement 4 is true, but not both.'",
+    "statement_6": " - Statement 6: 'The number of true statements is a prime number.'",
+    "statement_7": " - Statement 7: 'The number of false statements is a composite number.'"
+}

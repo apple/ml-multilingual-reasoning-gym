@@ -1,0 +1,3 @@
+{
+  "question_template": "Identifie le motif mathématique qui définit cette grille, puis utilise ce motif pour remplir les points d'interrogation. Donne la grille complète comme réponse.\n\n{grid}"
+}

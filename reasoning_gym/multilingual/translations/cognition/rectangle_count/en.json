@@ -1,0 +1,3 @@
+{
+    "question_template": "Your task is to count how many rectangles are present in an ASCII grid.\n\nSingle rectangles are outlined with a '#', overlapping rectangles (max 2) are shown with '█'.\n\nYour output should be a single number, representing the total count of rectangles.\n\nNow, it's your turn. How many rectangles do you see in the grid below?\n{puzzle}"
+}

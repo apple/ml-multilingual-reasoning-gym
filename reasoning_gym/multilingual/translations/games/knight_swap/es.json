@@ -1,0 +1,4 @@
+{
+  "prompt_template": "Desafío de Intercambio de Caballos:\n\n```\n{board_str}\n```\n\nLeyenda:\n- 'w' = Caballo Blanco\n- 'B' = Caballo Negro\n- Las casillas vacías se marcan con '.'\n\nObjetivo:\nIntercambia las posiciones de todos los caballos blancos con todos los caballos negros mediante movimientos válidos.\n\nReglas:\n1. Los caballos se mueven en forma de L (2 casillas + 1 casilla perpendicular)\n2. Los caballos solo pueden moverse a casillas vacías\n3. {start_turn} mueve primero, luego los jugadores alternan\n4. Todos los caballos deben alcanzar sus posiciones objetivo (blanco ↔ negro)\n\nPregunta:\n¿Es posible intercambiar todas las posiciones de los caballos? Si es así, enumera los movimientos.\n\nFormato de Respuesta:\n- Para puzzles imposibles: «{impossible_answer}»\n- Para puzzles posibles: Enumera los movimientos como [\"color,desde,hasta\", ...]\n  Ejemplo: [\"w,A1,B3\"] significa que el caballo blanco se mueve A1→B3",
+  "impossible_answer": "No"
+}

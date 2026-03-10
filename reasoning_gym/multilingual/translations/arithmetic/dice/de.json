@@ -1,0 +1,4 @@
+{
+  "puzzle_question": "Ich habe diese Würfel: {dice_str}. Wie hoch ist die Wahrscheinlichkeit, {target} oder höher zu würfeln? (Gehe davon aus, dass alle Würfel gleichzeitig geworfen werden und dass '1d6' einen Wurf eines 6-seitigen Würfels darstellt.) Bitte antworte mit einem gekürzten Bruch, der die Wahrscheinlichkeit darstellt [z.B. 1/60].",
+  "dice_separator": ", "
+}

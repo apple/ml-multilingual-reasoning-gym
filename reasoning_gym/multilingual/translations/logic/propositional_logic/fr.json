@@ -1,0 +1,5 @@
+{
+  "question_format": "La question suivante est une question de raisonnement en logique propositionnelle.\n\nDans cette question, nous fournissons une liste de prémisses. La tâche consiste à inférer une conclusion correcte à partir des prémisses.\n\nINSTRUCTIONS DE FORMAT :\n- Donne la conclusion logique comme réponse finale.\n- Utilise la notation suivante pour noter les symboles :\n    - OR = ∨\n    - AND = ∧\n    - IMPLIES = →\n    - IFF = ↔\n    - NOT = ¬\n\nVoici la question :\n",
+  "given_text": "Données :",
+  "conclusion_question": "Que peut-on conclure des énoncés ci-dessus ?"
+}

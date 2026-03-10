@@ -1,0 +1,13 @@
+{
+  "question_template": "নিম্নলিখিত ম্যাট্রিক্সের জন্য:\n{matrix}\n\nনিচের অপারেশনগুলো ক্রমানুসারে সম্পন্ন করুন:\n• অভেদ রূপান্তর, অর্থাৎ কোনো পরিবর্তন নেই\n{operations}",
+  "rotate_instruction": "• ম্যাট্রিক্সটিকে {degrees} ডিগ্রি ঘোরান",
+  "hmirror_instruction": "• ম্যাট্রিক্সটির অনুভূমিক প্রতিফলন করুন",
+  "vmirror_instruction": "• ম্যাট্রিক্সটির উল্লম্ব প্রতিফলন করুন",
+  "dmirror_instruction": "• ম্যাট্রিক্সটির কর্ণ বরাবর প্রতিফলন করুন",
+  "cmirror_instruction": "• ম্যাট্রিক্সটির বিপরীত কর্ণ বরাবর প্রতিফলন করুন",
+  "map_instruction": "• প্রতিটি {a} কে {b} দিয়ে প্রতিস্থাপন করুন",
+  "zero_divisible_instruction": "• {k} দ্বারা বিভাজ্য সব উপাদানকে শূন্য করুন",
+  "crop_instruction": "• ম্যাট্রিক্সটিকে {row_start}-{row_end} সারি এবং {col_start}-{col_end} কলামে কেটে নিন (১-ভিত্তিক সূচক)",
+  "remove_nth_row_instruction": "• প্রতি {n}তম সারি সরান (১-ভিত্তিক সূচক)",
+  "remove_nth_col_instruction": "• প্রতি {n}তম কলাম সরান (১-ভিত্তিক সূচক)"
+}

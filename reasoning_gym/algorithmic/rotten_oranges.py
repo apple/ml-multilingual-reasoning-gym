@@ -1,0 +1,143 @@
+"""
+Copyright (C) 2026 Apple Inc. All Rights Reserved.
+"""
+
+"""Find how many steps it takes for all oranges in a grid to rot.
+
+A popular Leetcode problem:
+https://leetcode.com/problems/rotting-oranges/description/
+"""
+
+from collections import deque
+from dataclasses import dataclass
+from random import Random
+from typing import Any, Optional
+
+from ..coaching import BaseCurriculum, RangeAttributeDefinition
+from ..factory import register_dataset
+from ..multilingual.base_classes import MultilingualProceduralDataset
+from ..config import DatasetConfig
+
+DATASET_NAME = "rotten_oranges"
+
+@dataclass
+class RottenOrangesConfig(DatasetConfig):
+    """Configuration for Rotten Oranges dataset generation"""
+
+    min_n: int = 10  # Minimum size of the matrix
+    max_n: int = 30  # Maximum size of the matrix
+    p_oranges: float = 0.85  # Percent of grid cells populated with oranges
+    p_rotten: float = 0.1  # Percent of oranges that are initially rotten
+    languages: list[str] | str = "en"  # Add this field
+    language_weights: Optional[list[float]] = None  # Add this optional field
+
+    def validate(self):
+        """Validate configuration parameters"""
+        assert 2 <= self.min_n, "min_n must be at least 2"
+        assert self.min_n <= self.max_n, "min_n must be less than or equal to max_n"
+        assert 0 < self.p_oranges <= 1, "p_oranges must be between 0 and 1"
+        assert 0 < self.p_rotten <= 1, "p_rotten must be between 0 and 1"
+
+class RottenOrangesDataset(MultilingualProceduralDataset):
+    """Generates Rotten Oranges exercises with configurable difficulty"""
+
+    def __init__(self, config: RottenOrangesConfig):
+        super().__init__(config=config, seed=config.seed, size=config.size)
+
+    def _matrix_to_str(self, matrix: list[list[int]]) -> str:
+        """Get a string representation of the matrix"""
+        return "\n".join(" ".join(str(x) for x in row) for row in matrix)
+
+    def _get_initial_matrix(self, rng: Random, n: int) -> list[list[int]]:
+        """Generate a random matrix with oranges"""
+        matrix = [[0] * n for _ in range(n)]
+        for i in range(n):
+            for j in range(n):
+                if rng.random() < self.config.p_oranges:
+                    matrix[i][j] = 1
+                    if rng.random() < self.config.p_rotten:
+                        matrix[i][j] = 2
+        return matrix
+
+    def _get_answer(self, matrix: list[list[int]]) -> int:
+        """Calculate the number of steps it takes for all oranges to rot"""
+        ROWS, COLS = len(matrix), len(matrix[0])
+        DIRS = [[1, 0], [-1, 0], [0, 1], [0, -1]]
+
+        q, visited = deque(), set()
+        infected, healthy, clock = 0, 0, 0
+
+        for r in range(ROWS):
+            for c in range(COLS):
+                if matrix[r][c] == 2:
+                    visited.add((r, c))
+                    q.append((r, c))
+                elif matrix[r][c] == 1:
+                    healthy += 1
+
+        while True:
+            temp = deque()
+            while q:
+                r, c = q.popleft()
+                for dr, dc in DIRS:
+                    new_r, new_c = r + dr, c + dc
+                    if (
+                        0 <= new_r < ROWS
+                        and 0 <= new_c < COLS
+                        and (new_r, new_c) not in visited
+                        and matrix[new_r][new_c] == 1
+                    ):
+                        infected += 1
+                        visited.add((new_r, new_c))
+                        temp.append((new_r, new_c))
+            if temp:
+                q = temp
+            else:
+                break
+            clock += 1
+
+        return clock if infected == healthy else -1
+
+    def _generate_item(self, idx: int, language: str) -> dict[str, Any]:
+        """Generate a single Rotten Oranges question in the specified language"""
+        rng = Random(self.seed + idx)
+
+        n = rng.randint(self.config.min_n, self.config.max_n)
+        matrix = self._get_initial_matrix(rng, n)
+        matrix_str = self._matrix_to_str(matrix)
+        answer = self._get_answer(matrix)
+
+        question = self._get_translation("question_template", language, matrix=matrix_str)
+
+        return {
+            "question": question,
+            "answer": str(answer),
+            "metadata": {
+                "source_dataset": DATASET_NAME,
+                "source_index": idx,
+                "matrix": matrix,
+                "solution": answer,
+                "n": n,
+                "language": language,
+                "difficulty": {
+                    "n": (self.config.min_n, self.config.max_n),
+                },
+            },
+        }
+
+class RottenOrangesCurriculum(BaseCurriculum):
+    def __init__(self):
+        super().__init__(RottenOrangesCurriculum.__name__, RottenOrangesConfig)
+
+        # Define attributes
+        self._define_attributes(
+            RangeAttributeDefinition(
+                name="n",
+                levels=[10, 25, 50, 100],
+                description="Size of the square matrix",
+                lower_field_name="min_n",
+                upper_field_name="max_n",
+            )
+        )
+
+register_dataset(DATASET_NAME, RottenOrangesDataset, RottenOrangesConfig, RottenOrangesCurriculum)

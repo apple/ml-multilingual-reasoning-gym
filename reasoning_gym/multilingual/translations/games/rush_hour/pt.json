@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Mova o carro vermelho (AA) para a saída à direita.\nEspecifique os movimentos no formato: «F+1 K+1 M-1 C+3 H+2 ...»\nonde a letra é o veículo e +/- número é quantos espaços mover para a direita/esquerda ou para baixo/cima.\nParedes são marcadas com «x». Carros não podem atravessar paredes, e paredes não podem ser movidas.\nUm carro orientado verticalmente só pode se mover para cima e para baixo, um carro orientado horizontalmente só pode se mover para a esquerda e direita.\n\nTabuleiro:\n{board_display}"
+}

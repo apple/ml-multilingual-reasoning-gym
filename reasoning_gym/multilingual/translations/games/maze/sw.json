@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Ongoza kutoka '{start_char}' (mwanzo) hadi '{goal_char}' (lengo):\n\n```\n{maze_str}\n```\nUfafanuzi: '{wall_char}' = Ukuta, '{path_char}' = Njia\n\nJe, ni hatua ngapi za chini zaidi za kufikia lengo?\nToa nambari ya hatua tu kama jibu lako la mwisho, hakuna maandishi mengine au muundo."
+}

@@ -1,0 +1,4 @@
+{
+  "puzzle_question": "Ho questi dadi: {dice_str}. Qual è la probabilità di ottenere {target} o superiore? (Supponi che tutti i dadi vengano lanciati contemporaneamente, e che '1d6' rappresenti un lancio di un dado a 6 facce.) Rispondi con una frazione ridotta che rappresenta la probabilità [es., 1/60].",
+  "dice_separator": ", "
+}

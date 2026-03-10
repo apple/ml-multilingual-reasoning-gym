@@ -1,0 +1,5 @@
+{
+  "question_format": "Swali lifuatalo ni swali la uaamuzi wa mantiki ya mapendekezo.\n\nKatika swali hili tunakupa orodha ya madai ya msingi. Kazi ni kutoa hitimisho sahihi kutoka kwa madai hayo ya msingi.\n\nMAAGIZO YA UMBIZO:\n• Rudisha taarifa ya hitimisho la kimantiki, kama jibu lako la mwisho.\n• Tumia alama zifuatazo kuonyesha ishara\n    • AU = ∨\n    • NA = ∧\n    • INAMAANISHA = →\n    • KAMA NA TU KAMA = ↔\n    • SI = ¬\n\nHii ndio swali:\n",
+  "given_text": "Tumepewa:",
+  "conclusion_question": "Je, tunaweza kuhitimisha nini kutoka kwa taarifa hapo juu?"
+}

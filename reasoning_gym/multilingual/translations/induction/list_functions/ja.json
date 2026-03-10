@@ -1,0 +1,6 @@
+{
+  "prompt_template": "あなたは帰納的推論の専門家である。与えられた入力に対応する出力を生成せよ。\n例に示された入力から出力への対応と同じ規則を適用して生成される出力を要素のリストで答えよ。\n例：\n{examples}入力：{input}\n出力：\n",
+  "input_label": "入力{number}",
+  "output_label": "出力{number}",
+  "colon": "："
+}

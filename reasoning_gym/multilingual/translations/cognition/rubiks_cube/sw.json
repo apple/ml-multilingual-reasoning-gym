@@ -1,0 +1,4 @@
+{
+  "prompt_template_1": "Umepewa kube ya Rubik ya {cube_size}x{cube_size}x{cube_size}. Inaonekana hivi:\n\n{cube_render} \n\nToa suluhisho la kutatua kube hii ukitumia Singmaster notation. Usiunganishe hatua zoyote, kwa mfano, usiandike 'U2', na badala yake andika 'U U'.",
+  "prompt_template_2": "Unaona kube ya Rubik ya ukubwa {cube_size} imepangwa kama ifuatavyo:\n\n{cube_render} \n\nToa suluhisho la kutatua kube hii ukitumia Singmaster notation. Usiunganishe hatua zoyote, kwa mfano, usiandike 'U2', na badala yake andika 'U U'."
+}

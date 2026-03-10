@@ -1,0 +1,5 @@
+{
+  "question_template": "Hii ni gridi ya 'Mchezo wa Uhai'. Tunachukulia mchezo umesimama ikiwa hakuna seli hai.\nJe, mchezo huu utasimama katika au kabla ya hatua {max_simulation_steps}? Fikiria jirani za Moore na topologia inayozunguka. Ikiwa utasimama, jibu '{true_answer}'. Ikiwa hautasimama, jibu '{false_answer}'.\n\nUbao wa mwanzo:\n{board_str}",
+  "true_answer": "Kweli",
+  "false_answer": "Uwongo"
+}

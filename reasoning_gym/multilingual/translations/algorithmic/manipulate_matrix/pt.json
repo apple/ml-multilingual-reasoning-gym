@@ -1,0 +1,13 @@
+{
+  "question_template": "Para a seguinte matriz:\n{matrix}\n\nExecute a seguinte série de operações em ordem:\n- Transformação de identidade, ou seja, nenhuma alteração\n{operations}",
+  "rotate_instruction": "- Gire a matriz {degrees} graus",
+  "hmirror_instruction": "- Espelhe a matriz horizontalmente",
+  "vmirror_instruction": "- Espelhe a matriz verticalmente",
+  "dmirror_instruction": "- Espelhe a matriz ao longo da diagonal",
+  "cmirror_instruction": "- Espelhe a matriz ao longo da contradiagonal",
+  "map_instruction": "- Mapeie cada ocorrência de {a} para {b}",
+  "zero_divisible_instruction": "- Defina todos os elementos divisíveis por {k} como zero",
+  "crop_instruction": "- Recorte a matriz para as linhas {row_start}-{row_end} e colunas {col_start}-{col_end} (indexação baseada em 1)",
+  "remove_nth_row_instruction": "- Remova toda {n}ª linha (indexação baseada em 1)",
+  "remove_nth_col_instruction": "- Remova toda {n}ª coluna (indexação baseada em 1)"
+}

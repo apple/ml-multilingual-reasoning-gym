@@ -1,0 +1,9 @@
+{
+  "circuit_intro": "নিচে একটি এলোমেলোভাবে তৈরি করা লজিক সার্কিট রয়েছে।\n",
+  "legend_title": "গেটগুলির প্রতীকের ব্যাখ্যা:",
+  "negate_symbol": "{symbol}: বিপরীত",
+  "input_assignments": "নিম্নলিখিত ইনপুট মান দেওয়া হলো:",
+  "assignment_format": "  {input} = {value}",
+  "output_question": "চূড়ান্ত ফলাফল কী?",
+  "colon": ": "
+}

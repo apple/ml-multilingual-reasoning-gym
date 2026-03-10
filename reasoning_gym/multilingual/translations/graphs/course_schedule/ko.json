@@ -1,0 +1,5 @@
+{
+  "question_template": "총 {num_courses}개의 수업을 수강해야 하며, 각 수업은 0부터 {last_index}까지 번호가 매겨져 있다.\n\n다음은 선수과목 목록이며, 목록의 i번째 요소 (a_i, b_i)는 수업 a_i를 수강하려면 먼저 수업 b_i를 수강해야 함을 의미한다:\n{prerequisites}\n\n선수과목 조건을 고려했을 때 모든 수업을 완료할 수 있으면 {true_answer}를, 그렇지 않으면 {false_answer}를 반환하라.",
+  "true_answer": "참",
+  "false_answer": "거짓"
+}

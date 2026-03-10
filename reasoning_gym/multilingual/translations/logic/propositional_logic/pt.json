@@ -1,0 +1,5 @@
+{
+  "question_format": "A seguinte questão é uma questão de raciocínio lógico proposicional.\n\nNa questão, fornecemos uma lista de premissas. A tarefa é inferir uma conclusão correta a partir das premissas.\n\nINSTRUÇÕES DE FORMATO:\n- Retorne a declaração lógica da conclusão como sua resposta final.\n- Use a seguinte notação para denotar símbolos\n    - OR = ∨\n    - AND = ∧\n    - IMPLIES = →\n    - IFF = ↔\n    - NOT = ¬\n\nAqui está a questão:\n",
+  "given_text": "Dados:",
+  "conclusion_question": "O que podemos concluir das declarações acima?"
+}

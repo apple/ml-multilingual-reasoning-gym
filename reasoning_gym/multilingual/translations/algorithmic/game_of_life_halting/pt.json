@@ -1,0 +1,5 @@
+{
+  "question_template": "Este é um tabuleiro do «Jogo da Vida». Consideramos um jogo parado quando não há células vivas.\nEste jogo irá parar em {max_simulation_steps} passos ou antes? Assuma uma vizinhança de Moore e topologia envolvente. Se ele irá parar, responda «{true_answer}». Se não irá parar, responda «{false_answer}».\n\nTabuleiro inicial:\n{board_str}",
+  "true_answer": "Verdadeiro",
+  "false_answer": "Falso"
+}

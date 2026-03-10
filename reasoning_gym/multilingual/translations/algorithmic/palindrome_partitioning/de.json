@@ -1,0 +1,3 @@
+{
+  "question_template": "Gegeben sei ein String. Zerlege ihn so, dass jeder Teilstring ein Palindrom ist.\n\nEin Palindrom ist ein Wort, das vorwärts und rückwärts gelesen dasselbe ergibt.\n\nDu kannst alle möglichen Palindrom-Zerlegungen in beliebiger Reihenfolge zurückgeben.\n\nDeine Ausgabe sollte eine Liste von Listen sein, wobei jede Liste eine Palindrom-Zerlegung darstellt, z.B. [[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]].\n\nZerlege den folgenden String in Palindrome: {string}"
+}

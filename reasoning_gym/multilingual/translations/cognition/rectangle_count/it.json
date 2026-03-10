@@ -1,0 +1,3 @@
+{
+  "question_template": "Il tuo compito è contare quanti rettangoli sono presenti in una griglia ASCII.\n\nI rettangoli singoli sono delineati con «#», i rettangoli sovrapposti (max 2) sono mostrati con «█».\n\nLa tua risposta deve essere un singolo numero, che rappresenta il conteggio totale dei rettangoli.\n\nOra tocca a te. Quanti rettangoli vedi nella griglia qui sotto?\n{puzzle}"
+}

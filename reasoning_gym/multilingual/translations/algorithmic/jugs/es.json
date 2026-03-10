@@ -1,0 +1,8 @@
+{
+  "puzzle_description": "Eres un oficial de policía. Un maníaco ha plantado una bomba junto a una fuente pública.\n\nPara desactivar la bomba, debes resolver un acertijo. El acertijo se resuelve cuando llenas cualquiera de las jarras disponibles con la cantidad objetivo de agua.\n\nTienes tres tipos de movimientos: «{fill_action}», «{empty_action}» y «{pour_action}».\n\nPara llenar la Jarra A, haces «{fill_action} A».\nPara vaciar la Jarra B, haces «{empty_action} B».\nPara verter el contenido de la Jarra A en la Jarra B, haces «{pour_action} A->B».\nTodas las jarras están vacías al comenzar.\n\nLas jarras vacías contienen esta cantidad de litros de agua: {cap_str}\nY tu objetivo es: {target} litros.\n\n¿Cómo desactivas la bomba?\n\nResponde con una lista de movimientos en formato JSON que resulte en que cualquiera de las jarras se llene con la cantidad objetivo.",
+  "fill_action": "llena",
+  "empty_action": "vacía",
+  "pour_action": "vierte",
+  "jug_separator": ", ",
+  "capacity_separator": ":"
+}

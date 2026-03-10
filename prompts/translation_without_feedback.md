@@ -1,0 +1,436 @@
+# Task: Translate English template into {TARGET_LANGUAGE} ({TARGET_LOCALE})
+
+<task>
+You are tasked with translating templates from English to {TARGET_LANGUAGE} ({TARGET_LOCALE}) that are used to procedurally generate reasoning problems such as math, logic or coding problems. These templates contain placeholders that get filled with specific values to create concrete problems. Given the context and examples below, translate the JSON file while maintaining the structure and functionality.
+</task>
+
+<original_template>
+```json
+{ENGLISH_JSON_CONTENT}
+```
+</original_template>
+
+<implementation_context>
+```python
+{PYTHON_FILE_CONTENT}
+```
+</implementation_context>
+
+<template_explanation>
+The templates above are used in the Python code to generate thousands of different problems by:
+1. Filling placeholders like {{expression}} with mathematical expressions
+2. Combining multiple templates for variety
+3. Creating coherent problem statements that feel natural to native speakers
+
+In the following, we give a few English examples from filling in the placeholders with concrete values.
+</template_explanation>
+
+<filled_out_template_examples>
+{FILLEDOUT_EXAMPLES}
+</filled_out_template_examples>
+
+<examples>
+<example_1>
+<example_name>Count Bits Dataset</example_name>
+
+<original_template>
+```json
+{
+    "question_template": "How many 1 bits are there in the binary representation of the number {number}?"
+}
+```
+</original_template>
+<implementation_context>
+```python
+"""Count number of 1 bits in a number."""
+
+from dataclasses import dataclass
+from random import Random
+from typing import Any, Optional
+
+from ..coaching import BaseCurriculum, RangeAttributeDefinition
+from ..factory import register_dataset
+from ..multilingual.base_classes import MultilingualProceduralDataset
+from ..config import DatasetConfig
+
+DATASET_NAME = "count_bits"
+
+@dataclass
+class CountBitsConfig(DatasetConfig):
+    """Configuration for Count Bits dataset generation"""
+
+    min_n: int = 1  # Minimum number to consider
+    max_n: int = 2**31 - 1  # Maximum number to consider
+    languages: list[str] | str = "en"
+    language_weights: Optional[list[float]] = None
+
+    def validate(self):
+        """Validate configuration parameters"""
+        assert 1 <= self.min_n <= self.max_n, "min_n must be between 1 and max_n"
+
+class CountBitsDataset(MultilingualProceduralDataset):
+    """Generates Count Bits exercises with configurable difficulty"""
+
+    def __init__(self, config: CountBitsConfig):
+        super().__init__(config=config, seed=config.seed, size=config.size)
+
+    def _generate_item(self, idx: int, language: str) -> dict[str, Any]:
+        """Generate a single Count Bits question in the specified language"""
+        rng = Random(self.seed + idx)
+
+        number = rng.randint(self.config.min_n, self.config.max_n)
+        binary = bin(number)[2:]
+        answer = binary.count("1")
+
+        question = self._get_translation("question_template", language, number=number)
+
+        return {
+            "question": question,
+            "answer": str(answer),
+            "metadata": {
+                "source_dataset": DATASET_NAME,
+                "source_index": idx,
+                "number": number,
+                "solution": answer,
+                "binary": binary,
+                "n": number,
+                "difficulty": {
+                    "n": (self.config.min_n, self.config.max_n),
+                },
+                "language": language,
+            },
+        }
+```
+</implementation_context>
+<filled_out_template_examples>
+<example_1>
+<english>
+<question>
+How many 1 bits are there in the binary representation of the number 1373158607?
+</question>
+<answer>
+18
+</answer>
+</english>
+</example_1>
+
+<example_2>
+<english>
+<question>
+How many 1 bits are there in the binary representation of the number 82789451?
+</question>
+<answer>
+14
+</answer>
+</english>
+</example_2>
+
+<example_3>
+<english>
+<question>
+How many 1 bits are there in the binary representation of the number 877324117?
+</question>
+<answer>
+16
+</answer>
+</english>
+</example_3>
+
+<example_4>
+<english>
+<question>
+How many 1 bits are there in the binary representation of the number 583848003?
+</question>
+<answer>
+12
+</answer>
+</english>
+</example_4>
+
+<example_5>
+<english>
+<question>
+How many 1 bits are there in the binary representation of the number 1907541172?
+</question>
+<answer>
+15
+</answer>
+</english>
+</example_5>
+</filled_out_template_examples>
+<example_translation_output>
+```json
+{
+    "question_template": "Wie viele Einsen gibt es in der Binärdarstellung der Zahl {number}?"
+}
+```
+</example_translation_output>
+</example_1>
+
+<example_2>
+<example_name>List Functions Dataset</example_name>
+
+<original_template>
+```json
+{
+    "prompt_template": "You are an expert at inductive reasoning. Generate an output corresponding to the given input.\\nThe output is generated by applying the same rule that maps input to output for the examples provided. Your answer should be a list of element/elements\\nExamples:\\n{examples}\\n\\nInput: {input}\\nOutput:\\n",
+    "example_format": "Input {index}: {input_key}\\nOutput {index}: {value}\\n"
+}
+```
+</original_template>
+<implementation_context>
+```python
+"""List functions generators"""
+
+from dataclasses import dataclass
+from random import Random
+from typing import Any, Callable, Optional
+
+from reasoning_gym.factory import register_dataset
+from reasoning_gym.multilingual.base_classes import MultilingualProceduralDataset
+from reasoning_gym.config import DatasetConfig
+
+DATASET_NAME = "list_functions"
+
+@dataclass
+class ListFunctionsDatasetConfig(DatasetConfig):
+    """Configuration for List function generators."""
+
+    languages: list[str] | str = "en"
+    language_weights: Optional[list[float]] = None
+
+    def validate(self) -> None:
+        """Validate configuration parameters"""
+        assert self.size > 0, "size must be positive"
+
+tasks = list(range(17))
+
+class ListFunctionsDataset(MultilingualProceduralDataset):
+
+    def __init__(self, config: ListFunctionsDatasetConfig):
+        super().__init__(config, config.seed, config.size)
+        self._generators: dict[int, Callable[[Random, float], dict[str, Any]]] = None  # initially None, lazy loading
+        self.task_indices = Random(self.seed).choices(tasks, k=self.size)
+
+    @property
+    def generators(self) -> dict[int, Callable[[Random, float], dict[str, Any]]]:
+        """Lazy load generators only when first accessed"""
+        if self._generators is None:
+            self._generators = self._load_generators()
+        return self._generators
+
+    def _load_generators(self):
+        """
+        Generates mapper from task identifiers (keys) to example generator functions
+        """
+        from . import generators
+
+        def strip_prefix(s: str, prefix: str) -> str:
+            return s[len(prefix) :]
+
+        prefix = "generate_"
+        gs = {}
+        for n in dir(generators):
+            if n.startswith(prefix):
+                gs[int(strip_prefix(n, prefix))] = getattr(generators, n)
+        return gs
+
+    def _generate_item(self, idx: int, language: str) -> dict[str, Any]:
+        """Generate a single induction-based list function dataset for the given language"""
+        rng = Random(self.seed + idx)
+        generator_idx = self.task_indices[idx]
+        generator = self.generators[generator_idx]
+        examples = generator(rng)
+        entry = examples.popitem()
+        input = entry[0]
+        output = entry[1]
+        formatted_examples = ""
+        for index, input_key in enumerate(examples):
+            formatted_examples += self._get_translation("example_format", language, 
+                                                      index=index + 1, input_key=input_key, value=examples[input_key])
+        question = self._get_translation("prompt_template", language, 
+                                       examples=formatted_examples, input=input)
+        return {
+            "question": question,
+            "answer": output,
+            "metadata": {
+                "source_dataset": DATASET_NAME,
+                "source_index": idx,
+                "language": language,
+            },
+        }
+```
+</implementation_context>
+<filled_out_template_examples>
+<example_1>
+<english>
+<question>
+You are an expert at inductive reasoning. Generate an output corresponding to the given input.
+The output is generated by applying the same rule that maps input to output for the examples provided. Your answer should be a list of element/elements
+Examples:
+Input 1: [4, 95, 36, 32]
+Output 1: [4, 32, 36, 95]
+Input 2: [18, 95, 14, 87, 95, 70]
+Output 2: [14, 18, 70, 87, 95, 95]
+Input 3: [76, 55, 5, 4]
+Output 3: [4, 5, 55, 76]
+Input 4: [28, 30, 65, 78]
+Output 4: [28, 30, 65, 78]
+
+
+Input: [72, 26, 92]
+Output:
+</question>
+<answer>
+[26, 72, 92]
+</answer>
+</english>
+</example_1>
+
+<example_2>
+<english>
+<question>
+You are an expert at inductive reasoning. Generate an output corresponding to the given input.
+The output is generated by applying the same rule that maps input to output for the examples provided. Your answer should be a list of element/elements
+Examples:
+Input 1: [37, 90, 98]
+Output 1: [37, 90, 98]
+Input 2: [60, 48, 86, 90, 13]
+Output 2: [60, 48, 86, 90, 13]
+Input 3: [77, 64, 78, 3, 66, 56, 74, 48, 80, 71]
+Output 3: [77, 64, 78, 3, 66, 56, 74, 48, 80, 71]
+Input 4: [51, 23, 8, 14, 16, 49, 20, 13, 21]
+Output 4: [51, 23, 8, 14, 16, 49, 20, 13, 21]
+
+
+Input: [17, 99, 50, 77, 65, 35, 74, 24, 49, 9]
+Output:
+</question>
+<answer>
+[17, 99, 50, 77, 65, 35, 74, 24, 49, 9]
+</answer>
+</english>
+</example_2>
+
+<example_3>
+<english>
+<question>
+You are an expert at inductive reasoning. Generate an output corresponding to the given input.
+The output is generated by applying the same rule that maps input to output for the examples provided. Your answer should be a list of element/elements
+Examples:
+Input 1: [4, 29, 49, 15, 90, 23, 38, 5, 67, 5, 70]
+Output 1: [2]
+Input 2: [37, 66, 21, 15, 44, 46, 80, 10]
+Output 2: [0]
+Input 3: [13, 45, 5, 5, 5, 50, 5]
+Output 3: [4]
+Input 4: [88, 6, 87]
+Output 4: [0]
+
+
+Input: [59, 5, 81, 5, 20, 5, 61, 76, 48, 70, 5, 30]
+Output:
+</question>
+<answer>
+[4]
+</answer>
+</english>
+</example_3>
+
+<example_4>
+<english>
+<question>
+You are an expert at inductive reasoning. Generate an output corresponding to the given input.
+The output is generated by applying the same rule that maps input to output for the examples provided. Your answer should be a list of element/elements
+Examples:
+Input 1: [54, 63, 33, 11, 39, 44, 3]
+Output 1: [14]
+Input 2: [62, 2, 15, 37]
+Output 2: [17]
+Input 3: [40, 96, 84, 5]
+Output 3: [5]
+Input 4: [18, 35, 95, 20]
+Output 4: [38]
+
+
+Input: [98, 92, 55, 10, 79, 53]
+Output:
+</question>
+<answer>
+[10]
+</answer>
+</english>
+</example_4>
+
+<example_5>
+<english>
+<question>
+You are an expert at inductive reasoning. Generate an output corresponding to the given input.
+The output is generated by applying the same rule that maps input to output for the examples provided. Your answer should be a list of element/elements
+Examples:
+Input 1: [52, 6, 76, 76]
+Output 1: [53, 6, 76, 77]
+Input 2: [82, 67, 20, 75, 69, 5]
+Output 2: [83, 67, 20, 75, 69, 6]
+Input 3: [9, 41, 81]
+Output 3: [10, 41, 82]
+Input 4: [4, 18, 71]
+Output 4: [5, 18, 72]
+
+
+Input: [68, 43, 92, 98, 12, 51, 91]
+Output:
+</question>
+<answer>
+[69, 43, 92, 98, 12, 51, 92]
+</answer>
+</english>
+</example_5>
+</filled_out_template_examples>
+
+<example_translation_output>
+```json
+{
+    "prompt_template": "Du bist ein Experte für Induktion. Erzeuge eine Ausgabe entsprechend der gegebenen Eingabe.\\nDie Ausgabe wird erzeugt, indem dieselbe Regel angewendet wird, die in den gegebenen Beispielen die Eingabe auf die Ausgabe abbildet. Deine Antwort sollte eine Liste von Elementen sein.\\nBeispiele:\\n{examples}\\n\\nEingabe: {input}\\nAusgabe:\\n",
+    "example_format": "Eingabe {index}: {input_key}\\nAusgabe {index}: {value}\\n"
+}
+```
+</example_translation_output>
+</example_2>
+</examples>
+
+
+<instructions>
+Analyze the provided information and translate the JSON file. If Human Feedback is provided, incorporate it into your translation. Return the translated JSON content directly without any status indicators or explanations. **Important: Your response must be enclosed within `<answer></answer>` tags.** Your translation quality will be judged by how natural and fluent the **generated problems** sound in {TARGET_LANGUAGE} ({TARGET_LOCALE}), not just how literally accurate the template translation is.
+
+First, think hard step by step and provide your reasoning within <thinking> and </thinking> tags.
+</instructions>
+
+<critical_requirements>
+<template_structure>
+1. **Preserve exact JSON structure and keys** - the code depends on this
+2. **Never translate placeholders** like {{expression}}, {{num_coins}} - these are filled programmatically
+3. **Only translate the human-readable text** between placeholders, keep mathematical expressions and symbols language-agnostic
+</template_structure>
+
+<quality_requirements>
+1. **Natural fluency**: When templates are filled with values, problems must sound natural in {TARGET_LANGUAGE} ({TARGET_LOCALE}). It is not important to translate literally.
+2. **Mathematical accuracy**: Mathematical concepts and terminology must be correct
+3. **Consistency with English version**: It is crucial that the translated templates keep all information that is provided in the original English version. For example, if the English version mentions "adding real numbers", the translated templates must include this information as well and not just mention "numbers" 
+4. **Expected answer stays the same**: The expected answer must be the exact same as in the English version. For example, if the English version expects True or False as output, this should not be translated. This is crucial, as the automatic evaluation code will not be able to recognize correct answers otherwise. The only exception is if the code in which the templates are used also provides a translated answer.
+5. **Consistency**: Similar problems generated from these templates should use consistent terminology
+6. **Cultural appropriateness**: Use mathematical conventions familiar to {language_name} speakers
+7. **Formality**: Maintain the same level of formality as the English version
+</quality_requirements>
+</critical_requirements>
+
+<human_feedback>
+{HUMAN_FEEDBACK}
+</human_feedback>
+
+<translation_strategy>
+1. **Read the Python code** to understand how templates are used together and what kind of values are filled in for the placeholders
+2. **Imagine the filled templates** - how will they sound when all slots are filled with actual values?
+3. **Prioritize generated fluency** - a template that seems awkward in of itself but generates natural problems is better than a literal translation that generates stilted problems
+4. **Test template combinations** - ensure templates work well together when the code combines them
+</translation_strategy>

@@ -1,0 +1,3 @@
+{
+  "question_template": "Löse diese Aufgabe. Angenommen: beliebige Bittiefe und vorzeichenbehaftete Ganzzahlen. Falls die Antwort negativ ist, gib sie als negativen Wert an (z.B. -0x3), nicht in Zweierkomplement-Form. Gib nur das Endergebnis als Hexadezimalwert an.\n{problem}"
+}

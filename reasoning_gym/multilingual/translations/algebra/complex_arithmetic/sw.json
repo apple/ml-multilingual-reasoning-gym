@@ -1,0 +1,6 @@
+{
+  "operation_+": "Ongeza nambari changamano hizi: ({a}) + ({b})",
+  "operation_-": "Toa nambari changamano hizi: ({a}) - ({b})",
+  "operation_*": "Zidisha nambari changamano hizi: ({a}) × ({b})",
+  "operation_/": "Gawanya nambari changamano hizi: ({a}) ÷ ({b})"
+}

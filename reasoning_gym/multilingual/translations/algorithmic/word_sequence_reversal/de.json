@@ -1,0 +1,3 @@
+{
+  "question_template": "Löse die folgende Aufgabe.\n\nGib deine Antwort als kommagetrennte Liste von Wörtern an, mit einem Leerzeichen nach dem Komma.\n\nKehre diese Liste von Wörtern um: {words}\n"
+}

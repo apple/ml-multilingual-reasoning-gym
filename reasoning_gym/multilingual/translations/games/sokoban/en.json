@@ -1,0 +1,3 @@
+{
+    "instruction_text": "You are going to solve a 'sokoban' puzzle.\n\n* - The player\n% - The player on a goal\n@ - A box\nX - A goal\n$ - A box on a goal\n+ - A wall\n- - An empty position\n\nYour solution must be a string of arrows, ex: ←↓↑→→↑↓←.\n\nHere is your puzzle:\n"
+}

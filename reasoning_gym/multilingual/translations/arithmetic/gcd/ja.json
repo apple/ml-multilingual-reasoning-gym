@@ -1,0 +1,4 @@
+{
+  "question_template": "次の数の最大公約数を求めなさい：{numbers_str}。最大公約数のみを答えなさい。",
+  "numbers_separator": "、"
+}

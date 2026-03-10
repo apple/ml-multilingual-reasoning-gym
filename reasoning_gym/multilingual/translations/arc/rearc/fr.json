@@ -1,0 +1,4 @@
+{
+  "prompt_template": "Trouve la règle commune qui transforme une grille d'entrée en grille de sortie, à partir des exemples ci-dessous.\n\n{examples}Voici une grille d'entrée test. Prédis la grille de sortie correspondante en appliquant la règle que tu as trouvée.\nTa réponse finale doit être uniquement la grille de sortie sous forme de texte.\n\nEntrée :\n{input_grid}",
+  "example_format": "Exemple {index} :\n\nEntrée :\n{input_board}\nSortie :\n{output_board}\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "circuit_intro": "కింద యాదృచ్ఛికంగా ఉత్పన్నమైన లాజిక్ సర్కిట్ ఉంది.\n",
+  "legend_title": "గేట్లకు గుర్తులు:",
+  "negate_symbol": "{symbol}: నిరాకరణ",
+  "input_assignments": "కింది ఇన్‌పుట్ కేటాయింపులు ఇవ్వబడ్డాయి:",
+  "assignment_format": "  {input} = {value}",
+  "output_question": "చివరి అవుట్‌పుట్ ఏమిటి?",
+  "colon": ": "
+}

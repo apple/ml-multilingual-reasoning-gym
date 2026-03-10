@@ -1,0 +1,3 @@
+{
+  "question_template": "Deine Aufgabe ist es, **englische** Wörter in einem Satz zu entschlüsseln.\n\nBei jedem Wort in einem Satz können die Buchstaben zufällig durcheinandergebracht worden sein. Deine Aufgabe ist es, die Wörter zu entschlüsseln.\n\nDie Reihenfolge der Wörter im Satz bleibt erhalten. Außerdem bleibt der Stil des Satzes erhalten (d.h. Zeichensetzung, Großschreibung, Zeilenumbrüche usw.).\n\nDeine Ausgabe sollte ein Satz mit den entschlüsselten Wörtern sein.\n\nEntschlüssele nun diese **englischen** Wörter: {words}"
+}

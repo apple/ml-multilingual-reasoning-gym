@@ -1,0 +1,4 @@
+{
+    "prompt_template": "Find the common rule that maps an input grid to an output grid, given the examples below.\n\n{examples}Below is a test input grid. Predict the corresponding output grid by applying the rule you found.\nYour final answer should just be the text output grid itself.\n\nInput:\n{input_grid}",
+    "example_format": "Example {index}:\n\nInput:\n{input_board}\nOutput:\n{output_board}\n\n"
+}

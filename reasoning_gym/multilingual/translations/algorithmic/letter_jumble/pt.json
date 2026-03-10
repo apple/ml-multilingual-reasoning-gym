@@ -1,0 +1,3 @@
+{
+  "question_template": "Sua tarefa é desembaralhar palavras em **inglês** em uma frase.\n\nPara cada palavra em uma frase, as letras podem ter sido embaralhadas aleatoriamente. Sua tarefa é desembaralhar as palavras.\n\nA ordem das palavras na frase é preservada. Além disso, o estilo da frase é preservado (ou seja, pontuação, maiúsculas, quebras de linha, etc.).\n\nSua resposta deve ser uma frase com as palavras desembaralhadas.\n\nAgora, desembaralhe estas palavras em **inglês**: {words}"
+}

@@ -1,0 +1,148 @@
+"""
+Copyright (C) 2026 Apple Inc. All Rights Reserved.
+"""
+
+from dataclasses import dataclass
+from random import Random
+from typing import Any, Optional
+
+from ..coaching import BaseCurriculum, ScalarAttributeDefinition
+from ..factory import register_dataset
+from ..multilingual.base_classes import MultilingualProceduralDataset
+from ..config import DatasetConfig
+
+DATASET_NAME = "ab"
+
+def generate_program(length, rng):
+    """Generates a random initial program of a given length."""
+    elements = ["A#", "B#", "#A", "#B"]
+    return [rng.choice(elements) for _ in range(length)]
+
+def compute_steps(program, max_steps=100):
+    """Computes the transformation steps and detects if the program does not halt."""
+    steps = [program.copy()]
+    seen_states = {tuple(program)}
+
+    for step in range(max_steps):
+        current = steps[-1]
+        new_program = None
+
+        for i in range(len(current) - 1):
+            a, b = current[i], current[i + 1]
+            if a == "A#" and b == "#A":
+                new_program = current[:i] + current[i + 2 :]
+            elif a == "A#" and b == "#B":
+                new_program = current[:i] + ["#B", "A#"] + current[i + 2 :]
+            elif a == "B#" and b == "#A":
+                new_program = current[:i] + ["#A", "B#"] + current[i + 2 :]
+            elif a == "B#" and b == "#B":
+                new_program = current[:i] + current[i + 2 :]
+
+            if new_program is not None:
+                break
+
+        if new_program is None:
+            # No more transformations possible
+            return steps, False
+
+        if tuple(new_program) in seen_states:
+            # Detected a loop, meaning non-halting behavior
+            return steps, True
+
+        steps.append(new_program)
+        seen_states.add(tuple(new_program))
+
+    return steps, True  # Reached max steps, assume non-halting
+
+@dataclass
+class ABConfig(DatasetConfig):
+    """Configuration for A::B task generation"""
+    length: int = 10
+    languages: list[str] | str = "en"
+    language_weights: Optional[list[float]] = None
+
+    def validate(self) -> None:
+        """Validate configuration parameters"""
+        assert self.length > 0, "length must be greater than 0"
+        assert self.size > 0, "size must be greater than 0"
+
+class ABDataset(MultilingualProceduralDataset):
+    """Generates A::B tasks, as described by @VictorTaelin [here](https://x.com/VictorTaelin/status/1776096481704804789)"""
+
+    def __init__(self, config: ABConfig):
+        super().__init__(config=config, seed=config.seed, size=config.size)
+
+    def _generate_item(self, idx: int, language: str) -> dict[str, Any]:
+        """Generate a single AB task
+
+        Args:
+            idx: The index of the item to generate
+            language: The language to generate the task in
+
+        Returns:
+            dict with keys:
+                - question: str, the task description with AB program
+                - answer: str, the result of this AB program ABI execution
+                - metadata: dict with generation parameters
+        """
+        rng = Random(self.seed + idx)
+
+        while True:
+            initial_program = generate_program(self.config.length, rng)
+            steps, non_halting = compute_steps(initial_program)
+            if not non_halting:
+                break
+
+        # Via:
+        #   https://x.com/VictorTaelin/status/1776248021858111542
+        #   https://gist.github.com/VictorTaelin/e514844f4df9e5f182b28e5a07e44b17
+        prompt = self._get_translation("prompt_template", language, program=' '.join(initial_program))
+
+        return {
+            "question": prompt,
+            "answer": " ".join(steps[-1]),
+            "metadata": {
+                "source_dataset": DATASET_NAME,
+                "source_index": idx,
+                "language": language,
+                "difficulty": {
+                    "length": self.config.length,
+                },
+            },
+        }
+
+    def score_answer(self, answer: Optional[str], entry: dict[str, Any]) -> float:
+        """Determine if the solution provided solves the AB task.
+
+        The function awards 1.0 for a correct answer.
+
+        Args:
+            answer (Optional[str]): The user's answer.
+            entry (dict[str, Any]): The original dataset entry containing the correct answer.
+
+        Returns:
+            float: The computed score between 0.0 and 1.0.
+        """
+
+        if answer == entry["answer"]:
+            return 1.0  # Yay
+        return 0.0
+
+class ABCurriculum(BaseCurriculum):
+    """Curriculum for A::B dataset"""
+
+    def __init__(self):
+        super().__init__(ABCurriculum.__name__, ABConfig)
+
+        # Define attributes
+        self._define_attributes(
+            ScalarAttributeDefinition(
+                name="length",
+                field_name="length",
+                levels=[10, 25, 50, 100],
+                description="Length of the A::B program",
+            )
+        )
+
+# Register the dataset
+register_dataset(DATASET_NAME, ABDataset, ABConfig, ABCurriculum)

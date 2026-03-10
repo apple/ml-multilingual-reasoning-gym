@@ -1,0 +1,3 @@
+{
+    "question_template": "Given a string, partition it such that every substring is a palindrome.\n\nA palindrome is a word that reads the same backward as forward.\n\nYou may return all possible palindrome partitioning in any order.\n\nYour output should be a list of lists, where each list represents a palindrome partition, e.g. [[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]].\n\nPartition the following string into palindromes: {string}"
+}

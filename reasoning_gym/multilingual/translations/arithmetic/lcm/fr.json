@@ -1,0 +1,4 @@
+{
+  "question_template": "Trouve le Plus Petit Commun Multiple (PPCM) de ces nombres : {numbers}",
+  "numbers_separator": ", "
+}

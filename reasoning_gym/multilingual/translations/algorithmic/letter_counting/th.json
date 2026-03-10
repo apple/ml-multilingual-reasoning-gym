@@ -1,0 +1,3 @@
+{
+  "question_template": "ตัวอักษร \"{target_letter}\" ปรากฏในข้อความ: \"{text}\" กี่ครั้ง?"
+}

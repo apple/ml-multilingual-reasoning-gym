@@ -1,0 +1,6 @@
+{
+  "example_header": "Ejemplo {number}:",
+  "input_label": "Entrada: ",
+  "output_label": "Salida: ",
+  "question_template": "Encuentra la regla común que transforma una cuadrícula de entrada en una cuadrícula de salida, dados los ejemplos a continuación.\n\n{examples}\n\nA continuación se muestra una cuadrícula de entrada de prueba. Predice la cuadrícula de salida correspondiente aplicando la regla que encontraste. Describe cómo derivaste la regla y tu proceso de razonamiento en detalle antes de enviar tu respuesta. Tu respuesta final debe ser solo la cuadrícula de salida de prueba.\n\nEntrada:\n{test_input}"
+}

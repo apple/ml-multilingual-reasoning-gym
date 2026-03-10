@@ -1,0 +1,4 @@
+{
+  "prompt_template_1": "다음은 BF (Brainf*ck) 컴퓨터 프로그램이다. 출력은 무엇인가?\n\n{bf_program}\n\n프로그램의 정확한 출력만 답하라.",
+  "prompt_template_2": "다음 BF (Brainf*ck) 코드를 보라. 이것의 출력은 무엇인가?\n\n{bf_program}\n\n코드의 정확한 출력만 제시하라."
+}

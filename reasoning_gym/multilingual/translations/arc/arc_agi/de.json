@@ -1,0 +1,4 @@
+{
+  "prompt_template": "Finde die gemeinsame Regel, die ein Eingaberaster auf ein Ausgaberaster abbildet, anhand der folgenden Beispiele.\n\n{examples}Unten ist ein Test-Eingaberaster. Sage das entsprechende Ausgaberaster vorher, indem du die gefundene Regel anwendest.\nDeine finale Antwort sollte nur das Ausgaberaster als Text sein.\n\nEingabe:\n{input_grid}",
+  "example_format": "Beispiel {index}:\n\nEingabe:\n{input_board}\nAusgabe:\n{output_board}\n\n"
+}

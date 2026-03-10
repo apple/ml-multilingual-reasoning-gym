@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "C'est l'heure du tsumego. Les Noirs jouent pour capturer des pierres.\nTrouve le coup clé.\n\n```\n{board_str}\n```\n\nX - Noir\nO - Blanc\n\nIndique ton coup en coordonnées (ex. 'C4' pour colonne C, rangée 4)",
+  "prompt_template_2": "J'ai un problème de Go pour toi. Les Noirs jouent ensuite - peux-tu capturer certaines des pierres blanches ?\n\n```\n{board_str}\n```\n\nX - Noir\nO - Blanc\n\nIndique ton coup en coordonnées (ex. 'C4' pour colonne C, rangée 4)",
+  "prompt_template_3": "Voici un défi de Go. En jouant les Noirs, comment peux-tu capturer le plus de pierres blanches possible ?\n\n```\n{board_str}\n```\n\nX - Noir\nO - Blanc\n\nIndique ton coup en coordonnées (ex. 'C4' pour colonne C, rangée 4)",
+  "board_legend": "X - Noir\nO - Blanc\n\nIndique ton coup en coordonnées (ex. 'C4' pour colonne C, rangée 4)"
+}

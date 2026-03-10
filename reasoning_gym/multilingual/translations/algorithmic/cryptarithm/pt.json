@@ -1,0 +1,7 @@
+{
+  "intro": "Resolva este criptaritmo:",
+  "unique_digit_rule": "Cada letra representa um dígito único (0-9). ",
+  "leading_zero_allowed": "As letras iniciais podem ser zero.\n",
+  "leading_zero_not_allowed": "Nenhuma letra inicial pode ser zero.\n",
+  "output_format": "Forneça um mapeamento separado por vírgulas de letras para dígitos que satisfaça a equação em sua resposta final. Formato de resposta: «A=1,B=2,C=3» (sem aspas)\n"
+}

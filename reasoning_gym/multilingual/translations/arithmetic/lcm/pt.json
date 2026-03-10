@@ -1,0 +1,4 @@
+{
+  "question_template": "Encontre o Mínimo Múltiplo Comum (MMC) destes números: {numbers}",
+  "numbers_separator": ", "
+}

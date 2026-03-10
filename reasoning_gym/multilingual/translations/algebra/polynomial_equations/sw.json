@@ -1,0 +1,7 @@
+{
+  "prompt_template_1": "Pata thamani halisi za {variable} katika mlinganyo: {polynomial_expanded} = 0",
+  "prompt_template_2": "Suluhisha kwa {variable} halisi: {polynomial_expanded} = 0",
+  "prompt_template_3": "Bainisha thamani halisi za {variable} zinazokidhi: {polynomial_expanded} = 0",
+  "prompt_template_4": "Suluhisha mlinganyo wa polynomial kwa {variable} halisi:\n{polynomial_expanded} = 0",
+  "instruction_text": "\nKatika kutatua milinganyo, fuata maagizo haya:\n1. Toa majibu yako kama thamani za desimali zilizotengwa kwa makoma. Kwa mfano: \"-0.3773, 0.4005\"\n2. Kwa masuluhisho yanayoweza kuonyeshwa katika umbo halisi (kama \"u = 2 + sqrt(4560)/172\" na \"u = 2 - sqrt(4560)/172\"), yabadilike kuwa umbo wa desimali katika jibu lako la mwisho.\n3. Ikiwa hakuna thamani halisi zinazokidhi mlinganyo, ripoti jibu lako kama mfuatano tupu: \"\"\n4. Panga jibu lako kulingana na idadi ya masuluhisho:\n   • Kwa suluhisho 1: nambari moja ya desimali\n   • Kwa masuluhisho 2: nambari mbili za desimali zilizotengwa kwa mkoma\n   • Kwa masuluhisho 3 au zaidi: thamani zote kama nambari za desimali zilizotengwa kwa makoma\n5. Zungushia thamani zote za desimali hadi nafasi 4 za desimali (zungushia chini wakati nafasi ya 5 ya desimali ni 5 au zaidi).\n"
+}

@@ -1,0 +1,6 @@
+{
+  "question_template": "Sua tarefa é converter um número entre duas bases diferentes.\n\nSe a base de destino for > 10, use letras minúsculas a-z para dígitos acima de 9.\n\nAgora, converta o número {source_repr} de {source_name} para {target_name}\n",
+  "binary": "binário",
+  "hexadecimal": "hexadecimal",
+  "base_template": "base-{base}"
+}

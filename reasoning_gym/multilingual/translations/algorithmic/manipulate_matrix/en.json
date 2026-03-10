@@ -1,0 +1,13 @@
+{
+    "question_template": "For the following matrix:\n{matrix}\n\nPerform the following series of operations in order:\n- Identity transformation, i.e. no change\n{operations}",
+    "rotate_instruction": "- Rotate the matrix {degrees} degrees",
+    "hmirror_instruction": "- Horizontally mirror the matrix",
+    "vmirror_instruction": "- Vertically mirror the matrix", 
+    "dmirror_instruction": "- Mirror the matrix along the diagonal",
+    "cmirror_instruction": "- Mirror the matrix along the counterdiagonal",
+    "map_instruction": "- Map each occurrence of {a} to {b}",
+    "zero_divisible_instruction": "- Set all elements divisible by {k} to zero",
+    "crop_instruction": "- Crop the matrix to rows {row_start}-{row_end} and columns {col_start}-{col_end} (1-indexed)",
+    "remove_nth_row_instruction": "- Remove every {n}-{formatting} row (1-indexed)",
+    "remove_nth_col_instruction": "- Remove every {n}-{formatting} column (1-indexed)"
+}

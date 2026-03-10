@@ -1,0 +1,3 @@
+{
+  "question_template": "Dada una matriz cuadrada, tu tarea es encontrar la distancia Manhattan del 0 más cercano para cada celda.\n\nLa salida debe ser una matriz del mismo tamaño que la matriz de entrada, donde cada celda contiene la distancia al 0 más cercano.\n\nEncuentra la distancia al 0 más cercano para cada celda en la siguiente matriz:\n{matrix}"
+}

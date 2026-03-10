@@ -1,0 +1,3 @@
+{
+  "question_template": "Gib eine Färbung für diesen Graphen an, so dass kein Knoten mit einem Knoten derselben Farbe verbunden ist. Der Graph hat folgende Eigenschaften:\n\nKnoten: {vertices}\nKanten: {edges}\nMögliche Farben: {color_options}\n\nGib deine Lösung als JSON-Zuordnung von Knoten zu Farben zurück. (Zum Beispiel: {{\"0\": 1, \"1\": 2, \"2\": 3}}.)"
+}

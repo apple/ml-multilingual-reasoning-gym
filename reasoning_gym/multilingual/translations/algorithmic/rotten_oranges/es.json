@@ -1,0 +1,3 @@
+{
+  "question_template": "Tienes una cuadrícula n x n donde cada celda puede tener uno de tres valores:\n- 0 representando una celda vacía\n- 1 representando una naranja fresca\n- 2 representando una naranja podrida\n\nCada minuto, cualquier naranja fresca que esté adyacente en las 4 direcciones a una naranja podrida se pudre.\n\nTu tarea es determinar el número mínimo de minutos que deben transcurrir hasta que ninguna celda tenga una naranja fresca.\nSi esto es imposible, devuelve -1.\n\nAhora, determina el número mínimo de minutos que deben transcurrir hasta que ninguna celda de la cuadrícula de abajo tenga una naranja fresca:\n{matrix}"
+}

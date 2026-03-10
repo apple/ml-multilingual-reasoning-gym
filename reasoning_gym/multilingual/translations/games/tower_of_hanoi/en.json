@@ -1,0 +1,6 @@
+{
+    "question_template": "Solve the Tower of Hanoi problem with {num_disks} disks and {num_pegs} pegs.\nMove all disks from {start_peg} to {target_peg} following the rules:\n- Only one disk can be moved at a time.\n- A larger disk cannot be placed on top of a smaller disk.\n- All disks must be on a peg at all times.\n\nProvide the sequence of moves.\n\nFormatting guidelines:\n- Each instruction should be placed on a single line.\n- Each line should be formatted as 'Move disk X from Peg Y to Peg Z'\n- Do not include any other text or formatting.",
+    "move_template": "Move disk {disk} from Peg {from_peg} to Peg {to_peg}",
+    "move_pattern": "Move disk (\\d+) from Peg (\\d+) to Peg (\\d+)",
+    "peg_label": "Peg {peg_number}"
+}

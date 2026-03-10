@@ -1,0 +1,5 @@
+{
+    "question_template": "Your task is to sort **English** words in {direction} order using ASCII/Unicode ordering.\n\nYour output should be a comma-separated list of words, e.g. word_1, word_2, word_3\n\nNow, sort these **English** words in {direction} order (using ASCII/Unicode ordering) and return them as a comma-separated list: {words}",
+    "ascending": "ascending",
+    "descending": "descending"
+}

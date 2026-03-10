@@ -1,0 +1,6 @@
+{
+  "siblings_template_1": "{female_name}有{num_brothers}个兄弟和{num_sisters}个姐妹。{female_name}的兄弟有多少个姐妹？",
+  "siblings_template_2": "{female_name}有{num_sisters}个姐妹和{num_brothers}个兄弟。{male_name}的兄弟有多少个姐妹？",
+  "friends_template": "{female_name}有{num_male}个男性朋友和{num_female}个女性朋友。他们彼此都是朋友，除此之外没有其他朋友。{male_name}是{female_name}的一个男性朋友，他有多少个女性朋友？",
+  "colleagues_template": "{female_name}有{num_male_colleagues_alice_circle}个男同事和{num_female_colleagues_alice_circle}个女同事。这些就是{female_name}的所有同事。{female_name}周围提到的这些人彼此都是同事。{male_name}总共有{num_male_colleagues_bob_circle}个男同事和{num_female_colleagues_bob_circle}个女同事。{male_name}周围提到的这些人彼此都是同事。{male_name}圈子里的人除了玛蒂尔达以外，没有其他同事。玛蒂尔达既是{male_name}的同事，也是{female_name}的同事，属于{female_name}的圈子。玛蒂尔达有多少个女同事？"
+}

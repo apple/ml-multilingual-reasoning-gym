@@ -1,0 +1,3 @@
+{
+  "question_template": "Trova la scomposizione in fattori primi di {number}. Scrivi i fattori separati da × (Esempio: per 12 la risposta sarebbe: 2 × 2 × 3)"
+}

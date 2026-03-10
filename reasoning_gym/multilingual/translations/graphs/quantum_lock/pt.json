@@ -1,0 +1,13 @@
+{
+  "prompt_template": "À sua frente estão alguns botões, uma luz e um número. A luz alternará entre vermelho e verde sempre que você pressionar um botão. Cada botão executa uma operação matemática no número, mas a operação pode depender do estado da luz.\n\nVocê deve pressionar a sequência correta mais curta de botões para alcançar o valor alvo. Sua resposta deve ser uma sequência de botões separados por '{separator}', por exemplo: A{separator}B{separator}C\n\nInício: {initial_value} ({initial_state})\nMeta: {target_value}\nBotões:\n{buttons_text}",
+  "operation_add_template": "Somar {value}",
+  "operation_subtract_template": "Subtrair {value}",
+  "operation_multiply_template": "Multiplicar por {value}",
+  "when_state": "quando {state}",
+  "state_red": "vermelha",
+  "state_green": "verde",
+  "state_any": "qualquer",
+  "button_format": "{name}: {operation} {condition}",
+  "separator": " → ",
+  "condition_format": "({when_text})"
+}

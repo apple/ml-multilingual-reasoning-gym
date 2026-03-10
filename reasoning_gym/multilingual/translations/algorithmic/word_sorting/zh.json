@@ -1,0 +1,5 @@
+{
+  "question_template": "你的任务是将**英文**单词按{direction}排列，使用ASCII/Unicode排序规则。\n\n你的输出应该是一个逗号分隔的单词列表，例如：单词_1，单词_2，单词_3。\n\n现在，将这些**英文**单词按{direction}排列（使用ASCII/Unicode排序规则），并以逗号分隔的列表形式返回：{words}",
+  "ascending": "升序",
+  "descending": "降序"
+}

@@ -1,0 +1,3 @@
+{
+    "prompt_template": "Move the red car (AA) to the exit on the right.\nSpecify moves in the format: 'F+1 K+1 M-1 C+3 H+2 ...'\nwhere the letter is the vehicle and +/- number is spaces to move right/left or down/up.\nWalls are marked with an 'x'. Cars cannot move through walls, and walls cannot be moved.\nA car oriented vertically can only move up and down, a car oriented horizontally can only move left and right.\n\nBoard:\n{board_display}"
+}

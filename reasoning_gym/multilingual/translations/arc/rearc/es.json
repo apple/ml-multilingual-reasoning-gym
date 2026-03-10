@@ -1,0 +1,4 @@
+{
+  "prompt_template": "Encuentra la regla común que transforma una cuadrícula de entrada en una cuadrícula de salida, dados los ejemplos a continuación.\n\n{examples}A continuación se muestra una cuadrícula de entrada de prueba. Predice la cuadrícula de salida correspondiente aplicando la regla que encontraste.\nTu respuesta final debe ser solamente el texto de la cuadrícula de salida.\n\nEntrada:\n{input_grid}",
+  "example_format": "Ejemplo {index}:\n\nEntrada:\n{input_board}\nSalida:\n{output_board}\n\n"
+}

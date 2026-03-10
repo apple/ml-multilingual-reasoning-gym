@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "化简下列表达式：{polynomial_expr}",
+  "prompt_template_2": "计算：{polynomial_expr}",
+  "instruction": "\n计算时请遵循以下规则：\n1. 使用 ** 而不是 ^ 表示指数。例如，写成 7*X**2 而不是 7*X^2。\n2. 在推理步骤中始终包含 * 符号表示所有乘法运算。例如，写成 `-3*X**3*sin(X) - 9*X**2*cos(X) + 18*X*sin(X) + 18*cos(X) + C` 而不是 `-3x3sin(x) - 9x2cos(x) + 18xsin(x) + 18cos(x) + C`。\n"
+}

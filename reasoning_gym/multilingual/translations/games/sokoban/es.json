@@ -1,0 +1,3 @@
+{
+  "instruction_text": "Vas a resolver un rompecabezas de 'sokoban'.\n\n* - El jugador\n% - El jugador en un objetivo\n@ - Una caja\nX - Un objetivo\n$ - Una caja en un objetivo\n+ - Una pared\n- - Una posición vacía\n\nTu solución debe ser una cadena de flechas, ej: ←↓↑→→↑↓←.\n\nAquí está tu rompecabezas:\n"
+}

@@ -1,0 +1,7 @@
+{
+    "prompt_template_1": "Find the real value(s) of {variable} in the equation: {polynomial_expanded} = 0",
+    "prompt_template_2": "Solve for real {variable}: {polynomial_expanded} = 0",
+    "prompt_template_3": "Determine the real value(s) of {variable} that satisfies: {polynomial_expanded} = 0",
+    "prompt_template_4": "Solve the polynomial equation for real {variable}:\n{polynomial_expanded} = 0",
+    "instruction_text": "\nIn solving equations, please follow these instructions:\n1. Provide all answers as comma-separated decimal values. For example: \"-0.3773, 0.4005\"\n2. For solutions that can be expressed in exact form (like \"u = 2 + sqrt(4560)/172\" and \"u = 2 - sqrt(4560)/172\"), convert them to decimal form in your final answer.\n3. If there are no real values that satisfy the equation, report your answer as an empty string: \"\"\n4. Format your answer based on the number of solutions:\n   - For 1 solution: a single decimal number\n   - For 2 solutions: two comma-separated decimal numbers\n   - For 3 or more solutions: all values as comma-separated decimal numbers\n5. Round all decimal values to 4 decimal places (rounding up when the 5th decimal place is 5 or greater).\n"
+}

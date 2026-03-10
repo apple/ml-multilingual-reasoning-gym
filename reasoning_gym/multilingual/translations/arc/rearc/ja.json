@@ -1,0 +1,4 @@
+{
+  "prompt_template": "以下の例から、入力グリッドを出力グリッドに対応させる共通の規則を見つけよ。\n\n{examples}以下はテスト用の入力グリッドである。見つけた規則を適用して、対応する出力グリッドを予測せよ。\n最終回答は出力グリッドのテキストのみとせよ。\n\n入力：\n{input_grid}",
+  "example_format": "例 {index}：\n\n入力：\n{input_board}\n出力：\n{output_board}\n\n"
+}

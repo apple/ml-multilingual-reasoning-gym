@@ -1,0 +1,3 @@
+{
+  "question_template": "Il tuo compito è completare una scacchiera n x n con n Regine in totale, in modo che non si attacchino a vicenda.\n\nDue regine non si attaccano quando non sono nella stessa riga, colonna o diagonale.\n\nPuoi posizionare una regina sostituendo un trattino basso (_) con una Q.\n\nIl tuo output deve essere una scacchiera nello stesso formato dell'input, con le regine posizionate sulla scacchiera sostituendo i trattini bassi con la lettera Q.\n\nData la scacchiera sottostante di dimensione {n} x {n}, il tuo compito è posizionare {num_removed} regina/e sulla scacchiera in modo che non si attacchino a vicenda.\n{puzzle}"
+}

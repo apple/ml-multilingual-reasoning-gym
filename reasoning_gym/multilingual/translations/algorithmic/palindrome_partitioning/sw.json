@@ -1,0 +1,3 @@
+{
+  "question_template": "Ukipewa mfuatano wa herufi, ugawanye huo ili kila sehemu ya mfuatano iwe palindrome.\n\nPalindrome ni neno ambalo linasomwa vivyo hivyo kutoka mbeleni na nyuma.\n\nUnaweza kurudisha njia zote zinazowezekana za kugawanya palindrome kwa mpangilio wowote.\n\nMatokeo yako yanapaswa kuwa orodha ya orodha, ambapo kila orodha inawakilisha ugawanyaji wa palindrome, k.m. [[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]].\n\nGawanya mfuatano wa herufi ufuatao ili kila sehemu iwe palindrome: {string}"
+}

@@ -1,0 +1,3 @@
+{
+  "instruction_template": "Por favor, resolva este problema com no máximo {precision} algarismos significativos, arredondando para cima a partir de 0.5. Responda apenas com o valor final."
+}

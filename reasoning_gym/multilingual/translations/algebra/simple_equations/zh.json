@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "求方程 {equation} 中 {variable} 的值",
+  "prompt_template_2": "解方程：{equation}，求 {variable}",
+  "prompt_template_3": "已知方程 {equation}，求 {variable} 的值"
+}

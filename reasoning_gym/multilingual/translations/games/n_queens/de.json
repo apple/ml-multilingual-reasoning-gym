@@ -1,0 +1,3 @@
+{
+  "question_template": "Deine Aufgabe ist es, ein n x n Schachbrett mit insgesamt n Damen zu vervollständigen, sodass sich keine zwei gegenseitig angreifen.\n\nZwei Damen greifen sich nicht gegenseitig an, wenn sie sich nicht in derselben Reihe, Spalte oder Diagonale befinden.\n\nDu kannst eine Dame platzieren, indem du einen Unterstrich (_) durch ein Q ersetzt.\n\nDeine Ausgabe sollte ebenfalls ein Brett im gleichen Format wie die Eingabe sein, mit Damen, die durch das Ersetzen von Unterstrichen mit dem Buchstaben Q auf dem Brett platziert wurden.\n\nGegeben ist das unten stehende Brett der Größe {n} x {n}. Deine Aufgabe ist es, {num_removed} Dame(n) auf dem Brett zu platzieren, sodass sich keine zwei Damen gegenseitig angreifen.\n{puzzle}"
+}

@@ -1,0 +1,3 @@
+{
+    "prompt_template": "Navigate from '{start_char}' (start) to '{goal_char}' (goal):\n\n```\n{maze_str}\n```\nLegend: '{wall_char}' = Wall, '{path_char}' = Passage\n\nWhat is the minimum number of steps to reach the goal?\nGive only the number of steps as your final answer, no other text or formatting."
+}

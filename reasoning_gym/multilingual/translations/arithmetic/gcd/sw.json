@@ -1,0 +1,4 @@
+{
+  "question_template": "Pata kigawanishi kikubwa zaidi ya nambari hizi: {numbers_str}. Toa jibu tu.",
+  "numbers_separator": ", "
+}

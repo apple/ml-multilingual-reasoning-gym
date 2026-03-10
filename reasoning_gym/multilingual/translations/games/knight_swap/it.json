@@ -1,0 +1,4 @@
+{
+  "prompt_template": "Sfida dello Scambio dei Cavalli:\n\n```\n{board_str}\n```\n\nLegenda:\n- 'w' = Cavallo Bianco\n- 'B' = Cavallo Nero\n- Le caselle vuote sono indicate con '.'\n\nObiettivo:\nScambia le posizioni di tutti i cavalli bianchi con tutti i cavalli neri attraverso mosse valide.\n\nRegole:\n1. I cavalli si muovono a forma di L (2 caselle + 1 casella perpendicolare)\n2. I cavalli possono muoversi solo su caselle vuote\n3. {start_turn} muove per primo, poi i giocatori si alternano\n4. Tutti i cavalli devono raggiungere le loro posizioni obiettivo (bianco ↔ nero)\n\nDomanda:\nÈ possibile scambiare le posizioni di tutti i cavalli? Se sì, elenca le mosse.\n\nFormato della Risposta:\n- Per puzzle impossibili: «{impossible_answer}»\n- Per puzzle possibili: Elenca le mosse come [\"colore,da,a\", ...]\n  Esempio: [\"w,A1,B3\"] significa cavallo bianco muove A1→B3",
+  "impossible_answer": "No"
+}

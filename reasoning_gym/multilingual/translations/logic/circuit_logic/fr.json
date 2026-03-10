@@ -1,0 +1,9 @@
+{
+  "circuit_intro": "Ci-dessous se trouve un circuit logique généré aléatoirement.\n",
+  "legend_title": "Légende des portes :",
+  "negate_symbol": "{symbol} : Négation",
+  "input_assignments": "Avec les affectations d'entrée suivantes :",
+  "assignment_format": "  {input} = {value}",
+  "output_question": "Quelle est la sortie finale ?",
+  "colon": ": "
+}

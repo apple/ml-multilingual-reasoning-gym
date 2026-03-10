@@ -1,0 +1,5 @@
+{
+  "question_template": "랜섬 노트와 잡지를 나타내는 두 문자열이 주어진다. 잡지의 글자들을 사용하여 랜섬 노트를 구성할 수 있으면 {true_answer}를, 그렇지 않으면 {false_answer}를 반환하라.\n\n잡지 문자열의 각 글자는 랜섬 노트에서 한 번만 사용할 수 있다.\n\n랜섬 노트: {ransom_note}\n잡지: {magazine}",
+  "true_answer": "참",
+  "false_answer": "거짓"
+}

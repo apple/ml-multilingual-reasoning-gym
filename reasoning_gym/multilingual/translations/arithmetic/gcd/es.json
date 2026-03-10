@@ -1,0 +1,4 @@
+{
+  "question_template": "Encuentra el Máximo Común Divisor (MCD) de estos números: {numbers_str}. Da solo el MCD como tu respuesta final.",
+  "numbers_separator": ", "
+}

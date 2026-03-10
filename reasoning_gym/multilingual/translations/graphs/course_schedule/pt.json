@@ -1,0 +1,5 @@
+{
+  "question_template": "Há um total de {num_courses} disciplinas que você deve cursar, rotuladas de 0 a {last_index}.\n\nVocê recebe a seguinte lista de pré-requisitos, onde o i-ésimo elemento da lista (a_i, b_i) indica que você deve primeiro cursar a disciplina b_i se quiser cursar a disciplina a_i:\n{prerequisites}\n\nRetorne {true_answer} se você conseguir concluir todas as disciplinas considerando os pré-requisitos, ou {false_answer} caso contrário.",
+  "true_answer": "Verdadeiro",
+  "false_answer": "Falso"
+}

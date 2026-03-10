@@ -1,0 +1,3 @@
+{
+  "question_template": "Déchiffre ce texte chiffré de César **anglais** : {cipher_text}. Fournis uniquement le texte déchiffré comme réponse finale."
+}

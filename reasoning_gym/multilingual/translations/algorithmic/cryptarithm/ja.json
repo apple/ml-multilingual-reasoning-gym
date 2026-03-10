@@ -1,0 +1,7 @@
+{
+  "intro": "この覆面算を解け：",
+  "unique_digit_rule": "各文字は異なる数字(0-9)を表す。",
+  "leading_zero_allowed": "先頭の文字は0でもよい。\n",
+  "leading_zero_not_allowed": "先頭の文字は0ではない。\n",
+  "output_format": "方程式の条件を満たす文字と数字の組み合わせをカンマ区切りで最終回答として示せ。出力形式：「A=1,B=2,C=3」（引用符なし）\n"
+}

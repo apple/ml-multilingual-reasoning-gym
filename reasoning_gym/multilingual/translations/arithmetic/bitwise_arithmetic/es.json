@@ -1,0 +1,3 @@
+{
+  "question_template": "Resuelve este problema. Supón que hay una profundidad de bits arbitraria y que hay enteros con signo. Si la respuesta es negativa, responde con un valor negativo «por ejemplo, -0x3», no en forma de complemento a dos. Responde únicamente con el valor hexadecimal final.\n{problem}"
+}

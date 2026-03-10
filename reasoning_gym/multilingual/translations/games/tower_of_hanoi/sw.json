@@ -1,0 +1,6 @@
+{
+  "question_template": "Tatua tatizo la Mnara wa Hanoi wenye diski {num_disks} na vipeo {num_pegs}.\nHamisha diski zote kutoka {start_peg} kwenda {target_peg} kwa kufuata sheria hizi:\n• Diski moja tu ndiye inaweza kuhamishwa kwa wakati mmoja.\n• Diski kubwa haiwezi kuwekwa juu ya diski ndogo.\n• Diski zote lazima ziwe kwenye kipeo kila wakati.\n\nToa mfuatano wa mhamiaji.\n\nMiongozo ya umbizo:\n• Kila agizo liwe kwenye mstari wake.\n• Kila mstari uwe na umbizo la 'Hamisha diski X kutoka Kipeo Y kwenda Kipeo Z'\n• Usijumuishe maandishi mengine yoyote au umbizo lingine.",
+  "move_template": "Hamisha diski {disk} kutoka Kipeo {from_peg} kwenda Kipeo {to_peg}",
+  "move_pattern": "Hamisha diski (\\d+) kutoka Kipeo (\\d+) kwenda Kipeo (\\d+)",
+  "peg_label": "Kipeo {peg_number}"
+}

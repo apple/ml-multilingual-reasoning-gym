@@ -1,0 +1,4 @@
+{
+  "question_template": "Sua tarefa é, dada uma lista de letras, formar um palíndromo válido.\n\nUm palíndromo é uma frase que se lê igual de frente para trás e de trás para frente.\n\nSe houver múltiplas respostas possíveis, responda apenas com uma delas. Você deve usar todas as letras fornecidas.\n\nSua resposta deve ser uma única string, sem espaços ou pontuação.\n\nAgora, forme um palíndromo válido usando as seguintes letras: {letters}",
+  "letters_separator": ", "
+}

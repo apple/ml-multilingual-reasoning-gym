@@ -1,0 +1,3 @@
+{
+  "question_template": "Resolva o problema a seguir.\n\nForneça sua resposta como uma lista de palavras separadas por vírgula com um espaço após a vírgula.\n\nInverta esta lista de palavras: {words}\n"
+}

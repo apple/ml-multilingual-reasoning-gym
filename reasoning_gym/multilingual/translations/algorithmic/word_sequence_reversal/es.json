@@ -1,0 +1,3 @@
+{
+  "question_template": "Resuelve el siguiente problema.\n\nProporciona tu respuesta como una lista de palabras separadas por comas con un espacio después de cada coma.\n\nInvierte esta lista de palabras: {words}\n"
+}

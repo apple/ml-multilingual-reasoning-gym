@@ -1,0 +1,3 @@
+{
+  "question_template": "Bestimme die Primfaktorzerlegung von {number}. Schreibe die Faktoren getrennt durch × (Beispiel: für 12 lautet die Antwort: 2 × 2 × 3)"
+}

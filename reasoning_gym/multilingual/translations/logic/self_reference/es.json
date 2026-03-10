@@ -1,0 +1,10 @@
+{
+  "puzzle_intro": "Dada la veracidad de estas afirmaciones, dime el número de soluciones posibles:",
+  "statement_1": " - Afirmación 1: «De estas 7 afirmaciones, al menos {number} son verdaderas.»",
+  "statement_2": " - Afirmación 2: «De estas 7 afirmaciones, como máximo {number} son falsas.»",
+  "statement_3": " - Afirmación 3: «De estas 7 afirmaciones, exactamente {number} son verdaderas.»",
+  "statement_4": " - Afirmación 4: «De estas 7 afirmaciones, exactamente {number} son falsas.»",
+  "statement_5": " - Afirmación 5: «O bien la Afirmación 3 o bien la Afirmación 4 es verdadera, pero no ambas.»",
+  "statement_6": " - Afirmación 6: «El número de afirmaciones verdaderas es un número primo.»",
+  "statement_7": " - Afirmación 7: «El número de afirmaciones falsas es un número compuesto.»"
+}

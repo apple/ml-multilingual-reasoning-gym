@@ -1,0 +1,7 @@
+{
+  "prompt_template_1": "Bestimme die reellen Werte von {variable} in der Gleichung: {polynomial_expanded} = 0",
+  "prompt_template_2": "Löse nach reellem {variable}: {polynomial_expanded} = 0",
+  "prompt_template_3": "Bestimme die reellen Werte von {variable}, die die Gleichung erfüllen: {polynomial_expanded} = 0",
+  "prompt_template_4": "Löse die Polynomgleichung nach reellem {variable}:\n{polynomial_expanded} = 0",
+  "instruction_text": "\nBeim Lösen von Gleichungen befolge diese Anweisungen:\n1. Gib alle Antworten als durch Komma getrennte Dezimalwerte an. Beispiel: \"-0.3773, 0.4005\"\n2. Für Lösungen, die in exakter Form dargestellt werden können (wie \"u = 2 + sqrt(4560)/172\" und \"u = 2 - sqrt(4560)/172\"), wandle sie in deiner finalen Antwort in Dezimalform um.\n3. Falls keine reellen Werte die Gleichung erfüllen, gib deine Antwort als leere Zeichenkette an: \"\"\n4. Formatiere deine Antwort basierend auf der Anzahl der Lösungen:\n   - Für 1 Lösung: eine einzelne Dezimalzahl\n   - Für 2 Lösungen: zwei durch Komma getrennte Dezimalzahlen\n   - Für 3 oder mehr Lösungen: alle Werte als durch Komma getrennte Dezimalzahlen\n5. Runde alle Dezimalwerte auf 4 Nachkommastellen (runde auf, wenn die 5. Nachkommastelle 5 oder größer ist).\n"
+}

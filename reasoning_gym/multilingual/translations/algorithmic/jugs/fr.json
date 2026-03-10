@@ -1,0 +1,8 @@
+{
+  "puzzle_description": "Tu es un officier de police. Un maniaque a placé une bombe près d'une fontaine publique.\n\nPour désamorcer la bombe, tu dois résoudre une énigme. L'énigme est résolue quand tu remplis n'importe lequel des récipients disponibles avec la quantité d'eau cible.\n\nTu as trois types de mouvements : '{fill_action}', '{empty_action}' et '{pour_action}'.\n\nPour remplir le Récipient A, tu fais '{fill_action} A'.\nPour vider le Récipient B, tu fais '{empty_action} B'.\nPour verser le contenu du Récipient A dans le Récipient B, tu fais '{pour_action} A->B'.\nTous les récipients sont vides au départ.\n\nLes récipients vides contiennent ce nombre de litres d'eau : {cap_str}\nEt ta cible est : {target} litres.\n\nComment désamorces-tu la bombe ?\n\nRéponds par une liste de mouvements analysable en JSON qui permet d'obtenir la quantité cible dans n'importe lequel des récipients.",
+  "fill_action": "remplir",
+  "empty_action": "vider",
+  "pour_action": "verser",
+  "jug_separator": ", ",
+  "capacity_separator": ":"
+}

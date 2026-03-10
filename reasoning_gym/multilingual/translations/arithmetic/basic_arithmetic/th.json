@@ -1,0 +1,7 @@
+{
+  "simple_question": "คำนวณ {expression}.",
+  "question_what": "{expression} เท่ากับเท่าไร?",
+  "question_solve": "แก้ {expression}.",
+  "question_compute": "คำนวณหา {expression}.",
+  "question_evaluate": "หาค่าของ {expression}."
+}

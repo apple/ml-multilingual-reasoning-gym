@@ -1,0 +1,3 @@
+{
+  "question_template": "Anagramu ni neno linaloundwa kwa kupanga upya herufi za neno lingine, kwa kutumia herufi zote za asili mara moja tu.\n\nKazi yako ni kuweka anagramu pamoja katika vikundi. Unaweza kutoa jibu katika mpangilio wowote.\n\nMatokeo ni orodha ya orodha za maneno, ambapo kila orodha ya nje ina kikundi cha anagramu, kwa mfano [[\"eat\", \"tea\"], [\"tan\", \"nat\"]].\n\nWeka orodha ifuatayo ya maneno katika vikundi vya anagramu:\n{words}"
+}

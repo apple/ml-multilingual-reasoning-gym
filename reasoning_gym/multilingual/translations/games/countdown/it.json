@@ -1,0 +1,7 @@
+{
+  "question_template_0": "Utilizzando tutti i numeri {numbers}, crea un'espressione che dia come risultato {target}.\nPuoi usare ogni numero una sola volta.",
+  "question_template_1": "Trova un modo per ottenere {target} usando tutti questi numeri: {numbers}.\nOgni numero può essere usato una sola volta.",
+  "question_template_2": "Calcola {target} usando tutti questi numeri: {numbers}.\nOgni numero può essere usato al massimo una volta.",
+  "format_template": "{question}\n\nIstruzioni per il formato della risposta finale:\n1. Fornisci la tua soluzione come espressione aritmetica (senza il segno '=').\n2. Non includere il numero obiettivo nell'espressione.\n3. Usa '*' per la moltiplicazione.\n4. Usa '/' per la divisione.\n5. Non includere altro testo o formattazione.",
+  "list_separator": ", "
+}

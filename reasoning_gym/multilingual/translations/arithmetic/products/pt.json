@@ -1,0 +1,3 @@
+{
+  "question_template": "Resolva a seguinte multiplicação: {expression}. Forneça apenas o resultado como sua resposta final."
+}

@@ -1,0 +1,8 @@
+{
+  "puzzle_description": "너는 경찰관이다. 미치광이가 공공 분수대 옆에 폭탄을 설치했다.\n\n폭탄을 해체하려면 퍼즐을 풀어야 한다. 사용 가능한 물통 중 하나에 목표량의 물을 채우면 퍼즐이 해결된다.\n\n세 가지 행동이 있다: 「{fill_action}」, 「{empty_action}」, 「{pour_action}」.\n\n물통 A를 채우려면 「{fill_action} A」라고 하라.\n물통 B를 비우려면 「{empty_action} B」라고 하라.\n물통 A의 내용물을 물통 B에 붓려면 「{pour_action} A->B」라고 하라.\n모든 물통은 처음에 비어있다.\n\n빈 물통들이 담을 수 있는 물의 양은 다음과 같다: {cap_str}\n그리고 목표는 {target} 리터이다.\n\n어떻게 폭탄을 해체할 것인가?\n\n물통 중 하나가 목표량으로 채워지는 행동들의 목록을 JSON 형식으로 답하라.",
+  "fill_action": "채우기",
+  "empty_action": "비우기",
+  "pour_action": "붓기",
+  "jug_separator": ", ",
+  "capacity_separator": ":"
+}

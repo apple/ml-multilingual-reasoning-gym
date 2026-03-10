@@ -1,0 +1,5 @@
+{
+  "question_template": "Tu tarea es aplicar máximo/promedio pooling a la matriz dada.\nEl stride es igual al tamaño del kernel, lo que significa que no hay solapamiento entre las regiones de pooling.\n\nTu resultado debe ser una matriz en el mismo formato que la matriz de entrada.\nLa matriz de resultado es más pequeña que la matriz de entrada cuando el tamaño del kernel es mayor que 1, y sus elementos pueden ser números con decimales.\nProporciona los elementos de la matriz de resultado redondeados a 2 decimales.\n\nAplica el {pool_type} pooling a la siguiente matriz con un kernel de tamaño {pool_size}:\n{matrix}",
+  "pool_type_max": "máximo",
+  "pool_type_average": "promedio"
+}

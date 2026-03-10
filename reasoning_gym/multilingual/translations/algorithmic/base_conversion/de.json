@@ -1,0 +1,6 @@
+{
+  "question_template": "Die Aufgabe besteht darin, eine Zahl zwischen zwei verschiedenen Zahlensystemen umzuwandeln.\n\nFalls die Zielbasis > 10 ist, verwende Kleinbuchstaben a-z für Ziffern über 9.\n\nKonvertiere nun die {source_name}-Zahl {source_repr} in {target_name}\n",
+  "binary": "Binär",
+  "hexadecimal": "Hexadezimal",
+  "base_template": "Basis-{base}"
+}

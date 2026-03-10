@@ -1,0 +1,4 @@
+{
+  "question_template": "ఈ సంఖ్యల గరిష్ఠ సాధారణ హారకము (GCD) కనుగొనండి: {numbers_str}. మీ చివరి సమాధానంగా GCD మాత్రమే ఇవ్వండి.",
+  "numbers_separator": ", "
+}

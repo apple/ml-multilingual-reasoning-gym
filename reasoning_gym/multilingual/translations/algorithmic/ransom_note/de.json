@@ -1,0 +1,5 @@
+{
+  "question_template": "Gegeben sind zwei Strings, die einen Erpresserbrief und ein Magazin repräsentieren. Gib {true_answer} an, wenn du den Erpresserbrief mit den Buchstaben aus dem Magazin konstruieren kannst, ansonsten {false_answer}.\n\nJeder Buchstabe im Magazin-String kann nur einmal für deinen Erpresserbrief verwendet werden.\n\nErpresserbrief: {ransom_note}\nMagazin: {magazine}",
+  "true_answer": "Wahr",
+  "false_answer": "Falsch"
+}

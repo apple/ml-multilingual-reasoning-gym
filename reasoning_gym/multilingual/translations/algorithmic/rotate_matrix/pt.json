@@ -1,0 +1,3 @@
+{
+  "question_template": "Dada uma matriz quadrada, sua tarefa é rotacioná-la no sentido horário.\n\nSua saída deve ser uma matriz no mesmo formato da entrada.\n\nRotacione a matriz abaixo em {degrees} graus no sentido horário:\n{matrix}"
+}

@@ -1,0 +1,8 @@
+{
+  "puzzle_description": "Sei un agente di polizia. Un maniaco ha piazzato una bomba vicino a una fontana pubblica.\n\nPer disinnescare la bomba, devi risolvere un rompicapo. Il rompicapo è risolto quando riempi una delle brocche con la quantità obiettivo di acqua.\n\nHai tre tipi di mosse: «{fill_action}», «{empty_action}» e «{pour_action}».\n\nPer riempire la Brocca A, «{fill_action} A».\nPer svuotare la Brocca B, «{empty_action} B».\nPer versare il contenuto della Brocca A nella Brocca B, «{pour_action} A->B».\nTutte le brocche sono vuote all'inizio.\n\nLa capacità delle brocche vuote è: {cap_str}\nE il tuo obiettivo è: {target} litri.\n\nCome disinneschi la bomba?\n\nRispondi con una lista JSON di mosse che portino una delle brocche a contenere la quantità obiettivo.",
+  "fill_action": "riempi",
+  "empty_action": "svuota",
+  "pour_action": "versa",
+  "jug_separator": ", ",
+  "capacity_separator": ":"
+}

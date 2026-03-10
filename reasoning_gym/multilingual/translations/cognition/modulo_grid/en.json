@@ -1,0 +1,3 @@
+{
+    "question_template": "Identify the mathematical pattern which defines this grid, then use that pattern to fill in the question marks. Return the entire completed grid as your answer.\n\n{grid}"
+}

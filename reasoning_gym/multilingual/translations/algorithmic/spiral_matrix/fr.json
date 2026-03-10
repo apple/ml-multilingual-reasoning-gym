@@ -1,0 +1,3 @@
+{
+  "question_template": "À partir d'une matrice, ta tâche consiste à générer une liste d'éléments dans un ordre en spirale, en commençant par l'élément situé en haut à gauche.\n\nL'ordre en spirale se fait dans le sens horaire, en partant du coin en haut à gauche. Plus précisément :\n- Commence par le coin en haut à gauche et va vers la droite.\n- Descends vers le coin en bas à droite.\n- Va vers la gauche jusqu'au coin en bas à gauche.\n- Monte vers le coin en haut à gauche.\n- Répète ces étapes pour les éléments intérieurs de la matrice jusqu'à ce que chaque élément soit visité.\n\nTa sortie doit être une liste d'entiers séparés par des espaces, par exemple 1 2 3 4 5 6\n\nPour la matrice ci-dessous, quelle est la liste des éléments en spirale ?\n{matrix}"
+}

@@ -1,0 +1,157 @@
+"""
+Copyright (C) 2026 Apple Inc. All Rights Reserved.
+"""
+
+"""Sentence re-ordering task generator"""
+
+import re
+from dataclasses import dataclass
+from random import Random
+from typing import Any, Optional
+
+from ..coaching import BaseCurriculum, RangeAttributeDefinition
+from ..data import read_data_file
+from ..factory import register_dataset
+from ..multilingual.base_classes import MultilingualProceduralDataset
+from ..config import DatasetConfig
+
+DATASET_NAME = "sentence_reordering"
+
+@dataclass
+class SentenceReorderingConfig(DatasetConfig):
+    """Configuration for sentence reordering task generation"""
+
+    min_words_in_sentence: int = 3
+    max_words_in_sentence: int = 20
+    languages: list[str] | str = "en"
+    language_weights: Optional[list[float]] = None
+
+    def validate(self) -> None:
+        """Validate configuration parameters"""
+        assert self.min_words_in_sentence > 0, "min_words_in_sentence must be positive"
+        assert (
+            self.max_words_in_sentence >= self.min_words_in_sentence
+        ), "max_words_in_sentence must be >= min_words_in_sentence"
+        assert (
+            self.max_words_in_sentence >= self.min_words_in_sentence
+        ), "max_words_in_sentence must be >= min_words_in_sentence"
+
+class SentenceReorderingDataset(MultilingualProceduralDataset):
+    """Generates sentence reordering tasks from text spans"""
+
+    def __init__(self, config: SentenceReorderingConfig):
+        super().__init__(config=config, seed=config.seed, size=config.size)
+
+        # Load and preprocess text
+        text = read_data_file("in_the_year_2889.txt")
+        # Extract sentences make sure they are greater than or equal to the number of words in a sentence
+        # Ensure that only the length of alphanumeric characters in the sentence is considered
+        self.sentences = [
+            sentence.strip()
+            for sentence in re.findall(r"[^.!?]+[.!?]", text)  # Changed pattern to include the ending punctuation
+            if self.config.min_words_in_sentence
+            <= len(re.findall(r"\b\w+\b", sentence))
+            <= self.config.max_words_in_sentence
+        ]
+
+    def _generate_sentence_dataset(self, sentence: str, seed: int, idx: int, shuffle=True):
+        """
+        Generate a procedural dataset by shuffling the words in the input sentence.
+
+        Args:
+            sentence (str): The correct sentence to use for dataset generation.
+            seed (int): The seed to use for random number generation.
+            idx (int): The index to add to the seed for random number generation.
+            shuffle (bool): Whether to shuffle the words to create the input sentence.
+
+        Returns:
+            dict: A dictionary containing the input sentence and the correct sentence (goal).
+        """
+        rng = Random(seed + idx)
+        words = sentence.split()  # Split the sentence into words
+        scrambled_words = words.copy()
+        if shuffle:
+            rng.shuffle(scrambled_words)  # Shuffle the words to generate the input
+        input_sentence = " ".join(scrambled_words)
+        goal_sentence = " ".join(words)
+        return {"input": input_sentence, "goal": goal_sentence}
+
+    def _generate_item(self, idx: int, language: str) -> dict[str, Any]:
+        """Generate a single sentence reordering task
+
+        Args:
+            idx: The index of the item to generate
+            language: The language to generate the item in
+
+        Returns:
+            A dictionary containing the question, answer, and metadata
+        """
+        rng = Random(self.seed + idx)
+        sentence_dataset = self._generate_sentence_dataset(rng.choice(self.sentences), self.seed, idx)
+
+        # Ensure only 'input' and 'goal' keys are present
+        if set(sentence_dataset.keys()) != {"input", "goal"}:
+            raise KeyError("The dictionary must contain only 'input' and 'goal' keys")
+
+        # Solve the task by sorting words to match the goal sentence
+        input_words = sentence_dataset["input"].split()
+        question_words = " ".join(input_words)
+        goal_words = sentence_dataset["goal"].split()
+        solved_sentence = " ".join(sorted(input_words, key=lambda word: goal_words.index(word)))
+        # Check for length of alphanumeric characters in the solved sentence
+        word_count = len(re.findall(r"\b\w+\b", solved_sentence))
+
+        question = self._get_translation("question_template", language, words=question_words)
+
+        return {
+            "question": question,
+            "answer": solved_sentence,
+            "metadata": {
+                "source_dataset": DATASET_NAME,
+                "source_index": idx,
+                "word_count": word_count,
+                "language": language,
+                "difficulty": {
+                    "words_in_sentence": (self.config.min_words_in_sentence, self.config.max_words_in_sentence),
+                },
+            },
+        }
+
+    def score_answer(self, answer: Optional[str], entry: dict[str, Any]) -> float:
+        reward = 0.0
+        expected_answer = entry["answer"]
+        if answer is not None:
+            try:
+                if expected_answer == answer:
+                    return 1.0
+                goal_words = expected_answer.split()
+                answer_words = answer.split()
+                if len(goal_words) == len(answer_words):
+                    credit = [
+                        1 if goal_word.lower() == answer_word.lower() else 0
+                        for goal_word, answer_word in zip(goal_words, answer_words)
+                    ]
+                    reward = sum(credit) / len(credit)
+                else:
+                    reward = 0.05
+            except:
+                reward = 0.0
+        return reward
+
+class SentenceReorderingCurriculum(BaseCurriculum):
+    def __init__(self):
+        super().__init__(SentenceReorderingCurriculum.__name__, SentenceReorderingConfig)
+
+        # Define attributes
+        self._define_attributes(
+            RangeAttributeDefinition(
+                name="words_in_sentence",
+                levels=[5, 20, 50, 100],
+                description="Number of words in the sentence",
+                lower_field_name="min_words_in_sentence",
+                upper_field_name="max_words_in_sentence",
+                ensure_interval=True,
+            ),
+        )
+
+register_dataset(DATASET_NAME, SentenceReorderingDataset, SentenceReorderingConfig, SentenceReorderingCurriculum)

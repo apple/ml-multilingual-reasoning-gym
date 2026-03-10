@@ -1,0 +1,4 @@
+{
+    "puzzle_question": "I have these dice: {dice_str}. What are the odds of rolling {target} or higher? (Assume that all dice are rolled at once, and that '1d6' represents one roll of a 6-sided dice.) Please respond with a reduced fraction representing the probability [ex., 1/60].",
+    "dice_separator": ", "
+}

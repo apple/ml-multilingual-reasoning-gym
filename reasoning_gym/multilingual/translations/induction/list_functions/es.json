@@ -1,0 +1,6 @@
+{
+  "prompt_template": "Eres un experto en razonamiento inductivo. Genera un resultado que corresponda a la entrada dada.\nEl resultado se debe generar aplicando la misma regla que relaciona la entrada con el resultado en los ejemplos proporcionados. Tu respuesta debe ser una lista de elementos\nEjemplos:\n{examples}\nEntrada: {input}\nResultado:\n",
+  "input_label": "Entrada {number}",
+  "output_label": "Resultado {number}",
+  "colon": ": "
+}

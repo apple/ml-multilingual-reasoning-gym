@@ -1,0 +1,3 @@
+{
+  "question_template": "Emoji hii ifuatayo ina msimbo wa sentensi.\n\nFungua msimbo wa sentensi ifuatayo ya **Kiingereza** kutoka kwa emoji hii: {sentence}\n\nHapa kuna kidokezo:\n{hint_function}\n\nRudisha sentensi ya siri ya **Kiingereza** kama jibu lako la mwisho."
+}

@@ -1,0 +1,3 @@
+{
+  "question_template": "분수 {question_fraction}을 약분하여 기약분수로 나타내라. 기약분수만을 최종 답으로 하라."
+}

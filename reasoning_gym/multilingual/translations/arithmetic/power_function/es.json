@@ -1,0 +1,3 @@
+{
+  "question_template": "Tu tarea es calcular una potencia.\n\nCalcula {base}^{exponent}. Da tu respuesta final con 3 cifras significativas.\nProporciona tu respuesta en notación científica usando «e» (ej. 1.23e+4)."
+}

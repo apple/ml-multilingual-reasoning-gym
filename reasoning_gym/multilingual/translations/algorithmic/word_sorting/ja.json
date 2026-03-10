@@ -1,0 +1,5 @@
+{
+  "question_template": "**英語**の単語をASCII/Unicode順序で{direction}に並べ替えよ。\n\n解答は、単語をコンマで区切って並べよ。例：word_1, word_2, word_3\n\n次の**英語**の単語を{direction}（ASCII/Unicode順序を使用）にコンマ区切りで並べよ：{words}",
+  "ascending": "昇順",
+  "descending": "降順"
+}

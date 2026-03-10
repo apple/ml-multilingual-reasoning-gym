@@ -1,0 +1,8 @@
+{
+  "puzzle_description": "Você é um policial. Um maníaco plantou uma bomba ao lado de uma fonte pública.\n\nPara desarmar a bomba, você deve resolver um quebra-cabeça. O quebra-cabeça é resolvido quando você enche qualquer um dos recipientes disponíveis com a quantidade alvo de água.\n\nVocê tem três tipos de movimento: «{fill_action}», «{empty_action}» e «{pour_action}».\n\nPara encher o Recipiente A, você «{fill_action} A».\nPara esvaziar o Recipiente B, você «{empty_action} B».\nPara despejar o conteúdo do Recipiente A no Recipiente B, você «{pour_action} A->B».\nTodos os recipientes começam vazios.\n\nOs recipientes vazios comportam esta quantidade de litros de água: {cap_str}\nE seu objetivo é: {target} litros.\n\nComo você desarma a bomba?\n\nResponda como uma lista de movimentos analisável por JSON que resulte em qualquer um dos recipientes sendo preenchido com a quantidade alvo.",
+  "fill_action": "encha",
+  "empty_action": "esvazie",
+  "pour_action": "despeje",
+  "jug_separator": ", ",
+  "capacity_separator": ":"
+}

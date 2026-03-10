@@ -1,0 +1,7 @@
+{
+  "simple_question": "{expression} ని గణించండి.",
+  "question_what": "{expression} ఎంత?",
+  "question_solve": "{expression} ని పరిష్కరించండి.",
+  "question_compute": "{expression} ని గణించండి.",
+  "question_evaluate": "గణించండి: {expression}."
+}

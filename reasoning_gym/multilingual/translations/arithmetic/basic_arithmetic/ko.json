@@ -1,0 +1,7 @@
+{
+  "simple_question": "{expression}을 계산하라.",
+  "question_what": "{expression}은 무엇인가?",
+  "question_solve": "{expression}을 풀어라.",
+  "question_compute": "{expression}을 구하라.",
+  "question_evaluate": "{expression}의 값을 구하라."
+}

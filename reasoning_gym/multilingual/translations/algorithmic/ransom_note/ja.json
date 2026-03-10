@@ -1,0 +1,5 @@
+{
+  "question_template": "脅迫状と雑誌を表す2つの文字列が与えられたとき、雑誌の文字を使って脅迫状を構成できるかを判定せよ。\n\n雑誌の文字列の各文字は脅迫状において一度しか使用できない。\n\n脅迫状：{ransom_note}\n雑誌：{magazine}\n\n構成可能な場合は{true_answer}、不可能な場合は{false_answer}と答えよ。",
+  "true_answer": "真",
+  "false_answer": "偽"
+}

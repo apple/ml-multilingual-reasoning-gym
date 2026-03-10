@@ -1,0 +1,3 @@
+{
+  "question_template": "Tu tarea es descifrar palabras en **inglés** de una oración.\n\nPara cada palabra de una oración, las letras pueden haber sido mezcladas aleatoriamente. Debes descifrar las palabras.\n\nEl orden de las palabras en la oración se mantiene. Además, el estilo de la oración se mantiene (es decir, puntuación, mayúsculas, saltos de línea, etc.).\n\nTu respuesta debe ser una oración con las palabras descifradas.\n\nAhora, descifra estas palabras en **inglés**: {words}"
+}

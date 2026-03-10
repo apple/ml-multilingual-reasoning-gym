@@ -1,0 +1,3 @@
+{
+  "question_template": "Ti viene data la seguente griglia di matrice binaria {rows} x {cols}:\n{grid}\n\nUn'isola è un gruppo di 1 (che rappresentano terra) connessi nelle 4 direzioni (orizzontale o verticale).\nPuoi assumere che tutti e quattro i bordi della griglia siano circondati da acqua.\n\nL'area di un'isola è il numero di celle con valore 1 nell'isola.\n\nTrova l'area massima di un'isola nella griglia. Se non ci sono isole, restituisci 0."
+}

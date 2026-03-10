@@ -1,0 +1,7 @@
+{
+  "simple_question": "{expression}を計算せよ。",
+  "question_what": "{expression}はいくつか？",
+  "question_solve": "{expression}を解け。",
+  "question_compute": "{expression}を求めよ。",
+  "question_evaluate": "{expression}の値を求めよ。"
+}

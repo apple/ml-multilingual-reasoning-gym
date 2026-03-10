@@ -1,0 +1,13 @@
+{
+  "question_template": "Für die folgende Matrix:\n{matrix}\n\nFühre die folgenden Operationen in dieser Reihenfolge aus:\n- Identitätstransformation, d.h. keine Änderung\n{operations}",
+  "rotate_instruction": "- Drehe die Matrix um {degrees} Grad",
+  "hmirror_instruction": "- Spiegle die Matrix horizontal",
+  "vmirror_instruction": "- Spiegle die Matrix vertikal",
+  "dmirror_instruction": "- Spiegle die Matrix an der Diagonale",
+  "cmirror_instruction": "- Spiegle die Matrix an der Gegendiagonale",
+  "map_instruction": "- Ersetze jedes Vorkommen von {a} durch {b}",
+  "zero_divisible_instruction": "- Setze alle durch {k} teilbaren Elemente auf null",
+  "crop_instruction": "- Beschränke die Matrix auf die Zeilen {row_start}-{row_end} und Spalten {col_start}-{col_end} (beginnend bei 1)",
+  "remove_nth_row_instruction": "- Entferne jede {n}. Zeile (Indexierung beginnend bei 1)",
+  "remove_nth_col_instruction": "- Entferne jede {n}. Spalte (Indexierung beginnend bei 1)"
+}

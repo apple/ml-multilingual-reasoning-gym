@@ -1,0 +1,6 @@
+{
+  "question_template": "2つの異なる進法の間で数値を変換せよ。\n\n目標進法が10より大きい場合、9より大きい桁には小文字a-zを使用せよ。\n\n{source_name}の{source_repr}を{target_name}に変換せよ。\n",
+  "binary": "2進数",
+  "hexadecimal": "16進数",
+  "base_template": "{base}進数"
+}

@@ -1,0 +1,9 @@
+{
+  "circuit_intro": "다음은 무작위로 생성된 논리 회로이다.\n",
+  "legend_title": "게이트 기호 설명:",
+  "negate_symbol": "{symbol}: 부정",
+  "input_assignments": "다음 입력 값들이 주어졌을 때:",
+  "assignment_format": "  {input} = {value}",
+  "output_question": "최종 출력은 무엇인가?",
+  "colon": ": "
+}

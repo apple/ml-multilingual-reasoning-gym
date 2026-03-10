@@ -1,0 +1,4 @@
+{
+  "prompt_template_1": "给你一个{cube_size}x{cube_size}x{cube_size}魔方。它看起来是这样的：\n\n{cube_render} \n\n请使用辛马斯特记号法提供解决这个魔方的方案。不要合并任何步骤，例如，不要写「U2」，而要写「U U」。",
+  "prompt_template_2": "你看到一个{cube_size}阶魔方排列如下：\n\n{cube_render} \n\n请使用辛马斯特记号法提供解决这个魔方的方案。不要合并任何步骤，例如，不要写「U2」，而要写「U U」。"
+}

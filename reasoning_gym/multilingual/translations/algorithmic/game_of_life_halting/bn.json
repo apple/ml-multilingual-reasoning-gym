@@ -1,0 +1,5 @@
+{
+  "question_template": "এটি একটি 'Game of Life' গ্রিড। আমরা একটি গেমকে থেমে যাওয়া বলে বিবেচনা করি যদি কোনো কোষ জীবিত না থাকে।\nএই গেমটি কি {max_simulation_steps} ধাপের মধ্যে বা তার আগে থেমে যাবে? Moore neighborhood এবং wrapping topology ধরে নাও। যদি থেমে যায়, '{true_answer}' উত্তর দাও। যদি না থামে, '{false_answer}' উত্তর দাও।\n\nপ্রাথমিক বোর্ড:\n{board_str}",
+  "true_answer": "সত্য",
+  "false_answer": "মিথ্যা"
+}

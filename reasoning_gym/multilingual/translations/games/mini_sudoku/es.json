@@ -1,0 +1,3 @@
+{
+  "prompt_template": "En el Mini Sudoku de 4x4:\n- Cada fila debe contener cada número del 1-4 exactamente una vez\n- Cada columna debe contener cada número del 1-4 exactamente una vez\n- Cada subcuadrícula de 2x2 debe contener cada número del 1-4 exactamente una vez\n\nResuelve este rompecabezas de Mini Sudoku de 4x4:\n{puzzle}\n\nPresenta tu respuesta siguiendo el formato del rompecabezas de arriba, con espacios separando cada número dentro de una fila, y saltos de línea separando las filas."
+}

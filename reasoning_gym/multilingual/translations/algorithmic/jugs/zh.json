@@ -1,0 +1,8 @@
+{
+  "puzzle_description": "你是一名警察。一个疯子在公共喷泉旁放置了一颗炸弹。\n\n要拆除炸弹，你必须解开一个谜题。当你在任何一个水壶中装入目标水量时，谜题就解开了。\n\n你有三种操作：「{fill_action}」、「{empty_action}」和「{pour_action}」。\n\n要装满水壶A，你「{fill_action} A」。\n要倒空水壶B，你「{empty_action} B」。\n要将水壶A的水倒入水壶B，你「{pour_action} A->B」。\n所有水壶开始时都是空的。\n\n空水壶的容量（升）为：{cap_str}\n你的目标是：{target} 升。\n\n你如何拆除炸弹？\n\n请以JSON格式的操作列表回复，使任何一个水壶达到目标水量。",
+  "fill_action": "装满",
+  "empty_action": "倒空",
+  "pour_action": "倒入",
+  "jug_separator": "，",
+  "capacity_separator": "："
+}

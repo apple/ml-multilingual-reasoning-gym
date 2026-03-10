@@ -1,0 +1,3 @@
+{
+  "instruction_text": "Você vai resolver um quebra-cabeça 'sokoban'.\n\n* - O jogador\n% - O jogador em um objetivo\n@ - Uma caixa\nX - Um objetivo\n$ - Uma caixa em um objetivo\n+ - Uma parede\n- - Uma posição vazia\n\nSua solução deve ser uma sequência de setas, ex: ←↓↑→→↑↓←.\n\nAqui está o seu quebra-cabeça:\n"
+}

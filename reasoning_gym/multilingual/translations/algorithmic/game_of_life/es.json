@@ -1,0 +1,3 @@
+{
+  "question_template": "¿Cómo se verá este tablero del Juego de la Vida después del paso {simulation_steps}? Asume una vecindad de Moore y topología envolvente. Responde como un arreglo de arreglos que representen las filas de la cuadrícula de arriba hacia abajo en formato JSON. (Una cuadrícula vacía de 3x3 se vería así: [[0,0,0],[0,0,0],[0,0,0]])\n\n{board}."
+}

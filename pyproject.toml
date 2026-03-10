@@ -1,0 +1,79 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "reasoning_gym"
+version = "1.0.0"
+authors = [
+  { name = "Konstantin Dobler", email = "konstantin.dobler@hpi.de" },
+  { name = "Simon Lehnerer", email = "simon.lehnerer@apple.com" },
+]
+description = "A library of procedural dataset generators for training reasoning models"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "bfi==1.0.4",
+  "cellpylib==2.4.0",
+  "sympy>=1.13.1",
+  "magiccube==0.3.0",
+  "pycosat==0.6.6",
+  "pyfiglet==1.0.2",
+  "pytz>=2024.1",
+  "tabulate==0.9.0",
+  "pyyaml>=6.0.2",
+  "arckit==0.1.0",
+  "zss>=1.2.0",
+  "numpy>=1.24.0",
+  "python-dateutil>=2.8.0",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+license = {file = "LICENSE"}
+license-files = ["LICENSE"]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+scripts = [
+    "datasets>=3.5.0",
+    "tqdm>=4.66.0",
+]
+dev = [
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+    "black>=24.10.0",
+    "isort>=5.13.2",
+    "flake8>=7.1.1",
+    "mypy>=1.14.1",
+    "pre-commit>=4.1.0",
+]
+
+[tool.hatch.build]
+packages = [
+    "reasoning_gym",
+]
+include = [
+    "reasoning_gym/**/*.py",
+    "reasoning_gym/**/*.json",
+    "reasoning_gym/**/*.txt",
+]
+
+
+[tool.black]
+line-length = 120
+target-version = ['py312']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 120
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+testpaths = ["tests"]

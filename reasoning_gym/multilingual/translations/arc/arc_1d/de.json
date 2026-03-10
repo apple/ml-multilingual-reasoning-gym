@@ -1,0 +1,6 @@
+{
+  "example_header": "Beispiel {number}:",
+  "input_label": "Eingabe: ",
+  "output_label": "Ausgabe: ",
+  "question_template": "Finde die gemeinsame Regel, die ein Eingabegitter auf ein Ausgabegitter abbildet, anhand der folgenden Beispiele.\n\n{examples}\n\nUnten ist ein Test-Eingabegitter. Bestimme das entsprechende Ausgabegitter, indem du die gefundene Regel anwendest. Beschreibe ausführlich deine Herleitung der Regel und deinen gesamten Denkprozess, bevor du deine Antwort abgibst. Deine endgültige Antwort sollte nur das Test-Ausgabegitter selbst sein.\n\nEingabe:\n{test_input}"
+}

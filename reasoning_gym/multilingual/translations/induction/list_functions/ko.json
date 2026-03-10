@@ -1,0 +1,6 @@
+{
+  "prompt_template": "당신은 귀납적 추론의 전문가이다. 주어진 입력에 해당하는 출력을 생성하라.\n출력은 제공된 예시들에서 입력을 출력으로 매핑하는 동일한 규칙을 적용하여 생성된다. 답은 요소들의 리스트여야 한다.\n예시:\n{examples}\n입력: {input}\n출력:\n",
+  "input_label": "입력 {number}",
+  "output_label": "출력 {number}",
+  "colon": ": "
+}

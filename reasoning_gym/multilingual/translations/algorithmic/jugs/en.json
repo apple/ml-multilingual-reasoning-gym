@@ -1,0 +1,8 @@
+{
+    "puzzle_description": "You are a police officer. A maniac has planted a bomb next to a public fountain.\n\nTo defuse the bomb, you must solve a puzzle. The puzzle is solved when you fill any of the available jugs with the target amount of water.\n\nYou have three move types: '{fill_action}', '{empty_action}' and '{pour_action}'.\n\nTo fill Jug A, you '{fill_action} A'.\nTo empty Jug B, you '{empty_action} B'.\nTo pour the contents of Jug A into Jug B, you '{pour_action} A->B'.\nAll jugs are empty to begin with.\n\nThe empty jugs hold this many litres of water: {cap_str}\nAnd your target is: {target} litres.\n\nHow do you defuse the bomb?\n\nReply as a JSON-parsable list of moves which result in any of the jugs being filled with the target amount.",
+    "fill_action": "fill",
+    "empty_action": "empty", 
+    "pour_action": "pour",
+    "jug_separator": ", ",
+    "capacity_separator": ":"
+}

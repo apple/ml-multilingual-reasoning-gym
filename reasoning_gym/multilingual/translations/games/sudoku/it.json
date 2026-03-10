@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Risolvi questo rompicapo Sudoku:\n{puzzle}\nRispondi solo con la tua risposta, formattata come il rompicapo: una griglia 9x9 con numeri separati da spazi e ogni riga su una linea separata."
+}

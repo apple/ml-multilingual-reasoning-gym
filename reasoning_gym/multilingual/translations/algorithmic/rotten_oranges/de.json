@@ -1,0 +1,3 @@
+{
+  "question_template": "Du erhältst ein n x n Gitter, wobei jede Zelle einen von drei Werten haben kann:\n- 0 für eine leere Zelle\n- 1 für eine frische Orange\n- 2 für eine verfaulte Orange\n\nJede Minute verfault jede frische Orange, die in 4 Richtungen (horizontal und vertikal) an eine verfaulte Orange angrenzt, selbst.\n\nDeine Aufgabe ist es, die minimale Anzahl an Minuten zu bestimmen, die vergehen muss, bis keine Zelle mehr eine frische Orange enthält.\nFalls dies unmöglich ist, gib -1 zurück.\n\nBestimme nun die minimale Anzahl an Minuten, die vergehen muss, bis keine Zelle im untenstehenden Gitter mehr eine frische Orange enthält:\n{matrix}"
+}

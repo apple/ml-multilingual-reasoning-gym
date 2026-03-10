@@ -1,0 +1,6 @@
+{
+  "question_template": "你的任务是在两个不同的进制之间转换数字。\n\n如果目标进制大于 10，对于大于 9 的数位使用小写字母 a-z。\n\n现在，将{source_name}进制数 {source_repr} 转换为{target_name}进制\n",
+  "binary": "二",
+  "hexadecimal": "十六",
+  "base_template": "{base}"
+}

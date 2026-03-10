@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "Étant donné un polygone convexe à {n_sides} côtés, ses {n_minus_1} premiers angles intérieurs sont : {angle_list}. Quelle est la mesure de l'angle intérieur restant (en degrés) ? Donne seulement l'angle comme réponse. Ne donne pas les unités dans ta réponse.",
+  "prompt_template_2": "Un polygone convexe a {n_sides} côtés. Les mesures des {n_minus_1} premiers angles intérieurs sont : {angle_list}. Trouve la mesure du dernier angle intérieur. Donne seulement l'angle comme réponse. Ne donne pas les unités dans ta réponse.",
+  "prompt_template_3": "Considère un polygone convexe à {n_sides} côtés dont les {n_minus_1} premiers angles intérieurs sont : {angle_list}. Détermine la mesure de l'angle restant. Donne seulement l'angle comme réponse. Ne donne pas les unités dans ta réponse.",
+  "angle_separator": ", "
+}

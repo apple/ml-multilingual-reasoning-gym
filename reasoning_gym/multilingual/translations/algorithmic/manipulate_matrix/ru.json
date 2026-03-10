@@ -1,0 +1,13 @@
+{
+  "question_template": "Для следующей матрицы:\n{matrix}\n\nВыполни следующие операции в указанном порядке:\n• Тождественное преобразование, т.е. никаких изменений\n{operations}",
+  "rotate_instruction": "• Повернуть матрицу на {degrees} градусов",
+  "hmirror_instruction": "• Отразить матрицу горизонтально",
+  "vmirror_instruction": "• Отразить матрицу вертикально",
+  "dmirror_instruction": "• Отразить матрицу относительно главной диагонали",
+  "cmirror_instruction": "• Отразить матрицу относительно побочной диагонали",
+  "map_instruction": "• Заменить каждое вхождение {a} на {b}",
+  "zero_divisible_instruction": "• Обнулить все элементы, делящиеся на {k}",
+  "crop_instruction": "• Обрезать матрицу до строк {row_start}-{row_end} и столбцов {col_start}-{col_end} (нумерация с 1)",
+  "remove_nth_row_instruction": "• Удалить каждую {n}-ю строку (нумерация с 1)",
+  "remove_nth_col_instruction": "• Удалить каждый {n}-й столбец (нумерация с 1)"
+}

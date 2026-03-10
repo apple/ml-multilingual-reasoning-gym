@@ -1,0 +1,3 @@
+{
+  "question_template": "Ukipewa mlolongo wa binary, rudisha idadi ndogo zaidi ya kubadilishana herufi ili kuufanya wa mbadala, au -1 ikiwa haiwezekani.\n\nMlolongo unaitwa wa mbadala ikiwa hakuna herufi mbili zinazofuatana zilizo sawa. Kwa mfano, miolongo \"010\" na \"1010\" ni ya mbadala, lakini mlolongo \"0100\" si wa mbadala.\n\nHerufi zozote mbili zinaweza kubadilishwa, hata kama hazifuatani.\n\nSasa, bainisha idadi ndogo zaidi ya kubadilishana ili kufanya mlolongo ufuatao wa binary kuwa wa mbadala: {string}"
+}

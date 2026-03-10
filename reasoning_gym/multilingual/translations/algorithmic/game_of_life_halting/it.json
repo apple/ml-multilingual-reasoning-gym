@@ -1,0 +1,5 @@
+{
+  "question_template": "Questa è una griglia del «Gioco della Vita». Consideriamo il gioco fermo se non ci sono celle vive.\nIl gioco si fermerà entro {max_simulation_steps} passi? Supponi un vicinato di Moore e topologia ad anello. Se si fermerà, rispondi «{true_answer}». Se non si fermerà, rispondi «{false_answer}».\n\nGriglia iniziale:\n{board_str}",
+  "true_answer": "Vero",
+  "false_answer": "Falso"
+}

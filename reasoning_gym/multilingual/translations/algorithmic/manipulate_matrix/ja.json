@@ -1,0 +1,13 @@
+{
+  "question_template": "次の行列について：\n{matrix}\n\n以下の操作を順番に実行せよ：\n・ 恒等変換（変更なし）\n{operations}",
+  "rotate_instruction": "・ 行列を{degrees}度回転せよ",
+  "hmirror_instruction": "・ 行列を水平方向に反転せよ",
+  "vmirror_instruction": "・ 行列を垂直方向に反転せよ",
+  "dmirror_instruction": "・ 行列を対角線に沿って反転せよ",
+  "cmirror_instruction": "・ 行列を反対角線に沿って反転せよ",
+  "map_instruction": "・ {a}を{b}に置換せよ",
+  "zero_divisible_instruction": "・ {k}で割り切れる全ての要素を0にせよ",
+  "crop_instruction": "・ 行列を第{row_start}行から第{row_end}行、第{col_start}列から第{col_end}列に切り取れ（1から始まる番号）",
+  "remove_nth_row_instruction": "・ {n}行ごとに削除せよ（1から始まる番号）",
+  "remove_nth_col_instruction": "・ {n}列ごとに削除せよ（1から始まる番号）"
+}

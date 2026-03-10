@@ -1,0 +1,3 @@
+{
+  "question_template": "Ti viene data una griglia n x n in cui ogni cella può avere uno di tre valori:\n- 0 che rappresenta una cella vuota\n- 1 che rappresenta un'arancia fresca\n- 2 che rappresenta un'arancia marcia\n\nOgni minuto, ogni arancia fresca che è adiacente nelle 4 direzioni a un'arancia marcia diventa marcia.\n\nIl tuo compito è determinare il numero minimo di minuti che devono passare finché nessuna cella ha un'arancia fresca.\nSe questo non è possibile, il risultato è -1.\n\nOra, determina il numero minimo di minuti che devono passare finché nessuna cella nella griglia sottostante ha un'arancia fresca:\n{matrix}"
+}

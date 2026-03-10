@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "{n_sides}개의 변을 가진 볼록다각형이 주어졌을 때, 처음 {n_minus_1}개의 내각이 {angle_list}이다. 나머지 내각의 크기는 얼마인가? 각도만을 답으로 하고, 단위는 포함하지 말아라.",
+  "prompt_template_2": "볼록다각형이 {n_sides}개의 변을 가지고 있다. 처음 {n_minus_1}개 내각의 크기는 {angle_list}이다. 마지막 내각의 크기를 구하라. 각도만을 답으로 하고, 단위는 포함하지 말아라.",
+  "prompt_template_3": "볼록 {n_sides}각형을 고려하자. 처음 {n_minus_1}개의 내각이 {angle_list}인 경우, 나머지 내각의 크기를 결정하라. 각도만을 답으로 하고, 단위는 포함하지 말아라.",
+  "angle_separator": ", "
+}

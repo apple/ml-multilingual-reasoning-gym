@@ -1,0 +1,4 @@
+{
+  "question_template": "Kazi yako ni kupata njia fupi zaidi kutoka mahali pa kuanzia hadi lengo katika gridi.\n\nGridi imewakilishwa kama jedwali lenye aina hizi za vipengele:\n• *: mahali pako pa kuanzia\n• #: lengo lako\n• O: kipengele cha wazi\n• X: kipengele kilichozuiliwa\n\nKwa hiyo, unahitaji kupata njia fupi zaidi kutoka * hadi #, ukipita tu katika vipengele vya wazi.\n\nUnaweza kusonga katika mielekezo minne tu: juu, chini, kushoto, na kulia.\n\nIkiwa hakuna njia kutoka * hadi #, andika tu \"{infeasible}\" (bila nukuu).\n\nJibu lako linapaswa kuwa mfuatano wa mielekezo ya mishale inayoongoza kutoka * hadi #, k.m. → → ↓ ↓ ↑ ←\n\nSasa, pata njia fupi zaidi kutoka * hadi # katika gridi ifuatayo:\n{grid}",
+  "infeasible": "haiwezekani"
+}

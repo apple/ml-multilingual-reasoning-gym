@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "Bestimme den Wert von {variable} in der Gleichung: {equation}",
+  "prompt_template_2": "Löse nach {variable} auf: {equation}",
+  "prompt_template_3": "Bestimme den Wert von {variable}, der die Gleichung erfüllt: {equation}"
+}

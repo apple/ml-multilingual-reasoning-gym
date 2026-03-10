@@ -1,0 +1,4 @@
+{
+  "prompt_template": "Desafio de Troca de Cavalos:\n\n```\n{board_str}\n```\n\nLegenda:\n- 'w' = Cavalo Branco\n- 'B' = Cavalo Preto\n- Casas vazias são marcadas com '.'\n\nObjetivo:\nTrocar as posições de todos os cavalos brancos com todos os cavalos pretos através de movimentos válidos.\n\nRegras:\n1. Cavalos se movem em formato de L (2 casas + 1 casa perpendicular)\n2. Cavalos só podem se mover para casas vazias\n3. {start_turn} joga primeiro, depois os jogadores alternam\n4. Todos os cavalos devem alcançar suas posições alvo (branco ↔ preto)\n\nPergunta:\nÉ possível trocar as posições de todos os cavalos? Se sim, liste os movimentos.\n\nFormato da Resposta:\n- Para quebra-cabeças impossíveis: «{impossible_answer}»\n- Para quebra-cabeças possíveis: Liste movimentos como [\"cor,de,para\", ...]\n  Exemplo: [\"w,A1,B3\"] significa cavalo branco move A1→B3",
+  "impossible_answer": "Não"
+}

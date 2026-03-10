@@ -1,0 +1,7 @@
+{
+  "question_template": "このリスト： {numbers_list} の中で、{filter_value}より{comparison}数値をすべて{action}。\n同じ形式で新しいリストを返せ。",
+  "action_keep": "残せ",
+  "action_remove": "削除せよ",
+  "comparison_larger": "大きい",
+  "comparison_smaller": "小さい"
+}

@@ -1,0 +1,5 @@
+{
+    "question_format": "The following question is a propositional logic reasoning question.\n\nIn the question we provide a list of premises. The task is to infer a correct conclusion from the premise.\n\nFORMAT INSTRUCTIONS:\n- Return the conclusion logic statement, as your final answer.\n- Use the following notation to denote symbols\n    - OR = ∨\n    - AND = ∧\n    - IMPLIES = →\n    - IFF = ↔\n    - NOT = ¬\n\nHere is the question:\n",
+    "given_text": "Given:",
+    "conclusion_question": "What can we conclude from the above statements?"
+}

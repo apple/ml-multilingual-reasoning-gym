@@ -1,0 +1,6 @@
+{
+  "operation_+": "Some os números complexos: ({a}) + ({b})",
+  "operation_-": "Subtraia os números complexos: ({a}) - ({b})",
+  "operation_*": "Multiplique os números complexos: ({a}) × ({b})",
+  "operation_/": "Divida os números complexos: ({a}) ÷ ({b})"
+}

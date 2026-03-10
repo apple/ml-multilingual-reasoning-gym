@@ -1,0 +1,3 @@
+{
+    "question_template": "Simplify the fraction {question_fraction} to its lowest terms. Give only the simplified fraction as your final answer."
+}

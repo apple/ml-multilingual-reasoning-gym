@@ -1,0 +1,6 @@
+{
+  "prompt_template": "Du bist ein Experte für Induktion. Erzeuge eine Ausgabe entsprechend der gegebenen Eingabe.\nDie Ausgabe wird erzeugt, indem dieselbe Regel angewendet wird, die in den gegebenen Beispielen die Eingabe auf die Ausgabe abbildet. Deine Antwort sollte eine Liste von Elementen sein\nBeispiele:\n{examples}Eingabe: {input}\nAusgabe:\n",
+  "input_label": "Eingabe {number}",
+  "output_label": "Ausgabe {number}",
+  "colon": ": "
+}

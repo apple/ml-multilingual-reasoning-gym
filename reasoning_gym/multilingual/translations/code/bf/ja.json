@@ -1,0 +1,4 @@
+{
+  "prompt_template_1": "これはBF（Brainf*ck）のコンピュータプログラムである。出力結果を答えなさい。\n\n{bf_program}\n\nプログラムの正確な出力のみを答えること。",
+  "prompt_template_2": "以下のBF（Brainf*ck）コードを考える。出力結果を答えなさい。\n\n{bf_program}\n\nコードの正確な出力のみを答えること。"
+}

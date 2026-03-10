@@ -1,0 +1,13 @@
+{
+    "prompt_template": "তোমার সামনে কিছু বোতাম, একটি আলো এবং একটি সংখ্যা রয়েছে। তুমি যখনই কোনো বোতাম চাপবে তখনই আলোটি লাল এবং সবুজের মধ্যে পরিবর্তিত হবে। প্রতিটি বোতাম সংখ্যাটির উপর একটি গাণিতিক অপারেশন সম্পাদন করে, কিন্তু অপারেশনটি আলোর অবস্থার উপর নির্ভর করতে পারে।\n\nলক্ষ্য মানে পৌঁছানোর জন্য তোমাকে সবচেয়ে ছোট সঠিক বোতামের ক্রম চাপতে হবে। তোমার উত্তর '{separator}' দিয়ে পৃথক করা বোতামের একটি ক্রম হতে হবে, উদাহরণ: A{separator}B{separator}C\n\nশুরু: {initial_value} ({initial_state})\nলক্ষ্য: {target_value}\nবোতামসমূহ:\n{buttons_text}",
+    "operation_add_template": "{value} যোগ",
+    "operation_subtract_template": "{value} বিয়োগ", 
+    "operation_multiply_template": "{value} দিয়ে গুণ",
+    "when_state": "যখন {state}",
+    "state_red": "লাল",
+    "state_green": "সবুজ",
+    "state_any": "যেকোনো",
+    "button_format": "{name}: {operation} {condition}",
+    "separator": " → ",
+    "condition_format": "({when_text})"
+}

@@ -1,0 +1,23 @@
+{
+  "question_template": "Il tuo compito è trasformare ripetutamente una stringa secondo un insieme di regole finché non è più possibile eseguire trasformazioni, o uno stato si ripete.\n\nValuta le seguenti regole in ordine e applica la prima regola applicabile alla stringa:\n{rules}\n\nUna volta applicata una regola, ripeti il processo con la nuova stringa finché non è più possibile eseguire trasformazioni (cioè la stringa non cambia), o uno stato si ripete.\nSe uno stato si ripete, il processo viene terminato, e lo stato ripetuto viene scartato (cioè non è considerato come risposta finale) e lo stato precedente a quello ripetuto è considerato come risposta finale.\n\nLa tua risposta deve essere la stringa finale trasformata dopo aver applicato tutte le regole.\n\nTrasforma la seguente stringa secondo l'elenco di regole sopra:\n{string}",
+  "rule_1": "Se il prefisso della stringa è «ab», sostituiscilo con «ca».",
+  "rule_2": "Se il suffisso della stringa è «ac», sostituiscilo con «cb».",
+  "rule_3": "Se il prefisso della stringa è «bc», elimina i primi due caratteri e aggiungi «aa» alla fine.",
+  "rule_4": "Se il suffisso della stringa è «bb», elimina gli ultimi due caratteri.",
+  "rule_5": "Se il prefisso della stringa è «cb», sostituiscilo con «aa» ed elimina l'ultimo carattere.",
+  "rule_6": "Se il prefisso della stringa è «ca», sostituiscilo con «bb» e aggiungi «c» alla fine.",
+  "rule_7": "Se il suffisso della stringa è «cc», sostituiscilo con «b» e aggiungi «a» all'inizio.",
+  "rule_8": "Se il prefisso della stringa è «aa», rimuovi il primo carattere.",
+  "rule_9": "Se la stringa contiene «abc», sostituisci la prima occorrenza con «cab».",
+  "rule_10": "Se la stringa contiene «bca», elimina completamente la prima occorrenza.",
+  "rule_11": "Se la stringa finisce con «ba», sostituiscilo con «ab».",
+  "rule_12": "Se la stringa inizia con «cc», rimuovi i primi due caratteri.",
+  "rule_13": "Se la stringa contiene «acb», sostituisci la prima occorrenza con il suo inverso («bca»).",
+  "rule_14": "Se la stringa finisce con «ca», rimuovi l'ultimo carattere.",
+  "rule_15": "Se la stringa inizia con «bb», rimuovi il secondo carattere.",
+  "rule_16": "Se la stringa finisce con «aa», sostituiscilo con «cc».",
+  "rule_17": "Se la stringa contiene «ca» (non all'inizio), rimuovi la prima occorrenza trovata dopo il primo carattere.",
+  "rule_18": "Se la stringa contiene un numero pari di «b» (e almeno una «b»), aggiungi «ab» alla fine.",
+  "rule_19": "Se la lunghezza della stringa è maggiore di 15, rimuovi il carattere centrale.",
+  "rule_20": "Se la stringa inizia con «ac», sostituisci i primi due caratteri con «zz»."
+}

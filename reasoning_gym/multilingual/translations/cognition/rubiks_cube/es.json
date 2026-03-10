@@ -1,0 +1,4 @@
+{
+  "prompt_template_1": "Se te da un cubo de Rubik de {cube_size}x{cube_size}x{cube_size}. Se ve así:\n\n{cube_render} \n\nProporciona una solución para resolver este cubo usando notación Singmaster. No combines ningún paso, por ejemplo, no escribas «U2», y en su lugar escribe «U U».",
+  "prompt_template_2": "Ves un cubo de Rubik de tamaño {cube_size} dispuesto de la siguiente manera:\n\n{cube_render} \n\nProporciona una solución para resolver este cubo usando notación Singmaster. No combines ningún paso, por ejemplo, no escribas «U2», y en su lugar escribe «U U»."
+}

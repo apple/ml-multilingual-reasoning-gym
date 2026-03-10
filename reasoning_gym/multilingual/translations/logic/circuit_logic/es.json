@@ -1,0 +1,9 @@
+{
+  "circuit_intro": "A continuación se muestra un circuito lógico generado aleatoriamente.\n",
+  "legend_title": "Leyenda de compuertas:",
+  "negate_symbol": "{symbol}: Negación",
+  "input_assignments": "Dadas las siguientes asignaciones de entrada:",
+  "assignment_format": "  {input} = {value}",
+  "output_question": "¿Cuál es la salida final?",
+  "colon": ": "
+}

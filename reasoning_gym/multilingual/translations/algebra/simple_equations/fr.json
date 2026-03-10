@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "Trouve la valeur de {variable} dans l'équation : {equation}",
+  "prompt_template_2": "Résous pour {variable} : {equation}",
+  "prompt_template_3": "Détermine la valeur de {variable} telle que : {equation}"
+}

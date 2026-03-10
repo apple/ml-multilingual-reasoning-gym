@@ -1,0 +1,3 @@
+{
+  "question_template": "Trouve la décomposition en facteurs premiers de {number}. Écris les facteurs séparés par × (Exemple : pour 12 la réponse serait : 2 × 2 × 3)"
+}

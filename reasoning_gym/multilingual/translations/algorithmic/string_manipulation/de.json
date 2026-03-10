@@ -1,0 +1,23 @@
+{
+  "question_template": "Deine Aufgabe ist es, eine Zeichenkette wiederholt nach einer Reihe von Regeln zu transformieren, bis keine weiteren Transformationen mehr durchgeführt werden können oder ein Zustand wiederholt wird.\n\nBewerte die folgenden Regeln in der Reihenfolge und wende die erste anwendbare Regel auf die Zeichenkette an:\n{rules}\n\nSobald du eine Regel angewendet hast, wiederhole den Prozess mit der neuen Zeichenkette, bis keine weiteren Transformationen mehr durchgeführt werden können (d.h. die Zeichenkette ändert sich nicht) oder ein Zustand wiederholt wird.\nWenn ein Zustand wiederholt wird, wird der Prozess beendet, der wiederholte Zustand verworfen (d.h. nicht als finale Antwort betrachtet) und der Zustand vor dem wiederholten Zustand als finale Antwort betrachtet.\n\nDeine Ausgabe sollte die finale transformierte Zeichenkette nach Anwendung aller Regeln sein.\n\nTransformiere die folgende Zeichenkette nach der obigen Regelliste:\n{string}",
+  "rule_1": "Wenn das Präfix der Zeichenkette 'ab' ist, ersetze es durch 'ca'.",
+  "rule_2": "Wenn das Suffix der Zeichenkette 'ac' ist, ersetze es durch 'cb'.",
+  "rule_3": "Wenn das Präfix der Zeichenkette 'bc' ist, lösche die ersten zwei Zeichen und hänge 'aa' am Ende an.",
+  "rule_4": "Wenn das Suffix der Zeichenkette 'bb' ist, lösche die letzten zwei Zeichen.",
+  "rule_5": "Wenn das Präfix der Zeichenkette 'cb' ist, ersetze es durch 'aa' und lösche das letzte Zeichen.",
+  "rule_6": "Wenn das Präfix der Zeichenkette 'ca' ist, ersetze es durch 'bb' und hänge 'c' am Ende an.",
+  "rule_7": "Wenn das Suffix der Zeichenkette 'cc' ist, ersetze es durch 'b' und stelle 'a' an den Anfang.",
+  "rule_8": "Wenn das Präfix der Zeichenkette 'aa' ist, entferne das erste Zeichen.",
+  "rule_9": "Wenn die Zeichenkette 'abc' enthält, ersetze das erste Vorkommen durch 'cab'.",
+  "rule_10": "Wenn die Zeichenkette 'bca' enthält, lösche das erste Vorkommen vollständig.",
+  "rule_11": "Wenn die Zeichenkette mit 'ba' endet, ersetze es durch 'ab'.",
+  "rule_12": "Wenn die Zeichenkette mit 'cc' beginnt, entferne die ersten zwei Zeichen.",
+  "rule_13": "Wenn die Zeichenkette 'acb' enthält, ersetze das erste Vorkommen durch seine Umkehrung ('bca').",
+  "rule_14": "Wenn die Zeichenkette mit 'ca' endet, entferne das letzte Zeichen.",
+  "rule_15": "Wenn die Zeichenkette mit 'bb' beginnt, entferne das zweite Zeichen.",
+  "rule_16": "Wenn die Zeichenkette mit 'aa' endet, ersetze es durch 'cc'.",
+  "rule_17": "Wenn die Zeichenkette 'ca' enthält (nicht am Anfang), entferne das erste Vorkommen, das nach dem ersten Zeichen gefunden wird.",
+  "rule_18": "Wenn die Zeichenkette eine gerade Anzahl von 'b's enthält (und mindestens ein 'b'), hänge 'ab' am Ende an.",
+  "rule_19": "Wenn die Länge der Zeichenkette größer als 15 ist, entferne das mittlere Zeichen.",
+  "rule_20": "Wenn die Zeichenkette mit 'ac' beginnt, ersetze die ersten zwei Zeichen durch 'zz'."
+}

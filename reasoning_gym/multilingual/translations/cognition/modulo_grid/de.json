@@ -1,0 +1,3 @@
+{
+  "question_template": "Erkenne das mathematische Muster, das dieses Gitter definiert, und verwende dann dieses Muster, um die Fragezeichen auszufüllen. Gib das gesamte ausgefüllte Gitter als deine Antwort zurück.\n\n{grid}"
+}

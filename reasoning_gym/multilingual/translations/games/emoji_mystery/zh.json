@@ -1,0 +1,3 @@
+{
+  "question_template": "以下表情符号编码了一个句子。\n\n解码以下表情符号中的**英语**句子：{sentence}\n\n这里有一个提示：\n{hint_function}\n\n请返回秘密的**英语**句子作为你的最终答案。"
+}

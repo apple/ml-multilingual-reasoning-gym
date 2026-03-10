@@ -1,0 +1,4 @@
+{
+  "question_template": "Trova il Massimo Comune Divisore (MCD) di questi numeri: {numbers_str}. Fornisci solo l'MCD come risposta finale.",
+  "numbers_separator": ", "
+}

@@ -1,0 +1,7 @@
+{
+  "intro": "Résous cette cryptarithmie :",
+  "unique_digit_rule": "Chaque lettre représente un chiffre unique (0-9). ",
+  "leading_zero_allowed": "Les lettres initiales peuvent être zéro.\n",
+  "leading_zero_not_allowed": "Aucune lettre initiale ne peut être zéro.\n",
+  "output_format": "Fournis dans ta réponse finale une correspondance séparée par des virgules entre les lettres et les chiffres qui satisfait l'équation. Format de sortie : « A=1,B=2,C=3 » (sans guillemets)\n"
+}

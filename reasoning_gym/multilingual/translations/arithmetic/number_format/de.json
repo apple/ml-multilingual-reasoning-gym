@@ -1,0 +1,5 @@
+{
+  "question_template": "Deine Aufgabe ist es, die {size} Zahl aus mehreren Optionen auszuwählen.\n\nDeine Ausgabe soll nur die gesuchte Zahl enthalten.\n\nWähle nun die {size} Zahl aus den folgenden Kandidaten: {numbers}",
+  "size_largest": "größte",
+  "size_smallest": "kleinste"
+}

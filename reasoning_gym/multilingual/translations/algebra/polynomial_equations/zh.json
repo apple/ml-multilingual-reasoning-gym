@@ -1,0 +1,7 @@
+{
+  "prompt_template_1": "求方程 {polynomial_expanded} = 0 中 {variable} 的实数解",
+  "prompt_template_2": "求解实数 {variable}：{polynomial_expanded} = 0",
+  "prompt_template_3": "求满足 {polynomial_expanded} = 0 的实数 {variable} 的值",
+  "prompt_template_4": "求解多项式方程的实数 {variable}：\n{polynomial_expanded} = 0",
+  "instruction_text": "\n求解方程时，请遵循以下指示：\n1. 请提供逗号分隔的十进制数值答案。例如：「-0.3773, 0.4005」\n2. 对于可用精确形式表示的解（如「u = 2 + sqrt(4560)/172」和「u = 2 - sqrt(4560)/172」），请在最终答案中转换为十进制形式。\n3. 如果没有满足方程的实数值，请回答空字符串：「」\n4. 根据解的个数格式化答案：\n   • 1个解：单个十进制数\n   • 2个解：两个逗号分隔的十进制数\n   • 3个或更多解：所有值用逗号分隔的十进制数\n5. 将所有十进制值保留到小数点后4位（第5位小数为5或更大时向上舍入）。\n"
+}

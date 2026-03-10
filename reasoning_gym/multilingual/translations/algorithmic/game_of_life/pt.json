@@ -1,0 +1,3 @@
+{
+  "question_template": "Como será este tabuleiro do Jogo da Vida após executar {simulation_steps} iterações da simulação? Considere vizinhança de Moore e topologia toroidal. Responda com uma lista de listas representando as linhas da grade de cima para baixo em formato JSON. (Uma grade vazia 3x3 seria representada assim: [[0,0,0],[0,0,0],[0,0,0]])\n\n{board}."
+}

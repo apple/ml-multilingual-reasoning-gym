@@ -1,0 +1,5 @@
+{
+  "question_template": "你的任务是对给定矩阵执行最大/平均池化操作。\n步长（stride）等于卷积核大小（kernel size），池化区域之间无重叠。\n\n输出结果需保持与输入矩阵相同的格式。\n当卷积核大小大于1时，输出矩阵尺寸较小，元素可能为浮点数。\n输出矩阵元素精确到小数点后2位。\n\n对以下矩阵进行核大小为{pool_size}的{pool_type}池化操作：\n{matrix}",
+  "pool_type_max": "最大",
+  "pool_type_average": "平均"
+}

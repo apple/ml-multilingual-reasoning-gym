@@ -1,0 +1,3 @@
+{
+  "question_template": "Résous ce problème. Suppose qu'il y a une profondeur de bits arbitraire et que ce sont des entiers signés. Si la réponse est négative, réponds avec une valeur négative (ex. : -0x3), pas sous forme complément à deux. Réponds seulement avec la valeur hexadécimale finale.\n{problem}"
+}

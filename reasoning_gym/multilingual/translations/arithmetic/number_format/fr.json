@@ -1,0 +1,5 @@
+{
+  "question_template": "Ta tâche est de choisir le nombre {size} parmi plusieurs options.\n\nTa réponse doit être uniquement le nombre recherché.\n\nMaintenant, choisis le nombre {size} parmi les candidats suivants : {numbers}",
+  "size_largest": "le plus grand",
+  "size_smallest": "le plus petit"
+}

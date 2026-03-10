@@ -1,0 +1,3 @@
+{
+  "question_template": "Dada uma matriz quadrada, sua tarefa é encontrar a distância taxicab (Manhattan) do 0 mais próximo para cada célula.\n\nA saída deve ser uma matriz do mesmo tamanho da matriz de entrada, onde cada célula contém a distância até o 0 mais próximo.\n\nEncontre a distância até o 0 mais próximo para cada célula na matriz abaixo:\n{matrix}"
+}

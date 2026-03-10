@@ -1,0 +1,3 @@
+{
+  "question_template": "Ta tâche est de calculer une puissance d'un nombre.\n\nCalcule {base}^{exponent}. Donne ta réponse finale avec 3 chiffres significatifs.\nFournis ta réponse en notation scientifique en utilisant la notation « e » (ex. : 1.23e+4)."
+}

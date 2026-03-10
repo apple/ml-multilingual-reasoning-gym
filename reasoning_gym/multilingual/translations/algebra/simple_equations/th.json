@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "จงหาค่า {variable} จากสมการ: {equation}",
+  "prompt_template_2": "จงแก้หา {variable}: {equation}",
+  "prompt_template_3": "จงหาค่า {variable} ที่ทำให้สมการต่อไปนี้เป็นจริง: {equation}"
+}

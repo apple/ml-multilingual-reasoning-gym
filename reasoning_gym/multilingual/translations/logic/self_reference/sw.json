@@ -1,0 +1,10 @@
+{
+  "puzzle_intro": "Kwa kuzingatia ukweli wa kauli hizi, tafadhali niambie idadi ya suluhisho zinazowezekana:",
+  "statement_1": " • Kauli ya 1: 'Angalau {number} za kauli hizi 7 ni za kweli.'",
+  "statement_2": " • Kauli ya 2: 'Hadi {number} za kauli hizi 7 ni za uwongo.'",
+  "statement_3": " • Kauli ya 3: 'Hasa {number} za kauli hizi 7 ni za kweli.'",
+  "statement_4": " • Kauli ya 4: 'Hasa {number} za kauli hizi 7 ni za uwongo.'",
+  "statement_5": " • Kauli ya 5: 'Ama Kauli ya 3 au Kauli ya 4 ni ya kweli, lakini si zote mbili.'",
+  "statement_6": " • Kauli ya 6: 'Idadi ya kauli za kweli ni nambari kuu.'",
+  "statement_7": " • Kauli ya 7: 'Idadi ya kauli za uwongo ni nambari jumla.'"
+}

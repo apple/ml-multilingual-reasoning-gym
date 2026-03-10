@@ -1,0 +1,3 @@
+{
+  "question_template": "Data una stringa, suddividila in modo che ogni sottostringa sia un palindromo.\n\nUn palindromo è una parola che si legge allo stesso modo da sinistra a destra e da destra a sinistra.\n\nPuoi restituire tutte le possibili partizioni in palindromi in qualsiasi ordine.\n\nL'output deve essere una lista di liste, dove ogni lista rappresenta una partizione in palindromi, ad esempio [[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]].\n\nSubdividi la seguente stringa in palindromi: {string}"
+}

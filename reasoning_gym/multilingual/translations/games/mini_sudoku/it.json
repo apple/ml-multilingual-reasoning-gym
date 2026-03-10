@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Nel Mini Sudoku 4x4:\n- Ogni riga deve contenere ogni numero da 1 a 4 esattamente una volta\n- Ogni colonna deve contenere ogni numero da 1 a 4 esattamente una volta\n- Ogni sottogriglia 2x2 deve contenere ogni numero da 1 a 4 esattamente una volta\n\nRisolvi questo puzzle Mini Sudoku 4x4:\n{puzzle}\n\nFormatta la tua risposta come il puzzle precedente, lascia uno spazio tra i numeri di ogni riga e vai a capo dopo ogni riga."
+}

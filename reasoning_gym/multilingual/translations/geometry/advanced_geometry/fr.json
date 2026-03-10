@@ -1,0 +1,9 @@
+{
+  "format_instructions": "Pour tous les problèmes de géométrie :\n1. Donne les coordonnées sous la forme (x, y)\n2. Arrondis les réponses décimales à 3 décimales\n3. Utilise le symbole ° pour les angles\n4. Donne uniquement l'angle, les coordonnées, ou le rayon comme réponse.",
+  "orthocenter_variant1": "Soit le triangle ABC avec les coordonnées A={A}, B={B}, et C={C}, trouve les coordonnées de son orthocentre. {format_instructions}",
+  "orthocenter_variant2": "Pour le triangle de sommets A={A}, B={B}, et C={C}, détermine l'orthocentre (intersection des hauteurs). {format_instructions}",
+  "incircle_radius_variant1": "Considère le triangle ABC avec les coordonnées A={A}, B={B}, et C={C}. Calcule le rayon de son cercle inscrit. {format_instructions}",
+  "incircle_radius_variant2": "Trouve le rayon du cercle inscrit du triangle ABC dont les sommets sont A={A}, B={B}, et C={C}. {format_instructions}",
+  "angle_measure_variant1": "Dans le triangle ABC avec les coordonnées A={A}, B={B}, et C={C}, trouve la mesure (en degrés) de l'angle ABC. {format_instructions}",
+  "angle_measure_variant2": "Soit un triangle de sommets A={A}, B={B}, et C={C}, détermine l'angle en B en degrés. {format_instructions}"
+}

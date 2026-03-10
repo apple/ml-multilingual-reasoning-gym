@@ -1,0 +1,6 @@
+{
+  "prompt_template": "Wewe ni mtaalamu wa ufikiri wa kujumla. Tengeneza matokeo yanayolingana na ingizo lililopewa.\nMatokeo yanatengenezwa kwa kutumia sheria ile ile inayounganisha ingizo na matokeo kwa mifano iliyotolewa. Jibu lako liwe orodha ya vipengele\nMifano:\n{examples}\nIngizo: {input}\nMatokeo:\n",
+  "input_label": "Ingizo {number}",
+  "output_label": "Matokeo {number}",
+  "colon": ": "
+}

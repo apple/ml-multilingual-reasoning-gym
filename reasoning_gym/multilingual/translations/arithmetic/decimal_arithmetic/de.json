@@ -1,0 +1,3 @@
+{
+  "instruction_template": "Löse diese Aufgabe auf maximal {precision} signifikante Stellen und runde ab 0.5 auf. Gib nur das Endergebnis an."
+}

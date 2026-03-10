@@ -1,0 +1,5 @@
+{
+  "question_template": "Il y a un total de {num_courses} cours que tu dois suivre, numérotés de 0 à {last_index}.\n\nOn te donne la liste suivante de prérequis, où le i-ème élément de la liste (a_i, b_i) indique que tu dois d'abord suivre le cours b_i si tu veux suivre le cours a_i :\n{prerequisites}\n\nRetourne {true_answer} si tu peux terminer tous les cours en tenant compte des prérequis, ou {false_answer} sinon.",
+  "true_answer": "Vrai",
+  "false_answer": "Faux"
+}

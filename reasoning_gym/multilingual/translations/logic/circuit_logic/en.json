@@ -1,0 +1,9 @@
+{
+    "circuit_intro": "Below is a randomly generated logic circuit.\n",
+    "legend_title": "Legend for gates:",
+    "negate_symbol": "{symbol}: Negate",
+    "input_assignments": "Given the following input assignments:",
+    "assignment_format": "  {input} = {value}",
+    "output_question": "What is the final output?",
+    "colon": ": "
+}

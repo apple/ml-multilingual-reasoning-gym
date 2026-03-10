@@ -1,0 +1,13 @@
+{
+    "prompt_template": "Mbele yako kuna vitufe, taa, na nambari. Taa itabadilika kati ya nyekundu na kijani kila unapobonyeza kifungo. Kila kifungo kinafanya operesheni ya hisabati kwa nambari, lakini operesheni inaweza kutegemea hali ya taa.\n\nLazima ubonyeze mfuatano mfupi sahihi wa vitufe kufikia thamani lengwa. Jibu lako linapaswa kuwa mfuatano wa vitufe vilivyotenganishwa na '{separator}', mfano: A{separator}B{separator}C\n\nMwanzo: {initial_value} ({initial_state})\nLengwa: {target_value}\nVitufe:\n{buttons_text}",
+    "operation_add_template": "Ongeza {value}",
+    "operation_subtract_template": "Toa {value}", 
+    "operation_multiply_template": "Zidisha kwa {value}",
+    "when_state": "wakati {state}",
+    "state_red": "nyekundu",
+    "state_green": "kijani",
+    "state_any": "yoyote",
+    "button_format": "{name}: {operation} {condition}",
+    "separator": " → ",
+    "condition_format": "({when_text})"
+}

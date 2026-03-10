@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "Dado un polígono convexo de {n_sides} lados, sus primeros {n_minus_1} ángulos interiores son: {angle_list}. ¿Cuál es la medida del ángulo interior restante (en grados)? Proporciona solo el ángulo como respuesta. No incluyas las unidades en tu respuesta.",
+  "prompt_template_2": "Un polígono convexo tiene {n_sides} lados. Las medidas de los primeros {n_minus_1} ángulos interiores son: {angle_list}. Encuentra la medida del último ángulo interior. Proporciona solo el ángulo como respuesta. No incluyas las unidades en tu respuesta.",
+  "prompt_template_3": "Considera un {n_sides}-gono convexo cuyos primeros {n_minus_1} ángulos interiores son: {angle_list}. Determina la medida del ángulo restante. Proporciona solo el ángulo como respuesta. No incluyas las unidades en tu respuesta.",
+  "angle_separator": ", "
+}

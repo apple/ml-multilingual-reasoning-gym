@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "Ikiwa poligoni konveksi ina vipande {n_sides}, na pembe zake za ndani za kwanza {n_minus_1} ni: {angle_list}. Pembe ya ndani iliyobaki ina kipimo gani? Toa jibu la pembe tu. Usiongeze vitengo.",
+  "prompt_template_2": "Poligoni konveksi ina vipande {n_sides}. Vipimo vya pembe za ndani za kwanza {n_minus_1} ni: {angle_list}. Pata kipimo cha pembe ya mwisho. Toa jibu la pembe tu. Usiongeze vitengo.",
+  "prompt_template_3": "Zingatia poligoni konveksi yenye vipande {n_sides} ambayo pembe zake za ndani za kwanza {n_minus_1} ni: {angle_list}. Hesabu kipimo cha pembe iliyobaki. Toa jibu la pembe tu. Usiongeze vitengo.",
+  "angle_separator": ", "
+}

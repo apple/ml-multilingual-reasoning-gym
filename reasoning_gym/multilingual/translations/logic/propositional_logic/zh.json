@@ -1,0 +1,5 @@
+{
+  "question_format": "以下是一道命题逻辑推理题。\n\n题目提供了一组前提，任务是根据前提推出正确的结论。\n\n格式要求：\n• 请将逻辑结论作为最终答案\n• 使用以下符号表示逻辑运算符：\n    • OR = ∨\n    • AND = ∧\n    • IMPLIES = →\n    • IFF = ↔\n    • NOT = ¬\n\n题目如下：\n",
+  "given_text": "已知：",
+  "conclusion_question": "根据上述条件可以得出什么结论？"
+}

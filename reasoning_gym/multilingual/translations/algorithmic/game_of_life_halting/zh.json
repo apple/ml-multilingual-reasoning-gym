@@ -1,0 +1,5 @@
+{
+  "question_template": "这是一个「生命游戏」网格。当没有细胞存活时，我们认为游戏终止。\n假设使用摩尔邻域和循环边界，游戏能在{max_simulation_steps}步之内终止吗？如果会终止，回答「{true_answer}」；如果不会终止，回答「{false_answer}」。\n\n初始状态：\n{board_str}",
+  "true_answer": "真",
+  "false_answer": "假"
+}

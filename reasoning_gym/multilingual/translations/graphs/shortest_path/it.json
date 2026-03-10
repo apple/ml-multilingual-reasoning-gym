@@ -1,0 +1,4 @@
+{
+  "question_template": "Il tuo compito è trovare il percorso più breve dal punto di partenza al punto di destinazione in una griglia.\n\nLa griglia è rappresentata come una matrice con i seguenti tipi di celle:\n- *: il tuo punto di partenza\n- #: il tuo punto di destinazione\n- O: una cella aperta\n- X: una cella bloccata\n\nPertanto, devi trovare il percorso più breve da * a #, muovendoti solo attraverso le celle aperte.\n\nPuoi muoverti solo in quattro direzioni: su, giù, sinistra e destra.\n\nSe non esiste un percorso da * a #, scrivi semplicemente «{infeasible}» (senza virgolette).\n\nLa tua risposta deve essere una sequenza di frecce direzionali che porta da * a #, ad esempio → → ↓ ↓ ↑ ←\n\nOra, trova il percorso più breve da * a # nella seguente griglia:\n{grid}",
+  "infeasible": "impossibile"
+}

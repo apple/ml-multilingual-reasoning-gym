@@ -1,0 +1,3 @@
+{
+  "question_template": "Kazi yako ni kupanga upya maneno ya **Kiingereza** katika sentensi.\n\nKwa kila neno katika sentensi, herufi zinaweza kuwa zimepangwa upya bila mpangilio. Kazi yako ni kupanga upya maneno hayo.\n\nMpangilio wa maneno katika sentensi umehifadhiwa. Aidha, mtindo wa sentensi umehifadhiwa (yaani alama za uandishi, herufi kubwa, mistari mipya, n.k.).\n\nJibu lako linapaswa kuwa sentensi iliyo na maneno yamepangwa upya.\n\nSasa, panga upya maneno haya ya **Kiingereza**: {words}"
+}

@@ -1,0 +1,7 @@
+{
+  "question_template": "{action} tutti i numeri {comparison} di {filter_value} in questa lista: {numbers_list}\nRestituisci la nuova lista nello stesso formato.",
+  "action_keep": "MANTIENI",
+  "action_remove": "RIMUOVI",
+  "comparison_larger": "maggiori",
+  "comparison_smaller": "minori"
+}

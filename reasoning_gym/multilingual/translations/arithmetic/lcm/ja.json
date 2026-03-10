@@ -1,0 +1,4 @@
+{
+  "question_template": "次の数の最小公倍数（LCM）を求めよ：{numbers}",
+  "numbers_separator": "、"
+}

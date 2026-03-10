@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "Dato un poligono convesso con {n_sides} lati, i primi {n_minus_1} angoli interni sono: {angle_list}. Qual è la misura dell'angolo interno rimanente (in gradi)? Indica solo l'angolo come risposta. Non indicare le unità di misura nella tua risposta.",
+  "prompt_template_2": "Un poligono convesso ha {n_sides} lati. Le misure dei primi {n_minus_1} angoli interni sono: {angle_list}. Trova la misura dell'ultimo angolo interno. Indica solo l'angolo come risposta. Non indicare le unità di misura nella tua risposta.",
+  "prompt_template_3": "Considera un {n_sides}-gono convesso i cui primi {n_minus_1} angoli interni sono: {angle_list}. Determina la misura dell'angolo rimanente. Indica solo l'angolo come risposta. Non indicare le unità di misura nella tua risposta.",
+  "angle_separator": ", "
+}

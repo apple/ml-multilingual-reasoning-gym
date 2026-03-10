@@ -1,0 +1,182 @@
+"""
+Copyright (C) 2026 Apple Inc. All Rights Reserved.
+"""
+
+"""Given a string, return all possible partitions of the string such that each substring is a palindrome.
+
+A popular Leetcode problem:
+https://leetcode.com/problems/palindrome-partitioning/description/
+"""
+
+import json
+import string
+from dataclasses import dataclass
+from random import Random
+from typing import Any, Optional
+
+from ..coaching import BaseCurriculum, RangeAttributeDefinition
+from ..factory import register_dataset
+from ..multilingual.base_classes import MultilingualProceduralDataset
+from ..config import DatasetConfig
+
+DATASET_NAME = "palindrome_partitioning"
+
+@dataclass
+class PalindromePartitioningConfig(DatasetConfig):
+    """Configuration for Palindrome Partitioning dataset generation"""
+
+    min_string_len: int = 5
+    max_string_len: int = 15
+    min_substring_palindrome_len: int = 1
+    max_substring_palindrome_len: int = 5
+    languages: list[str] | str = "en"
+    language_weights: Optional[list[float]] = None
+
+    def validate(self):
+        """Validate configuration parameters"""
+        assert 1 <= self.min_string_len, "Minimum string length must be at least 1"
+        assert self.min_string_len <= self.max_string_len, "Minimum string length must be less than or equal to maximum"
+        assert 1 <= self.min_substring_palindrome_len, "Minimum substring palindrome length must be at least 1"
+        assert (
+            self.min_substring_palindrome_len <= self.max_substring_palindrome_len
+        ), "Minimum substring palindrome length must be less than or equal to maximum"
+        assert (
+            self.max_substring_palindrome_len <= self.max_string_len
+        ), "Maximum substring palindrome length must be less than or equal to maximum string length"
+
+class PalindromePartitioningDataset(MultilingualProceduralDataset):
+    """Generates Palindrome Partitioning exercises with configurable difficulty"""
+
+    def __init__(self, config: PalindromePartitioningConfig):
+        super().__init__(config=config, seed=config.seed, size=config.size)
+
+    def _sort_list(self, lst: list[list[str]]) -> list[list[str]]:
+        """Sort the list of palindrome partitions"""
+        return sorted(lst, key=lambda x: x[0] if x else "")
+
+    def to_set_of_tuples(self, list_of_lists: list[list[str]]) -> set[tuple[str]]:
+        """Convert a list of lists to a set of tuples"""
+        return {tuple(lst) for lst in list_of_lists}
+
+    def _palindrome_partitioning(self, string: str) -> list[list[str]]:
+        """Return all possible palindrome partitions of a string"""
+        if not string:
+            return []
+        dp = {}
+
+        def is_palindrome(i, j) -> bool:
+            if i >= j:
+                return True
+            if (i, j) in dp:
+                return dp[(i, j)]
+            dp[(i, j)] = string[i] == string[j] and is_palindrome(i + 1, j - 1)
+            return dp[(i, j)]
+
+        res, temp = [], []
+
+        def _partition(idx) -> None:
+            if idx >= len(string):
+                res.append(temp[:])
+            for i in range(idx, len(string)):
+                if is_palindrome(idx, i):
+                    temp.append(string[idx : i + 1])
+                    _partition(i + 1)
+                    temp.pop()
+
+        _partition(0)
+        return self._sort_list(res)
+
+    def score_answer(self, answer: Optional[str], entry: dict[str, Any]) -> float:
+        """Score a single Palindrome Partitioning question"""
+        if answer is not None:
+            try:
+                answer = self.to_set_of_tuples(json.loads(answer))
+                oracle = self.to_set_of_tuples(entry["metadata"]["solution"])
+                if answer == oracle:
+                    return 1.0
+            except Exception:
+                pass
+        return 0.0
+
+    def _generate_palindrome_letters(self, rng: Random, length: int) -> list[str]:
+        """Generate a set of letters that can form a palindrome."""
+        half_length = length // 2
+        letters = rng.choices(string.ascii_lowercase, k=half_length)
+        if length % 2 == 1:
+            middle_letter = rng.choice(string.ascii_lowercase)
+            return letters + [middle_letter] + letters[::-1]
+        return letters + letters[::-1]
+
+    def _get_string(self, rng: Random, string_len: int) -> str:
+        """Generate a random string"""
+        output = ""
+        while len(output) < string_len:
+            palindrome_len = min(
+                string_len - len(output),
+                rng.randint(self.config.min_substring_palindrome_len, self.config.max_substring_palindrome_len),
+            )
+            substring = "".join(self._generate_palindrome_letters(rng, palindrome_len))
+            output += substring
+        return output
+
+    def _generate_item(self, idx: int, language: str) -> dict[str, Any]:
+        """Generate a single Palindrome Partitioning question for a specific language"""
+        rng = Random(self.seed + idx)
+
+        string_len = rng.randint(self.config.min_string_len, self.config.max_string_len)
+        string = self._get_string(rng, string_len)
+        answer = self._palindrome_partitioning(string)
+        answer_str = json.dumps(answer)
+
+        question = self._get_translation("question_template", language, string=string)
+
+        return {
+            "question": question,
+            "answer": answer_str,
+            "metadata": {
+                "source_dataset": DATASET_NAME,
+                "source_index": idx,
+                "string": string,
+                "solution": answer,
+                "string_len": string_len,
+                "language": language,
+                "difficulty": {
+                    "string_len": (self.config.min_string_len, self.config.max_string_len),
+                    "substring_palindrome_len": (
+                        self.config.min_substring_palindrome_len,
+                        self.config.max_substring_palindrome_len,
+                    ),
+                },
+            },
+        }
+
+class PalindromePartitioningCurriculum(BaseCurriculum):
+    def __init__(self):
+        super().__init__(PalindromePartitioningCurriculum.__name__, PalindromePartitioningConfig)
+
+        # Define attributes
+        self._define_attributes(
+            RangeAttributeDefinition(
+                name="string_len",
+                levels=[1, 5, 10, 15],
+                description="Length of the string",
+                lower_field_name="min_string_len",
+                upper_field_name="max_string_len",
+                ensure_interval=True,
+            ),
+            RangeAttributeDefinition(
+                name="substring_palindrome_len",
+                levels=[1, 3, 5, 7],
+                description="Length of the substring palindrome",
+                lower_field_name="min_substring_palindrome_len",
+                upper_field_name="max_substring_palindrome_len",
+                ensure_interval=True,
+            ),
+        )
+
+register_dataset(
+    DATASET_NAME,
+    PalindromePartitioningDataset,
+    PalindromePartitioningConfig,
+    PalindromePartitioningCurriculum,
+)

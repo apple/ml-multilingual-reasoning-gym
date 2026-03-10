@@ -1,0 +1,5 @@
+{
+  "question_format": "La siguiente pregunta es una pregunta de razonamiento de lógica proposicional.\n\nEn la pregunta proporcionamos una lista de premisas. La tarea es inferir una conclusión correcta a partir de las premisas.\n\nINSTRUCCIONES DE FORMATO:\n- Proporciona el enunciado lógico de la conclusión como tu respuesta final.\n- Usa la siguiente notación para denotar símbolos\n    - OR = ∨\n    - AND = ∧\n    - IMPLIES = →\n    - IFF = ↔\n    - NOT = ¬\n\nAquí está la pregunta:\n",
+  "given_text": "Dado:",
+  "conclusion_question": "¿Qué podemos concluir de los enunciados anteriores?"
+}

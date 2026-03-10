@@ -1,0 +1,6 @@
+{
+  "prompt_template_0": "Bestimme das unbestimmte Integral: ∫ {integrand} dx",
+  "prompt_template_1": "Berechne die Stammfunktion: ∫ {integrand} dx",
+  "prompt_template_2": "Berechne das unbestimmte Integral: ∫ {integrand} dx",
+  "added_instruction": "\nBefolge bei der Durchführung der Berechnungen diese Richtlinien:\nVerwende dieselben Variablensymbole wie in der Aufgabe angegeben\n1. Verwende ** anstelle von ^ zur Darstellung von Exponenten. Schreibe zum Beispiel 7*X**2 anstelle von 7*X^2.\n2. Füge in deinen Rechenschritten immer das * Symbol für alle Multiplikationsoperationen hinzu. Schreibe zum Beispiel `-3*X**3*sin(X) - 9*X**2*cos(X) + 18*X*sin(X) + 18*cos(X) + C` anstelle von `-3x3sin(x) - 9x2cos(x) + 18xsin(x) + 18cos(x) + C`.\n3. Verwende `exp(x)` oder `E**(x)` für die Exponentialfunktion (verwende also das große E für die Eulersche Zahl).\n"
+}

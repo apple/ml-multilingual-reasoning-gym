@@ -1,0 +1,5 @@
+{
+  "question_template": "Kazi yako ni kufanya {pool_type} pooling kwenye matrisi iliyotolewa.\nStride ni sawa na ukubwa wa kernel, ikimaanisha hakuna mwingiliano kati ya maeneo ya pooling.\n\nMatokeo yako yawe matrisi katika muundo ule ule wa matrisi ya pembejeo.\nMatrisi ya matokeo ni ndogo kuliko matrisi ya pembejeo wakati ukubwa wa kernel ni mkubwa kuliko 1, na vipengele vyake vinaweza kuwa nambari za desimali.\nToa vipengele katika matrisi ya matokeo kwa usahihi wa sehemu 2 za desimali.\n\nFanya {pool_type} pooling kwenye matrisi ifuatayo ukitumia ukubwa wa kernel wa {pool_size}:\n{matrix}",
+  "pool_type_max": "upeo wa juu",
+  "pool_type_average": "wastani"
+}

@@ -1,0 +1,13 @@
+{
+    "prompt_template": "Vor dir befinden sich einige Knöpfe, eine Lampe und eine Zahl. Die Lampe wechselt zwischen rot und grün, wenn du einen Knopf drückst. Jeder Knopf führt eine mathematische Operation mit der Zahl aus, aber die Operation kann vom Zustand der Lampe abhängen.\n\nDu musst die kürzeste korrekte Reihenfolge von Knöpfen drücken, um den Zielwert zu erreichen. Deine Antwort sollte eine Reihenfolge von Knöpfen sein, getrennt durch '{separator}', zum Beispiel: A{separator}B{separator}C\n\nStart: {initial_value} ({initial_state})\nZiel: {target_value}\nKnöpfe:\n{buttons_text}",
+    "operation_add_template": "Addiere {value}",
+    "operation_subtract_template": "Subtrahiere {value}", 
+    "operation_multiply_template": "Multipliziere mit {value}",
+    "when_state": "wenn {state}",
+    "state_red": "rot",
+    "state_green": "grün",
+    "state_any": "beliebig",
+    "button_format": "{name}: {operation} {condition}",
+    "separator": " → ",
+    "condition_format": "({when_text})"
+}

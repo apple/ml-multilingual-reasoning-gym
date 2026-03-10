@@ -1,0 +1,9 @@
+{
+  "circuit_intro": "以下はランダムに生成された論理回路である。\n",
+  "legend_title": "ゲートの凡例：",
+  "negate_symbol": "{symbol}：否定",
+  "input_assignments": "以下の入力値が与えられている：",
+  "assignment_format": "  {input} = {value}",
+  "output_question": "最終出力を求めよ。",
+  "colon": "："
+}

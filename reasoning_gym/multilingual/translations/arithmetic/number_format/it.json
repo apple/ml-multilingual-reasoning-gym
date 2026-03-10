@@ -1,0 +1,5 @@
+{
+  "question_template": "Devi scegliere il numero {size} tra diverse opzioni.\n\nRispondi solo con il numero richiesto.\n\nScegli il numero {size} tra i seguenti candidati: {numbers}",
+  "size_largest": "più grande",
+  "size_smallest": "più piccolo"
+}

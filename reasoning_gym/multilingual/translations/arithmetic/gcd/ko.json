@@ -1,0 +1,4 @@
+{
+  "question_template": "다음 수들의 최대공약수(GCD)를 구하라: {numbers_str}. 최대공약수만을 최종 답으로 제시하라.",
+  "numbers_separator": ", "
+}

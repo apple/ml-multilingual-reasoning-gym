@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "Encontre a integral indefinida: ∫ {integrand} dx",
+  "prompt_template_2": "Calcule a primitiva: ∫ {integrand} dx",
+  "prompt_template_3": "Calcule a integral indefinida: ∫ {integrand} dx",
+  "calculation_instructions": "\nAo realizar os cálculos, siga estas diretrizes:\n1. Use ** em vez de ^ para representar expoentes. «Por exemplo, escreva 7*X**2 em vez de 7*X^2».\n2. Sempre inclua o símbolo * para todas as operações de multiplicação em suas etapas de raciocínio. «Por exemplo, escreva `-3*X**3*sin(X) - 9*X**2*cos(X) + 18*X*sin(X) + 18*cos(X) + C` em vez de `-3x3sin(x) - 9x2cos(x) + 18xsin(x) + 18cos(x) + C`».\n"
+}

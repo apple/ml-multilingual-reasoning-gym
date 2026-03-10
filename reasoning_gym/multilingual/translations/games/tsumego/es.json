@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "Es hora del Tsumego. Juegan las negras y deben capturar algunas piedras.\nEncuentra la jugada clave.\n\n```\n{board_str}\n```\n\nX - Negras\nO - Blancas\n\nEspecifica tu jugada en coordenadas (ej. «C4» para columna C, fila 4)",
+  "prompt_template_2": "Tengo un problema de Go para ti. Juegan las negras a continuación: ¿puedes capturar algunas de las piedras blancas?\n\n```\n{board_str}\n```\n\nX - Negras\nO - Blancas\n\nEspecifica tu jugada en coordenadas (ej. «C4» para columna C, fila 4)",
+  "prompt_template_3": "Aquí tienes un desafío de Go. Jugando con las negras, ¿cómo puedes capturar la mayor cantidad posible de piedras blancas?\n\n```\n{board_str}\n```\n\nX - Negras\nO - Blancas\n\nEspecifica tu jugada en coordenadas (ej. «C4» para columna C, fila 4)",
+  "board_legend": "X - Negras\nO - Blancas\n\nEspecifica tu jugada en coordenadas (ej. «C4» para columna C, fila 4)"
+}

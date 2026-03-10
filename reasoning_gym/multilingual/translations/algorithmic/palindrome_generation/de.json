@@ -1,0 +1,4 @@
+{
+  "question_template": "Deine Aufgabe ist es, aus einer Liste von Buchstaben ein gültiges Palindrom zu bilden.\n\nEin Palindrom ist ein Wort oder eine Phrase, die vorwärts und rückwärts gelesen gleich ist.\n\nFalls es mehrere mögliche Antworten gibt, gib nur eine davon an. Du musst alle angegebenen Buchstaben verwenden.\n\nDeine Ausgabe sollte eine einzelne Zeichenkette ohne Leerzeichen oder Satzzeichen sein.\n\nBilde nun ein gültiges Palindrom mit den folgenden Buchstaben: {letters}",
+  "letters_separator": ", "
+}

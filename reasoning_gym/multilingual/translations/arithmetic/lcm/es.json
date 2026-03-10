@@ -1,0 +1,4 @@
+{
+  "question_template": "Encuentra el Mínimo Común Múltiplo (MCM) de estos números: {numbers}",
+  "numbers_separator": ", "
+}

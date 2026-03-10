@@ -1,0 +1,4 @@
+{
+  "question_template": "Pata LCM ya nambari hizi: {numbers}",
+  "numbers_separator": ", "
+}

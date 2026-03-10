@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "Gegeben ist ein konvexes Polygon mit {n_sides} Seiten, dessen erste {n_minus_1} Innenwinkel betragen: {angle_list}. Wie groß ist der verbleibende Innenwinkel (in Grad)? Gib nur den Winkel als Antwort an. Gib keine Einheit in deiner Antwort an.",
+  "prompt_template_2": "Ein konvexes Polygon hat {n_sides} Seiten. Die ersten {n_minus_1} Innenwinkel betragen: {angle_list}. Bestimme das Maß des letzten Innenwinkels. Gib nur den Winkel als Antwort an. Gib keine Einheit in deiner Antwort an.",
+  "prompt_template_3": "Betrachte ein konvexes {n_sides}-Eck, dessen erste {n_minus_1} Innenwinkel betragen: {angle_list}. Bestimme das Maß des verbleibenden Winkels. Gib nur den Winkel als Antwort an. Gib keine Einheit in deiner Antwort an.",
+  "angle_separator": ", "
+}

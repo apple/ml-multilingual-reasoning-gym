@@ -1,0 +1,4 @@
+{
+  "puzzle_question": "Eu tenho estes dados: {dice_str}. Qual é a probabilidade de tirar {target} ou mais? (Assuma que todos os dados são rolados ao mesmo tempo, e que «1d6» representa um lançamento de um dado de 6 lados.) Por favor, responda com uma fração reduzida representando a probabilidade [ex., 1/60].",
+  "dice_separator": ", "
+}

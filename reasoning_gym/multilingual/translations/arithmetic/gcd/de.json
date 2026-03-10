@@ -1,0 +1,4 @@
+{
+  "question_template": "Bestimme den größten gemeinsamen Teiler (ggT) von diesen Zahlen: {numbers_str}. Gib nur den ggT als Antwort an.",
+  "numbers_separator": ", "
+}

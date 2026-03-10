@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Dans le Mini Sudoku 4x4 :\n- Chaque ligne doit contenir chaque nombre de 1 à 4 exactement une fois\n- Chaque colonne doit contenir chaque nombre de 1 à 4 exactement une fois\n- Chaque sous-grille 2x2 doit contenir chaque nombre de 1 à 4 exactement une fois\n\nRésous cette grille de Mini Sudoku 4x4 :\n{puzzle}\n\nPrésente ta réponse comme la grille ci-dessus, avec des espaces séparant chaque nombre dans une ligne, et des retours à la ligne séparant les lignes."
+}

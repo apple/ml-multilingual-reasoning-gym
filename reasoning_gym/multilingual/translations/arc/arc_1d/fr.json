@@ -1,0 +1,6 @@
+{
+  "example_header": "Exemple {number} :",
+  "input_label": "Entrée : ",
+  "output_label": "Sortie : ",
+  "question_template": "Trouve la règle commune qui fait correspondre une grille d'entrée à une grille de sortie, à partir des exemples ci-dessous.\n\n{examples}\n\nVoici une grille d'entrée de test. Prédis la grille de sortie correspondante en appliquant la règle que tu as trouvée. Décris comment tu as dérivé la règle et ton processus de raisonnement global en détail avant de soumettre ta réponse. Ta réponse finale doit être uniquement la grille de sortie de test elle-même.\n\nEntrée :\n{test_input}"
+}

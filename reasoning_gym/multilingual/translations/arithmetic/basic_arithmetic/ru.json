@@ -1,0 +1,7 @@
+{
+  "simple_question": "Вычисли {expression}.",
+  "question_what": "Чему равно {expression}?",
+  "question_solve": "Реши {expression}.",
+  "question_compute": "Вычисли {expression}.",
+  "question_evaluate": "Найди значение: {expression}."
+}

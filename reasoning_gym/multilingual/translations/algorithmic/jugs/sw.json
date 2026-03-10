@@ -1,0 +1,8 @@
+{
+  "puzzle_description": "Wewe ni afisa wa polisi. Mtu mwanaharamu amepanga bomu karibu na chemchemi ya umma.\n\nKukinga bomu, lazima utatue fumbo. Fumbo linatatuka ukijaza moja ya majagi yaliyopo kwa kiasi cha lengo cha maji.\n\nUna aina tatu za harakati: '{fill_action}', '{empty_action}' na '{pour_action}'.\n\nKujaza Jagi A, '{fill_action} A'.\nKumwaga Jagi B, '{empty_action} B'.\nKumwaga maudhui ya Jagi A kwenda Jagi B, '{pour_action} A->B'.\nMajagi yote ni tupu mwanzoni.\n\nMajagi tupu yanaweza kushika lita hii za maji: {cap_str}\nNa lengo lako ni: {target} lita.\n\nUnazuiaje bomu?\n\nJibu kama orodha ya harakati inayoweza kuchakatwa JSON ambayo husababisha moja ya majagi kujaa kwa kiasi cha lengo.",
+  "fill_action": "jaza",
+  "empty_action": "mwaga",
+  "pour_action": "mimina",
+  "jug_separator": ", ",
+  "capacity_separator": ":"
+}

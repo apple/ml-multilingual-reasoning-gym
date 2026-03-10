@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "방정식 {equation}에서 {variable}의 값을 구하라",
+  "prompt_template_2": "{variable}에 대해 풀어라: {equation}",
+  "prompt_template_3": "{equation}을 만족하는 {variable}의 값을 구하라"
+}

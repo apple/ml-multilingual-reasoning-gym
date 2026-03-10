@@ -1,0 +1,7 @@
+{
+  "question_template": "{action} nambari zote {comparison} kuliko {filter_value} katika orodha hii: {numbers_list}\nRudisha orodha mpya kwa muundo huo huo.",
+  "action_keep": "CHUKUA",
+  "action_remove": "ONDOA",
+  "comparison_larger": "kubwa",
+  "comparison_smaller": "ndogo"
+}

@@ -1,0 +1,3 @@
+{
+  "question_template": "Gegeben ist eine quadratische Matrix. Deine Aufgabe ist es, für jede Zelle die Manhattan-Distanz zur nächstgelegenen 0 zu bestimmen.\n\nDie Ausgabe soll eine Matrix der gleichen Größe wie die Eingabematrix sein, wobei jede Zelle die Distanz zur nächstgelegenen 0 enthält.\n\nBestimme die Distanz zur nächstgelegenen 0 für jede Zelle in der unten stehenden Matrix:\n{matrix}"
+}

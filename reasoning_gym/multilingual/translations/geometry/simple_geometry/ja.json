@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "{n_sides}辺の凸多角形において、最初の{n_minus_1}個の内角が：{angle_list}である。残りの内角の大きさを求めよ。答えには角度のみを記し、単位は含めないこと。",
+  "prompt_template_2": "ある凸多角形は{n_sides}辺を持つ。最初の{n_minus_1}個の内角の大きさは：{angle_list}である。最後の内角の大きさを求めよ。答えには角度のみを記し、単位は含めないこと。",
+  "prompt_template_3": "最初の{n_minus_1}個の内角が：{angle_list}である凸{n_sides}角形を考える。残りの角の大きさを求めよ。答えには角度のみを記し、単位は含めないこと。",
+  "angle_separator": "、"
+}

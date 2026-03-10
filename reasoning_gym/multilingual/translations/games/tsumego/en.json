@@ -1,0 +1,6 @@
+{
+    "prompt_template_1": "Tsumego time. Black to play and capture some stones.\nFind the key move.\n\n```\n{board_str}\n```\n\nX - Black\nO - White\n\nSpecify your move in coordinates (e.g. 'C4' for column C, row 4)",
+    "prompt_template_2": "I have a Go problem for you. Black moves next - can you capture some of the white stones?\n\n```\n{board_str}\n```\n\nX - Black\nO - White\n\nSpecify your move in coordinates (e.g. 'C4' for column C, row 4)",
+    "prompt_template_3": "Here's a Go challenge. Playing as Black, how can you capture as many white stones as possible?\n\n```\n{board_str}\n```\n\nX - Black\nO - White\n\nSpecify your move in coordinates (e.g. 'C4' for column C, row 4)",
+    "board_legend": "X - Black\nO - White\n\nSpecify your move in coordinates (e.g. 'C4' for column C, row 4)"
+}

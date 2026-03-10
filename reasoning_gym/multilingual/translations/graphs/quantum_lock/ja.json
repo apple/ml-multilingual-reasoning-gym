@@ -1,0 +1,13 @@
+{
+  "prompt_template": "目の前にいくつかのボタン、ライト、そして数字がある。ボタンを押すたびにライトは赤と緑の間で切り替わる。各ボタンは数字に対して数学的な操作を行うが、その操作はライトの状態に依存する場合がある。\n\n目標値に到達するための最短かつ正しい順序でボタンを押せ。答えは「{separator}」で区切られたボタンの列とせよ。例：A{separator}B{separator}C\n\n開始：{initial_value}({initial_state})\n目標：{target_value}\nボタン：\n{buttons_text}",
+  "operation_add_template": "{value}を足す",
+  "operation_subtract_template": "{value}を引く",
+  "operation_multiply_template": "{value}を掛ける",
+  "when_state": "{state}のとき",
+  "state_red": "赤",
+  "state_green": "緑",
+  "state_any": "任意の状態",
+  "button_format": "{name}：{operation}{condition}",
+  "separator": "→",
+  "condition_format": "({when_text})"
+}

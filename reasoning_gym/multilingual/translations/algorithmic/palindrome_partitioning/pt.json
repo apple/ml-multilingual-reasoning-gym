@@ -1,0 +1,3 @@
+{
+  "question_template": "Dada uma string, particione-a de forma que cada substring seja um palíndromo.\n\nUm palíndromo é uma palavra que se lê da mesma forma de trás para frente.\n\nVocê pode retornar todas as possíveis partições em palíndromos em qualquer ordem.\n\nSua resposta deve ser uma lista de listas, onde cada lista representa uma partição em palíndromos, por exemplo [[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]].\n\nParticione a seguinte string em palíndromos: {string}"
+}

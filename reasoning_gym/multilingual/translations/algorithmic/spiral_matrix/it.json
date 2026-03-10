@@ -1,0 +1,3 @@
+{
+  "question_template": "Data una matrice, devi generare una lista di elementi in ordine spirale, iniziando dall'elemento in alto a sinistra.\n\nL'ordine spirale è in senso orario, iniziando dall'angolo in alto a sinistra. Più precisamente:\n- Inizia dall'angolo in alto a sinistra e muoviti a destra.\n- Muoviti in basso verso l'angolo in basso a destra.\n- Muoviti a sinistra verso l'angolo in basso a sinistra.\n- Muoviti in alto verso l'angolo in alto a sinistra.\n- Ripeti i passaggi per gli elementi interni della matrice fino a quando tutti gli elementi sono stati visitati.\n\nIl tuo output dovrebbe essere una lista di numeri interi separati da spazi, ad esempio «1 2 3 4 5 6»\n\nPer la matrice sottostante, qual è la lista di elementi in ordine spirale?\n{matrix}"
+}

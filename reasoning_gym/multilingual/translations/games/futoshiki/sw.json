@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Suluhisha mchezo wa Futoshiki wa {board_size}x{board_size} ufuatao:\n\n{puzzle_str}\n\nHakikisha jibu lako linafuata muundo sawa na mchezo hapo juu, badilisha tu alama za pengo (_) na thamani sahihi ya kila kisanduku.\nTumia < na > kwa vikwazo vya mlalo. Tumia ∧ na ∨ kwa vikwazo vya wima.\nKumbuka, katika Futoshiki kila safu na kila safuwima lazima iwe na kila nambari kutoka 1 hadi {board_size} mara moja tu."
+}

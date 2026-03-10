@@ -1,0 +1,4 @@
+{
+  "puzzle_question": "Nina dadu hizi: {dice_str}. Je, uwezekano wa kupiga {target} au zaidi ni nini? (Fikiria kwamba dadu zote zinapigwa kwa pamoja, na '1d6' inawakilisha mpigo mmoja wa dadu yenye pande 6.) Tafadhali jibu kwa kutumia fraction iliyopunguzwa inayowakilisha uwezekano [mfano, 1/60].",
+  "dice_separator": ", "
+}

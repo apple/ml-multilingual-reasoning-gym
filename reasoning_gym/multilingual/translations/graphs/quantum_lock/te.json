@@ -1,0 +1,13 @@
+{
+    "prompt_template": "మీ ముందు కొన్ని బటన్లు, ఒక లైట్, మరియు ఒక సంఖ్య ఉన్నాయి. మీరు బటన్ను నొక్కినప్పుడల్లా లైట్ ఎరుపు మరియు ఆకుపచ్చ మధ్య మారుతుంది. ప్రతి బటన్ సంఖ్యపై గణిత క్రియను చేస్తుంది, కానీ ఆ క్రియ లైట్ స్థితిపై ఆధారపడి ఉండవచ్చు.\n\nలక్ష్య విలువను చేరుకోవడానికి మీరు అత్యంత చిన్న సరైన బటన్ల క్రమాన్ని నొక్కాలి. మీ సమాధానం '{separator}' తో వేరు చేయబడిన బటన్ల క్రమం అయి ఉండాలి, ఉదాహరణకు: A{separator}B{separator}C\n\nప్రారంభం: {initial_value} ({initial_state})\nలక్ష్యం: {target_value}\nబటన్లు:\n{buttons_text}",
+    "operation_add_template": "{value} కూడు",
+    "operation_subtract_template": "{value} తీసివేయు", 
+    "operation_multiply_template": "{value} తో గుణించు",
+    "when_state": "{state} ఉన్నప్పుడు",
+    "state_red": "ఎరుపు",
+    "state_green": "ఆకుపచ్చ",
+    "state_any": "ఏదైనా",
+    "button_format": "{name}: {operation} {condition}",
+    "separator": " → ",
+    "condition_format": "({when_text})"
+}

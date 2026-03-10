@@ -1,0 +1,6 @@
+{
+  "prompt_template": "你是归纳推理专家。根据给定的输入生成相应的输出。\n输出的生成规则与示例中从输入到输出的映射规则相同。你的答案应该是一个元素列表。\n示例：\n{examples}\n输入：{input}\n输出：\n",
+  "input_label": "输入 {number}",
+  "output_label": "输出 {number}",
+  "colon": "："
+}

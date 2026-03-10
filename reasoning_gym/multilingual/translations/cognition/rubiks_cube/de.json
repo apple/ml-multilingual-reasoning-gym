@@ -1,0 +1,4 @@
+{
+  "prompt_template_1": "Du erhältst einen {cube_size}x{cube_size}x{cube_size} Zauberwürfel. Er sieht folgendermaßen aus:\n\n{cube_render} \n\nBitte gib eine Lösung an, um diesen Würfel mit der Singmaster-Notation zu lösen. Fasse keine Schritte zusammen, schreibe zum Beispiel nicht 'U2', sondern schreibe 'U U'.",
+  "prompt_template_2": "Du siehst einen Zauberwürfel der Größe {cube_size}, der wie folgt angeordnet ist:\n\n{cube_render} \n\nBitte gib eine Lösung an, um diesen Würfel mit der Singmaster-Notation zu lösen. Fasse keine Schritte zusammen, schreibe zum Beispiel nicht 'U2', sondern schreibe 'U U'."
+}

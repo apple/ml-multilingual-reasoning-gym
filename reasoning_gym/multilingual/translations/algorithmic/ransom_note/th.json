@@ -1,0 +1,5 @@
+{
+  "question_template": "กำหนด strings สองชุด ได้แก่ ransom note และ magazine ให้ตรวจสอบว่าคุณสามารถสร้าง ransom note ได้โดยใช้ตัวอักษรใน magazine หรือไม่ หากทำได้ให้ตอบ {true_answer} หากทำไม่ได้ให้ตอบ {false_answer}\n\nตัวอักษรแต่ละตัวใน magazine สามารถใช้ได้เพียงครั้งเดียวใน ransom note ของคุณ\n\nRansom note: {ransom_note}\nMagazine: {magazine}",
+  "true_answer": "จริง",
+  "false_answer": "เท็จ"
+}

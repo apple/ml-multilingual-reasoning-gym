@@ -1,0 +1,3 @@
+{
+  "question_template": "এই লেখায় \"{target_letter}\" অক্ষরটি কতবার এসেছে: \"{text}\"?"
+}

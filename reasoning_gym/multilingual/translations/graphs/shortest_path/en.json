@@ -1,0 +1,4 @@
+{
+    "question_template": "Your task is to find the shortest path from the start to the destination point in a grid.\n\nThe grid is represented as a matrix with the following types of cells:\n- *: your starting point\n- #: your destination point\n- O: an open cell\n- X: a blocked cell\n\nTherefore, you need to find the shortest path from * to #, moving only through open cells.\n\nYou may only move in four directions: up, down, left, and right.\n\nIf there is no path from * to #, simply write \"{infeasible}\" (without quotes).\n\nYour output should be a sequence of arrow directions that leads from * to #, e.g. → → ↓ ↓ ↑ ←\n\nNow, find the shortest path from * to # in the following grid:\n{grid}",
+    "infeasible": "infeasible"
+}

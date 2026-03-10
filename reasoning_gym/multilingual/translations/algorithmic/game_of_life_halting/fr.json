@@ -1,0 +1,5 @@
+{
+  "question_template": "Ceci est une grille du « Jeu de la Vie ». On considère qu'un jeu s'arrête lorsqu'il n'y a plus de cellules vivantes.\nCe jeu s'arrêtera-t-il en {max_simulation_steps} étapes ou moins ? On suppose un voisinage de Moore et une topologie toroïdale. S'il s'arrête, réponds '{true_answer}'. S'il ne s'arrête pas, réponds '{false_answer}'.\n\nGrille initiale :\n{board_str}",
+  "true_answer": "Vrai",
+  "false_answer": "Faux"
+}

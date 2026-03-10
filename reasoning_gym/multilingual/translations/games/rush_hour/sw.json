@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Hamisha gari jekundu (AA) hadi kwenye mlango wa kutoka upande wa kulia.\nBainisha harakati kwa format: 'F+1 K+1 M-1 C+3 H+2 ...'\nambapo herufi ni chombo cha usafiri na nambari +/- ni nafasi za kuhamisha kulia/kushoto au chini/juu.\nKuta zimeashiriwa na 'x'. Magari hayawezi kupita kuta, na kuta haziwezi kuhamishwa.\nGari lililoelekea wima linaweza kuhamia juu na chini tu, gari lililoelekea mlalo linaweza kuhamia kushoto na kulia tu.\n\nUbao:\n{board_display}"
+}

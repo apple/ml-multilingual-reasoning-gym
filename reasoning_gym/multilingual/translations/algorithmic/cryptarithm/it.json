@@ -1,0 +1,7 @@
+{
+  "intro": "Risolvi questo crittaritmo:",
+  "unique_digit_rule": "Ogni lettera rappresenta una cifra univoca (0-9). ",
+  "leading_zero_allowed": "Le lettere iniziali possono essere zero.\n",
+  "leading_zero_not_allowed": "Nessuna lettera iniziale può essere zero.\n",
+  "output_format": "Fornisci le corrispondenze lettera-cifra separate da virgole che soddisfano l'equazione nella tua risposta finale. Formato di output: «A=1,B=2,C=3» (senza virgolette)\n"
+}

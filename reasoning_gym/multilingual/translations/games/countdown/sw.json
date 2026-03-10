@@ -1,0 +1,7 @@
+{
+  "question_template_0": "Kwa kutumia nambari zote {numbers}, unda hesabu inayosawa na {target}.\nUnaweza kutumia kila nambari mara moja tu.",
+  "question_template_1": "Tafuta njia ya kupata {target} kwa kutumia nambari hizi zote: {numbers}.\nKila nambari inaweza kutumiwa mara moja tu.",
+  "question_template_2": "Hesabu {target} kwa kutumia nambari hizi zote: {numbers}.\nKila nambari inaweza kutumiwa hadi mara moja tu.",
+  "format_template": "{question}\n\nMaelekezo ya muundo wa jibu la mwisho:\n1. Toa suluhisho lako kama mlinganyo wa hesabu (bila alama ya '=').\n2. Usijumuishe nambari ya lengo katika mlinganyo.\n3. Tumia '*' kwa kuzidisha.\n4. Tumia '/' kwa kugawanya.\n5. Usijumuishe maandishi mengine yoyote au muundo.",
+  "list_separator": ", "
+}

@@ -1,0 +1,4 @@
+{
+  "prompt_template_1": "Hii ni programu ya kompyuta ya BF (Brainf*ck). Pato ni nini?\n\n{bf_program}\n\nJibu tu kwa pato halisi ya programu.",
+  "prompt_template_2": "Zingatia msimbo ufuatao wa BF (Brainf*ck). Utatoa pato gani?\n\n{bf_program}\n\nToa tu pato halisi ya msimbo."
+}

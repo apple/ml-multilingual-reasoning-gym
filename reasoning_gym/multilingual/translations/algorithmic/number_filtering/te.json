@@ -1,0 +1,7 @@
+{
+  "question_template": "ఈ జాబితాలో {filter_value} కంటే {comparison} అన్ని సంఖ్యలను {action}: {numbers_list}\nకొత్త జాబితాను అదే ఫార్మాట్‌లో ఇవ్వండి।",
+  "action_keep": "ఉంచండి",
+  "action_remove": "తీసివేయండి",
+  "comparison_larger": "పెద్దవి",
+  "comparison_smaller": "చిన్నవి"
+}

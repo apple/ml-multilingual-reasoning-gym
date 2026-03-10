@@ -1,0 +1,3 @@
+{
+  "prompt_template": "A::B ni mfumo wenye alama 4: `A#`, `#A`, `B#` na `#B`.\n\nProgramu ya A::B ni mlolongo wa alama. Mfano:\n\n    B# A# #B #A B#\n\nKu*hesabu* programu, lazima tuandike upya alama za jirani, tukitumia kanuni:\n\n    A# #A ... inakuwa ... hakuna kitu\n    A# #B ... inakuwa ... #B A#\n    B# #A ... inakuwa ... #A B#\n    B# #B ... inakuwa ... hakuna kitu\n\nKwa maneno mengine, wakati wowote alama mbili za jirani zina '#' zao zinaelekeana, lazima ziandikwe upya kulingana na kanuni husika.\n\nSasa, fikiria programu ifuatayo:\n\n{program}\n\nRudisha hali ya mwisho ya programu."
+}

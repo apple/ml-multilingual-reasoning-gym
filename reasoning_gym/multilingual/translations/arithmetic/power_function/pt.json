@@ -1,0 +1,3 @@
+{
+  "question_template": "Sua tarefa é calcular uma exponenciação de um número.\n\nCalcule {base}^{exponent}. Retorne sua resposta final correta com 3 algarismos significativos.\nForneça sua resposta em notação científica usando notação «e» (ex.: 1.23e+4)."
+}

@@ -1,0 +1,5 @@
+{
+  "question_format": "La seguente è una domanda di ragionamento logico proposizionale.\n\nNella domanda forniamo un elenco di premesse. Il compito è inferire una conclusione corretta dalle premesse.\n\nISTRUZIONI DI FORMATO:\n- Fornisci l'enunciato logico conclusivo come tua risposta definitiva.\n- Usa la seguente notazione per i simboli\n    - OR = ∨\n    - AND = ∧\n    - IMPLIES = →\n    - IFF = ↔\n    - NOT = ¬\n\nEcco la domanda:\n",
+  "given_text": "Date:",
+  "conclusion_question": "Cosa possiamo concludere dalle premesse?"
+}

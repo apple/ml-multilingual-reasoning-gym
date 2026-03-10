@@ -1,0 +1,3 @@
+{
+  "prompt_template": "In einem 4x4 Mini Sudoku:\n- Jede Zeile muss die Zahlen 1-4 jeweils genau einmal enthalten\n- Jede Spalte muss die Zahlen 1-4 jeweils genau einmal enthalten\n- Jedes 2x2-Unterfeld muss die Zahlen 1-4 jeweils genau einmal enthalten\n\nLöse dieses 4x4 Mini Sudoku-Rätsel:\n{puzzle}\n\nFormatiere deine Lösung wie das Rätsel: Zahlen durch Leerzeichen getrennt, Zeilen durch Zeilenwechsel."
+}

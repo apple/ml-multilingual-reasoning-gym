@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Résous cette grille de Sudoku :\n{puzzle}\nRéponds seulement avec ta solution sous forme de grille 9x9, avec les nombres séparés par des espaces et les lignes séparées par des sauts de ligne."
+}

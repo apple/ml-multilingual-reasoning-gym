@@ -1,0 +1,3 @@
+{
+  "question_template": "À quoi ressemblera cette grille du Jeu de la Vie après {simulation_steps} pas ? Supposons un voisinage de Moore et une topologie bouclée. Réponds sous forme de tableau de tableaux représentant les lignes de la grille de haut en bas au format JSON. (Une grille 3x3 vide ressemblerait à ceci : [[0,0,0],[0,0,0],[0,0,0]])\n\n{board}."
+}

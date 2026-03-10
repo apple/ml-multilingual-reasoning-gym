@@ -1,0 +1,3 @@
+{
+    "question_template": "Given a square matrix, your job is to rotate it clockwise.\n\nYour output should be a matrix in the same format as the input.\n\nRotate the matrix below by {degrees} degrees clockwise:\n{matrix}"
+}

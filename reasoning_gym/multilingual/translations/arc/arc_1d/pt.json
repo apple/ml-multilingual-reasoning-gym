@@ -1,0 +1,6 @@
+{
+  "example_header": "Exemplo {number}:",
+  "input_label": "Entrada: ",
+  "output_label": "Saída: ",
+  "question_template": "Encontre a regra comum que mapeia uma grade de entrada para uma grade de saída, dados os exemplos abaixo.\n\n{examples}\n\nAbaixo está uma grade de entrada de teste. Preveja a grade de saída correspondente aplicando a regra que você encontrou. Descreva como você derivou a regra e seu processo de raciocínio geral em detalhes antes de submeter sua resposta. Sua resposta final deve ser apenas a própria grade de saída de teste.\n\nEntrada:\n{test_input}"
+}

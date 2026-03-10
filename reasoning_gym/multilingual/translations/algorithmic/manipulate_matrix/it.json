@@ -1,0 +1,13 @@
+{
+  "question_template": "Per la seguente matrice:\n{matrix}\n\nEsegui la seguente serie di operazioni nell'ordine:\n- Trasformazione identità, cioè nessun cambiamento\n{operations}",
+  "rotate_instruction": "- Ruota la matrice di {degrees} gradi",
+  "hmirror_instruction": "- Rifletti la matrice orizzontalmente",
+  "vmirror_instruction": "- Rifletti la matrice verticalmente",
+  "dmirror_instruction": "- Rifletti la matrice lungo la diagonale",
+  "cmirror_instruction": "- Rifletti la matrice lungo l'antidiagonale",
+  "map_instruction": "- Sostituisci ogni occorrenza di {a} con {b}",
+  "zero_divisible_instruction": "- Imposta a zero tutti gli elementi divisibili per {k}",
+  "crop_instruction": "- Ritaglia la matrice alle righe {row_start}-{row_end} e colonne {col_start}-{col_end} (indicizzazione da 1)",
+  "remove_nth_row_instruction": "- Rimuovi ogni {n}ª riga (indicizzazione da 1)",
+  "remove_nth_col_instruction": "- Rimuovi ogni {n}ª colonna (indicizzazione da 1)"
+}

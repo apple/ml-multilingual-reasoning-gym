@@ -1,0 +1,4 @@
+{
+  "prompt_template": "Encontre a regra comum que mapeia uma grade de entrada para uma grade de saída, dados os exemplos abaixo.\n\n{examples}Abaixo está uma grade de entrada de teste. Preveja a grade de saída correspondente aplicando a regra que você encontrou.\nSua resposta final deve ser apenas o próprio texto da grade de saída.\n\nEntrada:\n{input_grid}",
+  "example_format": "Exemplo {index}:\n\nEntrada:\n{input_board}\nSaída:\n{output_board}\n\n"
+}

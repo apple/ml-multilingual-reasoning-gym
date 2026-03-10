@@ -1,0 +1,5 @@
+{
+  "question_template": "Dadas dos cadenas que representan una nota de rescate y una revista, devuelve {true_answer} si puedes construir la nota de rescate usando las letras de la revista, y {false_answer} en caso contrario.\n\nCada letra de la cadena de la revista solo se puede usar una vez en tu nota de rescate.\n\nNota de rescate: {ransom_note}\nRevista: {magazine}",
+  "true_answer": "Verdadero",
+  "false_answer": "Falso"
+}

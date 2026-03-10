@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Déplace la voiture rouge (AA) vers la sortie à droite.\nSpécifie les mouvements au format : 'F+1 K+1 M-1 C+3 H+2 ...'\noù la lettre représente le véhicule et le nombre +/- représente les espaces à déplacer vers la droite/gauche ou vers le haut/bas.\nLes murs sont marqués d'un 'x'. Les voitures ne peuvent pas traverser les murs, et les murs ne peuvent pas être déplacés.\nUne voiture orientée verticalement ne peut se déplacer que vers le haut ou vers le bas, une voiture orientée horizontalement ne peut se déplacer que vers la gauche ou vers la droite.\n\nPlateau :\n{board_display}"
+}

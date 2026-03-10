@@ -1,0 +1,4 @@
+{
+  "question_template": "Sua tarefa é encontrar o caminho mais curto do ponto de partida ao ponto de chegada em uma grade.\n\nA grade é representada como uma matriz com os seguintes tipos de células:\n- *: seu ponto de partida\n- #: seu ponto de chegada\n- O: uma célula aberta\n- X: uma célula bloqueada\n\nPortanto, você precisa encontrar o caminho mais curto de * para #, movendo-se apenas através de células abertas.\n\nVocê pode se mover apenas em quatro direções: para cima, para baixo, para a esquerda e para a direita.\n\nSe não houver caminho de * para #, simplesmente escreva «{infeasible}» (sem guillemets).\n\nSua resposta deve ser uma sequência de direções com setas que levam de * para #, por exemplo: → → ↓ ↓ ↑ ←\n\nAgora, encontre o caminho mais curto de * para # na seguinte grade:\n{grid}",
+  "infeasible": "inviável"
+}

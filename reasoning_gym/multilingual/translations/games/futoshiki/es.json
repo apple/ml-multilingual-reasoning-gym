@@ -1,0 +1,3 @@
+{
+  "prompt_template": "Resuelve el siguiente puzle Futoshiki de {board_size}x{board_size}:\n\n{puzzle_str}\n\nAsegúrate de que tu respuesta sigue el mismo formato que el puzle anterior, solo reemplaza los espacios en blanco (_) con el valor correcto para cada celda.\nUsa < y > para las restricciones horizontales. Usa ∧ y ∨ para las restricciones verticales.\nRecuerda que en Futoshiki cada fila y columna debe contener cada número del 1 al {board_size} exactamente una vez."
+}

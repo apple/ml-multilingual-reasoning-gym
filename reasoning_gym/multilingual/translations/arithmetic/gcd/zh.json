@@ -1,0 +1,4 @@
+{
+  "question_template": "求 {numbers_str} 的最大公约数。只需给出最大公约数的值。",
+  "numbers_separator": "， "
+}

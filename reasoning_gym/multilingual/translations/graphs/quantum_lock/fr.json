@@ -1,0 +1,13 @@
+{
+  "prompt_template": "Devant toi se trouvent des boutons, une lumière et un nombre. La lumière basculera entre rouge et vert chaque fois que tu appuies sur un bouton. Chaque bouton effectue une opération mathématique sur le nombre, mais l'opération peut dépendre de l'état de la lumière.\n\nTu dois appuyer sur la séquence de boutons la plus courte pour atteindre la valeur cible. Ta réponse doit être une séquence de boutons séparés par '{separator}', par exemple : A{separator}B{separator}C\n\nDépart : {initial_value} ({initial_state})\nCible : {target_value}\nBoutons :\n{buttons_text}",
+  "operation_add_template": "Ajoute {value}",
+  "operation_subtract_template": "Soustrais {value}",
+  "operation_multiply_template": "Multiplie par {value}",
+  "when_state": "quand {state}",
+  "state_red": "rouge",
+  "state_green": "vert",
+  "state_any": "toujours",
+  "button_format": "{name}: {operation} {condition}",
+  "separator": " → ",
+  "condition_format": "({when_text})"
+}

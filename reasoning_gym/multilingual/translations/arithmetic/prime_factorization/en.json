@@ -1,0 +1,3 @@
+{
+    "question_template": "Find the prime factorization of {number}. Write the factors separated by × (Example: for 12 the answer would be: 2 × 2 × 3)"
+}

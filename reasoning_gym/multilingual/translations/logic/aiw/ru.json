@@ -1,0 +1,6 @@
+{
+  "siblings_template_1": "У {female_name} братьев - {num_brothers}, сестёр - {num_sisters}. Сколько сестёр у её братьев?",
+  "siblings_template_2": "У {female_name} сестёр - {num_sisters}, братьев - {num_brothers}. Сколько сестёр у брата {male_name}?",
+  "friends_template": "У {female_name} друзей-мужчин - {num_male}, подруг - {num_female}. Все они дружат между собой и больше ни с кем. Сколько подруг у {male_name}, который дружит с {female_name}?",
+  "colleagues_template": "У {female_name} коллег-мужчин - {num_male_colleagues_alice_circle}, коллег-женщин - {num_female_colleagues_alice_circle}. Это все её коллеги. Все эти люди являются коллегами друг друга. У {male_name} коллег-мужчин - {num_male_colleagues_bob_circle}, коллег-женщин - {num_female_colleagues_bob_circle}. Все люди в окружении {male_name} также являются коллегами друг друга. Коллеги {male_name} не имеют других коллег, за исключением Матильды. Она работает с {male_name} и одновременно с {female_name}, являясь частью её круга. Сколько коллег-женщин у Матильды?"
+}

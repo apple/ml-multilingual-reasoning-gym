@@ -1,0 +1,3 @@
+{
+  "question_template": "把分数 {question_fraction} 化简为最简分数。只给出最简分数作为最终答案。"
+}

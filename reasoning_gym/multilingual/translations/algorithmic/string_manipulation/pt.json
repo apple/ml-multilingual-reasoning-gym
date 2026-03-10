@@ -1,0 +1,23 @@
+{
+  "question_template": "Sua tarefa é transformar repetidamente uma string de acordo com um conjunto de regras até que nenhuma transformação adicional possa ser realizada, ou um estado seja repetido.\n\nAvalie as seguintes regras em ordem e aplique a primeira regra aplicável à string:\n{rules}\n\nDepois de aplicar uma regra, repita o processo com a nova string até que nenhuma transformação adicional possa ser realizada (ou seja, a string não muda), ou um estado seja repetido.\nSe um estado for repetido, o processo é encerrado, e o estado repetido é descartado (ou seja, não é considerado como a resposta final) e o estado anterior ao estado repetido é considerado como a resposta final.\n\nSua resposta deve ser a string final transformada após aplicar todas as regras.\n\nTransforme a seguinte string de acordo com a lista de regras acima:\n{string}",
+  "rule_1": "Se o prefixo da string for 'ab', substitua por 'ca'.",
+  "rule_2": "Se o sufixo da string for 'ac', substitua por 'cb'.",
+  "rule_3": "Se o prefixo da string for 'bc', delete os dois primeiros caracteres e adicione 'aa' ao final.",
+  "rule_4": "Se o sufixo da string for 'bb', delete os dois últimos caracteres.",
+  "rule_5": "Se o prefixo da string for 'cb', substitua por 'aa' e delete o último caractere.",
+  "rule_6": "Se o prefixo da string for 'ca', substitua por 'bb' e adicione 'c' ao final.",
+  "rule_7": "Se o sufixo da string for 'cc', substitua por 'b' e adicione 'a' ao início.",
+  "rule_8": "Se o prefixo da string for 'aa', remova o primeiro caractere.",
+  "rule_9": "Se a string contém 'abc', substitua a primeira ocorrência por 'cab'.",
+  "rule_10": "Se a string contém 'bca', delete a primeira ocorrência inteiramente.",
+  "rule_11": "Se a string termina com 'ba', substitua por 'ab'.",
+  "rule_12": "Se a string começa com 'cc', remova os dois primeiros caracteres.",
+  "rule_13": "Se a string contém 'acb', substitua a primeira ocorrência pelo seu reverso ('bca').",
+  "rule_14": "Se a string termina com 'ca', remova o último caractere.",
+  "rule_15": "Se a string começa com 'bb', remova o segundo caractere.",
+  "rule_16": "Se a string termina com 'aa', substitua por 'cc'.",
+  "rule_17": "Se a string contém 'ca' (não no início), remova a primeira ocorrência encontrada após o primeiro caractere.",
+  "rule_18": "Se a string contém um número par de 'b's (e pelo menos um 'b'), adicione 'ab' ao final.",
+  "rule_19": "Se o comprimento da string for maior que 15, remova o caractere do meio.",
+  "rule_20": "Se a string começa com 'ac', substitua os dois primeiros caracteres por 'zz'."
+}

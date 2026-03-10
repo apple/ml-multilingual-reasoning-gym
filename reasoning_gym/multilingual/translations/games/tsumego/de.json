@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "Zeit für ein Tsumego. Schwarz ist am Zug und soll Steine schlagen.\nFinde den Schlüsselzug.\n\n```\n{board_str}\n```\n\nX - Schwarz\nO - Weiß\n\nGib deinen Zug in Koordinaten an (z.B. 'C4' für Spalte C, Reihe 4)",
+  "prompt_template_2": "Ich habe ein Go-Problem für dich. Schwarz zieht als nächstes - kannst du einige der weißen Steine schlagen?\n\n```\n{board_str}\n```\n\nX - Schwarz\nO - Weiß\n\nGib deinen Zug in Koordinaten an (z.B. 'C4' für Spalte C, Reihe 4)",
+  "prompt_template_3": "Hier ist eine Go-Herausforderung. Als Schwarz spielend, wie kannst du so viele weiße Steine wie möglich schlagen?\n\n```\n{board_str}\n```\n\nX - Schwarz\nO - Weiß\n\nGib deinen Zug in Koordinaten an (z.B. 'C4' für Spalte C, Reihe 4)",
+  "board_legend": "X - Schwarz\nO - Weiß\n\nGib deinen Zug in Koordinaten an (z.B. 'C4' für Spalte C, Reihe 4)"
+}

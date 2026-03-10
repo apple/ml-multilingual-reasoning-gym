@@ -1,0 +1,3 @@
+{
+  "instruction_text": "Tu vas résoudre un puzzle « sokoban ».\n\n* - Le joueur\n% - Le joueur sur un objectif\n@ - Une caisse\nX - Un objectif\n$ - Une caisse sur un objectif\n+ - Un mur\n- - Une position vide\n\nTa solution doit être une chaîne de flèches, ex : ←↓↑→→↑↓←.\n\nVoici ton puzzle :\n"
+}

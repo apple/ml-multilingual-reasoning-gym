@@ -1,0 +1,3 @@
+{
+  "question_template": "Tu dois compléter un échiquier de taille n x n avec n dames au total, sans qu'elles s'attaquent mutuellement.\n\nDeux dames ne s'attaquent pas si elles ne sont pas sur la même ligne, colonne ou diagonale.\n\nTu peux placer une dame en remplaçant un tiret bas (_) par un Q.\n\nTa solution doit avoir le même format que l'échiquier donné, avec les dames placées en remplaçant les tirets bas par la lettre Q.\n\nPour l'échiquier ci-dessous de taille {n} x {n}, place {num_removed} dame(s) sans qu'elles s'attaquent mutuellement.\n{puzzle}"
+}

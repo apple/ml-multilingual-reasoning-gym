@@ -1,0 +1,4 @@
+{
+  "prompt_template": "Springer-Tausch-Herausforderung:\n\n```\n{board_str}\n```\n\nLegende:\n- 'w' = Weißer Springer\n- 'B' = Schwarzer Springer\n- Leere Felder sind mit '.' markiert\n\nZiel:\nTausche die Positionen aller weißen Springer mit allen schwarzen Springern durch gültige Züge.\n\nRegeln:\n1. Springer bewegen sich L-förmig (2 Felder + 1 Feld senkrecht dazu)\n2. Springer können nur auf leere Felder ziehen\n3. {start_turn} zieht zuerst, dann wechseln sich die Spieler ab\n4. Alle Springer müssen ihre Zielpositionen erreichen (weiß ↔ schwarz)\n\nFrage:\nIst es möglich, alle Springer-Positionen zu tauschen? Falls ja, liste die Züge auf.\n\nAntwortformat:\n- Für unlösbare Rätsel: \"{impossible_answer}\"\n- Für lösbare Rätsel: Liste die Züge auf als [\"Farbe,von,nach\", ...]\n  Beispiel: [\"w,A1,B3\"] bedeutet weißer Springer zieht A1→B3",
+  "impossible_answer": "Nein"
+}

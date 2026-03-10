@@ -1,0 +1,3 @@
+{
+  "question_template": "Calcule a resposta final do seguinte problema aritmético: {expression} ="
+}

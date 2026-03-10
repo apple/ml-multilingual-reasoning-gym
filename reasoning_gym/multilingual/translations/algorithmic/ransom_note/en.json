@@ -1,0 +1,5 @@
+{
+    "question_template": "Given two strings representing a ransom note and a magazine, return {true_answer} if you can construct the ransom note using the letters in the magazine, and {false_answer} otherwise.\n\nEach letter in the magazine string can only be used once in your ransom note.\n\nRansom note: {ransom_note}\nMagazine: {magazine}",
+    "true_answer": "True",
+    "false_answer": "False"
+}

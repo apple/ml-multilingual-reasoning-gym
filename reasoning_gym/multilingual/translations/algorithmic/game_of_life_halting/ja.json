@@ -1,0 +1,5 @@
+{
+  "question_template": "これは「ライフゲーム」の格子である。生きているセルが存在しなくなった時点でゲームは停止したと見なす。\nムーア近傍とトーラス状トポロジーを仮定する。このゲームは{max_simulation_steps}ステップ以内に停止するか？停止する場合は「{true_answer}」、停止しない場合は「{false_answer}」と答えよ。\n\n初期盤面：\n{board_str}",
+  "true_answer": "真",
+  "false_answer": "偽"
+}

@@ -1,0 +1,4 @@
+{
+  "prompt_template": "Finde die gemeinsame Regel, die ein Eingabegitter auf ein Ausgabegitter abbildet, basierend auf den unten gegebenen Beispielen.\n\n{examples}Unten ist ein Test-Eingabegitter. Sage das entsprechende Ausgabegitter vorher, indem du die gefundene Regel anwendest.\nDeine finale Antwort sollte nur das Text-Ausgabegitter selbst sein.\n\nEingabe:\n{input_grid}",
+  "example_format": "Beispiel {index}:\n\nEingabe:\n{input_board}\nAusgabe:\n{output_board}\n\n"
+}

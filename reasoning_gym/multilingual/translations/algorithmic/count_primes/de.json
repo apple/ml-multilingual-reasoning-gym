@@ -1,0 +1,3 @@
+{
+  "question_template": "Wie viele Primzahlen gibt es zwischen {start} und {end} (einschließlich)?"
+}

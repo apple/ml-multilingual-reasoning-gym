@@ -1,0 +1,5 @@
+{
+  "prompt_template_1": "Pata thamani ya {variable} katika mlinganyo: {equation}",
+  "prompt_template_2": "Tatua kwa {variable}: {equation}",
+  "prompt_template_3": "Baini thamani ya {variable} ambayo inatimiza: {equation}"
+}

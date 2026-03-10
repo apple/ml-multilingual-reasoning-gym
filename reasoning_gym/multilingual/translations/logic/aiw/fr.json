@@ -1,0 +1,6 @@
+{
+  "siblings_template_1": "{female_name} compte {num_brothers} frères et {num_sisters} sœurs dans sa famille. Combien de sœurs a un frère de {female_name} ?",
+  "siblings_template_2": "{female_name} compte {num_sisters} sœurs et {num_brothers} frères dans sa famille. Combien de sœurs a un frère de {male_name} ?",
+  "friends_template": "{female_name} compte {num_male} amis et {num_female} amies. Ils sont tous amis entre eux et n'ont pas d'autres amis. Combien d'amies a {male_name}, un ami de {female_name} ?",
+  "colleagues_template": "{female_name} compte {num_male_colleagues_alice_circle} collègues masculins et {num_female_colleagues_alice_circle} collègues féminines. Ce sont tous ses collègues. Toutes ces personnes autour de {female_name} travaillent ensemble. {male_name} compte {num_male_colleagues_bob_circle} collègues masculins et {num_female_colleagues_bob_circle} collègues féminines au total. Toutes ces personnes autour de {male_name} travaillent ensemble. Les personnes du cercle de {male_name} n'ont pas d'autres collègues - à l'exception de Matilda. Elle travaille avec {male_name} et elle travaille aussi avec {female_name}, faisant partie du cercle de {female_name}. Combien de collègues féminines Matilda a-t-elle ?"
+}

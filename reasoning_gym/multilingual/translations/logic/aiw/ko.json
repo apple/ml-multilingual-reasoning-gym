@@ -1,0 +1,6 @@
+{
+  "siblings_template_1": "{female_name}는 {num_brothers}명의 형제와 {num_sisters}명의 자매가 있다. {female_name}의 형제는 자매가 몇 명인가?",
+  "siblings_template_2": "{female_name}는 {num_sisters}명의 자매와 {num_brothers}명의 형제가 있다. {male_name}의 형제는 자매가 몇 명인가?",
+  "friends_template": "{female_name}는 {num_male}명의 남자 친구와 {num_female}명의 여자 친구가 있다. 이들은 모두 서로 친구이며 다른 친구는 없다. {female_name}의 남자 친구인 {male_name}는 여자 친구가 몇 명인가?",
+  "colleagues_template": "{female_name}는 {num_male_colleagues_alice_circle}명의 남자 동료와 {num_female_colleagues_alice_circle}명의 여자 동료가 있다. 이들이 {female_name}가 가진 모든 동료이다. {female_name} 주변의 이 모든 사람들은 서로 동료이다. {male_name}는 총 {num_male_colleagues_bob_circle}명의 남자 동료와 {num_female_colleagues_bob_circle}명의 여자 동료가 있다. {male_name} 주변의 이 모든 사람들은 서로 동료이다. {male_name} 집단의 사람들은 다른 동료가 없다 - 단, Matilda는 예외이다. 그녀는 {male_name}의 동료이면서 동시에 {female_name}의 집단에 속하여 {female_name}의 동료이기도 하다. Matilda는 여자 동료가 몇 명인가?"
+}

@@ -1,0 +1,8 @@
+{
+  "puzzle_description": "Du bist ein Polizist. Ein Verrückter hat eine Bombe neben einem öffentlichen Brunnen platziert.\n\nUm die Bombe zu entschärfen, musst du ein Rätsel lösen. Das Rätsel ist gelöst, wenn du einen der verfügbaren Krüge mit der Zielmenge Wasser füllst.\n\nDu hast drei Aktionstypen: '{fill_action}', '{empty_action}' und '{pour_action}'.\n\nUm Krug A zu füllen, machst du '{fill_action} A'.\nUm Krug B zu leeren, machst du '{empty_action} B'.\nUm den Inhalt von Krug A in Krug B zu gießen, machst du '{pour_action} A->B'.\nAlle Krüge sind zu Beginn leer.\n\nDie leeren Krüge fassen so viele Liter Wasser: {cap_str}\nUnd dein Ziel ist: {target} Liter.\n\nWie entschärfst du die Bombe?\n\nAntworte mit einer JSON-parsbaren Liste von Zügen, die dazu führen, dass einer der Krüge mit der Zielmenge gefüllt wird.",
+  "fill_action": "fülle",
+  "empty_action": "leere",
+  "pour_action": "gieße",
+  "jug_separator": ", ",
+  "capacity_separator": ":"
+}

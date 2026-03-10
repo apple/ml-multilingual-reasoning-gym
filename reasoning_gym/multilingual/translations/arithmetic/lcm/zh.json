@@ -1,0 +1,4 @@
+{
+  "question_template": "求这些数的最小公倍数：{numbers}",
+  "numbers_separator": "，"
+}

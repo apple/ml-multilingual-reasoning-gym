@@ -1,0 +1,3 @@
+{
+    "question_template": "Solve the following multiplication: {expression}. Give only the result as your final answer."
+}

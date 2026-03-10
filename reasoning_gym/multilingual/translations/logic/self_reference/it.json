@@ -1,0 +1,10 @@
+{
+  "puzzle_intro": "Data la veridicità di queste affermazioni, dimmi il numero di soluzioni possibili:",
+  "statement_1": " - Affermazione 1: «Almeno {number} di queste 7 affermazioni sono vere.»",
+  "statement_2": " - Affermazione 2: «Al massimo {number} di queste 7 affermazioni sono false.»",
+  "statement_3": " - Affermazione 3: «Esattamente {number} di queste 7 affermazioni sono vere.»",
+  "statement_4": " - Affermazione 4: «Esattamente {number} di queste 7 affermazioni sono false.»",
+  "statement_5": " - Affermazione 5: «O l'Affermazione 3 o l'Affermazione 4 è vera, ma non entrambe.»",
+  "statement_6": " - Affermazione 6: «Il numero di affermazioni vere è un numero primo.»",
+  "statement_7": " - Affermazione 7: «Il numero di affermazioni false è un numero composto.»"
+}

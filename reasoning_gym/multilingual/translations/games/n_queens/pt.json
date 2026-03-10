@@ -1,0 +1,3 @@
+{
+  "question_template": "Sua tarefa é completar um tabuleiro de xadrez n x n com n Rainhas no total, de forma que nenhuma ataque a outra.\n\nDuas rainhas não se atacam se não estiverem na mesma linha, coluna ou diagonal.\n\nVocê pode colocar uma rainha substituindo um sublinhado (_) por um Q.\n\nSua saída deve ser também um tabuleiro no mesmo formato da entrada, com as rainhas posicionadas no tabuleiro substituindo os sublinhados pela letra Q.\n\nDado o tabuleiro abaixo de tamanho {n} x {n}, sua tarefa é colocar {num_removed} rainha(s) no tabuleiro de forma que nenhuma rainha ataque a outra.\n{puzzle}"
+}

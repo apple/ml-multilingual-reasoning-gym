@@ -1,0 +1,3 @@
+{
+  "prompt_template": "No Mini Sudoku 4x4:\n- Cada linha deve conter cada número de 1 a 4 exatamente uma vez\n- Cada coluna deve conter cada número de 1 a 4 exatamente uma vez\n- Cada subgrade 2x2 deve conter cada número de 1 a 4 exatamente uma vez\n\nResolva este quebra-cabeça de Mini Sudoku 4x4:\n{puzzle}\n\nFormate sua resposta como o quebra-cabeça acima, com espaços separando cada número dentro de uma linha, e quebras de linha separando as linhas."
+}

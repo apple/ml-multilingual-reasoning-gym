@@ -1,0 +1,13 @@
+{
+  "question_template": "对于以下矩阵：\n{matrix}\n\n按顺序执行以下一系列操作：\n• 恒等变换，即不做任何改变\n{operations}",
+  "rotate_instruction": "• 将矩阵旋转{degrees}度",
+  "hmirror_instruction": "• 水平镜像矩阵",
+  "vmirror_instruction": "• 垂直镜像矩阵",
+  "dmirror_instruction": "• 沿对角线镜像矩阵",
+  "cmirror_instruction": "• 沿反对角线镜像矩阵",
+  "map_instruction": "• 将每个{a}替换为{b}",
+  "zero_divisible_instruction": "• 将所有能被{k}整除的元素设为零",
+  "crop_instruction": "• 将矩阵裁剪为第{row_start}-{row_end}行和第{col_start}-{col_end}列（从1开始计数）",
+  "remove_nth_row_instruction": "• 删除每第{n}行（从1开始计数）",
+  "remove_nth_col_instruction": "• 删除每第{n}列（从1开始计数）"
+}

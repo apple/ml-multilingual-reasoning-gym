@@ -1,0 +1,3 @@
+{
+    "question_template": "Count how many prime numbers there are between {start} and {end} (inclusive) ?"
+}

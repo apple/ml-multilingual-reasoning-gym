@@ -1,0 +1,3 @@
+{
+  "question_template": "On te donne une grille n x n où chaque cellule peut avoir une de ces trois valeurs :\n- 0 représentant une cellule vide\n- 1 représentant une orange fraîche\n- 2 représentant une orange pourrie\n\nChaque minute, toute orange fraîche qui est adjacente orthogonalement à une orange pourrie devient pourrie.\n\nTa tâche est de déterminer le nombre minimum de minutes qui doivent s'écouler jusqu'à ce qu'aucune cellule n'ait d'orange fraîche.\nSi c'est impossible, renvoie -1.\n\nMaintenant, détermine le nombre minimum de minutes qui doivent s'écouler jusqu'à ce qu'aucune cellule de la grille ci-dessous n'ait d'orange fraîche :\n{matrix}"
+}

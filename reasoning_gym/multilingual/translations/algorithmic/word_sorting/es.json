@@ -1,0 +1,5 @@
+{
+  "question_template": "Tu tarea es ordenar palabras en **inglés** en orden {direction} usando ordenamiento ASCII/Unicode.\n\nTu respuesta debe ser una lista separada por comas, «por ejemplo: palabra_1, palabra_2, palabra_3»\n\nAhora, ordena estas palabras en **inglés** en orden {direction} (usando ordenamiento ASCII/Unicode) y ponlas en una lista separada por comas: {words}",
+  "ascending": "ascendente",
+  "descending": "descendente"
+}

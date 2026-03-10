@@ -1,0 +1,4 @@
+{
+  "question_template": "Tu dois former un palindrome valide à partir des lettres données.\n\nUn palindrome est une phrase qui se lit de la même manière dans les deux sens.\n\nS'il y a plusieurs réponses possibles, ne réponds qu'avec une seule d'entre elles. Tu dois utiliser toutes les lettres fournies.\n\nTa réponse doit être une seule chaîne de caractères, sans espaces ni ponctuation.\n\nMaintenant, forme un palindrome valide en utilisant les lettres suivantes : {letters}",
+  "letters_separator": ", "
+}

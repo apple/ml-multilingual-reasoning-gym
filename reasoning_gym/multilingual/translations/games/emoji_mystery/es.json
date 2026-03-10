@@ -1,0 +1,3 @@
+{
+  "question_template": "El siguiente emoji está codificado con una oración.\n\nDecodifica la siguiente oración en **inglés** del emoji: {sentence}\n\nAquí tienes una pista:\n{hint_function}\n\nProporciona la oración secreta en **inglés** como tu respuesta final."
+}

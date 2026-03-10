@@ -1,0 +1,6 @@
+{
+  "prompt_template": "Tu es un expert en raisonnement inductif. Génère une sortie correspondant à l'entrée donnée.\nLa sortie est générée en appliquant la même règle qui associe l'entrée à la sortie dans les exemples fournis. Ta réponse doit être une liste d'élément(s)\nExemples :\n{examples}\nEntrée : {input}\nSortie :\n",
+  "input_label": "Entrée {number}",
+  "output_label": "Sortie {number}",
+  "colon": ": "
+}

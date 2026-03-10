@@ -1,0 +1,6 @@
+{
+  "question_template": "解决汉诺塔问题，有{num_disks}个盘子和{num_pegs}根柱子。\n将所有盘子从{start_peg}移动到{target_peg}，遵循以下规则：\n• 一次只能移动一个盘子。\n• 大盘子不能放在小盘子上面。\n• 所有盘子必须始终在柱子上。\n\n提供移动步骤序列。\n\n格式要求：\n• 每个指令应单独一行。\n• 每行格式为「将盘子X从柱Y移动到柱Z」\n• 不要包含任何其他文字或格式。",
+  "move_template": "将盘子{disk}从柱{from_peg}移动到柱{to_peg}",
+  "move_pattern": "将盘子(\\d+)从柱(\\d+)移动到柱(\\d+)",
+  "peg_label": "柱{peg_number}"
+}

@@ -1,0 +1,6 @@
+{
+  "prompt_template_1": "Encuentra la integral indefinida: ∫ {integrand} dx",
+  "prompt_template_2": "Calcula la antiderivada: ∫ {integrand} dx",
+  "prompt_template_3": "Evalúa la integral indefinida: ∫ {integrand} dx",
+  "calculation_instructions": "\nAl realizar los cálculos, sigue estas indicaciones:\n1. Usa ** en lugar de ^ para representar exponentes. Por ejemplo, escribe 7*X**2 en lugar de 7*X^2.\n2. Incluye siempre el símbolo * para todas las operaciones de multiplicación en tus pasos de razonamiento. Por ejemplo, escribe `-3*X**3*sin(X) - 9*X**2*cos(X) + 18*X*sin(X) + 18*cos(X) + C` en lugar de `-3x3sin(x) - 9x2cos(x) + 18xsin(x) + 18cos(x) + C`.\n"
+}

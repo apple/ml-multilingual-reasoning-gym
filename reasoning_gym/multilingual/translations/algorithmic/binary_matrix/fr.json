@@ -1,0 +1,3 @@
+{
+  "question_template": "Étant donnée une matrice carrée, tu dois trouver la distance de Manhattan « taxicab » du 0 le plus proche pour chaque cellule.\n\nLe résultat doit être une matrice de même taille que la matrice d'entrée, où chaque cellule contient la distance au 0 le plus proche.\n\nTrouve la distance au 0 le plus proche pour chaque cellule dans la matrice ci-dessous :\n{matrix}"
+}

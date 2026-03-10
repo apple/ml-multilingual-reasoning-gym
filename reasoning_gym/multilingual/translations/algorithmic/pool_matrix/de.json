@@ -1,0 +1,5 @@
+{
+  "question_template": "Deine Aufgabe ist es, Maximum-/Durchschnitts-Pooling auf der gegebenen Matrix durchzuführen.\nDie Schrittweite entspricht der Kernel-Größe, was bedeutet, dass es keine Überlappung zwischen den Pooling-Bereichen gibt.\n\nDeine Ausgabe sollte eine Matrix im selben Format wie die Eingabe-Matrix sein.\nDie Ausgabe-Matrix ist kleiner als die Eingabe-Matrix, wenn die Kernel-Größe größer als 1 ist, und ihre Elemente können Fließkommazahlen sein.\nGib die Elemente der Ausgabe-Matrix auf 2 Dezimalstellen genau an.\n\nFühre {pool_type}-Pooling auf der folgenden Matrix mit einer Kernel-Größe von {pool_size} durch:\n{matrix}",
+  "pool_type_max": "Maximum",
+  "pool_type_average": "Durchschnitts"
+}

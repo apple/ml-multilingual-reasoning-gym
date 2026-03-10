@@ -1,0 +1,7 @@
+{
+  "simple_question": "{expression} গণনা করো।",
+  "question_what": "{expression} এর মান কত?",
+  "question_solve": "{expression} সমাধান করো।",
+  "question_compute": "{expression} গণনা করো।",
+  "question_evaluate": "মূল্যায়ন করো: {expression}।"
+}

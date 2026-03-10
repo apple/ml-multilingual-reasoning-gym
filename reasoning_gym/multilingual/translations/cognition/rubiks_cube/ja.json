@@ -1,0 +1,4 @@
+{
+  "prompt_template_1": "{cube_size}×{cube_size}×{cube_size}のルービックキューブが与えられている。状態は以下の通りである：\n\n{cube_render} \n\nシングマスター記法を用いてこのキューブを解く解法を示せ。手順を組み合わせてはならない。例えば、「U2」ではなく「U U」と書け。",
+  "prompt_template_2": "{cube_size}×{cube_size}×{cube_size}のルービックキューブが以下のように配置されている：\n\n{cube_render} \n\nシングマスター記法を用いてこのキューブを解く解法を示せ。手順を組み合わせてはならない。例えば、「U2」ではなく「U U」と書け。"
+}

@@ -1,0 +1,5 @@
+{
+  "question_template": "Este es un tablero del 'Juego de la Vida'. Consideramos que el juego se detiene cuando no hay células vivas.\n¿Se detendrá este juego en {max_simulation_steps} pasos o antes? Asume una vecindad de Moore y topología envolvente. Si se va a detener, responde '{true_answer}'. Si no se va a detener, responde '{false_answer}'.\n\nTablero inicial:\n{board_str}",
+  "true_answer": "Verdadero",
+  "false_answer": "Falso"
+}

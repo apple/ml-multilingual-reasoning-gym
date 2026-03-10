@@ -1,0 +1,5 @@
+{
+    "question_template": "This is a 'Game of Life' grid. We consider a game halted if there are no cells alive.\nWill this game halt at or before {max_simulation_steps} steps? Assume a Moore neighborhood and wrapping topology. If it will halt, reply '{true_answer}'. If it won't halt, reply '{false_answer}'.\n\nInitial board:\n{board_str}",
+    "true_answer": "True",
+    "false_answer": "False"
+}

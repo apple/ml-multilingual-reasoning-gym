@@ -1,0 +1,6 @@
+{
+  "siblings_template_1": "{female_name}には{num_brothers}人の兄弟と{num_sisters}人の姉妹がいる。{female_name}の兄弟には何人の姉妹がいるか。",
+  "siblings_template_2": "{female_name}には{num_sisters}人の姉妹と{num_brothers}人の兄弟がいる。{male_name}の兄弟には何人の姉妹がいるか。",
+  "friends_template": "{female_name}には{num_male}人の男性の友達と{num_female}人の女性の友達がいる。彼らは皆互いに友達同士であり、他に友達はいない。{female_name}の男性の友達である{male_name}には、何人の女性の友達がいるか。",
+  "colleagues_template": "{female_name}には{num_male_colleagues_alice_circle}人の男性の同僚と{num_female_colleagues_alice_circle}人の女性の同僚がいる。これらが{female_name}の持つ全ての同僚である。{female_name}の周りの言及された人々は皆互いに同僚である。{male_name}には合計で{num_male_colleagues_bob_circle}人の男性の同僚と{num_female_colleagues_bob_circle}人の女性の同僚がいる。{male_name}の周りの言及された人々は皆互いに同僚である。{male_name}の周りの人々は他に同僚を持たない。ただし、Matildaだけは例外である。彼女は{male_name}の同僚であり、また{female_name}の同僚でもあり、{female_name}のグループの一員である。Matildaには何人の女性の同僚がいるか。"
+}

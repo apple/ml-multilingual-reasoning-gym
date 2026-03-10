@@ -1,0 +1,5 @@
+{
+  "question_template": "Il tuo compito è ordinare parole **inglesi** in ordine {direction} usando l'ordinamento ASCII/Unicode.\n\nIl tuo output dovrebbe essere una lista di parole separate da virgole, ad esempio «parola_1, parola_2, parola_3»\n\nOra, ordina queste parole **inglesi** in ordine {direction} (usando l'ordinamento ASCII/Unicode) e restituiscile come lista separata da virgole: {words}",
+  "ascending": "crescente",
+  "descending": "decrescente"
+}

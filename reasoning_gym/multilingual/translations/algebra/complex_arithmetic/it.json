@@ -1,0 +1,6 @@
+{
+  "operation_+": "Somma questi numeri complessi: ({a}) + ({b})",
+  "operation_-": "Sottrai questi numeri complessi: ({a}) - ({b})",
+  "operation_*": "Moltiplica questi numeri complessi: ({a}) × ({b})",
+  "operation_/": "Dividi questi numeri complessi: ({a}) ÷ ({b})"
+}

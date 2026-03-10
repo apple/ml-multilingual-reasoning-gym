@@ -1,0 +1,4 @@
+{
+  "prompt_template_1": "{cube_size}×{cube_size}×{cube_size} 루빅스 큐브가 주어진다. 큐브의 상태는 다음과 같다:\n\n{cube_render} \n\nSingmaster 표기법을 사용하여 이 큐브를 푸는 해법을 제시하라. 단계를 결합하지 말아라. 예를 들어 'U2'라고 쓰지 말고 'U U'라고 써라.",
+  "prompt_template_2": "크기 {cube_size}인 루빅스 큐브가 다음과 같이 배열되어 있다:\n\n{cube_render} \n\nSingmaster 표기법을 사용하여 이 큐브를 푸는 해법을 제시하라. 단계를 결합하지 말아라. 예를 들어 'U2'라고 쓰지 말고 'U U'라고 써라."
+}

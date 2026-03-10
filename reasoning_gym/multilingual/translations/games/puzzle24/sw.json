@@ -1,0 +1,4 @@
+{
+  "question_template": "Tengeneza 24 kwa kutumia {numbers}. Unaweza kutumia kila nambari mara moja tu. Unaweza kutumia opereta {operators}.\nMaelekezo ya muundo wa jibu la mwisho:\n1. Toa jibu lako la mwisho kama usemi wa hesabu (bila alama ya '=').\n2. Usijumuishe nambari lengwa katika usemi.\n3. Tumia '*' kwa kuzidisha.\n4. Tumia '/' kwa kugawanya.",
+  "separator": ", "
+}

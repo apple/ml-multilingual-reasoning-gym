@@ -1,0 +1,4 @@
+{
+  "prompt_template_1": "మీకు {cube_size}x{cube_size}x{cube_size} Rubik's cube ఇవ్వబడింది. అది ఈ విధంగా ఉంది:\n\n{cube_render} \n\nSingmaster notation ఉపయోగించి ఈ cube ని పరిష్కరించే పరిష్కారం అందించండి. ఏ దశలను కలపకండి, ఉదాహరణకు, 'U2' అని వ్రాయకండి, బదులుగా 'U U' అని వ్రాయండి.",
+  "prompt_template_2": "మీరు {cube_size} పరిమాణం Rubik's cube ఈ విధంగా అమర్చబడి ఉన్నట్లు చూస్తున్నారు:\n\n{cube_render} \n\nSingmaster notation ఉపయోగించి ఈ cube ని పరిష్కరించే పరిష్కారం అందించండి. ఏ దశలను కలపకండి, ఉదాహరణకు, 'U2' అని వ్రాయకండి, బదులుగా 'U U' అని వ్రాయండి."
+}

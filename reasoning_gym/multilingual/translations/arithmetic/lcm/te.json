@@ -1,0 +1,4 @@
+{
+  "question_template": "ఈ సంఖ్యల కనిష్ట సామాన్య గుణిజాన్ని కనుగొనండి: {numbers}",
+  "numbers_separator": ", "
+}

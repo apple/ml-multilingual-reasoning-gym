@@ -1,0 +1,5 @@
+{
+  "question_template": "당신의 과제는 **영어** 단어들을 ASCII/유니코드 순서를 사용하여 {direction}으로 정렬하는 것이다.\n\n출력은 쉼표로 구분된 단어들의 목록이어야 한다. 예: word_1, word_2, word_3\n\n이제 다음 **영어** 단어들을 ASCII/유니코드 순서를 사용하여 {direction}으로 정렬하고 쉼표로 구분된 목록으로 반환하라: {words}",
+  "ascending": "오름차순",
+  "descending": "내림차순"
+}

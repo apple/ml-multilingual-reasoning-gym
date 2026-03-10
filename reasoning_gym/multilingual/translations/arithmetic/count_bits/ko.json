@@ -1,0 +1,3 @@
+{
+  "question_template": "숫자 {number}의 이진 표현에서 1비트의 개수를 구하라."
+}

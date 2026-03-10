@@ -1,0 +1,13 @@
+{
+  "prompt_template": "ข้างหน้าคุณมีปุ่มหลายปุ่ม ไฟหนึ่งดวง และตัวเลขหนึ่งตัว ไฟจะสลับระหว่างสีแดงและสีเขียวทุกครั้งที่คุณกดปุ่ม ปุ่มแต่ละปุ่มจะคำนวณกับตัวเลข แต่การดำเนินการอาจขึ้นอยู่กับสถานะของไฟ\n\nคุณต้องกดปุ่มตามลำดับที่ถูกต้องและสั้นที่สุดเพื่อให้ได้ค่าเป้าหมาย คำตอบของคุณควรเป็นลำดับของปุ่มที่คั่นด้วย '{separator}' เช่น: A{separator}B{separator}C\n\nเริ่มต้น: {initial_value} ({initial_state})\nเป้าหมาย: {target_value}\nปุ่ม:\n{buttons_text}",
+  "operation_add_template": "บวก {value}",
+  "operation_subtract_template": "ลบ {value}",
+  "operation_multiply_template": "คูณด้วย {value}",
+  "when_state": "{state}",
+  "state_red": "เมื่อแดง",
+  "state_green": "เมื่อเขียว",
+  "state_any": "ใช้ได้ทุกสี",
+  "button_format": "{name}: {operation} {condition}",
+  "separator": " → ",
+  "condition_format": "({when_text})"
+}

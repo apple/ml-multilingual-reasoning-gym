@@ -1,0 +1,5 @@
+{
+  "question_format": "Die folgende Aufgabe behandelt Aussagenlogik:\n\nDu erhältst Prämissen und sollst eine korrekte Schlussfolgerung ableiten.\n\nFORMATIERUNGSANWEISUNGEN:\n- Gib die logische Aussage deiner Schlussfolgerung als Antwort an.\n- Verwende die folgende Notation für die Symbole\n    - OR = ∨\n    - AND = ∧\n    - IMPLIES = →\n    - IFF = ↔\n    - NOT = ¬\n\nHier ist die Aufgabe:\n",
+  "given_text": "Gegeben:",
+  "conclusion_question": "Was können wir aus den obigen Aussagen schließen?"
+}

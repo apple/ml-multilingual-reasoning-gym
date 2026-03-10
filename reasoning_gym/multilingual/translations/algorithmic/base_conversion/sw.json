@@ -1,0 +1,6 @@
+{
+  "question_template": "Kazi yako ni kubadilisha nambari kutoka msingi mmoja hadi msingi mwingine.\n\nIkiwa msingi unaotaka ni > 10, tumia herufi ndogo a-z kwa tarakimu zilizo juu ya 9.\n\nSasa, geuza nambari {source_repr} ya {source_name} kuwa {target_name}\n",
+  "binary": "msingi-2",
+  "hexadecimal": "msingi-16",
+  "base_template": "msingi-{base}"
+}

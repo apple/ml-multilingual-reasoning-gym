@@ -1,0 +1,4 @@
+{
+    "question_template": "Find the Least Common Multiple (LCM) of these numbers: {numbers}",
+    "numbers_separator": ", "
+}

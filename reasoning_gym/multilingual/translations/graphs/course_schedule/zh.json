@@ -1,0 +1,5 @@
+{
+  "question_template": "总共有{num_courses}门课程需要修完，课程编号从0到{last_index}。\n\n给定以下先修课程列表，其中列表中的第i个元素(a_i, b_i)表示如果你想选修课程a_i，必须先修完课程b_i：\n{prerequisites}\n\n考虑到这些先修要求，如果你能修完所有课程则返回{true_answer}，否则返回{false_answer}。",
+  "true_answer": "真",
+  "false_answer": "假"
+}

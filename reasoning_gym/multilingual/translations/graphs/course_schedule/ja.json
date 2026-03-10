@@ -1,0 +1,5 @@
+{
+  "question_template": "受講しなければならないコースは全部で{num_courses}個あり、0から{last_index}まで番号が付けられている。\n\n以下の前提条件のリストが与えられる。リストのi番目の要素(a_i, b_i)は、コースa_iを受講するためには先にコースb_iを受講しなければならないことを示している：\n{prerequisites}\n\n前提条件を考慮してすべてのコースを修了できる場合は{true_answer}、そうでなければ{false_answer}を返せ。",
+  "true_answer": "真",
+  "false_answer": "偽"
+}

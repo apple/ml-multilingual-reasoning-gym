@@ -1,0 +1,3 @@
+{
+  "question_template": "Il tuo compito è riordinare parole **inglesi** in una frase.\n\nPer ogni parola in una frase, le lettere potrebbero essere state mescolate casualmente. Il tuo compito è riordinare le parole.\n\nL'ordine delle parole nella frase è preservato. Inoltre, lo stile della frase è preservato (cioè punteggiatura, maiuscole, a capo, ecc.).\n\nLa tua risposta deve essere una frase con le parole riordinate.\n\nOra, riordina queste parole **inglesi**: {words}"
+}

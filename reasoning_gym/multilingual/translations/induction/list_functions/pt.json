@@ -1,0 +1,6 @@
+{
+  "prompt_template": "Você é um especialista em raciocínio indutivo. Gere uma saída correspondente à entrada dada.\nA saída é gerada aplicando a mesma regra que mapeia entrada para saída nos exemplos fornecidos. Sua resposta deve ser uma lista de elementos\nExemplos:\n{examples}\nEntrada: {input}\nSaída:\n",
+  "input_label": "Entrada {number}",
+  "output_label": "Saída {number}",
+  "colon": ": "
+}

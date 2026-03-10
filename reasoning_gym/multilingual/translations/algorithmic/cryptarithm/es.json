@@ -1,0 +1,7 @@
+{
+  "intro": "Resuelve este criptoaritmético:",
+  "unique_digit_rule": "Cada letra representa un dígito único (0-9). ",
+  "leading_zero_allowed": "Las letras iniciales pueden ser cero.\n",
+  "leading_zero_not_allowed": "Ninguna letra inicial puede ser cero.\n",
+  "output_format": "Proporciona una asignación de letras a dígitos separada por comas que satisfaga la ecuación. Formato: «A=1,B=2,C=3» (sin comillas)\n"
+}

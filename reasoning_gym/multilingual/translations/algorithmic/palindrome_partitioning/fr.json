@@ -1,0 +1,3 @@
+{
+  "question_template": "Étant donné une chaîne de caractères, partitionne-la pour que chaque sous-chaîne soit un palindrome.\n\nUn palindrome est un mot qui se lit identiquement dans les deux sens.\n\nTu peux retourner toutes les partitions palindromiques possibles dans n'importe quel ordre.\n\nTa réponse doit être une liste de listes, où chaque liste représente une partition palindromique, par exemple [[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]].\n\nPartitionne la chaîne suivante en palindromes : {string}"
+}

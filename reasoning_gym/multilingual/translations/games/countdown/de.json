@@ -1,0 +1,7 @@
+{
+  "question_template_0": "Verwende alle Zahlen {numbers}, um einen Ausdruck zu erstellen, der {target} ergibt.\nJede Zahl darf nur einmal verwendet werden.",
+  "question_template_1": "Finde einen Weg, {target} zu erhalten, indem du alle diese Zahlen verwendest: {numbers}.\nJede Zahl darf nur einmal verwendet werden.",
+  "question_template_2": "Berechne {target} mit allen diesen Zahlen: {numbers}.\nJede Zahl darf höchstens einmal verwendet werden.",
+  "format_template": "{question}\n\nAnweisungen zum Format der finalen Antwort:\n1. Gib deine Lösung als arithmetischen Ausdruck an (ohne '=' Zeichen).\n2. Schließe die Zielzahl nicht in den Ausdruck ein.\n3. Verwende '*' für Multiplikation.\n4. Verwende '/' für Division.\n5. Schließe keinen anderen Text oder Formatierungen ein.",
+  "list_separator": ", "
+}

@@ -1,0 +1,7 @@
+{
+  "simple_question": "Hesabu {expression}.",
+  "question_what": "Je {expression} ni nini?",
+  "question_solve": "Tatua {expression}.",
+  "question_compute": "Kokotoa {expression}.",
+  "question_evaluate": "Tathmini: {expression}."
+}
