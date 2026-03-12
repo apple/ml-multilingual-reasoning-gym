@@ -3,7 +3,7 @@
 
 
 ## About
-This repository contains the code accompanying the paper [`Multilingual reasoning Gym`](https://arxiv.org/tbd). **Multilingual Reasoning Gym** is an extension of the original [Reasoning Gym](https://github.com/open-thought/reasoning-gym), enabling the procedural generation of **perfectly parallel multilingual reasoning datasets** across **10+ languages** and **90+ reasoning tasks** spanning diverse domains such as _algebra_, _arithmetic_, _computation_, _cognition_, _geometry_, _graphs_, _logic_, and _games_.
+This repository contains the code accompanying the paper [`Multilingual Reasoning Gym`](https://arxiv.org/abs/2603.10793). **Multilingual Reasoning Gym** is an extension of the original [Reasoning Gym](https://github.com/open-thought/reasoning-gym), enabling the procedural generation of **perfectly parallel multilingual reasoning datasets** across **10+ languages** and **90+ reasoning tasks** spanning diverse domains such as _algebra_, _arithmetic_, _computation_, _cognition_, _geometry_, _graphs_, _logic_, and _games_.
 
 ### Summary
 - **10+ Languages**: High-quality translations across major world languages
@@ -22,7 +22,7 @@ uv run python -m scripts.generate_examples --format markdown
 Pre-generated examples can also be found in [`./examples/`](./examples/).
 
 ## Setup
-We use `uv` to manage dependencies. You can install all dependencies as well as a local installation of multilinguality-enabled `reasoning_gym` via `uv sync`.
+We use `uv` to manage dependencies. You can install all dependencies as well as a local installation of multilingual-enabled `reasoning_gym` via `uv sync`.
 
 ## Quickstart
 
@@ -274,7 +274,15 @@ For more functionality, you can visit the [`Reasoning Gym readme`](https://githu
 ## Citation
 If you find our work helpful, consider citing it with:
 ```
-[insert citation once preprint is published]
+@misc{dobler2026multilingualreasoninggymmultilingual,
+      title={Multilingual Reasoning Gym: Multilingual Scaling of Procedural Reasoning Environments}, 
+      author={Konstantin Dobler and Simon Lehnerer and Federico Scozzafava and Jonathan Janke and Mohamed Ali},
+      year={2026},
+      eprint={2603.10793},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.10793}, 
+}
 ```
 
 Please also cite the work by Stojanovski et al.:
