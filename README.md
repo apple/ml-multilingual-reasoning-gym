@@ -273,7 +273,7 @@ For more functionality, you can visit the [`Reasoning Gym readme`](https://githu
 
 ## Citation
 If you find our work helpful, consider citing it with:
-```
+```bibtex
 @misc{dobler2026multilingualreasoninggymmultilingual,
       title={Multilingual Reasoning Gym: Multilingual Scaling of Procedural Reasoning Environments}, 
       author={Konstantin Dobler and Simon Lehnerer and Federico Scozzafava and Jonathan Janke and Mohamed Ali},
